@@ -1,0 +1,2 @@
+serviceClass: com.aiss.gamingguru.client.GreetingService
+path: 539ABCD6C24319BE67794CEA3CDF4362.gwt.rpc
