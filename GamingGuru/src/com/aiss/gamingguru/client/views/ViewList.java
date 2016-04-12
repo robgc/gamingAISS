@@ -63,14 +63,5 @@ public class ViewList extends Composite {
 
 	}
 
-	public final void showAlumnos(List<Alumno> AlumnosSimple) {
 
-		int i = 0;
-		for (Alumno key : AlumnosSimple) {
-			alumnosPanel.setWidget(i + 1, 0, new Label(key.getName()));
-			alumnosPanel.setWidget(i + 1, 1, new Label(key.getEmail()));
-			i++;
-		}
-
-	}
 }
