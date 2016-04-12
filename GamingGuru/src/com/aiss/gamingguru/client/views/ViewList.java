@@ -1,39 +1,26 @@
 package com.aiss.gamingguru.client.views;
 
-import java.util.List;
-
 import com.aiss.gamingguru.client.GreetingService;
 import com.aiss.gamingguru.client.GreetingServiceAsync;
-import com.aiss.gamingguru.shared.Alumno;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.core.client.Scheduler.ScheduledCommand;
-import com.google.gwt.user.client.Window;
-import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.FlexTable;
-import com.google.gwt.user.client.ui.FlowPanel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.MenuBar;
-import com.google.gwt.user.client.ui.MenuItem;
-import com.google.gwt.user.client.ui.RootPanel;
-import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class ViewList extends Composite {
 
+	@SuppressWarnings("unused")
 	private final GreetingServiceAsync GreetingService = GWT
 			.create(GreetingService.class);
 
-	private final FlexTable alumnosPanel;
-	private final FlexTable bannerPanel;
 	// private final HorizontalPanel mainPanel;
 	private final AbsolutePanel mainPanel;
 
 	public ViewList() {
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
-		alumnosPanel = new FlexTable();
-		bannerPanel = new FlexTable();
 
 		ScheduledCommand cmd = new ScheduledCommand() {
 
@@ -46,22 +33,26 @@ public class ViewList extends Composite {
 		// Create a menu bar
 		MenuBar menu = new MenuBar();
 		menu.setAutoOpen(true);
-		menu.setWidth("1366px");
+		menu.setHeight("60px");
+//		menu.getElement().setAttribute("menu", "menu");
 		menu.setAnimationEnabled(true);
-		
+
 		// Make some sub-menus that we will cascade from the top menu.
-		menu.addItem("          ",true,cmd);
+		menu.addItem("          ", true, cmd);
 		menu.addItem("Acerca de", cmd);
 
 		// Make a new menu bar, adding a few cascading menus to it.
 
 		// Add it to the root panel.
+		Label manu = new Label(menu.getStyleName());
+		Label munu = new Label(String.valueOf(menu.getOffsetHeight()));
+
 		mainPanel.add(menu);
+		mainPanel.add(munu);
+
+		mainPanel.add(manu);
 		// Create a sub menu of recent documents
 
-		
-
 	}
-
 
 }
