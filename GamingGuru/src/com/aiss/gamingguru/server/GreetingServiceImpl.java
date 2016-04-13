@@ -18,10 +18,11 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 	public void init() {
 		lista = new ArrayList<Alumno>();
 		lista.add(new Alumno("Roberto García Calero", "rodanber@gmail.com"));
-		lista.add(new Alumno("Domingo Muñoz Daza", 
-				"dmunnoz96@gmail.com"));
-		lista.add(new Alumno("José Daniel Solano Puech",  "josedaniel.solanopuech@gmail.com"));
-		lista.add(new Alumno("José Sosa Cifuentes",  "jose-antonio-1110@hotmail.com"));
+		lista.add(new Alumno("Domingo Muñoz Daza", "dmunnoz96@gmail.com"));
+		lista.add(new Alumno("José Daniel Solano Puech",
+				"josedaniel.solanopuech@gmail.com"));
+		lista.add(new Alumno("José Sosa Cifuentes",
+				"jose-antonio-1110@hotmail.com"));
 
 	}
 

@@ -8,9 +8,28 @@ h1 {
 	text-align: center;
 }
 
-.sendButton {
-	display: block;
-	font-size: 16pt;
+.acerca {
+	position:fixed;
+  	top:0%;
+	right: 14%;
+	height: 65px;
+	width: 150px;
+}
+
+.acerca:hover{
+	position:fixed;
+	background-color: #4663b3;
+	z-index: 1;
+}
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	width: auto;
+	max-height: 400px;
 }
 
 /** Most GWT widgets already have a style name defined */
@@ -19,10 +38,36 @@ h1 {
 }
 
 .dialogVPanel {
-	margin: 5px;
+	margin: 0px;
 }
 
+.menuIcon {
+	position: fixed;
+	top: 0.5%;
+	left: 60px;
+	height: 60px;
+	width: 60px;
+}
 
+.background {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.menu {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	height: 65px;
+	width: 100%;
+	background: #1c3659;
+	z-index: -1;
+}
 
 .serverResponseLabelError {
 	color: red;
@@ -37,7 +82,7 @@ h1 {
 .descripcionTable {
 	white-space: pre;
 	text-align: justify;
-    text-justify: inter-word;
+	text-justify: inter-word;
 }
 
 .updateTable, .alumnoTable {
@@ -55,7 +100,7 @@ h1 {
 }
 
 .firstRow:HOVER {
-	background-color: #ff4900;	
+	background-color: #ff4900;
 }
 
 /** Set ids using widget.getElement().setId("idOfElement") */

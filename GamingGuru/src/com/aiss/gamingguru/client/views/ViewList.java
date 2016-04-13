@@ -17,7 +17,7 @@ public class ViewList extends Composite {
 		Image mando = new Image("files/mando.png");
 		Image icon = new Image("files/mando.png");
 		Image fondo = new Image("files/negro.png");
-		Image acercaDe = new Image("files/acerca.png");
+		Image acercaDe = new Image("files/acerca1.png");
 
 		
 		fondo.setStyleName("background");
