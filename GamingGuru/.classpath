@@ -4,5 +4,20 @@
 	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
 	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/org.restlet.ext.gae.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/org.restlet.ext.jackson.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/org.restlet.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/com.fasterxml.jackson.annotations.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/com.fasterxml.jackson.core.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/com.fasterxml.jackson.csv.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/com.fasterxml.jackson.databind.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/com.fasterxml.jackson.jaxb.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/com.fasterxml.jackson.jsonschema.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/com.fasterxml.jackson.smile.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/com.fasterxml.jackson.xml.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/com.fasterxml.jackson.yaml.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/org.codehaus.woodstox.core.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/org.codehaus.woodstox.stax2api.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/org.yaml.snakeyaml.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

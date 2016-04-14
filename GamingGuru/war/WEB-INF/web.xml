@@ -16,6 +16,18 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
     <url-pattern>/gamingguru/alumno</url-pattern>
   </servlet-mapping>
   
+  <!-- Servelets necesarios para el uso de la API de VideoGameInformation -->
+  
+  <!-- <servlet>
+    <servlet-name>GuruServlet</servlet-name>
+    <servlet-class>com.aiss.gamingguru.server.GuruServiceImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>GuruServlet</servlet-name>
+    <url-pattern>/gamingguru/guru</url-pattern>
+  </servlet-mapping> -->
+  
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>GamingGuru.html</welcome-file>
