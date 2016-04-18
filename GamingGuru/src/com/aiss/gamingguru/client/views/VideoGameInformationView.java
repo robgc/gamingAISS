@@ -134,23 +134,23 @@ public class VideoGameInformationView extends Composite {
 			RootPanel.get("gameinfo").add(games);
 		} else {
 			String output = "<fieldset>";
-			output += "<legend>" + game + " Critics </legend>";
+			output += "<legend style='font-weight: bold'>" + game.toUpperCase() + " CRITICS </legend>";
 			if (result != null) {
-				output += "<span>IGN</span>";
-				output += "<span> User score: "
+				output += "<span style='font-weight: bold'>IGN</span>";
+				output += "<br/><span> User score: "
 						+ result.getResult().getIgn().getUserScore()
-						+ "</span>";
-				output += "<span> Critic score: "
+						+ " </span>";
+				output += "<br/><span> Critic score: "
 						+ result.getResult().getIgn().getCriticScore()
-						+ "</span>";
+						+ " </span><br/><hr/>";
 
-				output += "<span>Metacritic</span>";
+				output += "<br/><span style='font-weight: bold'>Metacritic</span><br/>";
 				output += "<span> User score: "
 						+ result.getResult().getMetacritic().getUserScore()
-						+ "</span>";
-				output += "<span> Critic score: "
+						+ " </span>";
+				output += "<br/><span> Critic score: "
 						+ result.getResult().getMetacritic().getCriticScore()
-						+ "</span>";
+						+ " </span>";
 			} else {
 				output += "<span> No results </span>";
 			}
