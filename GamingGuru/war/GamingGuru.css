@@ -8,16 +8,85 @@ h1 {
 	text-align: center;
 }
 
-.acerca {
-	position:fixed;
-  	top:0%;
+.style-VG-search {
+	position: fixed;
+	color: blue;
+	top: 25%;
+	left: 47%;
+	transform: translate(-50%, -50%);
+}
+
+.style-VG-button {
+	position: fixed;
+	color: blue;
+	top: 25%;
+	left: 57%;
+	transform: translate(-50%, -50%);
+}
+
+.style-VG-status {
+	position: fixed;
+	color: white;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.style-VG-info {
+	position: fixed;
+	color: white;
+	height: 15%;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.API-vg {
+	position: fixed;
+	top: 20%;
 	right: 14%;
 	height: 65px;
 	width: 150px;
 }
 
-.acerca:hover{
-	position:fixed;
+.API-steam {
+	position: fixed;
+	top: 45%;
+	right: 14%;
+	height: 55px;
+	width: 150px;
+}
+
+.API-amazon {
+	position: fixed;
+	top: 70%;
+	right: 14%;
+	height: 55px;
+	width: 150px;
+}
+
+.API-vg:hover {
+	opacity: 0.6;
+}
+
+.API-steam:hover {
+	opacity: 0.6;
+}
+
+.API-amazon:hover {
+	opacity: 0.6;
+}
+
+.acerca {
+	position: fixed;
+	top: 0%;
+	right: 14%;
+	height: 10%;
+	width: 10%;
+}
+
+.acerca:hover {
+	position: fixed;
 	background-color: #4663b3;
 	z-index: 1;
 }
@@ -27,9 +96,16 @@ h1 {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	height: auto;
-	width: auto;
-	max-height: 400px;
+	height: 50%;
+	width: 25%;
+}
+
+.rights {
+	font-size: 10px;
+	color: white;
+	position: fixed;
+	bottom: 2%;
+	left: 42%;
 }
 
 /** Most GWT widgets already have a style name defined */
@@ -43,10 +119,14 @@ h1 {
 
 .menuIcon {
 	position: fixed;
-	top: 0.5%;
+	top: 0%;
 	left: 60px;
-	height: 60px;
-	width: 60px;
+	height: 10%;
+	width: 5%;
+}
+
+.menuIcon:hover {
+	opacity: 0.6;
 }
 
 .background {
@@ -63,7 +143,7 @@ h1 {
 	position: fixed;
 	top: 0%;
 	left: 0%;
-	height: 65px;
+	height: 10%;
 	width: 100%;
 	background: #1c3659;
 	z-index: -1;
@@ -71,36 +151,6 @@ h1 {
 
 .serverResponseLabelError {
 	color: red;
-}
-
-.titulo {
-	text-decoration: underline;
-	white-space: pre;
-	font-weight: bold;
-}
-
-.descripcionTable {
-	white-space: pre;
-	text-align: justify;
-	text-justify: inter-word;
-}
-
-.updateTable, .alumnoTable {
-	border: 2px solid black;
-	margin: 5px;
-}
-
-.alumnoTable tr:hover {
-	background-color: #dddddd;
-}
-
-.firstRow {
-	background-color: #d82912;
-	color: #eeeeee;
-}
-
-.firstRow:HOVER {
-	background-color: #ff4900;
 }
 
 /** Set ids using widget.getElement().setId("idOfElement") */
