@@ -57,9 +57,14 @@ public class LoginView extends Composite {
 			}
 		});
 
+		steamAPI.addClickHandler(new ClickHandler() {
+			public void onClick(ClickEvent event) {
+				GamingGuru.go("steam", new HashMap<String, String>());
+			}
+		});
+
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				System.out.println("hola");
 				GamingGuru.go("acerca", new HashMap<String, String>());
 			}
 		});
