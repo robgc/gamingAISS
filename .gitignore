@@ -11,7 +11,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-
+*.cache.js
+*.gwt.rpc
 # Eclipse Core
 .project
 

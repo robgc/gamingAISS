@@ -5,6 +5,7 @@ import java.util.Map;
 
 import com.aiss.gamingguru.client.views.AcercaView;
 import com.aiss.gamingguru.client.views.LoginView;
+import com.aiss.gamingguru.client.views.SteamView;
 import com.aiss.gamingguru.client.views.VideoGameInformationView;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.core.client.EntryPoint;
@@ -33,6 +34,9 @@ public class GamingGuru extends Composite implements EntryPoint {
 		} else if (token == "acerca") {
 			p.clear();
 			p.add(new AcercaView(params));
+		} else if (token == "steam") {
+			p.clear();
+			p.add(new SteamView(params));
 		}
 	}
 }

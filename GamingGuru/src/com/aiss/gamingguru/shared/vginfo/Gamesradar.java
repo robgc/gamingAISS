@@ -7,8 +7,6 @@ import javax.annotation.Generated;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-
-
 @Generated("org.jsonschema2pojo")
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Gamesradar implements Serializable{

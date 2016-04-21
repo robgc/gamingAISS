@@ -28,6 +28,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
     <url-pattern>/gamingguru/guru</url-pattern>
   </servlet-mapping>
   
+  
   <!-- Default page to serve -->
   <welcome-file-list>
     <welcome-file>GamingGuru.html</welcome-file>
