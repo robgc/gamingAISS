@@ -1,12 +1,18 @@
 package com.aiss.gamingguru.client.views;
 
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
-import com.aiss.gamingguru.shared.vginfo.CriticSearch;
+import com.aiss.gamingguru.shared.steam.App;
+import com.aiss.gamingguru.shared.steam.Game;
+import com.aiss.gamingguru.shared.steam.GameData;
+import com.aiss.gamingguru.shared.steam.GameSearch;
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -22,14 +28,15 @@ import com.google.gwt.user.client.ui.MenuBar;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
 
-public class VideoGameInformationView extends Composite {
+public class SteamView extends Composite {
 	private Button searchButton = new Button("Search");
 	private TextBox searchField = new TextBox();
 	private Label statusLabel = new Label();
 	private final AbsolutePanel mainPanel;
+	private Set<Integer> ids = new HashSet<Integer>();
 	private final GuruServiceAsync gService = GWT.create(GuruService.class);
 
-	public VideoGameInformationView(Map<String, String> params) {
+	public SteamView(Map<String, String> params) {
 
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
@@ -44,7 +51,7 @@ public class VideoGameInformationView extends Composite {
 		icon.setStyleName("menuIcon");
 		acercaDe.addStyleName("acerca");
 
-		searchField.setText("Game");
+		searchField.setText("Your id");
 
 		statusLabel.setStyleName("style-VG-status");
 		searchField.setStyleName("style-VG-search");
@@ -69,15 +76,14 @@ public class VideoGameInformationView extends Composite {
 				// TODO Auto-generated method stub
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
-
 				final String game = searchField.getText();
-				RootPanel.get("gameinfo").clear();
+				RootPanel.get("steaminfo").clear();
 
-				gService.getReviews(game, new AsyncCallback<CriticSearch>() {
+				gService.getGames(game, new AsyncCallback<GameSearch>() {
 
 					@Override
-					public void onSuccess(CriticSearch result) {
-						showReviews(game, result);
+					public void onSuccess(GameSearch result) {
+						showId(game, result);
 						mainPanel.remove(statusLabel);
 					}
 
@@ -86,19 +92,33 @@ public class VideoGameInformationView extends Composite {
 						Window.alert("¡Error al realizar la búsqueda de las críticas!");
 					}
 				});
+				gService.getNameId(new AsyncCallback<GameData>() {
+
+					@Override
+					public void onSuccess(GameData result) {
+						showName(ids, result);
+						ids.clear();
+					}
+
+					@Override
+					public void onFailure(Throwable caught) {
+						Window.alert("¡Error al realizar la búsqueda de los juegos!");
+					}
+				});
+
 			}
 		});
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				RootPanel.get("gameinfo").clear();
+				RootPanel.get("steaminfo").clear();
 				GamingGuru.go("acerca", new HashMap<String, String>());
 			}
 		});
 
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				RootPanel.get("gameinfo").clear();
+				RootPanel.get("steaminfo").clear();
 				GamingGuru.go("init", new HashMap<String, String>());
 			}
 		});
@@ -116,52 +136,52 @@ public class VideoGameInformationView extends Composite {
 	 *            Resultado (Clase JSON)
 	 */
 
-	private void showReviews(String game, CriticSearch result) {
+	private void showId(String game, GameSearch result) {
+		int i = 1;
+		String output = "<fieldset style='overflow: auto; top:20%; width: 200px; height: 300px;'>";
+		output += "<legend style='font-weight: bold'>" + game.toUpperCase()
+				+ " ID </legend>";
+		if (result != null) {
+			for (Game a : result.getResponse().getGames()) {
+				// output += "<span> Game " + i++ + ": " + +a.getAppid()
+				// + " </span><br/>";
+				ids.add(a.getAppid());
 
-		if (game == "League of Legends" || game == "lol"
-				|| game == "league of legends") {
-			String output = "<fieldset>";
-			output += "<legend>" + game + " Critics </legend>";
-			if (result != null) {
-				output += "<span> EN MI MASHUP NO SE BUSCA PUTA MIERDA</span>";
 			}
-			output += "</fieldset>";
-			output += "<img src = 'http://25.media.tumblr.com/f1c1785b4bb395b4ba1a3afc551cec5d/tumblr_mzv66qO6C81selimao1_500.gif'/>";
+			// for (Integer id : ids) {
+			// output += "<span style='align:center'> Game " + i++ + ": " + id
+			// + " </span><br/>";
+			// }
 
-			HTML games = new HTML(output);
-			games.setStyleName("style-VG-info");
-
-			RootPanel.get("gameinfo").add(games);
 		} else {
-			String output = "<fieldset>";
-			output += "<legend style='font-weight: bold'>" + game.toUpperCase()
-					+ " CRITICS </legend>";
-			if (result != null) {
-				output += "<span style='font-weight: bold'>IGN</span>";
-				output += "<br/><span> User score: "
-						+ result.getResult().getIgn().getUserScore()
-						+ " </span>";
-				output += "<br/><span> Critic score: "
-						+ result.getResult().getIgn().getCriticScore()
-						+ " </span><br/><hr/>";
-
-				output += "<br/><span style='font-weight: bold'>Metacritic</span><br/>";
-				output += "<span> User score: "
-						+ result.getResult().getMetacritic().getUserScore()
-						+ " </span>";
-				output += "<br/><span> Critic score: "
-						+ result.getResult().getMetacritic().getCriticScore()
-						+ " </span>";
-			} else {
-				output += "<span> No results </span>";
-			}
+			output += "<span> No results </span>";
 			output += "</fieldset>";
-
 			HTML games = new HTML(output);
 			games.setStyleName("style-VG-info");
-
-			RootPanel.get("gameinfo").add(games);
+			RootPanel.get("steaminfo").add(games);
 		}
 
 	}
+
+	private void showName(Set<Integer> ids, GameData result) {
+		int i = 1;
+		String output = "<fieldset style='overflow: auto; width: 500px; height: 300px;'>";
+		output += "<legend style='font-weight: bold'>TUS JUEGOS</legend>";
+		if (result != null) {
+			for (Integer id : ids) {
+				for (App a : result.getApplist().getApps())
+					if (a.getAppid().equals(id)) {
+						output += "<span style='align:center'> Game " + i++
+								+ ": " + a.getName() + " </span><br/>";
+					}
+			}
+		} else {
+			output += "<span> No results </span>";
+		}
+		output += "</fieldset>";
+		HTML games = new HTML(output);
+		games.setStyleName("style-VG-info");
+		RootPanel.get("steaminfo").add(games);
+	}
+
 }
