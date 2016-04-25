@@ -1,8 +1,6 @@
 package com.aiss.gamingguru.client;
 
-import java.util.List;
-import java.util.Set;
-
+import com.aiss.gamingguru.shared.amazon.Amazon;
 import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;
 import com.aiss.gamingguru.shared.vginfo.CriticSearch;
@@ -16,4 +14,5 @@ public interface GuruServiceAsync {
 
 	void getNameId(AsyncCallback<GameData> callback);
 
+	void getAmazon(AsyncCallback<Amazon> callback);
 }

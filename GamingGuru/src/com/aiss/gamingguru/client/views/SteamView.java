@@ -71,9 +71,7 @@ public class SteamView extends Composite {
 
 		searchButton.addClickHandler(new ClickHandler() {
 
-			@Override
 			public void onClick(ClickEvent event) {
-				// TODO Auto-generated method stub
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
 				final String game = searchField.getText();
@@ -89,7 +87,7 @@ public class SteamView extends Composite {
 
 					@Override
 					public void onFailure(Throwable caught) {
-						Window.alert("Â¡Error al realizar la bÃºsqueda de las crÃ­ticas!");
+						Window.alert("!Error al realizar la búsqueda de las críticas!");
 					}
 				});
 				gService.getNameId(new AsyncCallback<GameData>() {

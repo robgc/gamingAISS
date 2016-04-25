@@ -66,7 +66,6 @@ public class VideoGameInformationView extends Composite {
 
 			@Override
 			public void onClick(ClickEvent event) {
-				// TODO Auto-generated method stub
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
 

@@ -62,6 +62,13 @@ public class LoginView extends Composite {
 				GamingGuru.go("steam", new HashMap<String, String>());
 			}
 		});
+		
+		amazonAPI.addClickHandler(new ClickHandler() {
+			
+			public void onClick(ClickEvent event) {
+				GamingGuru.go("amazon", new HashMap<String, String>());
+			}
+		});
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
