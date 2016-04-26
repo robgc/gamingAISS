@@ -19,8 +19,7 @@
 	<classpathentry kind="lib" path="war/WEB-INF/lib/org.codehaus.woodstox.core.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/org.codehaus.woodstox.stax2api.jar"/>
 	<classpathentry kind="lib" path="war/WEB-INF/lib/org.yaml.snakeyaml.jar"/>
-	<classpathentry kind="lib" path="lib/AWSS3SigV4JavaSamples.jar"/>
-	<classpathentry kind="lib" path="lib/org.codehaus.jackson.core.jar"/>
-	<classpathentry kind="lib" path="lib/org.restlet.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/AWSS3SigV4JavaSamples.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/commons-codec-1.10.jar"/>
 	<classpathentry kind="output" path="war/WEB-INF/classes"/>
 </classpath>

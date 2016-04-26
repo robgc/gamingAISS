@@ -3,12 +3,6 @@ package com.aiss.gamingguru.shared.amazon;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-
 /*
  * This class shows how to make a simple authenticated call to the
  * Amazon Product Advertising API.

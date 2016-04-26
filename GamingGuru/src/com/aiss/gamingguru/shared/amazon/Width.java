@@ -5,8 +5,7 @@ package com.aiss.gamingguru.shared.amazon;
 
 import java.io.Serializable;
 
-import org.codehaus.jackson.annotate.JsonIgnoreProperties;
-
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class Width implements Serializable{
 	/**

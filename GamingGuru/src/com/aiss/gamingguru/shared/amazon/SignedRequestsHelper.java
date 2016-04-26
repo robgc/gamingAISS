@@ -19,9 +19,11 @@ import java.util.TimeZone;
 import java.util.TreeMap; 
  
 import javax.crypto.Mac; 
-import javax.crypto.spec.SecretKeySpec; 
+import javax.crypto.spec.SecretKeySpec;
+
+import org.apache.commons.codec.binary.Base64;
+
  
-import org.apache.commons.codec.binary.Base64; 
  
 /**
  * https://aws.amazon.com/code/Product-Advertising-API/2478 

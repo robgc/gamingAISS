@@ -7,8 +7,6 @@ import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
 import com.aiss.gamingguru.shared.amazon.Amazon;
-import com.aiss.gamingguru.shared.amazon.ItemElement;
-import com.aiss.gamingguru.shared.steam.Game;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -77,7 +75,7 @@ public class AmazonView extends Composite {
 
 					@Override
 					public void onFailure(Throwable caught) {
-						Window.alert("!Error al realizar la búsqueda de las ofertas!");
+						Window.alert("!Error al realizar la bï¿½squeda de las ofertas!");
 					}
 
 				});
