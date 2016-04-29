@@ -63,12 +63,12 @@ public class AmazonView extends Composite {
 			public void onClick(ClickEvent event) {
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
-				final String oferta = searchField.getText();
+				final String juego = searchField.getText();
 				RootPanel.get("amazoninfo").clear();
 
-				gService.getAmazon(new AsyncCallback<Amazon>() {
+				gService.getAmazon(juego, new AsyncCallback<String[]>() {
 					
-					public void onSuccess(Amazon result) {
+					public void onSuccess(String[] result) {
 						showElement(result);
 						mainPanel.remove(statusLabel);
 					}
@@ -99,10 +99,12 @@ public class AmazonView extends Composite {
 
 	}
 
-	private void showElement(Amazon result) {
+	private void showElement(String[] result) {
 		String output = "<fieldset style='overflow: auto; top:20%; width: 200px; height: 300px;'>";
-		output += "<legend style='font-weight: bold'> PENE ID </legend>";
-		output += "<span> " + result.getItemsearchresponse().getItems().getTotalresults()  + " </span>";
+		output += "<legend style='font-weight: bold'> Tus compras </legend>";
+		output += "<span> " + result[0].toString()  + " </span>";
+		output += "<span> " + result[1].toString()  + " </span>";
+		output += "<span> " + result[2].toString()  + " </span>";
 		output += "</fieldset>";
 		HTML games = new HTML(output);
 		games.setStyleName("style-VG-info");
