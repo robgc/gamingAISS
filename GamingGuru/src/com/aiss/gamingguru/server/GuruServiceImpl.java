@@ -1,6 +1,7 @@
 package com.aiss.gamingguru.server;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.xml.parsers.SAXParser;
@@ -29,6 +30,11 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private static final String AWS_ACCESS_KEY_ID = "AKIAJGUGYKZ7LKCQMJ5Q";
 	private static final String AWS_SECRET_KEY = "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";
 	private static final String ENDPOINT = "webservices.amazon.es";
+	//title, formattedPrice, hardwarePlatform, mediumImage
+	private List<String> title;
+	private List<String> formattedPrice;
+	private List<String> hardwarePlatform;
+	private List<String> MediumImage;
 
 	@Override
 	public CriticSearch getReviews(String juego) {
@@ -78,7 +84,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 
 	/*--------------------------------------------------------------------------------------------------------------*/
 
-	public String[] getAmazon(String juego) {
+	public List<String> getAmazon(String juego) {
 		final String[] titulos = {"Ofer1", "Ofer2", "Ofer3", "Ofer4"};
 		SignedRequestsHelper helper = null;
 		try {
@@ -153,24 +159,28 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 					if (bfname) {
 						String var = new String(ch, start, length);
 						System.out.println("Title : " + var);
+						title.add(var);
 						bfname = false;
 					}
 
 					if (blname) {
 						String var = new String(ch, start, length);
 						System.out.println("FormattedPrice : " + var);
+						formattedPrice.add(var);
 						blname = false;
 					}
 
 					if (bnname) {
 						String var = new String(ch, start, length);
 						System.out.println("HardWarePlatform : " + var);
+						hardwarePlatform.add(var);
 						bnname = false;
 					}
 					
 					if (mimage) {
 						String var = new String(ch, start, length);
 						System.out.println("MediumImage : " + var);
+						MediumImage.add(var);
 						mimage = false;
 					}
 					
@@ -185,7 +195,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 			e.printStackTrace();
 		}
 
-		return titulos;
+		return title;
 
 	}
 

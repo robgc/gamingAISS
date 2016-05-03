@@ -1,5 +1,7 @@
 package com.aiss.gamingguru.client;
 
+import java.util.List;
+
 import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;
 import com.aiss.gamingguru.shared.vginfo.CriticSearch;
@@ -14,5 +16,5 @@ public interface GuruService extends RemoteService {
 
 	GameData getNameId();
 	
-	String[] getAmazon(String juego);
+	List<String> getAmazon(String juego);
 }

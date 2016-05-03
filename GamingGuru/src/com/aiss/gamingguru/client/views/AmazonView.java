@@ -1,12 +1,12 @@
 package com.aiss.gamingguru.client.views;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
-import com.aiss.gamingguru.shared.amazon.Amazon;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -66,9 +66,9 @@ public class AmazonView extends Composite {
 				final String juego = searchField.getText();
 				RootPanel.get("amazoninfo").clear();
 
-				gService.getAmazon(juego, new AsyncCallback<String[]>() {
+				gService.getAmazon(juego, new AsyncCallback<List<String>>() {
 					
-					public void onSuccess(String[] result) {
+					public void onSuccess(List<String> result) {
 						showElement(result);
 						mainPanel.remove(statusLabel);
 					}
@@ -99,12 +99,12 @@ public class AmazonView extends Composite {
 
 	}
 
-	private void showElement(String[] result) {
+	private void showElement(List<String> result) {
 		String output = "<fieldset style='overflow: auto; top:20%; width: 200px; height: 300px;'>";
 		output += "<legend style='font-weight: bold'> Tus compras </legend>";
-		output += "<span> " + result[0].toString()  + " </span>";
-		output += "<span> " + result[1].toString()  + " </span>";
-		output += "<span> " + result[2].toString()  + " </span>";
+		output += "<span> " + result.get(0)  + " </span>";
+		output += "<span> " + result.get(1)  + " </span>";
+		output += "<span> " + result.get(2)  + " </span>";
 		output += "</fieldset>";
 		HTML games = new HTML(output);
 		games.setStyleName("style-VG-info");
