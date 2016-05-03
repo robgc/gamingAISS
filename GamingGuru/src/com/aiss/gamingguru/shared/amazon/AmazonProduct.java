@@ -3,6 +3,7 @@ package com.aiss.gamingguru.shared.amazon;
 import java.util.SortedSet;
 
 public interface AmazonProduct {
+	
 	String getNombre();
 
 	SortedSet<String> getPrecios();

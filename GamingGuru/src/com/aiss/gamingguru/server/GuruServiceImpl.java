@@ -3,6 +3,7 @@ package com.aiss.gamingguru.server;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.SortedSet;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -15,6 +16,8 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import com.aiss.gamingguru.client.GuruService;
+import com.aiss.gamingguru.shared.amazon.AmazonProduct;
+import com.aiss.gamingguru.shared.amazon.AmazonProductImpl;
 import com.aiss.gamingguru.shared.amazon.SignedRequestsHelper;
 import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;
@@ -32,9 +35,9 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private static final String ENDPOINT = "webservices.amazon.es";
 	//title, formattedPrice, hardwarePlatform, mediumImage
 	private List<String> title;
-	private List<String> formattedPrice;
+	private SortedSet<String> formattedPrice;
 	private List<String> hardwarePlatform;
-	private List<String> MediumImage;
+	private SortedSet<String> mediumImage;
 
 	@Override
 	public CriticSearch getReviews(String juego) {
@@ -85,7 +88,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	/*--------------------------------------------------------------------------------------------------------------*/
 
 	public List<String> getAmazon(String juego) {
-		final String[] titulos = {"Ofer1", "Ofer2", "Ofer3", "Ofer4"};
+		final AmazonProduct res = new AmazonProductImpl("", formattedPrice, "", mediumImage, "");
 		SignedRequestsHelper helper = null;
 		try {
 			helper = SignedRequestsHelper.getInstance(ENDPOINT,
@@ -159,7 +162,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 					if (bfname) {
 						String var = new String(ch, start, length);
 						System.out.println("Title : " + var);
-						title.add(var);
+						res.setNombre(var);
 						bfname = false;
 					}
 
@@ -167,20 +170,22 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 						String var = new String(ch, start, length);
 						System.out.println("FormattedPrice : " + var);
 						formattedPrice.add(var);
+						res.setPrecios(formattedPrice);
 						blname = false;
 					}
 
 					if (bnname) {
 						String var = new String(ch, start, length);
 						System.out.println("HardWarePlatform : " + var);
-						hardwarePlatform.add(var);
+						res.setHardware(var);
 						bnname = false;
 					}
 					
 					if (mimage) {
 						String var = new String(ch, start, length);
 						System.out.println("MediumImage : " + var);
-						MediumImage.add(var);
+						mediumImage.add(var);
+						res.setImagenes(mediumImage);
 						mimage = false;
 					}
 					

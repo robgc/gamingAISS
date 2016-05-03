@@ -9,6 +9,15 @@ public class AmazonProductImpl implements AmazonProduct {
 	public SortedSet<String> imagenes;
 	public String url;
 
+	public AmazonProductImpl(String nombre, SortedSet<String> precios, String hardware, SortedSet<String> imagenes,
+			String url) {
+		this.nombre = nombre;
+		this.precios = precios;
+		this.hardware = hardware;
+		this.imagenes = imagenes;
+		this.url = url;
+	}
+
 	public String getNombre() {
 		return this.nombre;
 	}
