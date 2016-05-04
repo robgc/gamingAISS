@@ -11,10 +11,11 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 @JsonIgnoreProperties(ignoreUnknown=true)
 
 public class AmazonProductImpl implements AmazonProduct, Serializable {
+	
+	private static final long serialVersionUID = 4449059238401412244L;
 	/**
 	 * 
 	 */
-	private static final long serialVersionUID = 1L;
 	
 	public String nombre;
 	public Double precio;
@@ -122,7 +123,7 @@ public class AmazonProductImpl implements AmazonProduct, Serializable {
 	}
 
 	public String toString() {
-		return getNombre() + ", " + precio;
+		return getNombre() + "," + getPrecio();
 	}
 
 }

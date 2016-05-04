@@ -12,6 +12,7 @@ import java.util.TreeSet;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
+import org.apache.tools.ant.taskdefs.Checksum.FormatElement;
 import org.restlet.data.Header;
 import org.restlet.resource.ClientResource;
 import org.restlet.util.Series;
@@ -38,7 +39,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private static final String AWS_SECRET_KEY = "LqNadAYnEWeWFpFHbRQvFjOtZZ6clhTT2fVbsPb7";
 	private static final String ENDPOINT = "webservices.amazon.es";
 	// title, formattedPrice, hardwarePlatform, mediumImage
-	private SortedSet<Double> formattedPrices = new TreeSet<Double>();
+	private Double formattedPrices = 0.0;
 	private SortedSet<String> mediumImages = new TreeSet<String>();
 	private Set<AmazonProduct> prod = new HashSet<>();
 	private String t;
@@ -183,9 +184,9 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 						var = var.replace("EUR", "");
 						var = var.replace(",", ".");
 						var = var.trim();
-					//	Double precio = new Double(var);
-						formattedPrices.add(new Double(var));
-						System.out.println("FormattedPrice : " + var);
+						Double precio = new Double(var);
+						formattedPrices = precio;
+						System.out.println("FormattedPrice : " + formattedPrices);
 						blname = false;
 					}
 
@@ -209,15 +210,15 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 						url = var;
 						burl = false;
 					}
-					
-					a = new AmazonProductImpl(t, 15.0,
-							hardware, mediumImages, url);
+					a = new AmazonProductImpl(t, formattedPrices, hardware, mediumImages, url);
+	//				a.setPrecio(formattedPrices);
+	//				System.out.println(formattedPrices);
 					prod.add(a);
 				
 					// System.out.println("-------------------------------");
 				}
 			};
-			formattedPrices.clear();
+
 			mediumImages.clear();
 			
 			saxParser.parse(requestUrl, handler);
