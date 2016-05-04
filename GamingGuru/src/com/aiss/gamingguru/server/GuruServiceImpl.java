@@ -1,9 +1,13 @@
 package com.aiss.gamingguru.server;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.SortedSet;
+import java.util.TreeSet;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -33,13 +37,14 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private static final String AWS_ACCESS_KEY_ID = "AKIAJGUGYKZ7LKCQMJ5Q";
 	private static final String AWS_SECRET_KEY = "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";
 	private static final String ENDPOINT = "webservices.amazon.es";
-	//title, formattedPrice, hardwarePlatform, mediumImage
-	private List<String> title;
-	private SortedSet<String> formattedPrice;
-	private List<String> hardwarePlatform;
-	private SortedSet<String> mediumImage;
+	// title, formattedPrice, hardwarePlatform, mediumImage
+	private SortedSet<Double> formattedPrices = new TreeSet<Double>();
+	private SortedSet<String> mediumImages = new TreeSet<String>();
+	private Set<AmazonProduct> prod = new HashSet<>();
+	private String t;
+	private String hardware;
+	private String url;
 
-	@Override
 	public CriticSearch getReviews(String juego) {
 		juego = juego.replace(" ", "+");
 		juego = juego.replace("\u2122", "");
@@ -87,8 +92,8 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 
 	/*--------------------------------------------------------------------------------------------------------------*/
 
-	public List<String> getAmazon(String juego) {
-		final AmazonProduct res = new AmazonProductImpl("", formattedPrice, "", mediumImage, "");
+	public String getAmazon(String juego) {
+
 		SignedRequestsHelper helper = null;
 		try {
 			helper = SignedRequestsHelper.getInstance(ENDPOINT,
@@ -124,12 +129,13 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 				boolean blname = false;
 				boolean bnname = false;
 				boolean mimage = false;
-
+				boolean burl = false;
+				
 				public void startElement(String uri, String localName,
 						String qName, Attributes attributes)
 						throws SAXException {
 
-		//			System.out.println("Start Element :" + qName);
+					// System.out.println("Start Element :" + qName);
 
 					if (qName.equalsIgnoreCase("Title")) {
 						bfname = true;
@@ -142,9 +148,13 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 					if (qName.equalsIgnoreCase("HardWarePlatform")) {
 						bnname = true;
 					}
-					
+
 					if (qName.equalsIgnoreCase("MediumImage")) {
 						mimage = true;
+					}
+
+					if (qName.equalsIgnoreCase("DetailPageURL")) {
+						burl = true;
 					}
 
 				}
@@ -152,56 +162,75 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 				public void endElement(String uri, String localName,
 						String qName) throws SAXException {
 
-	//				System.out.println("End Element :" + qName);
+					// System.out.println("End Element :" + qName);
 
 				}
-
+				
+				AmazonProduct a;
+				
 				public void characters(char ch[], int start, int length)
 						throws SAXException {
 
 					if (bfname) {
-						String var = new String(ch, start, length);
-						System.out.println("Title : " + var);
-						res.setNombre(var);
+						String nombre = new String(ch, start, length);
+						t = nombre;						
+						System.out.println("Title : " + t);
 						bfname = false;
 					}
 
 					if (blname) {
 						String var = new String(ch, start, length);
+						var = var.replace("EUR", "");
+						var = var.replace(",", ".");
+						var = var.trim();
+					//	Double precio = new Double(var);
+						formattedPrices.add(new Double(var));
 						System.out.println("FormattedPrice : " + var);
-						formattedPrice.add(var);
-						res.setPrecios(formattedPrice);
 						blname = false;
 					}
 
 					if (bnname) {
 						String var = new String(ch, start, length);
-						System.out.println("HardWarePlatform : " + var);
-						res.setHardware(var);
+						hardware = var;
+						System.out.println("HardWarePlatform : " + hardware);
 						bnname = false;
 					}
-					
+
 					if (mimage) {
 						String var = new String(ch, start, length);
 						System.out.println("MediumImage : " + var);
-						mediumImage.add(var);
-						res.setImagenes(mediumImage);
+						mediumImages.add(var);
 						mimage = false;
 					}
-					
-				}
 
+					if (burl) {
+						String var = new String(ch, start, length);
+						System.out.println("DetailPageURL : " + var);
+						url = var;
+						burl = false;
+					}
+					
+					a = new AmazonProductImpl(t, 15.0,
+							hardware, mediumImages, url);
+					prod.add(a);
+				
+					// System.out.println("-------------------------------");
+				}
 			};
+			formattedPrices.clear();
+			mediumImages.clear();
 			
 			saxParser.parse(requestUrl, handler);
 
-
 		} catch (Exception e) {
-			e.printStackTrace();
+//			e.printStackTrace();
 		}
+		List<AmazonProduct> res = new ArrayList<>(prod);
 
-		return title;
+		System.out.println(res.toString());
 
+		
+		return res.get(0).getNombre();
 	}
 
 }

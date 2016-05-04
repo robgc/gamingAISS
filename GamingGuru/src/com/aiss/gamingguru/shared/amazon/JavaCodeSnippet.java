@@ -1,8 +1,15 @@
 package com.aiss.gamingguru.shared.amazon;
 
+import java.io.Serializable;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.annotation.Generated;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@Generated("org.jsonschema2pojo")
+@JsonIgnoreProperties(ignoreUnknown=true)
 /*
  * This class shows how to make a simple authenticated call to the
  * Amazon Product Advertising API.
@@ -10,9 +17,14 @@ import java.util.Map;
  * See the README.html that came with this sample for instructions on
  * configuring and running the sample.
  */
-public class JavaCodeSnippet {
+public class JavaCodeSnippet implements Serializable {
 
-    /*
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/*
      * Your AWS Access Key ID, as taken from the AWS Your Account page.
      */
     private static final String AWS_ACCESS_KEY_ID = "AKIAJGUGYKZ7LKCQMJ5Q";

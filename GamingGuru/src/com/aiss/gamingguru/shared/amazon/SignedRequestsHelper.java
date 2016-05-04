@@ -1,37 +1,43 @@
 package com.aiss.gamingguru.shared.amazon;
-import java.io.UnsupportedEncodingException; 
+import java.io.Serializable;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
+import java.net.URLEncoder;
+import java.security.InvalidKeyException;
+import java.security.NoSuchAlgorithmException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.SortedMap;
+import java.util.TimeZone;
+import java.util.TreeMap;
 
-import java.net.URLDecoder; 
-import java.net.URLEncoder; 
- 
-import java.security.InvalidKeyException; 
-import java.security.NoSuchAlgorithmException; 
- 
-import java.text.DateFormat; 
-import java.text.SimpleDateFormat; 
- 
-import java.util.Calendar; 
-import java.util.HashMap; 
-import java.util.Iterator; 
-import java.util.Map; 
-import java.util.SortedMap; 
-import java.util.TimeZone; 
-import java.util.TreeMap; 
- 
-import javax.crypto.Mac; 
+import javax.annotation.Generated;
+import javax.crypto.Mac;
 import javax.crypto.spec.SecretKeySpec;
 
 import org.apache.commons.codec.binary.Base64;
 
- 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@Generated("org.jsonschema2pojo")
+@JsonIgnoreProperties(ignoreUnknown=true)
  
 /**
  * https://aws.amazon.com/code/Product-Advertising-API/2478 
  * This class contains all the logic for signing requests 
  * to the Amazon Product Advertising API. 
  */ 
-public class SignedRequestsHelper { 
+public class SignedRequestsHelper implements Serializable { 
     /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
+	/**
      * All strings are handled as UTF-8 
      */ 
     private static final String UTF8_CHARSET = "UTF-8"; 
