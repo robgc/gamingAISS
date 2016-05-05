@@ -2,17 +2,12 @@ package com.aiss.gamingguru.server;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
-import java.util.SortedSet;
-import java.util.TreeSet;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import org.apache.tools.ant.taskdefs.Checksum.FormatElement;
 import org.restlet.data.Header;
 import org.restlet.resource.ClientResource;
 import org.restlet.util.Series;
@@ -21,8 +16,6 @@ import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
 import com.aiss.gamingguru.client.GuruService;
-import com.aiss.gamingguru.shared.amazon.AmazonProduct;
-import com.aiss.gamingguru.shared.amazon.AmazonProductImpl;
 import com.aiss.gamingguru.shared.amazon.SignedRequestsHelper;
 import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;
@@ -40,8 +33,8 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private static final String ENDPOINT = "webservices.amazon.es";
 	// title, formattedPrice, hardwarePlatform, mediumImage
 	private Double formattedPrices = 0.0;
-	private SortedSet<String> mediumImages = new TreeSet<String>();
-	private Set<AmazonProduct> prod = new HashSet<>();
+	private String mediumImage = "";
+	private List<String> prod;
 	private String t;
 	private String hardware;
 	private String url;
@@ -93,7 +86,8 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 
 	/*--------------------------------------------------------------------------------------------------------------*/
 
-	public String getAmazon(String juego) {
+	public List<String> getAmazon(String juego) {
+		prod = new ArrayList<>();
 
 		SignedRequestsHelper helper = null;
 		try {
@@ -120,18 +114,22 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 		requestUrl = helper.sign(params);
 
 		try {
+
 			SAXParserFactory factory = SAXParserFactory.newInstance();
 			SAXParser saxParser = factory.newSAXParser();
 			System.out.println(requestUrl);
 
 			DefaultHandler handler = new DefaultHandler() {
+				int i = 0;
+				Double prize = null;
+				String a = "";
 
 				boolean bfname = false;
 				boolean blname = false;
 				boolean bnname = false;
 				boolean mimage = false;
 				boolean burl = false;
-				
+
 				public void startElement(String uri, String localName,
 						String qName, Attributes attributes)
 						throws SAXException {
@@ -150,7 +148,8 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 						bnname = true;
 					}
 
-					if (qName.equalsIgnoreCase("MediumImage")) {
+					if (qName.equalsIgnoreCase("MediumImage") && i == 0) {
+						i++;
 						mimage = true;
 					}
 
@@ -162,19 +161,31 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 
 				public void endElement(String uri, String localName,
 						String qName) throws SAXException {
+					if (qName.equalsIgnoreCase("Item")) {
+						i = 0;
+						prize = null;
+						a = t + "#" + formattedPrices + "#" + hardware + "#"
+								+ mediumImage + "#" + url;
+						System.out.println(a);
+						prod.add(a);
+					}
 
-					// System.out.println("End Element :" + qName);
+					if (qName.equalsIgnoreCase("ItemSearchResponse")) {
+						formattedPrices = 0.0;
+						mediumImage = "";
+						t = "";
+						hardware = "";
+						url = "";
+					}
 
 				}
-				
-				AmazonProduct a;
-				
+
 				public void characters(char ch[], int start, int length)
 						throws SAXException {
 
 					if (bfname) {
 						String nombre = new String(ch, start, length);
-						t = nombre;						
+						t = nombre;
 						System.out.println("Title : " + t);
 						bfname = false;
 					}
@@ -185,8 +196,12 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 						var = var.replace(",", ".");
 						var = var.trim();
 						Double precio = new Double(var);
-						formattedPrices = precio;
-						System.out.println("FormattedPrice : " + formattedPrices);
+						if (prize == null || precio.compareTo(prize) < 0) {
+							prize = precio;
+						}
+						formattedPrices = prize;
+						System.out.println("FormattedPrice : "
+								+ formattedPrices);
 						blname = false;
 					}
 
@@ -200,7 +215,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 					if (mimage) {
 						String var = new String(ch, start, length);
 						System.out.println("MediumImage : " + var);
-						mediumImages.add(var);
+						mediumImage = var;
 						mimage = false;
 					}
 
@@ -210,28 +225,18 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 						url = var;
 						burl = false;
 					}
-					a = new AmazonProductImpl(t, formattedPrices, hardware, mediumImages, url);
-	//				a.setPrecio(formattedPrices);
-	//				System.out.println(formattedPrices);
-					prod.add(a);
-				
-					// System.out.println("-------------------------------");
 				}
+
 			};
 
-			mediumImages.clear();
-			
 			saxParser.parse(requestUrl, handler);
 
 		} catch (Exception e) {
-//			e.printStackTrace();
+			// e.printStackTrace();
 		}
-		List<AmazonProduct> res = new ArrayList<>(prod);
 
-		System.out.println(res.toString());
+		// System.out.println(prod.get(0));
 
-		
-		return res.get(0).getNombre();
+		return prod;
 	}
-
 }

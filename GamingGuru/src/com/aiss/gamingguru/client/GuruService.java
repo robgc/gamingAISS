@@ -18,5 +18,5 @@ public interface GuruService extends RemoteService {
 
 	GameData getNameId();
 	
-	String getAmazon(String juego);
+	List<String> getAmazon(String juego);
 }

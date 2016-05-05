@@ -11,7 +11,7 @@ public interface AmazonProduct extends Serializable {
 
 	String getHardware();
 
-	SortedSet<String> getImagenes();
+	String getImagen ();
 
 	String getUrl();
 
@@ -21,7 +21,7 @@ public interface AmazonProduct extends Serializable {
 
 	void setHardware(String hardware);
 
-	void setImagenes(SortedSet<String> imagenes);
+	void setImagen (String imagen);
 	
 	void setUrl(String url);
 }

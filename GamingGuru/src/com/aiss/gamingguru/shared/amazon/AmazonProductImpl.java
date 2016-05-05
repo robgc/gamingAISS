@@ -8,28 +8,36 @@ import javax.annotation.Generated;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @Generated("org.jsonschema2pojo")
-@JsonIgnoreProperties(ignoreUnknown=true)
-
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class AmazonProductImpl implements AmazonProduct, Serializable {
-	
+
 	private static final long serialVersionUID = 4449059238401412244L;
 	/**
 	 * 
 	 */
-	
+
 	public String nombre;
 	public Double precio;
 	public String hardware;
-	public SortedSet<String> imagenes;
+	public String imagen;
 	public String url;
 
-	public AmazonProductImpl(String nombre, Double precio, String hardware, SortedSet<String> imagenes,
-			String url) {
+	public AmazonProductImpl(String nombre, Double precio, String hardware,
+			String imagen, String url) {
 		this.nombre = nombre;
 		this.precio = precio;
 		this.hardware = hardware;
-		this.imagenes = imagenes;
+		this.imagen = imagen;
 		this.url = url;
+	}
+	
+	public AmazonProductImpl(String str) {
+		String[] aux = str.split("#");
+		this.nombre = aux[0].trim();
+		this.precio = new Double(aux[1].trim());
+		this.hardware = aux[2];
+		this.imagen = aux[3];
+		this.url = aux[4];
 	}
 
 	public String getNombre() {
@@ -44,8 +52,8 @@ public class AmazonProductImpl implements AmazonProduct, Serializable {
 		return this.hardware;
 	}
 
-	public SortedSet<String> getImagenes() {
-		return this.imagenes;
+	public String getImagen() {
+		return this.imagen;
 	}
 
 	public String getUrl() {
@@ -56,7 +64,7 @@ public class AmazonProductImpl implements AmazonProduct, Serializable {
 		this.nombre = nombre;
 	}
 
-	public void setPrecio (Double precio) {
+	public void setPrecio(Double precio) {
 		this.precio = precio;
 	}
 
@@ -64,21 +72,21 @@ public class AmazonProductImpl implements AmazonProduct, Serializable {
 		this.hardware = hardware;
 	}
 
-	public void setImagenes(SortedSet<String> imagenes) {
-		this.imagenes = imagenes;
+	public void setImagen(String imagen) {
+		this.imagen = imagen;
 	}
 
 	public void setUrl(String url) {
 		this.url = url;
 	}
-		
+
 	public int hashCode() {
 		final int prime = 31;
 		int result = 1;
 		result = prime * result
 				+ ((hardware == null) ? 0 : hardware.hashCode());
 		result = prime * result
-				+ ((imagenes == null) ? 0 : imagenes.hashCode());
+				+ ((imagen == null) ? 0 : imagen.hashCode());
 		result = prime * result + ((nombre == null) ? 0 : nombre.hashCode());
 		result = prime * result + ((precio == null) ? 0 : precio.hashCode());
 		result = prime * result + ((url == null) ? 0 : url.hashCode());
@@ -99,10 +107,10 @@ public class AmazonProductImpl implements AmazonProduct, Serializable {
 				return false;
 		} else if (!hardware.equals(other.hardware))
 			return false;
-		if (imagenes == null) {
-			if (other.imagenes != null)
+		if (imagen == null) {
+			if (other.imagen != null)
 				return false;
-		} else if (!imagenes.equals(other.imagenes))
+		} else if (!imagen.equals(other.imagen))
 			return false;
 		if (nombre == null) {
 			if (other.nombre != null)
