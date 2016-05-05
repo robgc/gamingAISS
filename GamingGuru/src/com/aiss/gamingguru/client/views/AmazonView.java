@@ -44,7 +44,7 @@ public class AmazonView extends Composite {
 		icon.setStyleName("menuIcon");
 		acercaDe.addStyleName("acerca");
 
-		searchField.setText("Que quieres comprar?");
+		searchField.setText("¿Qué quieres comprar?");
 		statusLabel.setStyleName("style-VG-status");
 		searchField.setStyleName("style-VG-search");
 		searchButton.setStyleName("style-VG-button");
@@ -75,7 +75,7 @@ public class AmazonView extends Composite {
 					}
 
 					public void onFailure(Throwable caught) {
-						Window.alert("!Error al realizar la b�squeda de las ofertas!");
+						Window.alert("!Error al realizar la búsqueda de las ofertas!");
 					}
 
 				});
@@ -85,14 +85,14 @@ public class AmazonView extends Composite {
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				RootPanel.get("steaminfo").clear();
+				RootPanel.get("amazoninfo").clear();
 				GamingGuru.go("acerca", new HashMap<String, String>());
 			}
 		});
 
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				RootPanel.get("steaminfo").clear();
+				RootPanel.get("amazoninfo").clear();
 				GamingGuru.go("init", new HashMap<String, String>());
 			}
 		});
@@ -100,14 +100,20 @@ public class AmazonView extends Composite {
 	}
 
 	private void showElement(List<String> result) {
-		int i = 0;
-		String output = "<fieldset style='overflow: auto; top:20%; width: 500px; height: 300px;'>";
+		String output = "<fieldset style='overflow: auto; width: 500px; height: 250px;'>";
 		output += "<legend style='font-weight: bold'> Tus compras </legend>";
 		for (String ama : result) {
 			AmazonProduct a = new AmazonProductImpl(ama);
-			output += "<span style='align:center'> Item " + i++
-					+ ": " + a.getNombre() + " </span><br/>";
-			
+			output += "<fieldset>";
+
+			output += "<br/><span style='align: center; font-weight:bold;'><img src='"
+					+ a.getImagen()
+					+ "' style= 'width: 20%; height: 20%; float:left'></img> <br/><a href='"
+					+ a.getUrl() + "' style='color:white'>" + a.getNombre() + "</a></span><br/>";
+			output += "<br/><span style='left:50%'>" + a.getPrecio()
+					+ " €</span><br/>";
+			output += "</fieldset>";
+
 		}
 		output += "</fieldset>";
 		HTML games = new HTML(output);

@@ -87,7 +87,7 @@ public class SteamView extends Composite {
 
 					@Override
 					public void onFailure(Throwable caught) {
-						Window.alert("!Error al realizar la búsqueda de las críticas!");
+						Window.alert("!Error al realizar la bï¿½squeda de las crï¿½ticas!");
 					}
 				});
 				gService.getNameId(new AsyncCallback<GameData>() {
@@ -141,16 +141,9 @@ public class SteamView extends Composite {
 				+ " ID </legend>";
 		if (result != null) {
 			for (Game a : result.getResponse().getGames()) {
-				// output += "<span> Game " + i++ + ": " + +a.getAppid()
-				// + " </span><br/>";
 				ids.add(a.getAppid());
 
 			}
-			// for (Integer id : ids) {
-			// output += "<span style='align:center'> Game " + i++ + ": " + id
-			// + " </span><br/>";
-			// }
-
 		} else {
 			output += "<span> No results </span>";
 			output += "</fieldset>";

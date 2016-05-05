@@ -232,10 +232,8 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 			saxParser.parse(requestUrl, handler);
 
 		} catch (Exception e) {
-			// e.printStackTrace();
+			 e.printStackTrace();
 		}
-
-		// System.out.println(prod.get(0));
 
 		return prod;
 	}
