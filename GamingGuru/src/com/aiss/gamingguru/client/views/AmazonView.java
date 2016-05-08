@@ -38,11 +38,14 @@ public class AmazonView extends Composite {
 		Image icon = new Image("files/mando.png");
 		Image fondo = new Image("files/negro.png");
 		Image acercaDe = new Image("files/acerca.png");
+		final Image rect = new Image("files/rect.png");
+
 
 		fondo.setStyleName("background");
 		menu.setStyleName("menu");
 		icon.setStyleName("menuIcon");
 		acercaDe.addStyleName("acerca");
+		rect.addStyleName("rectangle");
 
 		searchField.setText("¿Qué quieres comprar?");
 		statusLabel.setStyleName("style-VG-status");
@@ -64,6 +67,7 @@ public class AmazonView extends Composite {
 			public void onClick(ClickEvent event) {
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
+				mainPanel.remove(rect);
 				final String juego = searchField.getText();
 				RootPanel.get("amazoninfo").clear();
 
@@ -71,6 +75,7 @@ public class AmazonView extends Composite {
 
 					public void onSuccess(List<String> result) {
 						showElement(result);
+						mainPanel.add(rect);
 						mainPanel.remove(statusLabel);
 					}
 
@@ -100,7 +105,7 @@ public class AmazonView extends Composite {
 	}
 
 	private void showElement(List<String> result) {
-		String output = "<fieldset style='overflow: auto; width: 500px; height: 250px;'>";
+		String output = "<fieldset style='overflow: auto; width: 500px; height: 330px;'>";
 		output += "<legend style='font-weight: bold'> Tus compras </legend>";
 		for (String ama : result) {
 			AmazonProduct a = new AmazonProductImpl(ama);
@@ -117,9 +122,8 @@ public class AmazonView extends Composite {
 		}
 		output += "</fieldset>";
 		HTML games = new HTML(output);
-		games.setStyleName("style-VG-info");
+		games.setStyleName("style--info");
 		RootPanel.get("amazoninfo").add(games);
-
 	}
 
 }

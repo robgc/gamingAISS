@@ -24,7 +24,8 @@ public class AmazonProductImpl implements AmazonProduct, Serializable {
 
 	public AmazonProductImpl(String nombre, Double precio, String hardware,
 			String imagen, String url) {
-		this.nombre = nombre;
+		
+		this.nombre = nombre.replace("m", "puta");
 		this.precio = precio;
 		this.hardware = hardware;
 		this.imagen = imagen;
@@ -33,7 +34,7 @@ public class AmazonProductImpl implements AmazonProduct, Serializable {
 	
 	public AmazonProductImpl(String str) {
 		String[] aux = str.split("#");
-		this.nombre = aux[0].trim();
+		this.nombre = aux[0].trim().replace("Importación", "Versión");
 		this.precio = new Double(aux[1].trim());
 		this.hardware = aux[2];
 		this.imagen = aux[3];
