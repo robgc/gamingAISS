@@ -1,3 +1,0 @@
-# Module gamingguru
-# RPC service class, partial path of RPC policy file
-com.aiss.gamingguru.client.GuruService, 5591B25AA70C957A77E9CA24DBA2FCC7.gwt.rpc
