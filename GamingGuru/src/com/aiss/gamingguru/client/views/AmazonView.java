@@ -3,10 +3,11 @@ package com.aiss.gamingguru.client.views;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
 import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
+import com.aiss.gamingguru.shared.amazon.AmazonProduct;
+import com.aiss.gamingguru.shared.amazon.AmazonProductImpl;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -43,7 +44,7 @@ public class AmazonView extends Composite {
 		icon.setStyleName("menuIcon");
 		acercaDe.addStyleName("acerca");
 
-		searchField.setText("Que quieres comprar?");
+		searchField.setText("¿Qué quieres comprar?");
 		statusLabel.setStyleName("style-VG-status");
 		searchField.setStyleName("style-VG-search");
 		searchButton.setStyleName("style-VG-button");
@@ -67,15 +68,14 @@ public class AmazonView extends Composite {
 				RootPanel.get("amazoninfo").clear();
 
 				gService.getAmazon(juego, new AsyncCallback<List<String>>() {
-					
+
 					public void onSuccess(List<String> result) {
 						showElement(result);
 						mainPanel.remove(statusLabel);
 					}
 
-					@Override
 					public void onFailure(Throwable caught) {
-						Window.alert("!Error al realizar la b�squeda de las ofertas!");
+						Window.alert("!Error al realizar la búsqueda de las ofertas!");
 					}
 
 				});
@@ -85,14 +85,14 @@ public class AmazonView extends Composite {
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				RootPanel.get("steaminfo").clear();
+				RootPanel.get("amazoninfo").clear();
 				GamingGuru.go("acerca", new HashMap<String, String>());
 			}
 		});
 
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				RootPanel.get("steaminfo").clear();
+				RootPanel.get("amazoninfo").clear();
 				GamingGuru.go("init", new HashMap<String, String>());
 			}
 		});
@@ -100,11 +100,21 @@ public class AmazonView extends Composite {
 	}
 
 	private void showElement(List<String> result) {
-		String output = "<fieldset style='overflow: auto; top:20%; width: 200px; height: 300px;'>";
+		String output = "<fieldset style='overflow: auto; width: 500px; height: 250px;'>";
 		output += "<legend style='font-weight: bold'> Tus compras </legend>";
-		output += "<span> " + result.get(0)  + " </span>";
-		output += "<span> " + result.get(1)  + " </span>";
-		output += "<span> " + result.get(2)  + " </span>";
+		for (String ama : result) {
+			AmazonProduct a = new AmazonProductImpl(ama);
+			output += "<fieldset>";
+
+			output += "<br/><span style='align: center; font-weight:bold;'><img src='"
+					+ a.getImagen()
+					+ "' style= 'width: 20%; height: 20%; float:left'></img> <br/><a href='"
+					+ a.getUrl() + "' style='color:white'>" + a.getNombre() + "</a></span><br/>";
+			output += "<br/><span style='left:50%'>" + a.getPrecio()
+					+ " €</span><br/>";
+			output += "</fieldset>";
+
+		}
 		output += "</fieldset>";
 		HTML games = new HTML(output);
 		games.setStyleName("style-VG-info");

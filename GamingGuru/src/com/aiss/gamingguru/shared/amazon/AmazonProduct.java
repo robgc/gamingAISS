@@ -1,24 +1,27 @@
 package com.aiss.gamingguru.shared.amazon;
 
+import java.io.Serializable;
 import java.util.SortedSet;
 
-public interface AmazonProduct {
+public interface AmazonProduct extends Serializable {
 	
 	String getNombre();
 
-	SortedSet<String> getPrecios();
+	Double getPrecio();
 
 	String getHardware();
 
-	SortedSet<String> getImagenes();
+	String getImagen ();
 
 	String getUrl();
 
 	void setNombre(String nombre);
 
-	void setPrecios(SortedSet<String> precios);
+	void setPrecio(Double precio);
 
 	void setHardware(String hardware);
 
-	void setImagenes(SortedSet<String> imagenes);
+	void setImagen (String imagen);
+	
+	void setUrl(String url);
 }
