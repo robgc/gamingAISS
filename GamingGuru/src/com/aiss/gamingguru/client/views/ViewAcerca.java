@@ -17,8 +17,7 @@ import com.google.gwt.user.client.ui.VerticalPanel;
 
 public class ViewAcerca extends Composite {
 
-	private final GreetingServiceAsync GreetingService = GWT
-			.create(GreetingService.class);
+	private final GreetingServiceAsync GreetingService = GWT.create(GreetingService.class);
 
 	private final VerticalPanel mainPanel;
 	private final FlexTable alumnosPanel;
@@ -29,14 +28,14 @@ public class ViewAcerca extends Composite {
 		initWidget(mainPanel);
 		alumnosPanel = new FlexTable();
 		descripcionPanel = new FlexTable();
-		
+
 		mainPanel.setStyleName("panel");
-		
+
 		alumnosPanel.setStylePrimaryName("alumnoTable");
 		alumnosPanel.getRowFormatter().setStylePrimaryName(0, "firstRow");
 		alumnosPanel.setWidget(0, 0, new Label("Nombre"));
 		alumnosPanel.setWidget(0, 1, new Label("Email"));
-
+		
 		GreetingService.getAlumnos(new AsyncCallback<List<Alumno>>() {
 
 			public void onSuccess(List<Alumno> result) {
@@ -49,33 +48,28 @@ public class ViewAcerca extends Composite {
 			}
 		});
 		mainPanel.add(alumnosPanel);
-
+		
 		descripcionPanel.setStylePrimaryName("descripcionTable");
 		descripcionPanel.setWidget(1, 0, new Label("\n"));
-		
-		com.google.gwt.user.client.ui.Image mando = new com.google.gwt.user.client.ui.Image(
-				"files/mando.png");
+
+		com.google.gwt.user.client.ui.Image mando = new com.google.gwt.user.client.ui.Image("files/mando.png");
 		mando.setHeight("248px");
 		mando.setWidth("266px");
-		
+
 		descripcionPanel.setWidget(2, 0, mando);
-		
+
 		Label titulo = new Label("\nGAMINGURU");
 		titulo.setStylePrimaryName("titulo");
 
 		descripcionPanel.setWidget(3, 0, titulo);
-		descripcionPanel
-				.setWidget(
-						4,
-						0,
-						new Label(
-								"\nPresentamos GamingGuru. Una aplicación capaz de analizar tu "
-										+ "\nbiblioteca de Steam y ofrecerte recomendaciones personalizadas"
-										+ "\nsobre los juegos de tu género favorito en función de los valores "
-										+ "\nanalíticos de los juegos de dicha biblioteca. También te ofreceremos "
-										+ "\nenlaces directos a la compra de tus recomendaciones en "
-										+ "\nplataformas como Amazon o la propia tienda de Steam dejando a "
-										+ "\ntu elección para qué plataforma deseas hacer la compra."));
+		descripcionPanel.setWidget(4, 0,
+				new Label("\nPresentamos GamingGuru. Una aplicaciï¿½n capaz de analizar tu "
+						+ "\nbiblioteca de Steam y ofrecerte recomendaciones personalizadas"
+						+ "\nsobre los juegos de tu gï¿½nero favorito en funciï¿½n de los valores "
+						+ "\nanalï¿½ticos de los juegos de dicha biblioteca. Tambiï¿½n te ofreceremos "
+						+ "\nenlaces directos a la compra de tus recomendaciones en "
+						+ "\nplataformas como Amazon o la propia tienda de Steam dejando a "
+						+ "\ntu elecciï¿½n para quï¿½ plataforma deseas hacer la compra."));
 
 		mainPanel.add(descripcionPanel);
 
