@@ -45,11 +45,13 @@ public class SteamView extends Composite {
 		Image icon = new Image("files/mando.png");
 		Image fondo = new Image("files/negro.png");
 		Image acercaDe = new Image("files/acerca.png");
+		final Image rect = new Image("files/rect.png");
 
 		fondo.setStyleName("background");
 		menu.setStyleName("menu");
 		icon.setStyleName("menuIcon");
 		acercaDe.addStyleName("acerca");
+		rect.setStyleName("rectangle");
 
 		searchField.setText("Your id");
 
@@ -72,6 +74,7 @@ public class SteamView extends Composite {
 		searchButton.addClickHandler(new ClickHandler() {
 
 			public void onClick(ClickEvent event) {
+				mainPanel.remove(rect);
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
 				final String game = searchField.getText();
@@ -87,13 +90,14 @@ public class SteamView extends Composite {
 
 					@Override
 					public void onFailure(Throwable caught) {
-						Window.alert("!Error al realizar la búsqueda de las críticas!");
+						Window.alert("!Error al realizar la bï¿½squeda de las crï¿½ticas!");
 					}
 				});
 				gService.getNameId(new AsyncCallback<GameData>() {
 
 					@Override
 					public void onSuccess(GameData result) {
+						mainPanel.add(rect);
 						showName(ids, result);
 						ids.clear();
 					}
@@ -135,35 +139,17 @@ public class SteamView extends Composite {
 	 */
 
 	private void showId(String game, GameSearch result) {
-		int i = 1;
-		String output = "<fieldset style='overflow: auto; top:20%; width: 200px; height: 300px;'>";
-		output += "<legend style='font-weight: bold'>" + game.toUpperCase()
-				+ " ID </legend>";
 		if (result != null) {
 			for (Game a : result.getResponse().getGames()) {
-				// output += "<span> Game " + i++ + ": " + +a.getAppid()
-				// + " </span><br/>";
 				ids.add(a.getAppid());
 
 			}
-			// for (Integer id : ids) {
-			// output += "<span style='align:center'> Game " + i++ + ": " + id
-			// + " </span><br/>";
-			// }
-
-		} else {
-			output += "<span> No results </span>";
-			output += "</fieldset>";
-			HTML games = new HTML(output);
-			games.setStyleName("style-VG-info");
-			RootPanel.get("steaminfo").add(games);
 		}
-
 	}
 
 	private void showName(Set<Integer> ids, GameData result) {
 		int i = 1;
-		String output = "<fieldset style='overflow: auto; width: 500px; height: 300px;'>";
+		String output = "<fieldset style='overflow: auto; width: 500px; height: 330px;'>";
 		output += "<legend style='font-weight: bold'>TUS JUEGOS</legend>";
 		if (result != null) {
 			for (Integer id : ids) {
@@ -178,7 +164,7 @@ public class SteamView extends Composite {
 		}
 		output += "</fieldset>";
 		HTML games = new HTML(output);
-		games.setStyleName("style-VG-info");
+		games.setStyleName("style-steam-info");
 		RootPanel.get("steaminfo").add(games);
 	}
 

@@ -1,5 +1,6 @@
 package com.aiss.gamingguru.server;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -8,9 +9,11 @@ import java.util.Map;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-import org.restlet.data.Header;
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 import org.restlet.resource.ClientResource;
-import org.restlet.util.Series;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -19,14 +22,14 @@ import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.shared.amazon.SignedRequestsHelper;
 import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;
-import com.aiss.gamingguru.shared.vginfo.CriticSearch;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 public class GuruServiceImpl extends RemoteServiceServlet implements
 		GuruService {
 
 	private static final long serialVersionUID = 6282625882306958152L;
-	private static final String VGINFO_API_KEY = "MAuCGAqmOxmshId9rkkjcjcIGgO5p1AEIrHjsnnYkrHxoJLYHT";
+	// private static final String VGINFO_API_KEY =
+	// "MAuCGAqmOxmshId9rkkjcjcIGgO5p1AEIrHjsnnYkrHxoJLYHT";
 	private static final String STEAM_API_KEY = "9A3D6024D560EA19E0346BBAC0F98324";
 	private static final String AWS_ACCESS_KEY_ID = "AKIAJGUGYKZ7LKCQMJ5Q";
 	private static final String AWS_SECRET_KEY = "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";
@@ -39,34 +42,90 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private String hardware;
 	private String url;
 
-	public CriticSearch getReviews(String juego) {
-		juego = juego.replace(" ", "+");
-		juego = juego.replace("\u2122", "");
-		juego = juego.replace("\u2018", "'");
-		juego = juego.replace("\u2019", "'");
-		juego = juego.replace("\u00AE", "");
+	// public CriticSearch getReviews(String juego) {
+	// juego = juego.replace(" ", "+");
+	// juego = juego.replace("\u2122", "");
+	// juego = juego.replace("\u2018", "'");
+	// juego = juego.replace("\u2019", "'");
+	// juego = juego.replace("\u00AE", "");
+	//
+	// // Para evitar errores pasamos todos los carácteres a minúscula
+	// juego = juego.toLowerCase();
+	// // Los espacios han de ser sustituidos por '+'
+	//
+	// ClientResource cr = new ClientResource(
+	// "https://ahmedakhan-game-review-information-v1.p.mashape.com/api/v1/information?game_name="
+	// + juego);
+	// // La petición necesita que haya cierta información en la cabecera
+	// // (header)
+	// Series<Header> headers = cr.getRequest().getHeaders();
+	//
+	// // Añadimos a la cabecera X-Mashape-Key, necesaria para acceder a la
+	// // API
+	// // como desarrollador
+	// headers.set("X-Mashape-Key", VGINFO_API_KEY);
+	//
+	// // Especificamos que se devuelva un JSON
+	// headers.set("Accept", "application/json");
+	//
+	// CriticSearch cs = cr.get(CriticSearch.class);
+	// return cs;
+	// }
 
-		// Para evitar errores pasamos todos los carácteres a minúscula
+	public Map<String, String> getScores(String juego) {
+		juego = juego.trim();
+		juego = juego.replace(" ", "-");
 		juego = juego.toLowerCase();
-		// Los espacios han de ser sustituidos por '+'
+		Document doc;
+		Map<String, String> juegos = new HashMap<String, String>();
+		try {
+			System.out.println("http://www.gamespot.com/" + juego + "/");
+			doc = Jsoup
+					.connect("http://www.gamespot.com/" + juego + "/")
+					.userAgent(
+							"Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4")
+					.ignoreHttpErrors(true).get();
+			Element nota1 = doc.select("[itemprop=ratingValue]").first();
+			Element nota2 = doc
+					.select("[data-event-tracking=Tracking|games_overview|Kubrick|Metascore]")
+					.first();
+			Element nota3 = doc
+					.select("[data-event-tracking=Tracking|games_overview|Kubrick|UserReviewScore]")
+					.first();
+			Element imag = doc.select("[itemprop=image]").first();
+			String img = imag.absUrl("src");
+			if (img != null) {
+				System.out.println(img);
+				juegos.put("IMAGE", img);
+			}
 
-		ClientResource cr = new ClientResource(
-				"https://ahmedakhan-game-review-information-v1.p.mashape.com/api/v1/information?game_name="
-						+ juego);
-		// La petición necesita que haya cierta información en la cabecera
-		// (header)
-		Series<Header> headers = cr.getRequest().getHeaders();
+			if (nota1 != null) {
+				System.out.println(nota1.ownText());
+				juegos.put("GAMESPOT", nota1.ownText());
+			} else {
+				juegos.put("GAMESPOT", "No score");
+			}
 
-		// Añadimos a la cabecera X-Mashape-Key, necesaria para acceder a la
-		// API
-		// como desarrollador
-		headers.set("X-Mashape-Key", VGINFO_API_KEY);
+			if (nota2 != null) {
+				System.out.println(nota2.ownText());
+				juegos.put("METACRITIC", nota2.ownText());
+			} else {
+				juegos.put("METACRITIC", "No score");
+			}
 
-		// Especificamos que se devuelva un JSON
-		headers.set("Accept", "application/json");
+			if (nota3 != null) {
+				System.out.println(nota3.ownText());
+				juegos.put("USER", nota3.ownText());
+			} else {
+				juegos.put("USER", "No score");
+			}
 
-		CriticSearch cs = cr.get(CriticSearch.class);
-		return cs;
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return juegos;
+
 	}
 
 	public GameSearch getGames(String id) {
@@ -228,14 +287,11 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 				}
 
 			};
-
 			saxParser.parse(requestUrl, handler);
 
 		} catch (Exception e) {
-			// e.printStackTrace();
+			e.printStackTrace();
 		}
-
-		// System.out.println(prod.get(0));
 
 		return prod;
 	}
