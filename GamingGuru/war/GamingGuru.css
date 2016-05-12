@@ -1,0 +1,200 @@
+/** Add css rules here for your application. */
+/** Example rules used by the template application (remove for your app) */
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: center;
+}
+
+.style-VG-search {
+	position: fixed;
+	color: blue;
+	top: 30%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -100px;
+}
+
+.style-VG-button {
+	position: fixed;
+	color: blue;
+	top: 30%;
+	left: 65%;
+	margin-top: -50px;
+	margin-left: -100px;
+}
+
+.style-VG-status {
+	position: fixed;
+	color: white;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.style-steam-info {
+	position: fixed;
+	color: white;
+	height: 15%;
+	top: 40%;
+	left: 50%;
+	font-weight: bold;
+	transform: translate(-50%, -50%);
+}
+
+.cover-img {
+	position: fixed;
+	color: white;
+	top: 45%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+}
+
+.style-VG-info {
+	position: fixed;
+	color: white;
+	top: 45%;
+	left: 60%;
+	font-weight: bold;
+	transform: translate(-50%, -50%);
+}
+
+.description {
+	width: 500px;
+	position: fixed;
+	font-weight: bold;
+	color: white;
+	top: 50%;
+	left: 70%;
+	color: white;
+	white-space: pre;
+	text-justify: inter-word;
+	transform: translate(-50%, -50%);
+}
+
+.alumnoTable {
+	font-weight: bold;
+	position: fixed;
+	left: 30%;
+	top: 50%;
+	border: 2px solid white;
+	width: 450px;
+	margin: 5px;
+	background-color: #9ab7ff;
+	transform: translate(-50%, -50%);
+}
+
+.alumnoTable tr:hover {
+	background-color: #5383d7;
+}
+
+.API-vg {
+	position: fixed;
+	top: 20%;
+	right: 14%;
+	height: 65px;
+	width: 150px;
+}
+
+.API-steam {
+	position: fixed;
+	top: 45%;
+	right: 14%;
+	height: 55px;
+	width: 150px;
+}
+
+.API-amazon {
+	position: fixed;
+	top: 70%;
+	right: 14%;
+	height: 55px;
+	width: 150px;
+}
+
+.API-vg:hover {
+	opacity: 0.6;
+}
+
+.API-steam:hover {
+	opacity: 0.6;
+}
+
+.API-amazon:hover {
+	opacity: 0.6;
+}
+
+.acerca {
+	position: fixed;
+	top: 0%;
+	right: 14%;
+	height: 10%;
+	width: 10%;
+}
+
+.acerca:hover {
+	position: fixed;
+	background-color: #4663b3;
+	z-index: 1;
+}
+
+.centered {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 50%;
+	width: 25%;
+}
+
+/** Most GWT widgets already have a style name defined */
+.gwt-DialogBox {
+	width: 400px;
+}
+
+.dialogVPanel {
+	margin: 0px;
+}
+
+.menuIcon {
+	position: fixed;
+	top: 0%;
+	left: 60px;
+	height: 10%;
+	width: 5%;
+}
+
+.menuIcon:hover {
+	opacity: 0.6;
+}
+
+.background {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.menu {
+	position: fixed;
+	top: 0%;
+	left: 0%;
+	height: 10%;
+	width: 100%;
+	background: #1c3659;
+	z-index: -1;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
