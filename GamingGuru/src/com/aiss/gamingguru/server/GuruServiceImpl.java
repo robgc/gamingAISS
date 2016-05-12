@@ -79,7 +79,6 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 		Document doc;
 		Map<String, String> juegos = new HashMap<String, String>();
 		try {
-			System.out.println("http://www.gamespot.com/" + juego + "/");
 			doc = Jsoup
 					.connect("http://www.gamespot.com/" + juego + "/")
 					.userAgent(
@@ -95,26 +94,22 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 			Element imag = doc.select("[itemprop=image]").first();
 			String img = imag.absUrl("src");
 			if (img != null) {
-				System.out.println(img);
 				juegos.put("IMAGE", img);
 			}
 
 			if (nota1 != null) {
-				System.out.println(nota1.ownText());
 				juegos.put("GAMESPOT", nota1.ownText());
 			} else {
 				juegos.put("GAMESPOT", "No score");
 			}
 
 			if (nota2 != null) {
-				System.out.println(nota2.ownText());
 				juegos.put("METACRITIC", nota2.ownText());
 			} else {
 				juegos.put("METACRITIC", "No score");
 			}
 
 			if (nota3 != null) {
-				System.out.println(nota3.ownText());
 				juegos.put("USER", nota3.ownText());
 			} else {
 				juegos.put("USER", "No score");
@@ -176,7 +171,6 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 
 			SAXParserFactory factory = SAXParserFactory.newInstance();
 			SAXParser saxParser = factory.newSAXParser();
-			System.out.println(requestUrl);
 
 			DefaultHandler handler = new DefaultHandler() {
 				int i = 0;
@@ -225,7 +219,6 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 						prize = null;
 						a = t + "#" + formattedPrices + "#" + hardware + "#"
 								+ mediumImage + "#" + url;
-						System.out.println(a);
 						prod.add(a);
 					}
 
@@ -245,7 +238,6 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 					if (bfname) {
 						String nombre = new String(ch, start, length);
 						t = nombre;
-						System.out.println("Title : " + t);
 						bfname = false;
 					}
 
@@ -259,28 +251,23 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 							prize = precio;
 						}
 						formattedPrices = prize;
-						System.out.println("FormattedPrice : "
-								+ formattedPrices);
 						blname = false;
 					}
 
 					if (bnname) {
 						String var = new String(ch, start, length);
 						hardware = var;
-						System.out.println("HardWarePlatform : " + hardware);
 						bnname = false;
 					}
 
 					if (mimage) {
 						String var = new String(ch, start, length);
-						System.out.println("MediumImage : " + var);
 						mediumImage = var;
 						mimage = false;
 					}
 
 					if (burl) {
 						String var = new String(ch, start, length);
-						System.out.println("DetailPageURL : " + var);
 						url = var;
 						burl = false;
 					}
@@ -292,7 +279,6 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 		return prod;
 	}
 }

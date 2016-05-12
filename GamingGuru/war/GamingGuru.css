@@ -40,7 +40,7 @@ h1 {
 	height: 15%;
 	top: 40%;
 	left: 50%;
-	/* bring your own prefixes */
+	font-weight: bold;
 	transform: translate(-50%, -50%);
 }
 
@@ -56,10 +56,11 @@ h1 {
 	position: fixed;
 	color: white;
 	top: 45%;
-	left: 57%;
-	/* bring your own prefixes */
+	left: 60%;
+	font-weight: bold;
 	transform: translate(-50%, -50%);
 }
+
 .description {
 	width: 500px;
 	position: fixed;
@@ -88,7 +89,6 @@ h1 {
 .alumnoTable tr:hover {
 	background-color: #5383d7;
 }
-
 
 .API-vg {
 	position: fixed;
@@ -138,18 +138,6 @@ h1 {
 	position: fixed;
 	background-color: #4663b3;
 	z-index: 1;
-}
-
-.rectangle {
-	position: fixed;
-	top: 60%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: #091840;
-	height: 365px;
-	width: 535px;
-	z-index: -1;
-	opacity: 0.8;
 }
 
 .centered {

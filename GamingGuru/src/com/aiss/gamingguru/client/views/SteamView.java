@@ -45,16 +45,13 @@ public class SteamView extends Composite {
 		Image icon = new Image("files/mando.png");
 		Image fondo = new Image("files/negro.png");
 		Image acercaDe = new Image("files/acerca.png");
-		final Image rect = new Image("files/rect.png");
 
 		fondo.setStyleName("background");
 		menu.setStyleName("menu");
 		icon.setStyleName("menuIcon");
 		acercaDe.addStyleName("acerca");
-		rect.setStyleName("rectangle");
 
 		searchField.setText("Your id");
-
 		statusLabel.setStyleName("style-VG-status");
 		searchField.setStyleName("style-VG-search");
 		searchButton.setStyleName("style-VG-button");
@@ -74,7 +71,6 @@ public class SteamView extends Composite {
 		searchButton.addClickHandler(new ClickHandler() {
 
 			public void onClick(ClickEvent event) {
-				mainPanel.remove(rect);
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
 				final String game = searchField.getText();
@@ -97,7 +93,6 @@ public class SteamView extends Composite {
 
 					@Override
 					public void onSuccess(GameData result) {
-						mainPanel.add(rect);
 						showName(ids, result);
 						ids.clear();
 					}
@@ -149,7 +144,7 @@ public class SteamView extends Composite {
 
 	private void showName(Set<Integer> ids, GameData result) {
 		int i = 1;
-		String output = "<fieldset style='overflow: auto; width: 500px; height: 330px;'>";
+		String output = "<fieldset style='background-color: #1c3659;overflow: auto; width: 500px; height: 330px;'>";
 		output += "<legend style='font-weight: bold'>TUS JUEGOS</legend>";
 		if (result != null) {
 			for (Integer id : ids) {
