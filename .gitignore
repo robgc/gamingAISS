@@ -11,6 +11,8 @@ local.properties
 .settings/
 .loadpath
 .recommenders
+*.js
+.GamingGuru/war/WEB-INF/classes/com/aiss/gamingguru/
 *.cache.js
 *.gwt.rpc
 # Eclipse Core

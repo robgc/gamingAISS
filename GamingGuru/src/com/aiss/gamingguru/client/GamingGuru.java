@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 import com.aiss.gamingguru.client.views.AcercaView;
+import com.aiss.gamingguru.client.views.AmazonView;
 import com.aiss.gamingguru.client.views.LoginView;
 import com.aiss.gamingguru.client.views.SteamView;
 import com.aiss.gamingguru.client.views.VideoGameInformationView;
@@ -37,6 +38,9 @@ public class GamingGuru extends Composite implements EntryPoint {
 		} else if (token == "steam") {
 			p.clear();
 			p.add(new SteamView(params));
+		} else if (token == "amazon") {
+			p.clear();
+			p.add(new AmazonView(params));
 		}
 	}
 }

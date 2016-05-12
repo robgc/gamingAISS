@@ -1,12 +1,12 @@
 package com.aiss.gamingguru.client.views;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
-import com.aiss.gamingguru.shared.vginfo.CriticSearch;
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -66,32 +66,58 @@ public class VideoGameInformationView extends Composite {
 
 			@Override
 			public void onClick(ClickEvent event) {
-				// TODO Auto-generated method stub
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
 
 				final String game = searchField.getText();
 				RootPanel.get("gameinfo").clear();
+				RootPanel.get("gameimg").clear();
 
-				gService.getReviews(game, new AsyncCallback<CriticSearch>() {
+				gService.getScores(game,
+						new AsyncCallback<Map<String, String>>() {
+							@Override
+							public void onSuccess(Map<String, String> result) {
+								showReviews(game, result);
+								mainPanel.remove(statusLabel);
+							}
 
-					@Override
-					public void onSuccess(CriticSearch result) {
-						showReviews(game, result);
-						mainPanel.remove(statusLabel);
-					}
-
-					@Override
-					public void onFailure(Throwable caught) {
-						Window.alert("¡Error al realizar la búsqueda de las críticas!");
-					}
-				});
+							@Override
+							public void onFailure(Throwable caught) {
+								Window.alert("¡Error al realizar la búsqueda de las críticas!");
+							}
+						});
 			}
 		});
+
+		// searchButton.addClickHandler(new ClickHandler() {
+		//
+		// @Override
+		// public void onClick(ClickEvent event) {
+		// statusLabel.setText("Searching...");
+		// mainPanel.add(statusLabel);
+		//
+		// final String game = searchField.getText();
+		// RootPanel.get("gameinfo").clear();
+		//
+		// gService.getReviews(game, new AsyncCallback<CriticSearch>() {
+		// @Override
+		// public void onSuccess(CriticSearch result) {
+		// showReviews(game, result);
+		// mainPanel.remove(statusLabel);
+		// }
+		//
+		// @Override
+		// public void onFailure(Throwable caught) {
+		// Window.alert("¡Error al realizar la búsqueda de las críticas!");
+		// }
+		// });
+		// }
+		// });
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("gameinfo").clear();
+				RootPanel.get("gameimg").clear();
 				GamingGuru.go("acerca", new HashMap<String, String>());
 			}
 		});
@@ -99,6 +125,7 @@ public class VideoGameInformationView extends Composite {
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("gameinfo").clear();
+				RootPanel.get("gameimg").clear();
 				GamingGuru.go("init", new HashMap<String, String>());
 			}
 		});
@@ -116,52 +143,32 @@ public class VideoGameInformationView extends Composite {
 	 *            Resultado (Clase JSON)
 	 */
 
-	private void showReviews(String game, CriticSearch result) {
+	private void showReviews(String name, Map<String, String> games) {
 
-		if (game == "League of Legends" || game == "lol"
-				|| game == "league of legends") {
-			String output = "<fieldset>";
-			output += "<legend>" + game + " Critics </legend>";
-			if (result != null) {
-				output += "<span> EN MI MASHUP NO SE BUSCA PUTA MIERDA</span>";
-			}
-			output += "</fieldset>";
-			output += "<img src = 'http://25.media.tumblr.com/f1c1785b4bb395b4ba1a3afc551cec5d/tumblr_mzv66qO6C81selimao1_500.gif'/>";
+		String output = "<fieldset style='background-color:#1c3659'> ";
+		output += "<legend style='font-weight: bold'>" + name.toUpperCase()
+				+ " <br/>CRITICS </legend>";
+		if (games != null) {
 
-			HTML games = new HTML(output);
-			games.setStyleName("style-VG-info");
+			output += "<br/><span> GAMESPOT: " + games.get("GAMESPOT")
+					+ "/10 </span><br/><hr/>";
+			output += "<br/><span> METACRITIC: " + games.get("METACRITIC")
+					+ "/100 </span><br/><hr/>";
 
-			RootPanel.get("gameinfo").add(games);
+			output += "<br/><span> USER SCORE: " + games.get("USER")
+					+ "/10</span>";
+
 		} else {
-			String output = "<fieldset>";
-			output += "<legend style='font-weight: bold'>" + game.toUpperCase()
-					+ " CRITICS </legend>";
-			if (result != null) {
-				output += "<span style='font-weight: bold'>IGN</span>";
-				output += "<br/><span> User score: "
-						+ result.getResult().getIgn().getUserScore()
-						+ " </span>";
-				output += "<br/><span> Critic score: "
-						+ result.getResult().getIgn().getCriticScore()
-						+ " </span><br/><hr/>";
-
-				output += "<br/><span style='font-weight: bold'>Metacritic</span><br/>";
-				output += "<span> User score: "
-						+ result.getResult().getMetacritic().getUserScore()
-						+ " </span>";
-				output += "<br/><span> Critic score: "
-						+ result.getResult().getMetacritic().getCriticScore()
-						+ " </span>";
-			} else {
-				output += "<span> No results </span>";
-			}
-			output += "</fieldset>";
-
-			HTML games = new HTML(output);
-			games.setStyleName("style-VG-info");
-
-			RootPanel.get("gameinfo").add(games);
+			output += "<span> No results </span>";
 		}
+		output += "</fieldset>";
 
+		HTML img = new HTML("<img src='" + games.get("IMAGE")
+				+ "' style= 'width: 140px; height: 160px'></img>");
+		img.setStyleName("cover-img");
+		HTML res = new HTML(output);
+		res.setStyleName("style-VG-info");
+		RootPanel.get("gameimg").add(img);
+		RootPanel.get("gameinfo").add(res);
 	}
 }

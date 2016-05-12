@@ -9,7 +9,6 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Image;
-import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.MenuBar;
 
 public class LoginView extends Composite {
@@ -29,9 +28,7 @@ public class LoginView extends Composite {
 		Image steamAPI = new Image("files/STEAM_API.png");
 		Image vgAPI = new Image("files/VG_API.png");
 		Image amazonAPI = new Image("files/AMAZON_API.png");
-		Label pow = new Label("Powered by Mi Poia\u2122. All rights Reserved ®");
 
-		pow.setStyleName("rights");
 		fondo.setStyleName("background");
 		menu.setStyleName("menu");
 		icon.setStyleName("menuIcon");
@@ -41,7 +38,6 @@ public class LoginView extends Composite {
 		steamAPI.setStyleName("API-steam");
 		amazonAPI.setStyleName("API-amazon");
 
-		mainPanel.add(pow);
 		mainPanel.add(acercaDe);
 		mainPanel.add(fondo);
 		mainPanel.add(icon);
@@ -60,6 +56,13 @@ public class LoginView extends Composite {
 		steamAPI.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
 				GamingGuru.go("steam", new HashMap<String, String>());
+			}
+		});
+		
+		amazonAPI.addClickHandler(new ClickHandler() {
+			
+			public void onClick(ClickEvent event) {
+				GamingGuru.go("amazon", new HashMap<String, String>());
 			}
 		});
 

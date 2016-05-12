@@ -52,7 +52,6 @@ public class SteamView extends Composite {
 		acercaDe.addStyleName("acerca");
 
 		searchField.setText("Your id");
-
 		statusLabel.setStyleName("style-VG-status");
 		searchField.setStyleName("style-VG-search");
 		searchButton.setStyleName("style-VG-button");
@@ -71,9 +70,7 @@ public class SteamView extends Composite {
 
 		searchButton.addClickHandler(new ClickHandler() {
 
-			@Override
 			public void onClick(ClickEvent event) {
-				// TODO Auto-generated method stub
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
 				final String game = searchField.getText();
@@ -89,7 +86,7 @@ public class SteamView extends Composite {
 
 					@Override
 					public void onFailure(Throwable caught) {
-						Window.alert("¡Error al realizar la búsqueda de las críticas!");
+						Window.alert("!Error al realizar la b�squeda de las cr�ticas!");
 					}
 				});
 				gService.getNameId(new AsyncCallback<GameData>() {
@@ -137,35 +134,17 @@ public class SteamView extends Composite {
 	 */
 
 	private void showId(String game, GameSearch result) {
-		int i = 1;
-		String output = "<fieldset style='overflow: auto; top:20%; width: 200px; height: 300px;'>";
-		output += "<legend style='font-weight: bold'>" + game.toUpperCase()
-				+ " ID </legend>";
 		if (result != null) {
 			for (Game a : result.getResponse().getGames()) {
-				// output += "<span> Game " + i++ + ": " + +a.getAppid()
-				// + " </span><br/>";
 				ids.add(a.getAppid());
 
 			}
-			// for (Integer id : ids) {
-			// output += "<span style='align:center'> Game " + i++ + ": " + id
-			// + " </span><br/>";
-			// }
-
-		} else {
-			output += "<span> No results </span>";
-			output += "</fieldset>";
-			HTML games = new HTML(output);
-			games.setStyleName("style-VG-info");
-			RootPanel.get("steaminfo").add(games);
 		}
-
 	}
 
 	private void showName(Set<Integer> ids, GameData result) {
 		int i = 1;
-		String output = "<fieldset style='overflow: auto; width: 500px; height: 300px;'>";
+		String output = "<fieldset style='background-color: #1c3659;overflow: auto; width: 500px; height: 330px;'>";
 		output += "<legend style='font-weight: bold'>TUS JUEGOS</legend>";
 		if (result != null) {
 			for (Integer id : ids) {
@@ -180,7 +159,7 @@ public class SteamView extends Composite {
 		}
 		output += "</fieldset>";
 		HTML games = new HTML(output);
-		games.setStyleName("style-VG-info");
+		games.setStyleName("style-steam-info");
 		RootPanel.get("steaminfo").add(games);
 	}
 
