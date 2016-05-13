@@ -145,24 +145,26 @@ public class VideoGameInformationView extends Composite {
 
 	private void showReviews(String name, Map<String, String> games) {
 
-		String output = "<fieldset>";
+		String output = "<fieldset style='background-color:#1c3659'> ";
 		output += "<legend style='font-weight: bold'>" + name.toUpperCase()
-				+ " CRITICS </legend>";
+				+ " <br/>CRITICS </legend>";
 		if (games != null) {
 
 			output += "<br/><span> GAMESPOT: " + games.get("GAMESPOT")
-					+ " </span><br/><hr/>";
-			output += "<br/><span> METACRITIC: "
-					+ games.get("METACRITIC") + " </span><br/><hr/>";
+					+ "/10 </span><br/><hr/>";
+			output += "<br/><span> METACRITIC: " + games.get("METACRITIC")
+					+ "/100 </span><br/><hr/>";
 
-			output += "<br/><span> USER SCORE: " + games.get("USER") + " </span>";
+			output += "<br/><span> USER SCORE: " + games.get("USER")
+					+ "/10</span>";
 
 		} else {
 			output += "<span> No results </span>";
 		}
 		output += "</fieldset>";
-		
-		HTML img = new HTML("<img src='"+games.get("IMAGE")+"' style= 'width: 140px; height: 160px'></img>");
+
+		HTML img = new HTML("<img src='" + games.get("IMAGE")
+				+ "' style= 'width: 140px; height: 160px'></img>");
 		img.setStyleName("cover-img");
 		HTML res = new HTML(output);
 		res.setStyleName("style-VG-info");
