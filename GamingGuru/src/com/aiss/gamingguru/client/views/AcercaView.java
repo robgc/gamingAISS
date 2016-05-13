@@ -5,11 +5,8 @@ import java.util.List;
 import java.util.Map;
 
 import com.aiss.gamingguru.client.GamingGuru;
-<<<<<<< HEAD
 import com.aiss.gamingguru.client.GreetingService;
 import com.aiss.gamingguru.client.GreetingServiceAsync;
-=======
->>>>>>> origin/master
 import com.aiss.gamingguru.shared.Alumno;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -18,24 +15,17 @@ import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.AbsolutePanel;
 import com.google.gwt.user.client.ui.Composite;
-<<<<<<< HEAD
 import com.google.gwt.user.client.ui.FlexTable;
-=======
 import com.google.gwt.user.client.ui.HTML;
->>>>>>> origin/master
 import com.google.gwt.user.client.ui.MenuBar;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 
 public class AcercaView extends Composite {
-<<<<<<< HEAD
 	// private final HorizontalPanel mainPanel;
 	private final GreetingServiceAsync GreetingService = GWT.create(GreetingService.class);
-	
-=======
 
->>>>>>> origin/master
 	private final AbsolutePanel mainPanel;
 	private final FlexTable alumnosPanel;
 	private final FlexTable descripcionPanel;
@@ -45,7 +35,7 @@ public class AcercaView extends Composite {
 		initWidget(mainPanel);
 		alumnosPanel = new FlexTable();
 		descripcionPanel = new FlexTable();
-		
+
 		MenuBar menu = new MenuBar();
 		Image icon = new Image("files/mando.png");
 		Image fondo = new Image("files/negro.png");
@@ -57,8 +47,7 @@ public class AcercaView extends Composite {
 		mainPanel.add(fondo);
 		mainPanel.add(icon);
 		mainPanel.add(menu);
-		
-		
+
 		alumnosPanel.setStylePrimaryName("alumnoTable");
 		alumnosPanel.getRowFormatter().setStylePrimaryName(0, "firstRow");
 		alumnosPanel.setWidget(0, 0, new Label("Nombre"));
@@ -66,7 +55,6 @@ public class AcercaView extends Composite {
 
 		GreetingService.getAlumnos(new AsyncCallback<List<Alumno>>() {
 
-<<<<<<< HEAD
 			public void onSuccess(List<Alumno> result) {
 				showAlumnos(result);
 			}
@@ -76,12 +64,12 @@ public class AcercaView extends Composite {
 
 			}
 		});
-		
+
 		mainPanel.add(alumnosPanel);
-		
+
 		descripcionPanel.setStylePrimaryName("descripcionTable");
 		descripcionPanel.setWidget(1, 0, new Label("\n"));
-		
+
 		Label titulo = new Label("\nGAMINGURU");
 		titulo.setStylePrimaryName("titulo");
 
@@ -96,8 +84,7 @@ public class AcercaView extends Composite {
 						+ "\ntu elección para qué plataforma deseas hacer la compra."));
 
 		mainPanel.add(descripcionPanel);
-		
-=======
+
 		showAlumnos();
 
 		String desc = "<fieldset>";
@@ -114,7 +101,6 @@ public class AcercaView extends Composite {
 		description.setStyleName("description");
 		RootPanel.get("description").add(description);
 		// RootPanel.get("table").add(alumnosPanel);
->>>>>>> origin/master
 
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
@@ -125,8 +111,7 @@ public class AcercaView extends Composite {
 			}
 		});
 	}
-<<<<<<< HEAD
-	
+
 	public final void showAlumnos(List<Alumno> AlumnosSimple) {
 
 		int i = 0;
@@ -137,21 +122,14 @@ public class AcercaView extends Composite {
 		}
 
 	}
-}
-=======
 
 	public final void showAlumnos() {
 
-		String output = "<table>" + "<tr>" + "<td>EMAIL</td>"
-				+ "<td>NOMBRE</td>" + "</tr>" + "<tr>"
-				+ "<td>rodanber@gmail.com</td>"
-				+ "<td>Roberto García Calero</td>" + "</tr>" + "<tr>"
-				+ "<td>dmunnoz96@gmail.com</td>"
-				+ "<td>Domingo Muñoz Daza</td>" + "</tr>" + "<tr>"
-				+ "<td>josedaniel.solanopuech@gmail.com</td>"
-				+ "<td>José Daniel Solano Puech</td>" + "</tr>" + "<tr>"
-				+ "<td>jose-antonio-1110@hotmail.com</td>"
-				+ "<td>José Sosa Cifuentes</td>" + "</tr></table> ";
+		String output = "<table>" + "<tr>" + "<td>EMAIL</td>" + "<td>NOMBRE</td>" + "</tr>" + "<tr>"
+				+ "<td>rodanber@gmail.com</td>" + "<td>Roberto García Calero</td>" + "</tr>" + "<tr>"
+				+ "<td>dmunnoz96@gmail.com</td>" + "<td>Domingo Muñoz Daza</td>" + "</tr>" + "<tr>"
+				+ "<td>josedaniel.solanopuech@gmail.com</td>" + "<td>José Daniel Solano Puech</td>" + "</tr>" + "<tr>"
+				+ "<td>jose-antonio-1110@hotmail.com</td>" + "<td>José Sosa Cifuentes</td>" + "</tr></table> ";
 
 		HTML games = new HTML(output);
 		games.setStyleName("alumnoTable");
@@ -159,4 +137,3 @@ public class AcercaView extends Composite {
 	}
 
 }
->>>>>>> origin/master
