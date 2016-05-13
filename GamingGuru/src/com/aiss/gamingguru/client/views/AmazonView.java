@@ -100,7 +100,7 @@ public class AmazonView extends Composite {
 	}
 
 	private void showElement(List<String> result) {
-		String output = "<fieldset style='overflow: auto; width: 500px; height: 250px;'>";
+		String output = "<fieldset style='background-color: #1c3659; overflow: auto; width: 500px; height: 330px;'>";
 		output += "<legend style='font-weight: bold'> Tus compras </legend>";
 		for (String ama : result) {
 			AmazonProduct a = new AmazonProductImpl(ama);
@@ -117,9 +117,8 @@ public class AmazonView extends Composite {
 		}
 		output += "</fieldset>";
 		HTML games = new HTML(output);
-		games.setStyleName("style-VG-info");
+		games.setStyleName("style-steam-info");
 		RootPanel.get("amazoninfo").add(games);
-
 	}
 
 }
