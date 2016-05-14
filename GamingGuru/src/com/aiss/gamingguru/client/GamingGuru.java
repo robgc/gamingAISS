@@ -13,6 +13,7 @@ import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.user.client.ui.Panel;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.aiss.gamingguru.client.GamingGuru;
+import com.aiss.gamingguru.server.GuruServiceImpl;
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -43,4 +44,5 @@ public class GamingGuru extends Composite implements EntryPoint {
 			p.add(new AmazonView(params));
 		}
 	}
+	
 }
