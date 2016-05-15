@@ -13,23 +13,19 @@ public class GeneradoraDeArvhivos {
 
 	public static void main(String[] args) {
 		try {
-			String ruta = "C:/Users/Jose Daniel/git/gamingAISS/GamingGuru/war/files";
+			String ruta = "war/files/data.txt";
 			File fichero = new File(ruta);
+			System.out.println(fichero.getAbsolutePath());
 
 			if (!fichero.exists()) {
+				fichero.createNewFile();
 				BufferedWriter bw = new BufferedWriter(new FileWriter(ruta));
 
 				for (App app : getNameId().getApplist().getApps()) {
 					bw.write(app.getAppid() + "#" + app.getName() + "#");
-
+					bw.newLine();
 				}
 
-				if (fichero.createNewFile()) {
-					System.out.println("Se ha creado el archivo");
-				} else {
-					System.out.println("Inténtalo de nuevo más tarde");
-				}
-				
 				bw.close();
 			}
 
