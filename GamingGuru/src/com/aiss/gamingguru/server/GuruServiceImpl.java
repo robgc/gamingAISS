@@ -84,6 +84,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 					.userAgent(
 							"Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4")
 					.ignoreHttpErrors(true).get();
+			System.out.println(doc.data());
 			Element nota1 = doc.select("[itemprop=ratingValue]").first();
 			Element nota2 = doc
 					.select("[data-event-tracking=Tracking|games_overview|Kubrick|Metascore]")
@@ -272,7 +273,6 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 						burl = false;
 					}
 				}
-
 			};
 			saxParser.parse(requestUrl, handler);
 
