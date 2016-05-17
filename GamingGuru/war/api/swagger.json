@@ -1,0 +1,155 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0",
+        "title": "GamingGuru API Documentation"
+    },
+    "host": "gamingguruapp.appspot.com",
+    "basePath": "/api",
+    "paths": {
+        "/users": {
+            "get": {
+                "description": "Returns all the users",
+                "responses": {
+                    "200": {
+                        "description": "Users response",
+                        "schema": {
+                            "type": "array",
+                            "$ref": "#/definitions/user"
+                        }
+                    }
+                }
+            },
+            "post": {
+                "description": "Adds a new user",
+                "consumes": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "user",
+                        "in": "body",
+                        "description": "User's json",
+                        "schema": {
+                            "$ref": "#/definitions/user"
+                        }
+                    }
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Created, new user's information is shown"
+                    },
+                    "400": {
+                        "description": "Bad Request, if userID, steamID or score have invalid values"
+                    }
+                }
+            }
+        },
+        "/users/{userID}": {
+            "get": {
+                "description": "Returns the user with the specified userID",
+                "parameters": [
+                    {
+                        "name": "userID",
+                        "in": "path",
+                        "description": "The user's ID",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "User response",
+                        "schema": {
+                            "$ref": "#/definitions/user"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad request, userID not valid"
+                    },
+                    "404": {
+                        "description": "Not Found, user with that userID does not exist"
+                    }
+                }
+            },
+            "put": {
+                "description": "Modifies the score of a user",
+                "consumes": [
+                    "application/json"
+                ],
+                "parameters": [
+                    {
+                        "name": "userID",
+                        "in": "path",
+                        "description": "The user's ID",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "user",
+                        "in": "body",
+                        "description": "User's json",
+                        "schema": {
+                            "$ref": "#/definitions/user"
+                        }
+                    }
+                ],
+                "responses": {
+                    "204": {
+                        "description": "No Content, user was modified successfuly"
+                    },
+                    "400": {
+                        "description": "Bad Request, new score is not valid"
+                    },
+                    "404": {
+                        "description": "Not Found, the user does not exist"
+                    },
+                    "409": {
+                        "description": "Conflict, steamID and userID can not be modified"
+                    }
+                }
+            },
+            "delete": {
+                "description": "Deletes the user with the specified userID",
+                "parameters": [
+                    {
+                        "name": "userID",
+                        "in": "path",
+                        "description": "The user's ID",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "responses": {
+                    "204": {
+                        "description": "No Content, user was deleted successfuly"
+                    },
+                    "404": {
+                        "description": "Not Found, the user does not exist"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "user": {
+            "type": "object",
+            "required": [
+                "id",
+                "score",
+                "steamid"
+            ],
+            "properties": {
+                "id": {
+                    "type": "string"
+                },
+                "score": {
+                    "type": "number"
+                },
+                "steamid": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}
