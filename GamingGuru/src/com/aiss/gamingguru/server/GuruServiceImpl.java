@@ -12,7 +12,6 @@ import javax.xml.parsers.SAXParserFactory;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import org.restlet.resource.ClientResource;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
