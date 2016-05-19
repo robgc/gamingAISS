@@ -13,6 +13,7 @@ local.properties
 .recommenders
 *.js
 .GamingGuru/war/WEB-INF/classes/com/aiss/gamingguru/
+GamingGuru/src/com/aiss/gamingguru/server/GeneradoraDeArchivos.java
 *.cache.js
 *.gwt.rpc
 # Eclipse Core
