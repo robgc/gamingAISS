@@ -1,5 +1,9 @@
 package com.aiss.gamingguru.server;
 
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -19,6 +23,7 @@ import org.xml.sax.helpers.DefaultHandler;
 
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.shared.amazon.SignedRequestsHelper;
+import com.aiss.gamingguru.shared.steam.App;
 import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
@@ -122,6 +127,8 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 		return juegos;
 
 	}
+
+	/*--------------------------------------------------------------------------------------------------------------*/
 
 	public GameSearch getGames(String id) {
 		ClientResource cr = new ClientResource(
@@ -273,11 +280,52 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 					}
 				}
 			};
+			System.out.println(requestUrl);
 			saxParser.parse(requestUrl, handler);
 
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
 		return prod;
+	}
+
+	/*--------------------------------------------------------------------------------------------------------------*/
+
+	public void createSteamFile() {
+		// try {
+		// File archivoConJuegos = new File(
+		// "/war/files/juegos.txt");
+		// FileWriter escribir = new FileWriter(archivoConJuegos, true);
+		//
+		// for(App app : getNameId().getApplist().getApps()) {
+		// escribir.write(app.getAppid() + "#" + getNameId() + "#");
+		// }
+		//
+		//
+		// escribir.close();
+		// } catch (Exception e) {
+		// System.out.println(e.toString());
+		// }
+		try {
+			String ruta = "war/files/data.txt";
+			File fichero = new File(ruta);
+			System.out.println(fichero.getAbsolutePath());
+
+			if (!fichero.exists()) {
+				fichero.createNewFile();
+				BufferedWriter bw = new BufferedWriter(new FileWriter(ruta));
+
+				for (App app : getNameId().getApplist().getApps()) {
+					bw.write(app.getAppid() + "#" + app.getName() + "#");
+					bw.newLine();
+				}
+
+				bw.close();
+			}
+
+		} catch (Exception e) {
+			System.out.println(e.toString());
+		}
+
 	}
 }

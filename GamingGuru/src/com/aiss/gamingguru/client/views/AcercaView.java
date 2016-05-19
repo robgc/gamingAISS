@@ -5,6 +5,8 @@ import java.util.List;
 import java.util.Map;
 
 import com.aiss.gamingguru.client.GamingGuru;
+import com.aiss.gamingguru.client.GreetingService;
+import com.aiss.gamingguru.client.GreetingServiceAsync;
 import com.aiss.gamingguru.shared.Alumno;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -19,6 +21,9 @@ import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.RootPanel;
 
 public class AcercaView extends Composite {
+	// private final HorizontalPanel mainPanel;
+	private final GreetingServiceAsync GreetingService = GWT
+			.create(GreetingService.class);
 
 	private final AbsolutePanel mainPanel;
 
@@ -38,7 +43,17 @@ public class AcercaView extends Composite {
 		mainPanel.add(icon);
 		mainPanel.add(menu);
 
-		showAlumnos();
+		GreetingService.getAlumnos(new AsyncCallback<List<Alumno>>() {
+
+			public void onSuccess(List<Alumno> result) {
+				showAlumnos(result);
+			}
+
+			public void onFailure(Throwable caught) {
+				Window.alert("Error loading contacts: " + caught.getMessage());
+
+			}
+		});
 
 		String desc = "<fieldset>";
 		desc += "<span style='align: center; font-weight:bold;'>\nPresentamos GamingGuru. Una aplicación capaz de analizar tu "
@@ -65,7 +80,7 @@ public class AcercaView extends Composite {
 		});
 	}
 
-	public final void showAlumnos() {
+	public final void showAlumnos(List<Alumno> AlumnosSimple) {
 
 		String output = "<table>" + "<tr>" + "<td>EMAIL</td>"
 				+ "<td>NOMBRE</td>" + "</tr>" + "<tr>"
