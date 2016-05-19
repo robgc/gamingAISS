@@ -1,6 +1,10 @@
 package com.aiss.gamingguru.shared.Vg;
 
 import java.io.Serializable;
+import java.sql.SQLException;
+
+import com.google.cloud.sql.jdbc.ResultSet;
+import com.google.cloud.sql.jdbc.Statement;
 
 public class Videojuego implements Serializable {
 	private static final long serialVersionUID = 949294771241240845L;
@@ -17,6 +21,20 @@ public class Videojuego implements Serializable {
 		this.notaMedia = new Double(parts[2]);
 		String[] tags = parts[3].split("&");
 		this.tags = tags;
+	}
+	
+	public Videojuego (Statement s){
+		try {
+			ResultSet rs = s.executeQuery("SELECT * FROM GAMES;");
+			this.id = rs.getInt("id");
+			this.nombre = rs.getString("name");
+			this.notaMedia = rs.getDouble("score");
+			this.tags = rs.getString("tags").split("&");
+			
+		} catch (SQLException e) {
+			System.out.println("no se ha podido acceder al sql");
+			e.printStackTrace();
+		}
 	}
 
 	public Videojuego(Integer id, String nombre, Double notaMedia, String[] tags) {
