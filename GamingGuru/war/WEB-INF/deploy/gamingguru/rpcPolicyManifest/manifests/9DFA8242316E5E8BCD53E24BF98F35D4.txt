@@ -1,2 +1,2 @@
 serviceClass: com.aiss.gamingguru.client.GuruService
-path: 01573B2BB6C48595DB08B642109F6911.gwt.rpc
+path: CF9DC6349950DC9A0709BAFCD37FD3CF.gwt.rpc

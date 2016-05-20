@@ -123,6 +123,26 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 
 	/*--------------------------------------------------------------------------------------------------------------*/
 
+	public Set<Integer> recommendedGames(Double score, String cat1,
+			String cat2, Set<Integer> vgs, Map<Integer, Videojuego> map) {
+		Double cotaSup = score + 0.5;
+		Double cotaInf = score - 0.5;
+		Set<Integer> res = new HashSet<Integer>();
+		List<Integer> tmp = new ArrayList<Integer>();
+		for (Integer game : vgs) {
+			if (map.get(game).getNotaMedia() >= cotaInf
+					&& map.get(game).getNotaMedia() <= cotaSup) {
+				System.out.println(map.get(game).getNombre());
+				tmp.add(game);
+			}
+		}
+		for (int i = 0; i < 5; i++) {
+			res.add(tmp.get((int) (Math.random() * tmp.size())));
+		}
+
+		return res;
+	}
+
 	public List<String> getAmazon(String juego) {
 		prod = new ArrayList<>();
 
@@ -277,8 +297,8 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 				String line;
 				while ((line = br.readLine()) != null) {
 					String[] sp = line.split("#");
-					Videojuego a = new Videojuego(sp[1] + "#" + sp[2] + "#"
-							+ sp[3]);
+					Videojuego a = new Videojuego(sp[0] + "#" + sp[1] + "#"
+							+ sp[2] + "#" + sp[3]);
 					map.put(new Integer(sp[0]), a);
 				}
 				br.close();
@@ -295,13 +315,9 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 		Set<Videojuego> games = new HashSet<Videojuego>();
 
 		for (Integer id : ids) {
-
 			games.add(map.get(id));
-			// System.out.println(map.get(id));
 		}
-		// for (Videojuego v : games) {
-		// System.out.println(v.getNombre());
-		// }
+
 		games.remove(null);
 		return games;
 	}
@@ -354,10 +370,4 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	// }
 	// }
 
-	// public Double doAverage(List<Integer> ids) {
-	// openConnection();
-	// Double res = calculaMedia(ids);
-	// closeConecction();
-
-	// }
 }

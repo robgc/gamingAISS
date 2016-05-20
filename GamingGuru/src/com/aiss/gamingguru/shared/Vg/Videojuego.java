@@ -8,6 +8,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Videojuego implements Serializable {
 	private static final long serialVersionUID = 949294771241240845L;
 
+	private Integer id;
 	private String nombre;
 	private Double notaMedia;
 	private String[] tags;
@@ -17,10 +18,12 @@ public class Videojuego implements Serializable {
 
 	public Videojuego(String videojuego) {
 		String[] parts = videojuego.split("#");
-		this.nombre = parts[0].trim();
-		this.notaMedia = new Double(parts[2]);
-		String[] tags = parts[1].split("&");
+		this.id = new Integer(parts[0].trim());
+		this.nombre = parts[1].trim();
+		String[] tags = parts[2].split("&");
 		this.tags = tags;
+		this.notaMedia = new Double(parts[3]);
+
 	}
 
 	public Videojuego(String nombre, Double notaMedia, String[] tags) {

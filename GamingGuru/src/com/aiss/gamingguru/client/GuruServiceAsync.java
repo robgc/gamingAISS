@@ -25,4 +25,8 @@ public interface GuruServiceAsync {
 
 	void getMyGames(Set<Integer> ids, Map<Integer, Videojuego> map,
 			AsyncCallback<Set<Videojuego>> callback);
+
+	void recommendedGames(Double score, String cat1, String cat2,
+			Set<Integer> vgs, Map<Integer, Videojuego> map,
+			AsyncCallback<Set<Integer>> callback);
 }

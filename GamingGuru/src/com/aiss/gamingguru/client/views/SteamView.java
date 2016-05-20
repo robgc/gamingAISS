@@ -28,11 +28,10 @@ import com.google.gwt.user.client.ui.RootPanel;
 public class SteamView extends Composite {
 	private Label statusLabel = new Label();
 	private final AbsolutePanel mainPanel;
-	private Set<Integer> ids = new HashSet<Integer>();
-	private static Double average = 0.0;
+	private static Set<Integer> ids = new HashSet<Integer>();
 	private final GuruServiceAsync gService = GWT.create(GuruService.class);
-	private Map<Integer, Videojuego> map = new HashMap<Integer, Videojuego>();
-	private Set<Videojuego> myGames = new HashSet<Videojuego>();
+	private static Map<Integer, Videojuego> map = new HashMap<Integer, Videojuego>();
+	private static Double score = 0.0;
 
 	public SteamView(String id, ArrayList<Boolean> params) {
 
@@ -89,7 +88,36 @@ public class SteamView extends Composite {
 										@Override
 										public void onSuccess(
 												Set<Videojuego> result) {
-											showName(result, doAverage(result));
+											score = doAverage(result);
+											// showName(result, score);
+											Set<Integer> mineTmp = new HashSet<Integer>(
+													ids);
+											Set<Integer> allTmp = new HashSet<Integer>(
+													map.keySet());
+
+											allTmp.removeAll(mineTmp);
+
+											gService.recommendedGames(
+													score,
+													"",
+													"",
+													allTmp,
+													map,
+													new AsyncCallback<Set<Integer>>() {
+
+														@Override
+														public void onFailure(
+																Throwable caught) {
+															Window.alert("¡No se encontraron recomendaciones");
+														}
+
+														@Override
+														public void onSuccess(
+																Set<Integer> vgs) {
+															showName(vgs, score);
+
+														}
+													});
 										}
 									});
 						}
@@ -102,7 +130,6 @@ public class SteamView extends Composite {
 				Window.alert("!Error al realizar la búsqueda de los juegos!");
 			}
 		});
-		/*----------------------------------------HACE LA MEDIA-------------------------------*/
 
 		/*------------------------------------------------------------------------------------*/
 
@@ -125,7 +152,7 @@ public class SteamView extends Composite {
 		/*---------------------------------------------------------------------*/
 	}
 
-	private Double doAverage(Set<Videojuego> ids) {
+	private static Double doAverage(Set<Videojuego> ids) {
 		Double total = 0.0;
 		for (Videojuego id : ids) {
 			total += id.getNotaMedia();
@@ -135,14 +162,14 @@ public class SteamView extends Composite {
 
 	}
 
-	private void showName(Set<Videojuego> ids, Double average) {
+	private static void showName(Set<Integer> ids, Double average) {
 		int i = 1;
 		String output = "<fieldset style='background-color: #1c3659;overflow: auto; width: 500px; height: 330px;'>";
 		output += "<legend style='font-weight: bold'>TUS JUEGOS</legend>";
-		for (Videojuego id : ids) {
+		for (Integer id : ids) {
 			output += "<span style='align:center'> Game " + i++ + ": "
-					+ id.getNombre() + " - " + id.getNotaMedia()
-					+ " </span><br/>";
+					+ map.get(id).getNombre() + " - "
+					+ map.get(id).getNotaMedia() + " </span><br/>";
 		}
 
 		output += "</fieldset>";

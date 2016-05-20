@@ -826,7 +826,7 @@
 248710#Iesabel#RPG&Action&Indie#5.85
 248820#Risk of Rain#Rogue-like&Indie&Platformer#7.85
 249050#Dungeon of the Endless#Rogue-like&Strategy&Indie#8.25
-249130#LEGO® MARVEL Super Heroes#Building&Superheroes&Action#7.8
+249130#LEGO MARVEL Super Heroes#Building&Superheroes&Action#7.8
 249190#Ancient Space#Strategy&Space&RTS#6.8
 249230#Risen 3 - Titan Lords#RPG&Open World&Gothic#6.65
 249380#Carmageddon: Reincarnation#Racing&Gore&Action#6.1
@@ -967,7 +967,7 @@
 266510#Hand of Fate#RPG&Card Game&Action#8.0
 266840#Age of Mythology: Extended Edition#Strategy&RTS&Mythology#6.6
 267490#Batman: Arkham Origins Blackgate#Action&2.5D&Superheroes#5.1
-267530#The LEGO® Movie - Videogame#Builder&Action&Building#6.8
+267530#The LEGO Movie - Videogame#Builder&Action&Building#6.8
 267550#The Amazing Spider-Man 2#Action&Open World&Adventure#5.85
 268050#The Evil Within#Horror&Shooter&Action#7.15
 268400#Panzer Corps#Strategy&World War II&Turn-Based Strategy#7.95
@@ -1192,7 +1192,7 @@
 313010#Cities XXL#Simulation&City Builder&Economy#4.7
 313080#The Masterplan#Acion&Indie&Heist#6.45
 313160#Farming Simulator 15#Simulation&Multiplayer&Open World#6.4
-313690#LEGO® Batman™ 3: Beyond Gotham#Building&Super Heroes&Action#7.2
+313690#LEGO Batman™ 3: Beyond Gotham#Building&Super Heroes&Action#7.2
 314000#Pool Nation FX#Sports&Simulation&Casual#6.1
 314220#Bombing Bastards#Action&Indie&+#5.5
 314560#Kyn#RPG&Action&Adventure#5.8

@@ -25,5 +25,8 @@ public interface GuruService extends RemoteService {
 	Map<Integer, Videojuego> fillMap();
 
 	Set<Videojuego> getMyGames(Set<Integer> ids, Map<Integer, Videojuego> map);
+	
+	Set<Integer> recommendedGames(Double score, String cat1,
+			String cat2, Set<Integer> vgs, Map<Integer,Videojuego> map);
 
 }
