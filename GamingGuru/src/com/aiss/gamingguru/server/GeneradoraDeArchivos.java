@@ -63,7 +63,6 @@ public class GeneradoraDeArchivos {
 			if (!fichero.exists()) {
 				fichero.createNewFile();
 				BufferedWriter bw = new BufferedWriter(new FileWriter(ruta));
-				Boolean escribe = true;
 				List<App> juegos = new ArrayList<>();
 				juegos.addAll(getNameId().getApplist().getApps());
 				for (int i = 0; i < juegos.size(); i++) {
@@ -154,8 +153,8 @@ public class GeneradoraDeArchivos {
 
 			stmt = c.createStatement();
 
-			String sql = "DROP TABLE GAMES";
-			stmt.executeUpdate(sql);
+//			String sql = "DROP TABLE GAMES";
+//			stmt.executeUpdate(sql);
 
 			String sql1 = "CREATE TABLE GAMES "
 					+ "(ID INTEGER PRIMARY KEY     NOT NULL,"

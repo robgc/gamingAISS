@@ -1,5 +1,6 @@
 package com.aiss.gamingguru.client.views;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -27,7 +28,7 @@ public class AcercaView extends Composite {
 
 	private final AbsolutePanel mainPanel;
 
-	public AcercaView(Map<String, String> params) {
+	public AcercaView(ArrayList<Boolean> params) {
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
 
@@ -75,7 +76,7 @@ public class AcercaView extends Composite {
 				RootPanel.get().clear();
 				RootPanel.get("description").clear();
 				RootPanel.get("table").clear();
-				GamingGuru.go("init", new HashMap<String, String>());
+				GamingGuru.go("init", "", new ArrayList<Boolean>());
 			}
 		});
 	}

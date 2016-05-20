@@ -162,7 +162,17 @@ h1 {
 	position: fixed;
 	color: white;
 	height: 15%;
-	top: 40%;
+	top: 20%;
+	left: 50%;
+	font-weight: bold;
+	transform: translate(-50%, -50%);
+}
+
+.style-steam-score {
+	position: fixed;
+	color: white;
+	height: 15%;
+	top: 75%;
 	left: 50%;
 	font-weight: bold;
 	transform: translate(-50%, -50%);

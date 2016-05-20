@@ -1,10 +1,7 @@
 package com.aiss.gamingguru.client.views;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
 import com.aiss.gamingguru.client.GamingGuru;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -14,7 +11,6 @@ import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.MenuBar;
-import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
 
 public class LoginView extends Composite {
@@ -24,7 +20,7 @@ public class LoginView extends Composite {
 	private Label statusLabel = new Label();
 	private List<Boolean> platforms;
 
-	public LoginView(Map<String, String> params) {
+	public LoginView(ArrayList<Boolean> params) {
 		mainPanel = new AbsolutePanel();
 		platforms = new ArrayList<Boolean>();
 		initWidget(mainPanel);
@@ -151,41 +147,41 @@ public class LoginView extends Composite {
 
 		ps3.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				GamingGuru.go("info", new HashMap<String, String>());
+				GamingGuru.go("info", "", new ArrayList<Boolean>());
 			}
 		});
 
 		ps4.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				GamingGuru.go("steam", new HashMap<String, String>());
+				GamingGuru.go("steam", "", new ArrayList<Boolean>());
 			}
 		});
 
 		wii.addClickHandler(new ClickHandler() {
 
 			public void onClick(ClickEvent event) {
-				GamingGuru.go("amazon", new HashMap<String, String>());
+				GamingGuru.go("amazon", "", new ArrayList<Boolean>());
 			}
 		});
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				GamingGuru.go("acerca", new HashMap<String, String>());
+				GamingGuru.go("acerca", "", new ArrayList<Boolean>());
 			}
 		});
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				GamingGuru.go("init", new HashMap<String, String>());
+				GamingGuru.go("init", "", new ArrayList<Boolean>());
 			}
 		});
-		
+
 		button.addClickHandler(new ClickHandler() {
 
 			public void onClick(ClickEvent event) {
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
-				final String game = searchField.getText();
-				GamingGuru.go("steam", new HashMap<String, String>());
+				final String id = searchField.getText();
+				GamingGuru.go("steam", id, new ArrayList<Boolean>());
 			}
 		});
 

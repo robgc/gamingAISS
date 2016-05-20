@@ -1,7 +1,6 @@
 package com.aiss.gamingguru.client.views;
 
-import java.util.HashMap;
-import java.util.List;
+import java.util.ArrayList;
 import java.util.Map;
 
 import com.aiss.gamingguru.client.GamingGuru;
@@ -29,7 +28,7 @@ public class VideoGameInformationView extends Composite {
 	private final AbsolutePanel mainPanel;
 	private final GuruServiceAsync gService = GWT.create(GuruService.class);
 
-	public VideoGameInformationView(Map<String, String> params) {
+	public VideoGameInformationView(ArrayList<Boolean> params) {
 
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
@@ -118,7 +117,7 @@ public class VideoGameInformationView extends Composite {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("gameinfo").clear();
 				RootPanel.get("gameimg").clear();
-				GamingGuru.go("acerca", new HashMap<String, String>());
+				GamingGuru.go("acerca", "", new ArrayList<Boolean>());
 			}
 		});
 
@@ -126,7 +125,7 @@ public class VideoGameInformationView extends Composite {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("gameinfo").clear();
 				RootPanel.get("gameimg").clear();
-				GamingGuru.go("init", new HashMap<String, String>());
+				GamingGuru.go("init", "", new ArrayList<Boolean>());
 			}
 		});
 

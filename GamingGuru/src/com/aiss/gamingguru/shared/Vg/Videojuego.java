@@ -2,36 +2,31 @@ package com.aiss.gamingguru.shared.Vg;
 
 import java.io.Serializable;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Videojuego implements Serializable {
 	private static final long serialVersionUID = 949294771241240845L;
 
-	public Integer id;
-	public String nombre;
-	public Double notaMedia;
-	public String[] tags;
+	private String nombre;
+	private Double notaMedia;
+	private String[] tags;
+
+	public Videojuego() {
+	}
 
 	public Videojuego(String videojuego) {
 		String[] parts = videojuego.split("#");
-		this.id = new Integer(parts[0]);
-		this.nombre = parts[1].trim();
+		this.nombre = parts[0].trim();
 		this.notaMedia = new Double(parts[2]);
-		String[] tags = parts[3].split("&");
+		String[] tags = parts[1].split("&");
 		this.tags = tags;
 	}
 
-	public Videojuego(Integer id, String nombre, Double notaMedia, String[] tags) {
-		this.id = id;
+	public Videojuego(String nombre, Double notaMedia, String[] tags) {
 		this.nombre = nombre;
 		this.notaMedia = notaMedia;
 		this.tags = tags;
-	}
-
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
 	}
 
 	public String getNombre() {
@@ -60,7 +55,6 @@ public class Videojuego implements Serializable {
 
 	public Integer compareTo(Videojuego v) {
 		Integer res = 0;
-		res += this.id.compareTo(v.getId());
 		res += this.nombre.compareTo(v.getNombre());
 		res += this.notaMedia.compareTo(v.getNotaMedia());
 		String[] tags = v.getTags();
@@ -72,7 +66,6 @@ public class Videojuego implements Serializable {
 
 	public Integer hashcode() {
 		Integer res = 0;
-		res += this.id.hashCode();
 		res += this.nombre.hashCode();
 		res += this.notaMedia.hashCode();
 		res += this.tags.hashCode();
@@ -82,10 +75,14 @@ public class Videojuego implements Serializable {
 
 	public Boolean equals(Videojuego v) {
 		Boolean res = false;
-		if (this.id.equals(v.id) && this.nombre.equals(v.nombre) && this.notaMedia.equals(v.notaMedia)
+		if (this.nombre.equals(v.nombre) && this.notaMedia.equals(v.notaMedia)
 				&& this.tags.equals(v.tags)) {
 			res = true;
 		}
 		return res;
+	}
+
+	public String toString() {
+		return getNombre() + " - " + getNotaMedia();
 	}
 }

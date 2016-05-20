@@ -1,14 +1,18 @@
 package com.aiss.gamingguru.server;
 
 import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileWriter;
+import java.io.FileReader;
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -17,13 +21,13 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.restlet.resource.ClientResource;
-import org.xml.sax.Attributes;
-import org.xml.sax.SAXException;
+import org.xml.sax.*;
 import org.xml.sax.helpers.DefaultHandler;
 
 import com.aiss.gamingguru.client.GuruService;
+import com.aiss.gamingguru.shared.Vg.Videojuego;
 import com.aiss.gamingguru.shared.amazon.SignedRequestsHelper;
-import com.aiss.gamingguru.shared.steam.App;
+import com.aiss.gamingguru.shared.steam.Game;
 import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
@@ -38,43 +42,13 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private static final String AWS_ACCESS_KEY_ID = "AKIAJGUGYKZ7LKCQMJ5Q";
 	private static final String AWS_SECRET_KEY = "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";
 	private static final String ENDPOINT = "webservices.amazon.es";
-	// title, formattedPrice, hardwarePlatform, mediumImage
+	private static Connection c = null;
 	private Double formattedPrices = 0.0;
 	private String mediumImage = "";
 	private List<String> prod;
 	private String t;
 	private String hardware;
 	private String url;
-
-	// public CriticSearch getReviews(String juego) {
-	// juego = juego.replace(" ", "+");
-	// juego = juego.replace("\u2122", "");
-	// juego = juego.replace("\u2018", "'");
-	// juego = juego.replace("\u2019", "'");
-	// juego = juego.replace("\u00AE", "");
-	//
-	// // Para evitar errores pasamos todos los carácteres a minúscula
-	// juego = juego.toLowerCase();
-	// // Los espacios han de ser sustituidos por '+'
-	//
-	// ClientResource cr = new ClientResource(
-	// "https://ahmedakhan-game-review-information-v1.p.mashape.com/api/v1/information?game_name="
-	// + juego);
-	// // La petición necesita que haya cierta información en la cabecera
-	// // (header)
-	// Series<Header> headers = cr.getRequest().getHeaders();
-	//
-	// // Añadimos a la cabecera X-Mashape-Key, necesaria para acceder a la
-	// // API
-	// // como desarrollador
-	// headers.set("X-Mashape-Key", VGINFO_API_KEY);
-	//
-	// // Especificamos que se devuelva un JSON
-	// headers.set("Accept", "application/json");
-	//
-	// CriticSearch cs = cr.get(CriticSearch.class);
-	// return cs;
-	// }
 
 	public Map<String, String> getScores(String juego) {
 		juego = juego.trim();
@@ -131,10 +105,12 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	/*--------------------------------------------------------------------------------------------------------------*/
 
 	public GameSearch getGames(String id) {
-		ClientResource cr = new ClientResource(
-				"http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key="
-						+ STEAM_API_KEY + "&steamid=" + id + "&format=json");
+		String url = "http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key="
+				+ STEAM_API_KEY + "&steamid=" + id + "&format=json";
+		System.out.println(url);
+		ClientResource cr = new ClientResource(url);
 		GameSearch cs = cr.get(GameSearch.class);
+
 		return cs;
 	}
 
@@ -291,41 +267,97 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 
 	/*--------------------------------------------------------------------------------------------------------------*/
 
-	public void createSteamFile() {
-		// try {
-		// File archivoConJuegos = new File(
-		// "/war/files/juegos.txt");
-		// FileWriter escribir = new FileWriter(archivoConJuegos, true);
-		//
-		// for(App app : getNameId().getApplist().getApps()) {
-		// escribir.write(app.getAppid() + "#" + getNameId() + "#");
-		// }
-		//
-		//
-		// escribir.close();
-		// } catch (Exception e) {
-		// System.out.println(e.toString());
-		// }
+	public Map<Integer, Videojuego> fillMap() {
+		Map<Integer, Videojuego> map = new HashMap<Integer, Videojuego>();
 		try {
-			String ruta = "war/files/data.txt";
+			String ruta = "files/data.txt";
 			File fichero = new File(ruta);
-			System.out.println(fichero.getAbsolutePath());
-
-			if (!fichero.exists()) {
-				fichero.createNewFile();
-				BufferedWriter bw = new BufferedWriter(new FileWriter(ruta));
-
-				for (App app : getNameId().getApplist().getApps()) {
-					bw.write(app.getAppid() + "#" + app.getName() + "#");
-					bw.newLine();
+			if (fichero.exists()) {
+				BufferedReader br = new BufferedReader(new FileReader(ruta));
+				String line;
+				while ((line = br.readLine()) != null) {
+					String[] sp = line.split("#");
+					Videojuego a = new Videojuego(sp[1] + "#" + sp[2] + "#"
+							+ sp[3]);
+					map.put(new Integer(sp[0]), a);
 				}
-
-				bw.close();
+				br.close();
 			}
-
 		} catch (Exception e) {
 			System.out.println(e.toString());
 		}
-
+		return map;
 	}
+
+	public Set<Videojuego> getMyGames(Set<Integer> ids,
+			Map<Integer, Videojuego> map) {
+
+		Set<Videojuego> games = new HashSet<Videojuego>();
+
+		for (Integer id : ids) {
+
+			games.add(map.get(id));
+			// System.out.println(map.get(id));
+		}
+		// for (Videojuego v : games) {
+		// System.out.println(v.getNombre());
+		// }
+		games.remove(null);
+		return games;
+	}
+	// private static void openConnection() {
+	// try {
+	// c = DriverManager.getConnection("jdbc:sqlite:files/test.db");
+	// } catch (SQLException e) {
+	// e.printStackTrace();
+	// }
+	//
+	// }
+
+	// private Double calculaMedia(List<Integer> ids) {
+	// Statement stmt = null;
+	// int cont = 0;
+	// double total = 0.0;
+	// try {
+	// Class.forName("org.sqlite.JDBC");
+	// c.setAutoCommit(true);
+	// System.out.println("Opened database successfully");
+	// stmt = c.createStatement();
+	// for (Integer i : ids) {
+	// ResultSet rs = stmt
+	// .executeQuery("SELECT * FROM GAMES WHERE ID = '" + i
+	// + "';");
+	// int id = rs.getInt("id");
+	// String name = rs.getString("name");
+	// Double score = rs.getDouble("score");
+	// System.out.println("ID = " + id);
+	// System.out.println("NAME = " + name);
+	// System.out.println("SCORE = " + score + "\n");
+	// cont++;
+	// total += score;
+	// rs.close();
+	// }
+	// stmt.close();
+	// } catch (Exception e) {
+	// System.err.println(e.getClass().getName() + ": " + e.getMessage());
+	// System.exit(0);
+	// }
+	// return total / cont;
+	//
+	// }
+
+	// private static void closeConecction() {
+	// try {
+	// c.close();
+	// } catch (SQLException e) {
+	// e.printStackTrace();
+	// }
+	// }
+
+	// public Double doAverage(List<Integer> ids) {
+	// openConnection();
+	// Double res = calculaMedia(ids);
+	// closeConecction();
+
+	// }
 }
