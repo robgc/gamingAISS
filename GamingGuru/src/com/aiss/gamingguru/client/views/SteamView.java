@@ -3,6 +3,7 @@ package com.aiss.gamingguru.client.views;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -10,6 +11,8 @@ import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
 import com.aiss.gamingguru.shared.Vg.Videojuego;
+import com.aiss.gamingguru.shared.amazon.AmazonProduct;
+import com.aiss.gamingguru.shared.amazon.AmazonProductImpl;
 import com.aiss.gamingguru.shared.steam.Game;
 import com.aiss.gamingguru.shared.steam.GameSearch;
 import com.google.gwt.core.shared.GWT;
@@ -31,6 +34,8 @@ public class SteamView extends Composite {
 	private static Set<Integer> ids = new HashSet<Integer>();
 	private final GuruServiceAsync gService = GWT.create(GuruService.class);
 	private static Map<Integer, Videojuego> map = new HashMap<Integer, Videojuego>();
+	private static Set<Videojuego> myGames = new HashSet<Videojuego>();
+	private static Set<Videojuego> recommendedGames = new HashSet<Videojuego>();
 	private static Double score = 0.0;
 
 	public SteamView(String id, ArrayList<Boolean> params) {
@@ -90,10 +95,11 @@ public class SteamView extends Composite {
 												Set<Videojuego> result) {
 											score = doAverage(result);
 											// showName(result, score);
-											Set<Integer> mineTmp = new HashSet<Integer>(
-													ids);
-											Set<Integer> allTmp = new HashSet<Integer>(
-													map.keySet());
+											myGames.addAll(result);
+											Set<Videojuego> mineTmp = new HashSet<Videojuego>(
+													myGames);
+											Set<Videojuego> allTmp = new HashSet<Videojuego>(
+													map.values());
 
 											allTmp.removeAll(mineTmp);
 
@@ -102,8 +108,7 @@ public class SteamView extends Composite {
 													"",
 													"",
 													allTmp,
-													map,
-													new AsyncCallback<Set<Integer>>() {
+													new AsyncCallback<Set<Videojuego>>() {
 
 														@Override
 														public void onFailure(
@@ -113,8 +118,31 @@ public class SteamView extends Composite {
 
 														@Override
 														public void onSuccess(
-																Set<Integer> vgs) {
-															showName(vgs, score);
+																Set<Videojuego> vgs) {
+															recommendedGames
+																	.addAll(vgs);
+															gService.getAmazon(
+																	recommendedGames,
+																	new AsyncCallback<Map<Videojuego, List<String>>>() {
+
+																		@Override
+																		public void onFailure(
+																				Throwable caught) {
+																			Window.alert("¡No se encontraron enalces de compra");
+
+																		}
+
+																		@Override
+																		public void onSuccess(
+																				Map<Videojuego, List<String>> map) {
+																			showName(
+																					recommendedGames,
+																					map,
+																					score);
+
+																		}
+
+																	});
 
 														}
 													});
@@ -162,14 +190,41 @@ public class SteamView extends Composite {
 
 	}
 
-	private static void showName(Set<Integer> ids, Double average) {
-		int i = 1;
-		String output = "<fieldset style='background-color: #1c3659;overflow: auto; width: 500px; height: 330px;'>";
+	private static void showName(Set<Videojuego> ids,
+			Map<Videojuego, List<String>> map, Double average) {
+		String output = "<fieldset style='background-color: #1c3659;overflow: auto; width: 800px; height: 530px;'>";
 		output += "<legend style='font-weight: bold'>TUS JUEGOS</legend>";
-		for (Integer id : ids) {
-			output += "<span style='align:center'> Game " + i++ + ": "
-					+ map.get(id).getNombre() + " - "
-					+ map.get(id).getNotaMedia() + " </span><br/>";
+		for (Videojuego vg : ids) {
+			output += "<fieldset>";
+
+			output += "<span style='align: center;'>" + vg.getNombre()
+					+ " </span><br/>";
+			output += "<span style='align: center; font-weight:bold;'><img src='http://cdn.akamai.steamstatic.com/steam/apps/"
+					+ vg.getId()
+					+ "/header.jpg' style= 'width: 20%; height: 20%; float:left'></img><br/><br/>";
+
+			// if (map.get(vg).get(1) != null) {
+			// AmazonProduct a = new AmazonProductImpl(map.get(vg).get(1));
+			// output +=
+			// "<br/><span style='align: center; font-weight:bold;'><img src='"
+			// + a.getImagen()
+			// +
+			// "' style= 'width: 20%; height: 20%; float:left'></img> <br/><a href='"
+			// + a.getUrl()
+			// + "' style='color:white'>"
+			// + a.getNombre()
+			// + "</a></span><br/>";
+			// output += "<br/><span style='left:50%'>" + a.getPrecio()
+			// + " €</span><br/>";
+			// }
+			output += "</fieldset>";
+
+			output += "<fieldset>";
+
+			output += "<br/><span style='align: center; font-weight:bold;'><a href='http://store.steampowered.com/app/"
+					+ vg.getId()
+					+ "/'><img border='3' src='files/steam-compra.jpg' width='20%' height='20%'></a></span><br/>";
+			output += "</fieldset>";
 		}
 
 		output += "</fieldset>";

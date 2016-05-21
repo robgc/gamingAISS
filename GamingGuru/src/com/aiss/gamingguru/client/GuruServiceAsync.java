@@ -17,7 +17,8 @@ public interface GuruServiceAsync {
 
 	void getNameId(AsyncCallback<GameData> callback);
 
-	void getAmazon(String juego, AsyncCallback<List<String>> asyncCallback);
+	void getAmazon(Set<Videojuego> juegos,
+			AsyncCallback<Map<Videojuego, List<String>>> asyncCallback);
 
 	void getScores(String juego, AsyncCallback<Map<String, String>> callback);
 
@@ -27,6 +28,5 @@ public interface GuruServiceAsync {
 			AsyncCallback<Set<Videojuego>> callback);
 
 	void recommendedGames(Double score, String cat1, String cat2,
-			Set<Integer> vgs, Map<Integer, Videojuego> map,
-			AsyncCallback<Set<Integer>> callback);
+			Set<Videojuego> vgs, AsyncCallback<Set<Videojuego>> callback);
 }

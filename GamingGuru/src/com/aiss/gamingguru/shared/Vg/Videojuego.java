@@ -88,4 +88,12 @@ public class Videojuego implements Serializable {
 	public String toString() {
 		return getNombre() + " - " + getNotaMedia();
 	}
+
+	public Integer getId() {
+		return id;
+	}
+
+	public void setId(Integer id) {
+		this.id = id;
+	}
 }

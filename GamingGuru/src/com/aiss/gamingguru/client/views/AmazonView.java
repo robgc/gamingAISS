@@ -60,30 +60,30 @@ public class AmazonView extends Composite {
 
 		searchField.setFocus(true);
 		searchField.selectAll();
-
-		searchButton.addClickHandler(new ClickHandler() {
-
-			public void onClick(ClickEvent event) {
-				statusLabel.setText("Searching...");
-				mainPanel.add(statusLabel);
-				final String juego = searchField.getText();
-				RootPanel.get("amazoninfo").clear();
-
-				gService.getAmazon(juego, new AsyncCallback<List<String>>() {
-
-					public void onSuccess(List<String> result) {
-						showElement(result);
-						mainPanel.remove(statusLabel);
-					}
-
-					public void onFailure(Throwable caught) {
-						Window.alert("!Error al realizar la búsqueda de las ofertas!");
-					}
-
-				});
-
-			}
-		});
+//
+//		searchButton.addClickHandler(new ClickHandler() {
+//
+//			public void onClick(ClickEvent event) {
+//				statusLabel.setText("Searching...");
+//				mainPanel.add(statusLabel);
+//				final String juego = searchField.getText();
+//				RootPanel.get("amazoninfo").clear();
+//
+//				gService.getAmazon(juego, new AsyncCallback<List<String>>() {
+//
+//					public void onSuccess(List<String> result) {
+//						showElement(result);
+//						mainPanel.remove(statusLabel);
+//					}
+//
+//					public void onFailure(Throwable caught) {
+//						Window.alert("!Error al realizar la búsqueda de las ofertas!");
+//					}
+//
+//				});
+//
+//			}
+//		});
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
@@ -102,7 +102,7 @@ public class AmazonView extends Composite {
 	}
 
 	private void showElement(List<String> result) {
-		String output = "<fieldset style='background-color: #1c3659; overflow: auto; width: 500px; height: 330px;'>";
+		String output = "<fieldset style='background-color: #1c3659; overflow: auto; width: 800px; height: 530px;'>";
 		output += "<legend style='font-weight: bold'> Tus compras </legend>";
 		for (String ama : result) {
 			AmazonProduct a = new AmazonProductImpl(ama);
