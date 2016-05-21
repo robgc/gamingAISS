@@ -39,7 +39,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private static final String ENDPOINT = "webservices.amazon.es";
 	private Double formattedPrices = 0.0;
 	private String mediumImage = "";
-	private Map<Videojuego, List<String>> map = new HashMap<Videojuego, List<String>>();
+	private Map<Videojuego, String> map = new HashMap<Videojuego, String>();
 	private String t;
 	private String hardware;
 	private String url;
@@ -128,17 +128,19 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 		for (Videojuego game : vgs) {
 			if (game.getNotaMedia() >= cotaInf
 					&& game.getNotaMedia() <= cotaSup) {
-				System.out.println(game.getNombre());
 				tmp.add(game);
 			}
 		}
-		for (int i = 0; i < 5; i++)
-			res.add(tmp.get((int) (Math.random() * tmp.size())));
+		for (int i = 0; i < 5; i++) {
+			int random = (int) (Math.random() * tmp.size());
+			res.add(tmp.get(random));
+			System.out.println(tmp.get(random).getNombre());
+		}
 
 		return res;
 	}
 
-	public Map<Videojuego, List<String>> getAmazon(Set<Videojuego> juegos) {
+	public Map<Videojuego, String> getAmazon(Set<Videojuego> juegos) {
 		for (Videojuego game : juegos) {
 			vg = game;
 			flag = 0;
@@ -218,14 +220,16 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 							prize = null;
 							a = t + "#" + formattedPrices + "#" + hardware
 									+ "#" + mediumImage + "#" + url;
-							if (flag == 0 && t.contains(vg.getNombre())) {
-								List<String> urls = new ArrayList<String>();
-								urls.add("http://store.steampowered.com/app/+"
-										+ vg.getId() + "/");
-								urls.add(a);
-
+							if (flag == 0
+									&& (a.contains(vg.getNombre())
+											|| a.toLowerCase().contains(
+													vg.getNombre()
+															.toLowerCase()) || a
+											.toUpperCase().contains(
+													vg.getNombre()
+															.toUpperCase()))) {
 								System.out.println(a);
-								map.put(vg, urls);
+								map.put(vg, a);
 								flag = 1;
 							}
 
@@ -237,6 +241,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 							t = "";
 							hardware = "";
 							url = "";
+
 						}
 
 					}

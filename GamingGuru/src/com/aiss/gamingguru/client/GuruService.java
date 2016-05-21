@@ -18,7 +18,7 @@ public interface GuruService extends RemoteService {
 
 	GameData getNameId();
 
-	Map<Videojuego, List<String>> getAmazon(Set<Videojuego> juegos);
+	Map<Videojuego, String> getAmazon(Set<Videojuego> juegos);
 	
 	Map<String, String> getScores(String juego);
 

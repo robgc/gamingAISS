@@ -47,16 +47,19 @@ public class SteamView extends Composite {
 		Image icon = new Image("files/mando.png");
 		Image fondo = new Image("files/negro.png");
 		Image acercaDe = new Image("files/acerca.png");
+		final Image loading = new Image("files/loading-logo.gif");
 
 		fondo.setStyleName("background");
 		menu.setStyleName("menu");
 		icon.setStyleName("menuIcon");
 		acercaDe.addStyleName("acerca");
+		loading.setStyleName("centered");
 
 		mainPanel.add(acercaDe);
 		mainPanel.add(fondo);
 		mainPanel.add(icon);
 		mainPanel.add(menu);
+		mainPanel.add(loading);
 
 		gService.getGames(id, new AsyncCallback<GameSearch>() {
 
@@ -123,7 +126,7 @@ public class SteamView extends Composite {
 																	.addAll(vgs);
 															gService.getAmazon(
 																	recommendedGames,
-																	new AsyncCallback<Map<Videojuego, List<String>>>() {
+																	new AsyncCallback<Map<Videojuego, String>>() {
 
 																		@Override
 																		public void onFailure(
@@ -134,12 +137,14 @@ public class SteamView extends Composite {
 
 																		@Override
 																		public void onSuccess(
-																				Map<Videojuego, List<String>> map) {
+																				Map<Videojuego, String> tmp) {
+																			mainPanel
+																					.remove(loading);
 																			showName(
 																					recommendedGames,
-																					map,
+																					tmp,
 																					score);
-
+																			score = 0.0;
 																		}
 
 																	});
@@ -191,9 +196,9 @@ public class SteamView extends Composite {
 	}
 
 	private static void showName(Set<Videojuego> ids,
-			Map<Videojuego, List<String>> map, Double average) {
+			Map<Videojuego, String> map, Double average) {
 		String output = "<fieldset style='background-color: #1c3659;overflow: auto; width: 800px; height: 530px;'>";
-		output += "<legend style='font-weight: bold'>TUS JUEGOS</legend>";
+		output += "<legend style='font-weight: bold'>TE RECOMENDAMOS</legend>";
 		for (Videojuego vg : ids) {
 			output += "<fieldset>";
 
@@ -203,43 +208,45 @@ public class SteamView extends Composite {
 					+ vg.getId()
 					+ "/header.jpg' style= 'width: 20%; height: 20%; float:left'></img><br/><br/>";
 
-			// if (map.get(vg).get(1) != null) {
-			// AmazonProduct a = new AmazonProductImpl(map.get(vg).get(1));
-			// output +=
-			// "<br/><span style='align: center; font-weight:bold;'><img src='"
-			// + a.getImagen()
-			// +
-			// "' style= 'width: 20%; height: 20%; float:left'></img> <br/><a href='"
-			// + a.getUrl()
-			// + "' style='color:white'>"
-			// + a.getNombre()
-			// + "</a></span><br/>";
-			// output += "<br/><span style='left:50%'>" + a.getPrecio()
-			// + " €</span><br/>";
-			// }
-			output += "</fieldset>";
-
-			output += "<fieldset>";
-
-			output += "<br/><span style='align: center; font-weight:bold;'><a href='http://store.steampowered.com/app/"
+			output += "<br/><br/><br/><hr/><span style='align: center; font-weight:bold;'><a href='http://store.steampowered.com/app/"
 					+ vg.getId()
 					+ "/'><img border='3' src='files/steam-compra.jpg' width='20%' height='20%'></a></span><br/>";
+
+			for (String a : map.values()) {
+				if (a.contains(vg.getNombre())
+						|| a.toLowerCase().contains(
+								vg.getNombre().toLowerCase())
+						|| a.toUpperCase().contains(
+								vg.getNombre().toUpperCase())) {
+					AmazonProduct b = new AmazonProductImpl(a);
+
+					output += "<hr/><span style='align: center; font-weight:bold;'><a href='"
+							+ b.getUrl()
+							+ "'><img border='3' src='files/amazon-compra.jpg' width='20%' height='20%'></a></span><br/>";
+
+				}
+			}
+
 			output += "</fieldset>";
+
 		}
 
 		output += "</fieldset>";
 
-		String score = "<fieldset style='background-color: #1c3659;top: 60%;overflow: auto; width: 100px;'>";
-		score += "<legend style='font-weight: bold'>TU NOTA</legend>";
-		score += "<span style='align:center'> " + average + " </span><br/>";
-		score += "</fieldset>";
-
-		HTML totalScore = new HTML(score);
-		totalScore.setStyleName("style-steam-score");
-		RootPanel.get("steamscore").add(totalScore);
+		// String score =
+		// "<fieldset style='background-color: #1c3659;top: 60%;overflow: auto; width: 100px;'>";
+		// score += "<legend style='font-weight: bold'>TU NOTA</legend>";
+		// score += "<span style='align:center'> " + average + " </span><br/>";
+		// score += "</fieldset>";
+		//
+		// HTML totalScore = new HTML(score);
+		// totalScore.setStyleName("style-steam-score");
+		// RootPanel.get("steamscore").add(totalScore);
 
 		HTML games = new HTML(output);
 		games.setStyleName("style-steam-info");
 		RootPanel.get("steaminfo").add(games);
+		recommendedGames.clear();
+
 	}
 }

@@ -78,8 +78,7 @@ public class Videojuego implements Serializable {
 
 	public Boolean equals(Videojuego v) {
 		Boolean res = false;
-		if (this.nombre.equals(v.nombre) && this.notaMedia.equals(v.notaMedia)
-				&& this.tags.equals(v.tags)) {
+		if (this.getNombre().equals(v.getNombre())) {
 			res = true;
 		}
 		return res;
