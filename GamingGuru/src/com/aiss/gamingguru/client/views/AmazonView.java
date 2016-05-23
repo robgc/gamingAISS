@@ -1,8 +1,10 @@
 package com.aiss.gamingguru.client.views;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
 import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
@@ -30,7 +32,7 @@ public class AmazonView extends Composite {
 	private final GuruServiceAsync gService = GWT.create(GuruService.class);
 	private final AbsolutePanel mainPanel;
 
-	public AmazonView(Map<String, String> params) {
+	public AmazonView(ArrayList<Boolean> params) {
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
 
@@ -58,49 +60,49 @@ public class AmazonView extends Composite {
 
 		searchField.setFocus(true);
 		searchField.selectAll();
-
-		searchButton.addClickHandler(new ClickHandler() {
-
-			public void onClick(ClickEvent event) {
-				statusLabel.setText("Searching...");
-				mainPanel.add(statusLabel);
-				final String juego = searchField.getText();
-				RootPanel.get("amazoninfo").clear();
-
-				gService.getAmazon(juego, new AsyncCallback<List<String>>() {
-
-					public void onSuccess(List<String> result) {
-						showElement(result);
-						mainPanel.remove(statusLabel);
-					}
-
-					public void onFailure(Throwable caught) {
-						Window.alert("!Error al realizar la búsqueda de las ofertas!");
-					}
-
-				});
-
-			}
-		});
+//
+//		searchButton.addClickHandler(new ClickHandler() {
+//
+//			public void onClick(ClickEvent event) {
+//				statusLabel.setText("Searching...");
+//				mainPanel.add(statusLabel);
+//				final String juego = searchField.getText();
+//				RootPanel.get("amazoninfo").clear();
+//
+//				gService.getAmazon(juego, new AsyncCallback<List<String>>() {
+//
+//					public void onSuccess(List<String> result) {
+//						showElement(result);
+//						mainPanel.remove(statusLabel);
+//					}
+//
+//					public void onFailure(Throwable caught) {
+//						Window.alert("!Error al realizar la búsqueda de las ofertas!");
+//					}
+//
+//				});
+//
+//			}
+//		});
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("amazoninfo").clear();
-				GamingGuru.go("acerca", new HashMap<String, String>());
+				GamingGuru.go("acerca", "", new ArrayList<Boolean>());
 			}
 		});
 
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("amazoninfo").clear();
-				GamingGuru.go("init", new HashMap<String, String>());
+				GamingGuru.go("init", "", new ArrayList<Boolean>());
 			}
 		});
 
 	}
 
 	private void showElement(List<String> result) {
-		String output = "<fieldset style='background-color: #1c3659; overflow: auto; width: 500px; height: 330px;'>";
+		String output = "<fieldset style='background-color: #1c3659; overflow: auto; width: 800px; height: 530px;'>";
 		output += "<legend style='font-weight: bold'> Tus compras </legend>";
 		for (String ama : result) {
 			AmazonProduct a = new AmazonProductImpl(ama);
@@ -109,7 +111,10 @@ public class AmazonView extends Composite {
 			output += "<br/><span style='align: center; font-weight:bold;'><img src='"
 					+ a.getImagen()
 					+ "' style= 'width: 20%; height: 20%; float:left'></img> <br/><a href='"
-					+ a.getUrl() + "' style='color:white'>" + a.getNombre() + "</a></span><br/>";
+					+ a.getUrl()
+					+ "' style='color:white'>"
+					+ a.getNombre()
+					+ "</a></span><br/>";
 			output += "<br/><span style='left:50%'>" + a.getPrecio()
 					+ " €</span><br/>";
 			output += "</fieldset>";

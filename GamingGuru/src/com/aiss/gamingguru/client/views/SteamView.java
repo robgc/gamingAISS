@@ -1,5 +1,6 @@
 package com.aiss.gamingguru.client.views;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -9,9 +10,10 @@ import java.util.Set;
 import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
-import com.aiss.gamingguru.shared.steam.App;
+import com.aiss.gamingguru.shared.Vg.Videojuego;
+import com.aiss.gamingguru.shared.amazon.AmazonProduct;
+import com.aiss.gamingguru.shared.amazon.AmazonProductImpl;
 import com.aiss.gamingguru.shared.steam.Game;
-import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;
 import com.google.gwt.core.shared.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -19,24 +21,24 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.AbsolutePanel;
-import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.HTML;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.MenuBar;
 import com.google.gwt.user.client.ui.RootPanel;
-import com.google.gwt.user.client.ui.TextBox;
 
 public class SteamView extends Composite {
-	private Button searchButton = new Button("Search");
-	private TextBox searchField = new TextBox();
 	private Label statusLabel = new Label();
 	private final AbsolutePanel mainPanel;
-	private Set<Integer> ids = new HashSet<Integer>();
+	private static Set<Integer> ids = new HashSet<Integer>();
 	private final GuruServiceAsync gService = GWT.create(GuruService.class);
+	private static Map<Integer, Videojuego> map = new HashMap<Integer, Videojuego>();
+	private static Set<Videojuego> myGames = new HashSet<Videojuego>();
+	private static Set<Videojuego> recommendedGames = new HashSet<Videojuego>();
+	private static Double score = 0.0;
 
-	public SteamView(Map<String, String> params) {
+	public SteamView(String id, ArrayList<Boolean> params) {
 
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
@@ -45,122 +47,206 @@ public class SteamView extends Composite {
 		Image icon = new Image("files/mando.png");
 		Image fondo = new Image("files/negro.png");
 		Image acercaDe = new Image("files/acerca.png");
+		final Image loading = new Image("files/loading-logo.gif");
 
 		fondo.setStyleName("background");
 		menu.setStyleName("menu");
 		icon.setStyleName("menuIcon");
 		acercaDe.addStyleName("acerca");
-
-		searchField.setText("Your id");
-		statusLabel.setStyleName("style-VG-status");
-		searchField.setStyleName("style-VG-search");
-		searchButton.setStyleName("style-VG-button");
+		loading.setStyleName("centered");
 
 		mainPanel.add(acercaDe);
 		mainPanel.add(fondo);
 		mainPanel.add(icon);
 		mainPanel.add(menu);
-		mainPanel.add(searchField);
-		mainPanel.add(searchButton);
+		mainPanel.add(loading);
 
-		// RootPanel.get("form").add(mainPanel);
+		gService.getGames(id, new AsyncCallback<GameSearch>() {
 
-		searchField.setFocus(true);
-		searchField.selectAll();
-
-		searchButton.addClickHandler(new ClickHandler() {
-
-			public void onClick(ClickEvent event) {
-				statusLabel.setText("Searching...");
-				mainPanel.add(statusLabel);
-				final String game = searchField.getText();
-				RootPanel.get("steaminfo").clear();
-
-				gService.getGames(game, new AsyncCallback<GameSearch>() {
-
-					@Override
-					public void onSuccess(GameSearch result) {
-						showId(game, result);
-						mainPanel.remove(statusLabel);
+			@Override
+			public void onSuccess(GameSearch result) {
+				if (result != null) {
+					for (Game g : result.getResponse().getGames()) {
+						ids.add(g.getAppid());
 					}
 
-					@Override
-					public void onFailure(Throwable caught) {
-						Window.alert("!Error al realizar la b�squeda de las cr�ticas!");
-					}
-				});
-				gService.getNameId(new AsyncCallback<GameData>() {
+					mainPanel.remove(statusLabel);
 
-					@Override
-					public void onSuccess(GameData result) {
-						showName(ids, result);
-						ids.clear();
-					}
+					gService.fillMap(new AsyncCallback<Map<Integer, Videojuego>>() {
 
-					@Override
-					public void onFailure(Throwable caught) {
-						Window.alert("¡Error al realizar la búsqueda de los juegos!");
-					}
-				});
+						@Override
+						public void onFailure(Throwable caught) {
+							Window.alert("!Error al realizar el rellenado de la tabla!");
+						}
 
+						@Override
+						public void onSuccess(Map<Integer, Videojuego> result) {
+
+							map.putAll(result);
+
+							gService.getMyGames(ids, map,
+									new AsyncCallback<Set<Videojuego>>() {
+
+										@Override
+										public void onFailure(Throwable caught) {
+											Window.alert("!Error al encontrar tus juegos en el mapa!");
+
+										}
+
+										@Override
+										public void onSuccess(
+												Set<Videojuego> result) {
+											score = doAverage(result);
+											// showName(result, score);
+											myGames.addAll(result);
+											Set<Videojuego> mineTmp = new HashSet<Videojuego>(
+													myGames);
+											Set<Videojuego> allTmp = new HashSet<Videojuego>(
+													map.values());
+
+											allTmp.removeAll(mineTmp);
+
+											gService.recommendedGames(
+													score,
+													"",
+													"",
+													allTmp,
+													new AsyncCallback<Set<Videojuego>>() {
+
+														@Override
+														public void onFailure(
+																Throwable caught) {
+															Window.alert("¡No se encontraron recomendaciones");
+														}
+
+														@Override
+														public void onSuccess(
+																Set<Videojuego> vgs) {
+															recommendedGames
+																	.addAll(vgs);
+															gService.getAmazon(
+																	recommendedGames,
+																	new AsyncCallback<Map<Videojuego, String>>() {
+
+																		@Override
+																		public void onFailure(
+																				Throwable caught) {
+																			Window.alert("¡No se encontraron enalces de compra");
+
+																		}
+
+																		@Override
+																		public void onSuccess(
+																				Map<Videojuego, String> tmp) {
+																			mainPanel
+																					.remove(loading);
+																			showName(
+																					recommendedGames,
+																					tmp,
+																					score);
+																			score = 0.0;
+																		}
+
+																	});
+
+														}
+													});
+										}
+									});
+						}
+					});
+				}
+			}
+
+			@Override
+			public void onFailure(Throwable caught) {
+				Window.alert("!Error al realizar la búsqueda de los juegos!");
 			}
 		});
+
+		/*------------------------------------------------------------------------------------*/
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("steaminfo").clear();
-				GamingGuru.go("acerca", new HashMap<String, String>());
+				RootPanel.get("steamscore").clear();
+				GamingGuru.go("acerca", "", new ArrayList<Boolean>());
 			}
 		});
 
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("steaminfo").clear();
-				GamingGuru.go("init", new HashMap<String, String>());
+				RootPanel.get("steamscore").clear();
+				GamingGuru.go("init", "", new ArrayList<Boolean>());
 			}
 		});
 
 		/*---------------------------------------------------------------------*/
+	}
+
+	private static Double doAverage(Set<Videojuego> ids) {
+		Double total = 0.0;
+		for (Videojuego id : ids) {
+			total += id.getNotaMedia();
+		}
+
+		return total / ids.size();
 
 	}
 
-	/**
-	 * Muestra en pantalla la información obtenida de un videojuego.
-	 * 
-	 * @param game
-	 *            Nombre del videojuego
-	 * @param result
-	 *            Resultado (Clase JSON)
-	 */
+	private static void showName(Set<Videojuego> ids,
+			Map<Videojuego, String> map, Double average) {
+		String output = "<fieldset style='background-color: #1c3659;overflow: auto; width: 800px; height: 530px;'>";
+		output += "<legend style='font-weight: bold'>TE RECOMENDAMOS</legend>";
+		for (Videojuego vg : ids) {
+			output += "<fieldset>";
 
-	private void showId(String game, GameSearch result) {
-		if (result != null) {
-			for (Game a : result.getResponse().getGames()) {
-				ids.add(a.getAppid());
+			output += "<span style='align: center;'>" + vg.getNombre()
+					+ " </span><br/>";
+			output += "<span style='align: center; font-weight:bold;'><img src='http://cdn.akamai.steamstatic.com/steam/apps/"
+					+ vg.getId()
+					+ "/header.jpg' style= 'width: 20%; height: 20%; float:left'></img><br/><br/>";
 
+			output += "<br/><br/><br/><hr/><span style='align: center; font-weight:bold;'><a href='http://store.steampowered.com/app/"
+					+ vg.getId()
+					+ "/'><img border='3' src='files/steam-compra.jpg' width='20%' height='20%'></a></span><br/>";
+
+			for (String a : map.values()) {
+				if (a.contains(vg.getNombre())
+						|| a.toLowerCase().contains(
+								vg.getNombre().toLowerCase())
+						|| a.toUpperCase().contains(
+								vg.getNombre().toUpperCase())) {
+					AmazonProduct b = new AmazonProductImpl(a);
+
+					output += "<hr/><span style='align: center; font-weight:bold;'><a href='"
+							+ b.getUrl()
+							+ "'><img border='3' src='files/amazon-compra.jpg' width='20%' height='20%'></a></span><br/>";
+
+				}
 			}
-		}
-	}
 
-	private void showName(Set<Integer> ids, GameData result) {
-		int i = 1;
-		String output = "<fieldset style='background-color: #1c3659;overflow: auto; width: 500px; height: 330px;'>";
-		output += "<legend style='font-weight: bold'>TUS JUEGOS</legend>";
-		if (result != null) {
-			for (Integer id : ids) {
-				for (App a : result.getApplist().getApps())
-					if (a.getAppid().equals(id)) {
-						output += "<span style='align:center'> Game " + i++
-								+ ": " + a.getName() + " </span><br/>";
-					}
-			}
-		} else {
-			output += "<span> No results </span>";
+			output += "</fieldset>";
+
 		}
+
 		output += "</fieldset>";
+
+		// String score =
+		// "<fieldset style='background-color: #1c3659;top: 60%;overflow: auto; width: 100px;'>";
+		// score += "<legend style='font-weight: bold'>TU NOTA</legend>";
+		// score += "<span style='align:center'> " + average + " </span><br/>";
+		// score += "</fieldset>";
+		//
+		// HTML totalScore = new HTML(score);
+		// totalScore.setStyleName("style-steam-score");
+		// RootPanel.get("steamscore").add(totalScore);
+
 		HTML games = new HTML(output);
 		games.setStyleName("style-steam-info");
 		RootPanel.get("steaminfo").add(games);
-	}
+		recommendedGames.clear();
 
+	}
 }
