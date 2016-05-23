@@ -20,7 +20,8 @@ public interface GuruServiceAsync {
 	void getAmazon(Set<Videojuego> juegos,
 			AsyncCallback<Map<Videojuego, String>> asyncCallback);
 
-	void getScores(String juego, AsyncCallback<Map<String, String>> callback);
+	void getScores(Set<Videojuego> vgs,
+			AsyncCallback<Map<Videojuego, List<String>>> callback);
 
 	void fillMap(AsyncCallback<Map<Integer, Videojuego>> callback);
 

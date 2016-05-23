@@ -72,19 +72,19 @@ public class VideoGameInformationView extends Composite {
 				RootPanel.get("gameinfo").clear();
 				RootPanel.get("gameimg").clear();
 
-				gService.getScores(game,
-						new AsyncCallback<Map<String, String>>() {
-							@Override
-							public void onSuccess(Map<String, String> result) {
-								showReviews(game, result);
-								mainPanel.remove(statusLabel);
-							}
-
-							@Override
-							public void onFailure(Throwable caught) {
-								Window.alert("¡Error al realizar la búsqueda de las críticas!");
-							}
-						});
+				// gService.getScores(game,
+				// new AsyncCallback<Map<String, String>>() {
+				// @Override
+				// public void onSuccess(Map<String, String> result) {
+				// showReviews(game, result);
+				// mainPanel.remove(statusLabel);
+				// }
+				//
+				// @Override
+				// public void onFailure(Throwable caught) {
+				// Window.alert("¡Error al realizar la búsqueda de las críticas!");
+				// }
+				// });
 			}
 		});
 

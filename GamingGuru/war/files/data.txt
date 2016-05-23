@@ -103,6 +103,7 @@
 8500#EVE Online#Space&Massively Multiplayer&Sci-fi#7.7
 8660#GTR Evolution#Racing&Simulation&Driving#8.3
 8850#BioShock 2#FPS&Action&Singleplayer#8.65
+8870#BioShock Infinite#FPS&Action&Story Rich#9.3
 8880#Freedom Force#RPG&Strategy&Superhero#8.75
 8980#Borderlands#Sin etiquetas#8.25
 9010#Return to Castle Wolfenstein#Action&FPS&Classic#8.6
@@ -166,6 +167,7 @@
 15200#Silent Hunter: Wolves of the Pacific#Simulation&World War II&Military#8.0
 15210#Silent Hunter III#Simulation&World War II&Military#8.95
 15230#Blazing Angels 2: Secret Missions of WWII#Action&Simulation&World War II#7.25
+15560#AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome#Indie&Action&VR#7.7
 16300#Everyday Shooter#Indie&Casual&Twin Stick Shooter#7.800000000000001
 16720#Velvet Assassin#Stealth&Action&Female Protagonist#6.4
 17080#Tribes: Ascend#Free to Play&FPS&Action#8.399999999999999
@@ -355,6 +357,7 @@
 50460#Mafia II#Action&Open World&Crime#7.949999999999999
 50510#Burn Zombie Burn#Action&Zombies&+#7.2
 50620#Darksiders#Action&Adventure&Hack and Slash#8.350000000000001
+388410#Darksiders II#Action&Adventure&RPG#8.149999999999999
 50820#Max and the Magic Marker#Indie&Family Friendly&Platformer#7.6
 51100#Tactical Intervention#Free to Play&Action&FPS#4.7
 55100#Homefront#Action&FPS&Shooter#6.85
@@ -614,6 +617,7 @@
 227200#Waking Mars#Sci-fi&Adventure&Exploration#8.4
 211400#Deadlight#Platformer&Post apocaplyptic&Mature#7.1
 211420#Dark Souls: Prepare to Die Edition#RPG&Fantasy&Action#8.9
+225260#Brütal Legend#Action&Comedy&Adventure#8.7
 227220#Sang-Froid - Tales of Werewolves#Strategy&Tower Defense&Action#7.5
 368730#No Time to Explain#Indie&CasualAction#6.4
 227300#Euro Truck Simulator 2#Simulation&Driving&Open World#7.9
@@ -669,6 +673,10 @@
 233250#Planetary Annihilation#Strategy&RTS&Space#6.3
 233270#Far Cry 3 Blood Dragon#FPS&Open World&Action#8.1
 233290#MURDERED: SOUL SUSPECT#Gore&Detective&Horror#8.2
+244160#Homeworld Remastered Collection#Space&Strategy&RTS#8.1
+110800#L.A. Noire#Detective&Noir&Crime#8.6
+104900#ORION: Prelude#Dinosaurs&Action&FPS#7.9
+263980#Out There Somewhere#Platformer&Indie&Pixel Graphics#9.4
 233350#Sudeki#RPG&Action&Adventure#7.8
 233370#The Raven - Legacy of a Master Thief#Adventure&Point & Click&Mystery#6.45
 220160#Trials Evolution Gold Edition#Racing&Action&Multiplayer#7.7
@@ -711,6 +719,7 @@
 236510#Takedown: Red Sabre#FPS&Action&Tactical#3.15
 236690#Blood Bowl 2#Sports&Strategy&Turn-Based#7.8
 236730#Anomaly 2#Strategy&Indie&Action#7.6
+236850#Europa Universalis IV#Grand Strategy&Strategy&Historical#8.399999999999999
 236930#Blackwell Epiphany#Adventure&Indie&Point & Click#8.3
 236830#Red Orchestra 2: Heroes of Stalingrad#FPS&Action&Shooter#7.1
 236850#Europa Universalis IV#Strategy&Historical&Simulation#8.4
@@ -725,6 +734,7 @@
 237930#Transistor#Great Soundtrack&Indie&Female Protagonist#8.25
 237970#Memento Mori 2#Adventure&Indie&Point & Click#6.5
 237990#The Banner Saga#RPG&Turn-Based&Strategy#7.95
+238010#Deus Ex: Human Revolution#RPG&Action&Shooter#7.1
 238070#Shadow Warrior Classic#FPS&Action&Sworplay#6.7
 238090#Sniper Elite 3#Sniper&Action&Historical#7.7
 238210#System Shock 2#RPG&Cyberpunk&Horror#9.149999999999999
@@ -751,7 +761,7 @@
 240460#WWE 2K15#Simulation&Sports&Fighting#6.7
 240760#Wasteland 2#RPG&Turn-Based&Strategy#8.149999999999999
 241240#Contraption Maker#Puzzle&Indie&Casual#9.0
-241260#Sherlock Holmes: Crimes and Punishments#Detective&Horror&Action#7.9
+241260#Sherlock Holmes: Crimes and Punishments#8.9
 240970#Half Minute Hero: The Second Coming#RPG&Indie&Action#7.7
 241410#CastleStorm#Strategy&Indie&Action#7.199999999999999
 241540#State of Decay#Zombies&Survival&Open World#7.85
@@ -778,7 +788,7 @@
 243200#Memoria#Adventure&Point & Click&Fantasy#7.9
 243450#Urban Trial Freestyle#Racing&Action&Simulation#5.8
 243470#Watch_Dogs#Open World&Hacking&Action#6.3
-243560#Adventure Time:  Explore the Dungeon Because I DON’T KNOW!#Action&Dungeon Crawler&Co-op#4.1
+243560Adventure Time:  Explore the Dungeon Because I DON’T KNOW!#Action&Dungeon Crawler&Co-op#4.1
 243800#Gas Guzzlers Extreme#Racing&Action&Sports#7.3
 243930#Bound By Flame#RPG&Action&Fantasy#6.199999999999999
 243950#Divinity: Dragon Commander#Strategy&RPG&Dragons#7.199999999999999
@@ -786,6 +796,7 @@
 244030#Take On Mars#Simulation&Space&Mars#5.2
 244070#Sid Meier's Ace Patrol#Strategy&Casual&Turn-Based#6.6
 244090#Sid Meier's Ace Patrol: Pacific Skies#Strategy&Casual&Turn-Based#6.2
+381020#Sky Rogue#Early Access&Action&Simulation#7.7
 244210#Assetto Corsa#Racing&Simulation&Driving#8.5
 244450#Men of War: Assault Squad 2#Strategy&World War II&Simulation#6.8
 244710#Shelter#Indie&Adventure&Survival#7.9
@@ -813,6 +824,7 @@
 246720#Wayward Manor#Adventure&Casual&Indie#4.4
 246760#Legends of Eisenwald#Strategy&RPG&Medieval#7.55
 246840#FATE#RPG&Action&Adventure#8.1
+235720#Cubetractor#Indie&Strategy&Action#7.8
 246920#Bombernauts#Action&Indie&Multiplayer#9.2
 246960#Giana Sisters: Twisted Dream#Platformer&Indie&Action#8.5
 247080#Crypt of the NecroDancer#Rogue-like&Rhythm&Great Soundtrack#7.8
@@ -826,7 +838,7 @@
 248710#Iesabel#RPG&Action&Indie#5.85
 248820#Risk of Rain#Rogue-like&Indie&Platformer#7.85
 249050#Dungeon of the Endless#Rogue-like&Strategy&Indie#8.25
-249130#LEGO MARVEL Super Heroes#Building&Superheroes&Action#7.8
+249130#LEGO® MARVEL Super Heroes#Building&Superheroes&Action#7.8
 249190#Ancient Space#Strategy&Space&RTS#6.8
 249230#Risen 3 - Titan Lords#RPG&Open World&Gothic#6.65
 249380#Carmageddon: Reincarnation#Racing&Gore&Action#6.1
@@ -884,6 +896,7 @@
 254080#World War III: Black Gold#Strategy&RTS&+#7.5
 254880#MoonBase Commander#Strategy&Turn-Based Strategy&Sci-fi#7.9
 253980#Enclave#Indie&Arcade&+#5.2
+205230#Hell Yeah!#Platformer&Action&2D#8.5
 254040#Pirates of Black Cove Gold#Strategy&Pirate&+#5.2
 255070#Abyss Odyssey#Action&Platformer&indie#6.9
 255220#GRID Autosport#Racing&Sports&Simulation#7.449999999999999
@@ -926,7 +939,7 @@
 261180#Lethal League#Fighting&Local Multiplayer&2D Fighter#8.2
 261470#Distant Worlds: Universe#Strategy&4X&Space#8.1
 261530#Lifeless Planet#Walking Simulator&Adventure&Atmospheric#5.9
-261640#Borderlands: The Pre-Sequel#Episodic&Action&Story telling#7.3
+261640#Borderlands: The Pre-Sequel#Episodic#Action#History#7.3
 261760#Lichdom: Battlemage#RPG&Magic&Action#6.8
 262190#Zombeer#Action&Zombies&Dark Humor#3.2
 262280#Dungeons 2#Strategy&RPG&Management#7.0
@@ -967,7 +980,7 @@
 266510#Hand of Fate#RPG&Card Game&Action#8.0
 266840#Age of Mythology: Extended Edition#Strategy&RTS&Mythology#6.6
 267490#Batman: Arkham Origins Blackgate#Action&2.5D&Superheroes#5.1
-267530#The LEGO Movie - Videogame#Builder&Action&Building#6.8
+267550#The LEGO® Movie - Videogame#Builder&Action&Building#6.8
 267550#The Amazing Spider-Man 2#Action&Open World&Adventure#5.85
 268050#The Evil Within#Horror&Shooter&Action#7.15
 268400#Panzer Corps#Strategy&World War II&Turn-Based Strategy#7.95
@@ -1000,7 +1013,7 @@
 272600#Detective Grimoire#Adventure&Indie&Point & Click#8.3
 273070#The Last Federation#Strategy&Space&Simulation#7.2
 273350#Evolve#Multiplayer&Action&Co-op#7.0
-273110#Counter-Strike Nexon: Zombies#Zombies&FPS&Shooter#5.9
+273110#Counter-Strike Nexon: Zombies#Zombies&FPS&Shooter#
 273620#Freespace 2#Space&Sci-fi&Action#9.149999999999999
 274130#Rambo The Video Game#Action&Adventure&+#2.8
 274170#Hotline Miami 2: Wrong Number#Great Soundtrack&Gore&Pixel Graphics#7.65
@@ -1192,8 +1205,8 @@
 313010#Cities XXL#Simulation&City Builder&Economy#4.7
 313080#The Masterplan#Acion&Indie&Heist#6.45
 313160#Farming Simulator 15#Simulation&Multiplayer&Open World#6.4
-313690#LEGO Batman™ 3: Beyond Gotham#Building&Super Heroes&Action#7.2
-314000#Pool Nation FX#Sports&Simulation&Casual#6.1
+313690#LEGO® Batman™ 3: Beyond Gotham#Building&Super Heroes&Action#7.2
+ 314000#Pool Nation FX#Sports&Simulation&Casual#6.1
 314220#Bombing Bastards#Action&Indie&+#5.5
 314560#Kyn#RPG&Action&Adventure#5.8
 314660#Oddworld: New 'n' Tasty#Adventure&Platformer&Puzzle#8.1
@@ -1220,47 +1233,292 @@
 319740#There Came an Echo#Strategy&Indie&Sci-fi#5.8
 321860#Disney Infinity 2.0#Action&Fantasy&Casual#7.1
 319910#Trine 3: The Artifacts of Power#Adventure&Action&Co-op#6.8
-321960#Might & Magic Heroes VII#Strategy&Turn-based Strategy&Fantasy#7.8
-321980#Hardland#Open World&RPG&Indie#7.6
 320300#Car Mechanic Simulator 2015#Simulation&Singleplayer&Racing#6.8
 320320#Darkstone#RPG&Action&Hack and Slash#6.699999999999999
+320340#Cosmonautica#Simulation&Indie&Strategy#5.0
+320400#Magnifico#Strategy&Casual&Board Game#5.6
+320410#Near Impact#Strategy&Action&+#4.0
 320520#Oscura: Lost Light#Indie&Adventure&Platformer#6.6
+320590#Warside#Free To Play&Action&Platformer#6.5
+320630#Season Match#Casual&Adventure&Match 3#7.3
+320650#Season Match 2#Casual&Adventure&Match 3#7.3
+320670#Season Match 3 - Curse of the Witch Crow#Casual&Adventure&Match 3#7.3
+320690#The Treasures of Montezuma 3#Casual&Indie&Adventure#7.3
+320760#Tokyo School Life#Anime&Visual Novel&Adventure#9.4
+320790#Fabula Mortis#Indie&Action&FPS#4.8
 320820#Toren#Adventure&Indie&Female Protagonist#5.7
+320840#Wings! Remastered Edition#Simulation&Action&Flight#8.0
+321030#One Day For Ched#Indie&FPS&Action#5.4
+321040#DiRT 3 Complete Edition#Racing&Simulation&Cars#8.7
+321080#Pirate Hell#Action&Adventure&Pirates#6.6
+321110#Fist of Jesus#Casual&Religion&Action#6.5
+321150#Melissa K. and the Heart of Gold Collector's Edition#Casual&Adventure&Indie#4.7
+321190#Cho Dengeki Stryker#Visual Novel&Adventure&Anime#9.4
+321260#Wickland#Action&Indie&FPS#5.1
+321270#UNLOVED#Early Access&Action&FPS#8.5
+321290#Dandelion - Wishes brought to you -#Visual Novel&Dating Sim&Otome#7.6
+321310#Zen Fish SIM#Early Access&Indie&Simulator#2.5
+321330#ENYO ARCADE#Indie&Action&Casual#9.1
+321350#Fairspace#Indie&Action&Simulator#6.5
+321360#Primal Carnage: Extinction#Action&Multiplayer&Indie#8.2
+321370#Sign Motion#Indie&Adventure&Platforms#6.2
+321390#Zone 22#Early Access&Action&Adventure#4.4
+321400#Supraball#Early Access&Sports&First Person#7.9
+321410#Command: Modern Air / Naval Operations WOTY#Simulator&Naval&Wargame#8.6
+321450#Aquadelic GT#Naval&Racing&Simulator#6.6
+321480#Sigils of Elohim#Free To Play&Casual&Indie#8.1
+321490#MotoGP™14 Compact#Racing&Simulator&Sports#2.6
+321560#The Sun and Moon#Indie&Action&Platforms#8.8
+321600#The Flying Dutchman#Casual&Hidden Object&Visual Novel#1.7
+321610#Demonlisher#Casual&+&+#6.9
+321660#Mining Industry#Simulator&Mining&Work#2.2
+321710#Battle Of Europe#Action&Simulator&WWII#5.7
+321800#Icewind Dale: Enhanced Edition#Rol&Adventure&Fantasy#8.7
+321830#Cavern Kings#Early Access&Indie&Casual#8.7
+321840#Rising Angels: Reborn#Visual Novel&Free To Play&Anime#7.9
+321860#Disney Infinity 2.0#Super Hero&Adventure&Open World#5.6
 321870#Silence of the Sleep#Horror&Adventure&Indie#6.6
+321880#Aveyond 3-3: The Lost Orb#Rol&Indie&RPGMaker#8.0
+321890#Aveyond 3-4: The Darkthrop Prophecy#Rol&Indie&Casual#8.0
+321920#Schein#Indie&Action&Adventure#8.0
+321940#Moorhuhn - Tiger and Chicken#Rol&Action&Chicken#7.8
+321950#Yury#Indie&Action&Adventure#5.0
+321960#Might & Magic Heroes VII#Strategy&Turn-based Strategy&Fantasy#7.8
+321980#Hardland#Open World&RPG&Indie#7.6
+322030#Unlimited Escape#Indie&+&+#3.3
+322040#Cooking Academy Fire and Knives#Casual&Action&Simulator#8.0
+322080#Disorder#Indie&Action&Platforms#8.4
+322110#20XX#Early Access&Indie&Platforms#8.7
+322130#Disney's Princess Enchanted Journey#Adventure&Action&Disney#7.5
+322170#Geometry Dash#Hard&Music&2D#9.4
+322210#Guns, Gore & Cannoli#Action&Side Scroller&Zombies#9.2
 322290#Gurumin: A Monstrous Adventure#Action&RPG&Adventure#8.0
+322300#The Repopulation#Early Access&MMO&Sandbox#4.7
+322330#Don't Starve Together#Multiplayer&Cooperative&Indie#9.6
+322410#Bin Weevils Arty Arcade#Educational&+&+#6.3
+322430#Bubonic: OutBreak#Indie&Casual&Simulator#0.0
 322440#Red Goddess: Inner World#Adventure&Indie&Action#5.2
+322500#SUPERHOT#Action&Bullet Time&Time Manipulation#8.6
+322520#Dynasty Warriors 8 - Empires#Action&Character Customization&Strategy#6.5
+322540#Galactic Inheritors#Strategy&Space&Indie#5.3
+322550#Standpoint#Indie&Action&First Person#7.3
+322580#Dungeon Lurk II - Leona#Indie&Adventure&Casual#3.2
 322600#PURE#Racing&Offroad&Action#8.05
 322630#Mind Zero#RPG&JRPG&Dungeon Crawler#6.95
+322680#BLACKHOLE#Adventure&Action&Indie#9.4
+322750#Drifting Lands#Indie&Action&Shoot 'Em Up#N/A
+322770#Vanishing Realms#Early Access&Rol&VR#9.6
+322780#Worlds Adrift#Open World&Construction&Exploration#N/A
+322850#Pro Cycling Manager 2015#Sports&Simulator&Management#6.3
+322900#War, the Game#Strategy&Indie&RTS#7.2
+322910#Warhammer 40,000: Regicide#Strategy&Indie&Chess#6.6
 322920#theHunter: Primal#Dinosaurs&Survival&Open World#4.9
+322930#aerofly RC 7#Simulator&Indie&Flight#7.6
+322950#Pure Hold'em#Sports&Indie&Simulator#3.3
+322970#Subject 13#Adventures&Indie&Point And Click#6.5
+322980#Gods vs Humans#Strategy&Casual&Action#5.3
+322990#Black Viper: Sophia's Fate#Casual&Hidden Object&Point and Click#4.5
+323000#Roaming Fortress#Strategy&Action&Casual#5.4
+323020#Destructamundo#Indie&Casual&+#7.5
+323040#Laserlife#Indie&Rhythm&Music#7.8
+323060#Tharsis#Strategy&Indie&Space#8.6
+323220#Vagante#Early Access&Rogue-Like&Adventure#9.1
+323240#The World II (Hunting BOSS)#Rol&Action&+#5.6
+323250#Hexus#Casual&Strategy&Puzzle#9.3
+323260#Robin's Island Adventure#Casual&Hidden Object&Match 3#3.3
+323270#Jane Angel: Templar Mystery#Casual&Hidden Object&Point and Click#6.4
+323280#Sea Legends: Phantasmal Light Collector's Edition#Casual&Hidden Object&+#7.7
 323320#Grow Home#Adventure&Open World&Singleplayer#7.35
 323370#TERA#MMORPG&Free to Play&RPG#7.65
 323380#The Magic Circle#Adventure&Indie&Simulation#8.0
+323390#Crazy Machines 2: Pirates#Casual&Strategy&Puzzle#9.0
+323430#Crow#Action&Adventure&Indie#6.6
+323450#Alphadia Genesis#Rol&Adventure&JRPG#8.0
+323460#Raiden IV: OverKill#Action&Arcade&Shoot 'em Up#9.4
+323470#DRAGON BALL XENOVERSE#Anime&Fighting&Action#8.9
+323490#Oblivious Garden ~Carmina Burana#Visual Novel&Indie&Anime#9.3
 323580#Jotun#Adventure&Action&Indie#3.95
+323610#911: First Responders#Strategy&Simulator&Moddable#8.4
+323630#Ubinota#Indie&Puzzle&Physics#9.5
+323670#Super Indie Karts#Early Access&Racing&Indie#9.5
+323680#Caffeine#Adventure&Indie&Horror#2.9
 323700#Poltergeist: A Pixelated Horror#Indie&Casual&Puzzle#7.0
 323720#Decay - The Mare#Adventure&Horror&Point & Click#6.0
+323780#Fireworks Simulator#Simulation&+&+#5.8
+323850#Move or Die#Multiplayer&Action&Indie#8.3
+323900#MoW: Face Off M#Free to Play&Strategy&Card Game#7.8
+323910#SteamVR Performance Test#VR&Benchmark&Software#6.7
+324070#iO#Indie&Action&Racing#8.6
+324080#Rising World#Early Access&Survival&Open World#8.6
+324090#Football Club Simulator - FCS#Simulator&Sports&Strategy#5.5
+324110#Moto Racer Collection#Racing&Sports&Motorbikes#5.1
+324120#Verde Station#Indie&Adventure&Casual#7.5
 324140#Kalimba#Casual&Action&Puzzle-Platformer#7.949999999999999
+324160#CLANNAD#Visual Novel&Anime&Story Rich#9.8
+324170#Pyrite Heart#Otome&Visual Novel&Anime#6.8
+324190#CodeSpells#Early Access&Simulation&Programming#7.9
+324240#I Will Escape#Indie&Action&Adventure#5.4
+324250#Knights of Pen and Paper - Haunted Fall#RPG&Indie&+#7.9
 324260#VoidExpanse#Space&RPG&Action#7.2
+324270#Revenge: Rhobar's myth#Adventure&Indie&+#2.5
+324310#Bus Simulator 16#Simulation&OpenWorld&Driving#5.6
+324360#TOTM#Early Access&Strategy&Action#4.6
+324390#The Body Changer#Adventure&Indie&Action&Puzzle#8.2
+324400#Pocket God vs Desert Ashes#Strategy&Indie&+#3.7
+324420#Desert Ashes#Strategy&Indie&Turn-Based#5.3
+324450#Earth Under Siege#Early Access&Strategy&Action#8.7
+324470#SinaRun#Early Access&Indie&Racing#8.3
+324510#Boundless#Early Access&Massively Multiplayer&Sandbox#5.3
 324570#Halo: Spartan Strike#Action&Sci-fi&Top-Down Shooter#5.699999999999999
+324610#The Shopkeeper#Adventure&Indie&Point and Click#1.1
+324650#Gemini: Heroes Reborn#Action&Adventure&FPS#8.7
+324680#Impossible Creatures#Strategy&RTS&Cult Classic#9.7
+324710#To Be or Not To Be#Adventure&Casual&Indie#9.3
+324730#Caverns of the Snow Witch#RPG&Indie&Adventure#7.7
+324750#StuntMANIA Reloaded#Racing&Adventure&Casual#6.1
+324760#Monster Truck Destruction#Racing&Action&+#4.5
+324770#Experience 112#Adventure&Female Protagonist&Point and Click#5.0
 324790#LEGO Minifigures Online#Builder&Casual&Building#6.4
+324800#Shadow Warrior 2#Action&Adventure&Co-Op#N/A
+324810#TOXIKK#Early Access&Action&Arena Shooter#6.8
+325060#Parallax#Indie&Puzzle&First-Person#9.3
+325090#Deep Dungeons of Doom#RPG&Adventure&Casual#8.6
+325110#Save the Furries#Casual&Puzzle&Platformer#5.6
+325120#Notch - The Innocent LunA: Eclipsed SinnerS#Visual Novel&Anime&Adventure#9.2
+325150#Run or Die#Action&Indie&Anime#9.2
+325160#Bik - A Space Adventure#Adventure&Indie&Point and Click#9.4
+325210#Eternal Winter#Early Access&Survival&Adventure#7.8
+325300#BEARZERKERS#Early Access&Action&Local Multiplayer#8.8
+325320#Mythos: The Beginning#Adventure&RPG&Survival Horror#6.3
 325370#Nova-111#Indie&Action&Arcade#6.8
+325420#Homebrew - Vehicle Sandbox#Early Access&Sandbox&Simulation#7.0
+325430#Metaverse#Early Access&Experimental&Adventure#6.9
+325470#1953: NATO vs Warsaw Pact#Early Access&Strategy&Wargame#2.0
+325520#Fire#Adventure&Indie&Casual#9.1
 325600#Sword Coast Legends#RPG&Fantasy&Co-op#6.1
 325610#Total War: ATTILA#Strategy&Historical&War#7.85
+325630#Arms Dealer#Strategy&Simulation&+#5.4
+325730#The Hive#Early Access&Strategy&Indie#8.0
+325860#Fat Chicken#Strategy&Indie&Action#7.6
+325870#Clash of Puppets#Action&Indie&+#7.4
+325880#Crystal Catacombs#Indie&Metroidvania&Platformer#4.6
+325930#Viking Squad#Indie&Action&Adventure#N/A
+326060#Starlight Drifter#Early Access&Indie&Adventure#5.0
+326120#Horizon Shift#Action&Indie&Arcade#9.5
+326130#Monument Builders: Alcatraz#Casual&+&+#6.3
+326150#Death Skid Marks#Action&Indie&RPG#9.2
+326160#Shroud of the Avatar: Forsaken Virtues#Early Access&RPG&Massively Multiplayer#3.4
+326180#Sinister City#Casual&Adventure&Indie#3.3
+326190#Alchemy Mysteries: Prague Legends#Casul&Hidden Object&Adventure#7.7
+326230#Smugglers 5: Invasion#Indie&Strategy&Simulation#4.7
+326340#River City Super Sports Challenge ~All Stars Special~#Sports&Action&Retro#7.4
 326410#Windward#Pirates&Adventure&Indie#9.1
+326420#Sam Glyph: Private Eye!#Adventure&Indie&Casual#2.3
+326460#ShellShock Live#Early Access&Tanks&Multiplayer#8.7
+326470#Space Warp#Indie&Racing&Action#7.5
+326480#If My Heart Had Wings#Indie&Racing&Action#7.5
+326520#Chime Sharp#Early Access&Casual&Puzzle#9.0
+326630#Club Manager 2015#Sports&Simulation&Strategy#4.4
+326650#The Legend of Candlewind#RPG&Indie&Tactical#0.6
 326670#Warhammer Quest#RPG&Strategy&Games Workshop#7.9
+326720#Instant Dungeon!#Indie&Action&Arcade#8.4
+326730#Whisper of a Rose#RPG&Adventure&RPGMaker#5.0
+326840#Heart&Slash#Early Access&Action&Adventure#9.2
+326950#Sword of Asumi#Visual Novel&Anime&Indie#7.6
+326990#Deep Eclipse#Action&Indie&+#5.9
+327010#Motorama#Racing&Action&+#3.1
+327030#Worms W.M.D#Strategy&Action&Funny#N/A
+327060#Feist#Indie&Action&Platformer#8.0
+327090#Out of Reach#Early Access&Survival&Open World#7.6
+327140#Tilt Brush#Design and Illustration&VR&+#9.8
+327150#Deadstone#Action&RPG&Indie#8.4
+327210#Cheesecake Cool Conrad#Indie&Platformer&+#6.6
+327220#Anna's Quest#Adventure&Indie&Point and Click#8.0
+327260#Life of Pixel#Indie&Platformer&Retro#8.4
 327310#The Marvellous Miss Take#Stealth&Indie&Action#6.25
+327370#Brink of Consciousness: The Lonely Hearts Murders#Casual&Hidden Object&+#8.2
+327380#Pirates! Gold Plus (Classic)#Adventure&Simulation&Pirates#7.0
+327390#Sid Meier's Covert Action (Classic)#Simulation&Adventure&Classic#8.3
+327400#Sid Meier's Colonization (Classic)#Simulation&Adventure&Turn-Based Strategy#8.7
 327410#A Bird Story#Indie&Great Soundtrack&Short#6.6
+327440#Hail to the King: Deathbat#Adventure&Action&RPG#7.8
+327450#Ballads of Reemus: When the Bed Bites#Adventure&Indie&Casual#8.0
+327500#Zenzizenzic#Indie&Action&Bullet Hell#9.5
+327510#WASTED#Action&RPG&Indie#N/A
 327520#Traverser#Adventure&Indie&Action#6.05
+327560#Near Death#Action&Adventure&Indie#N/A
+327640#CaesarIA#Early Access&Free to Play&Strategy#7.3
+327650#May’s Mysteries: The Secret of Dragonville#Casual&Indie&Puzzle#4.6
 327670#Ironcast#Strategy&Indie&RPG#7.5
+327740#Tron 2.0#Action&Sci-fi&FPS#8.4
+327760#Bacon Man: An Adventure#Indie&Action&Adventure#N/A
+327860#Salt#Early Access&Open World&Survival#8.8
+327880#Sublevel Zero#Indie&Action&Rogue-lite#9.3
 327890#I am Bread#Simulation&Funny&Physics#5.1
+327910#7th Legion#Strategy&Action&Adventure#6.0
+327920#BloodNet#Adventure&Vampire&Cyberpunk#2.6
+327930#Darklands#RPG&Adventure&Classic#9.2
+327940#DragonSphere#Adventure&Point and Click&Classic#9.0
+327950#Sword of the Samurai#Adventure&Simulation&Classic#9.8
+327960#Journey of the King#Early Access&Indie&RPG#4.6
+328070#Reflex#Early Access&Action&Indie#8.4
+328080#Retro-Pixel Castles#Early Access&Strategy&Simulation#8.6
+328100#Gunspell: Steam Edition#Adventure&RPG&Indie#5.2
+328270#Leviathan: The Last Day of the Decade#Adventure&Visual Novel&Indie#9.3
+328310#Logistics Company#Simulation&+&+#4.0
+328430#Rex Nebular and the Cosmic Gender Bender#Adventure&1990's&Classic#6.1
 328440#Deadlock - Planetary Conquest#Strategy&Turn-Based&+#7.9
+328450#Deadlock II - Shrine Wars#Strategy&+&+#7.1
+328460#Redline#Action&Racing&FPS#7.1
+328470#Slave Zero#Cyberpunk&Action&Mechs#9.0
+328500#Potatoman Seeks the Troof#Indie&Platformer&Pixel Graphics#7.9
+328510#Monsters & Monocles#Early Access&Action&Indie#N/A
+328550#Thieves' Gambit: Curse of the Black Cat#Indie&RPG&Choose Your Own Adventure#8.0
 328600#Frozen Synapse Prime#Strategy&Turn-Based Strategy&Turn-Based#8.3
+328640#Rock Zombie#Action&Adventure&Indie#6.0
+328650#Knight of the Hamsters#Action&Indie&+#7.5
+328670#Deer Hunt Legends#Action&Sports&Hunting#2.7
+328680#Crab Cakes Rescue#Indie&Casual&+#6.9
+328710#One Last DayEarly Access&Indie&Action#7.5
+328730#Letter Quest: Grimm's Journey#Casual&Indie&Word Game#9.4
+328740#Bit Odyssey#Early Access&Indie&RPG#6.9
+328780#Vampires: Guide Them to Safety!#Indie&Vampire&Puzzle#9.1
+328830#Rugby Union Team Manager 2015#Sports&Simulation&Strategy#6.2
+328870#Draft Day Sports Pro Basketball 4#Simulation&Sports&Basketball#5.2
+328880#Space Legends: At the Edge of the Universe#Casual&Adventure&Sci-Fi#4.0
+328890#Fritz for Fun 13#Strategy&Casual&Chess#7.0
 328900#B-17 Flying Fortress: The Mighty 8th#Simulation&Flight&World War II#8.1
+328920#F-117A Nighthawk Stealth Fighter 2.0#Simulation&Flight&Stealth#8.4
+328930#Fleet Defender: The F-14 Tomcat Simulation#Simulation&Flight&Classic#8.0
 328940#The Deer God#Indie&Platformer&Pixel Graphics#5.9
+328990#Koya Rift#Indie&+&+#4.2
+329000#Data Hacker: Corruption#RPG&Indie&Adventure#4.1
+329020#Battlegrounds of Eldhelm#Free to Play&Indie&RPG#7.0
+329040#Dungeon Kingdom: Sign of the Moon#Early Access&RPG&Indie#9.2
+329050#Devil May Cry® 4 Special Edition#Action&Hack and Slash&Character Action Game#9.1
+329110#Gems of War#Free to Play#RPG&Strategy#8.7
+329130#Reassembly#Strategy&Space&Building#8.8
+329190#Volo Airsport#Early Access&Indie&Action#8.9
+329200#Astray#Adventure&Indie&Horror#7.3
 329240#The Weaponographist#RPG&Indie&Action#6.25
+329310#Tile Miner#Early Access&Indie&Adventure#5.8
+329320#QbQbQb#Action&Casual&Indie#9.1
 329380#Stealth Inc 2#Indie&Action&Adventure#8.2
 329440#Sonic Lost World#Adventure&Platformer&3D Platformer#6.35
 329460#JumpJet Rex#Indie&Action&Adventure#6.3
+329550#Alea Jacta Est Cantabrian Wars#Strategy&Simulation&+#8.0
+329610#R.B.I. Baseball 15#Sports&Simulation&Arcade#4.4
+329620#Across the Rhine#Strategy&WWII&+#5.6
+329630#Command HQ#Strategy&Classic&+#9.0
+329640#Eradicator#Action&FPS&Classic#9.0
 329650#NAM#Action&FPS&Classic#5.3
+329670#Silent Service 2#Simulation&Classic&+#4.4
+329690#BasketBelle#Sports&Indie&Adventure#8.6
+329770#4089: Ghost Within#Action&RPG&Indie#7.5
+329790#Krosmaster Arena#Free to Play&Strategy&RPG#6.2
+329830#The Moon Sliver#Adventure&Walking Simulator&Exploration#6.0
+329860#Catlateral Damage#Simulation&Casual&Indie#8.7
+330000#Kingdoms CCG#Free to Play&Stratey&Trading Card Game#5.5
 330180#Pix the Cat#Indie&Action&Arcade#7.7
 330820#Read Only Memories#Adventure&Cyberpunk&Point & Click#5.6
 330840#Game of Thrones - A Telltale Games Series#Sin etiquetas#6.95
@@ -1365,33 +1623,28 @@
 379380#ReLoaded#Action&Adventure&RPG#5.0
 380150#STASIS#Adventure&Horror&Isometric#7.9
 381780#80 Days#Adventure&Indie&Strategy#6.0
-382890#FINAL FANTASY V#RPG&JRPG&Classic#8.6
-382900#FINAL FANTASY VI#RPG&JRPG&Classic#9.2
-383150#Dead Island Definitive Edition#RPG&FPS&Action#6.8
-383100#Fragile Allegiance#Strategy#8.5
-383870#Firewatch#Open World&Indie&Casual#8.7
+382800#Daylight#Sin etiquetas#4.55
+382890#FINAL FANTASY V#Sin etiquetas#8.6
+382900#FINAL FANTASY VI#Sin etiquetas#9.2
+383100#Fragile Allegiance#Sin etiquetas#8.5
 384570#ZanZarah: The Hidden Portal#Adventure&Action&RPG#7.949999999999999
-384360#Fingered#Indie&Casual&Flash#7.2
 385250#Paint it Back#Casual&Puzzle&Indie#8.4
-385720#King's Quest#Episodic&Story telling&Classic#7.8
+385730#WWE 2K16#Sin etiquetas#6.65
 386360#SMITE#Free to Play&MOBA&Action#8.8
-385730#WWE 2K16#Fighting&Simulatio&Action#6.1
-387290#Ori and the Blind Forest: Definitive Edition#Platformer&Atmospheric&2D#9.1
 387340#Hyperdimension Neptunia U: Action Unleashed#Anime&Action&RPG#7.1
 388800#Azure Striker Gunvolt#Action&Indie&Platformer#8.35
-388410#Darksiders II: Deathinitive Edition#&Action&Hack and Slash&Fantasy#8.5
-388880#Oxenfree#Indie&Casual&Story telling#8.2
+389300#TERA#Sin etiquetas#7.65
 389900#Hogs of War#Strategy&Action&+#7.35
-390340#Umbrella Corps#Shooter&Multiplayer&Zombies#6.8
-391030#Hard to Be a God#RPG&Fantasy&JRPG#5.5
-391220#Rise of the Tomb Raider#Action#8.75
+391030#Hard to Be a God#Sin etiquetas#5.5
+391220#Rise of the Tomb Raider#Sin etiquetas#8.75
 391540#Undertale#Great Soundtrack&Story Rich&Choices Matter#9.3
-391720#Layers of Fear#Horror&Indie&FPS#7.7
-391730#Crashlands#Indie&Survival&RPG#6.9
+393290#Motorhead#Sin etiquetas#7.9
 394290#Tennis in the Face#Casual&Indie&Sports#7.7
 394550#Gunman Clive 2#Action&Indie&Platformer#8.0
 394600#Mighty Gunvolt#Action&Indie&Platformer#7.2
-394510#HELLDIVERS#Co-op&Action&Shooter#8.0
+395310#Virtual Pool#Sin etiquetas#7.3
+395560#Lost Horizon 2#Sin etiquetas#6.0
+396820#Mass Destruction#Sin etiquetas#7.4
 398160#Shapes of Gray#Action&Indie&Great Soundtrack#4.6
 398640#Bowl Bound College Football#Sports&Strategy&Simulation#8.0
 399910#Ookibloks#Action&Indie&Casual#7.6
@@ -1400,8 +1653,7 @@
 407510#Devilian#Sin etiquetas#6.15
 407600#Raiden Legacy#Action&Shoot 'Em Up&Arcade#8.2
 408640#CODE OF PRINCESS#Action&Adventure&RPG#7.2
-409170#Contract#Indie&Casual&Pixel#5.4
-410850#Dragon Quest Heroes#Open World&RPG&Fantasy#7.1
+410850#Dragon Quest Heroes#Sin etiquetas#7.1
 411330#Men of Valor#Action&FPS&+#7.35
 411960#TY the Tasmanian Tiger#Early Access&Adventure&Action#7.25
 412310#Labyrinth#Early Access&Strategy&RPG#4.5
@@ -1420,5 +1672,4 @@
 441160#Saw#Sin etiquetas#6.15
 446460#Highland Warriors#Strategy&RTS&+#6.15
 450120#Capitalism Plus#Strategy&Simulation&Capitalism#7.6
-452750#The Punisher#Sin etiquetas#7.449999999999999
 465430#Vertigo#Action&Indie&VR#6.6

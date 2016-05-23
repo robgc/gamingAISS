@@ -46,55 +46,54 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private int flag = 0;
 	private Videojuego vg;
 
-	public Map<String, String> getScores(String juego) {
-		juego = juego.trim();
-		juego = juego.replace(" ", "-");
-		juego = juego.toLowerCase();
-		Document doc;
-		Map<String, String> juegos = new HashMap<String, String>();
-		try {
-			doc = Jsoup
-					.connect("http://www.gamespot.com/" + juego + "/")
-					.userAgent(
-							"Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4")
-					.ignoreHttpErrors(true).get();
-			System.out.println(doc.data());
-			Element nota1 = doc.select("[itemprop=ratingValue]").first();
-			Element nota2 = doc
-					.select("[data-event-tracking=Tracking|games_overview|Kubrick|Metascore]")
-					.first();
-			Element nota3 = doc
-					.select("[data-event-tracking=Tracking|games_overview|Kubrick|UserReviewScore]")
-					.first();
-			Element imag = doc.select("[itemprop=image]").first();
-			String img = imag.absUrl("src");
-			if (img != null) {
-				juegos.put("IMAGE", img);
-			}
+	public Map<Videojuego, List<String>> getScores(Set<Videojuego> vgs) {
+		Map<Videojuego, List<String>> tmp = new HashMap<Videojuego, List<String>>();
+		for (Videojuego vg : vgs) {
+			List<String> res = new ArrayList<String>();
+			res.set(0, "--");
+			res.set(1, "--");
+			res.set(2, "--");
 
-			if (nota1 != null) {
-				juegos.put("GAMESPOT", nota1.ownText());
-			} else {
-				juegos.put("GAMESPOT", "No score");
-			}
+			String juego = vg.getNombre().trim();
+			juego = juego.replace(" ", "-");
+			juego = juego.replace("_", "-");
+			juego = juego.toLowerCase();
+			System.out.println(juego);
+			Document doc;
 
-			if (nota2 != null) {
-				juegos.put("METACRITIC", nota2.ownText());
-			} else {
-				juegos.put("METACRITIC", "No score");
-			}
+			try {
+				doc = Jsoup
+						.connect(
+								"https://web.archive.org/web/20160510130703/http://www.gamespot.com/"
+										+ juego + "/")
+						.userAgent(
+								"Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4")
+						.timeout(50000).ignoreHttpErrors(true).get();
+				Element nota1 = doc.select("[itemprop=ratingValue]").first();
+				Element nota2 = doc
+						.select("[data-event-tracking=Tracking|games_overview|Kubrick|Metascore]")
+						.first();
+				Element nota3 = doc
+						.select("[data-event-tracking=Tracking|games_overview|Kubrick|UserReviewScore]")
+						.first();
 
-			if (nota3 != null) {
-				juegos.put("USER", nota3.ownText());
-			} else {
-				juegos.put("USER", "No score");
-			}
+				if (nota1 != null && nota1.ownText() != "0.0") {
+					res.set(0, nota1.ownText());
+				}
+				if (nota2 != null && nota2.ownText() != "0.0") {
+					res.set(1, nota2.ownText());
+				}
+				if (nota3 != null && nota3.ownText() != "0.0") {
+					res.set(2, nota3.ownText());
+				}
 
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+				tmp.put(vg, res);
+
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
 		}
-		return juegos;
+		return tmp;
 
 	}
 
