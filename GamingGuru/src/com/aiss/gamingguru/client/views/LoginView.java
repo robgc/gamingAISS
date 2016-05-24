@@ -1,7 +1,9 @@
 package com.aiss.gamingguru.client.views;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
+
 import com.aiss.gamingguru.client.GamingGuru;
 import com.google.gwt.event.dom.client.ClickEvent;
 import com.google.gwt.event.dom.client.ClickHandler;
@@ -18,11 +20,10 @@ public class LoginView extends Composite {
 	private final AbsolutePanel mainPanel;
 	private TextBox searchField = new TextBox();
 	private Label statusLabel = new Label();
-	private List<Boolean> platforms;
+	private Set<String> platforms = new HashSet<String>();
 
-	public LoginView(ArrayList<Boolean> params) {
+	public LoginView(Set<String> params) {
 		mainPanel = new AbsolutePanel();
-		platforms = new ArrayList<Boolean>();
 		initWidget(mainPanel);
 
 		MenuBar menu = new MenuBar();
@@ -93,7 +94,12 @@ public class LoginView extends Composite {
 			@Override
 			public void onClick(ClickEvent event) {
 				boolean checked = ((CheckBox) event.getSource()).getValue();
-				platforms.set(0, checked);
+
+				if (checked) {
+					platforms.add("ps3");
+				} else {
+					platforms.remove("ps3");
+				}
 			}
 		});
 
@@ -102,8 +108,11 @@ public class LoginView extends Composite {
 			@Override
 			public void onClick(ClickEvent event) {
 				boolean checked = ((CheckBox) event.getSource()).getValue();
-				platforms.set(1, checked);
-
+				if (checked) {
+					platforms.add("ps4");
+				} else {
+					platforms.remove("ps4");
+				}
 			}
 		});
 
@@ -112,7 +121,11 @@ public class LoginView extends Composite {
 			@Override
 			public void onClick(ClickEvent event) {
 				boolean checked = ((CheckBox) event.getSource()).getValue();
-				platforms.set(2, checked);
+				if (checked) {
+					platforms.add("360");
+				} else {
+					platforms.remove("360");
+				}
 			}
 		});
 
@@ -121,7 +134,11 @@ public class LoginView extends Composite {
 			@Override
 			public void onClick(ClickEvent event) {
 				boolean checked = ((CheckBox) event.getSource()).getValue();
-				platforms.set(3, checked);
+				if (checked) {
+					platforms.add("xbox one");
+				} else {
+					platforms.remove("xbox one");
+				}
 			}
 		});
 
@@ -130,7 +147,11 @@ public class LoginView extends Composite {
 			@Override
 			public void onClick(ClickEvent event) {
 				boolean checked = ((CheckBox) event.getSource()).getValue();
-				platforms.set(4, checked);
+				if (checked) {
+					platforms.add("wii");
+				} else {
+					platforms.remove("wii");
+				}
 			}
 		});
 
@@ -139,39 +160,25 @@ public class LoginView extends Composite {
 			@Override
 			public void onClick(ClickEvent event) {
 				boolean checked = ((CheckBox) event.getSource()).getValue();
-				platforms.set(5, checked);
+				if (checked) {
+					platforms.add("wiiu");
+				} else {
+					platforms.remove("wiiu");
+				}
 			}
 		});
 
 		/*-------------------------------------------------------------------------------------------*/
 
-		ps3.addClickHandler(new ClickHandler() {
-			public void onClick(ClickEvent event) {
-				GamingGuru.go("info", "", new ArrayList<Boolean>());
-			}
-		});
-
-		ps4.addClickHandler(new ClickHandler() {
-			public void onClick(ClickEvent event) {
-				GamingGuru.go("steam", "", new ArrayList<Boolean>());
-			}
-		});
-
-		wii.addClickHandler(new ClickHandler() {
-
-			public void onClick(ClickEvent event) {
-				GamingGuru.go("amazon", "", new ArrayList<Boolean>());
-			}
-		});
 
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				GamingGuru.go("acerca", "", new ArrayList<Boolean>());
+				GamingGuru.go("acerca", "", new HashSet<String>());
 			}
 		});
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				GamingGuru.go("init", "", new ArrayList<Boolean>());
+				GamingGuru.go("init", "", new HashSet<String>());
 			}
 		});
 
@@ -181,7 +188,7 @@ public class LoginView extends Composite {
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
 				final String id = searchField.getText();
-				GamingGuru.go("steam", id, new ArrayList<Boolean>());
+				GamingGuru.go("steam", id, platforms);
 			}
 		});
 

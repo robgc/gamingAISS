@@ -39,7 +39,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 	private static final String ENDPOINT = "webservices.amazon.es";
 	private Double formattedPrices = 0.0;
 	private String mediumImage = "";
-	private Map<Videojuego, String> map = new HashMap<Videojuego, String>();
+	private Map<Videojuego, Set<String>> map = new HashMap<Videojuego, Set<String>>();
 	private String t;
 	private String hardware;
 	private String url;
@@ -120,7 +120,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 
 	public Set<Videojuego> recommendedGames(Double score, String cat1,
 			String cat2, Set<Videojuego> vgs) {
-		Double cotaSup = score + 0.5;
+		Double cotaSup = score + 1.0;
 		Double cotaInf = score - 0.5;
 		Set<Videojuego> res = new HashSet<Videojuego>();
 		List<Videojuego> tmp = new ArrayList<Videojuego>();
@@ -139,157 +139,169 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 		return res;
 	}
 
-	public Map<Videojuego, String> getAmazon(Set<Videojuego> juegos) {
+	public Map<Videojuego, Set<String>> getAmazon(Set<String> platforms,
+			Set<Videojuego> juegos) {
 		for (Videojuego game : juegos) {
-			vg = game;
-			flag = 0;
+			for (String pl : platforms) {
 
-			SignedRequestsHelper helper = null;
-			try {
-				helper = SignedRequestsHelper.getInstance(ENDPOINT,
-						AWS_ACCESS_KEY_ID, AWS_SECRET_KEY);
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
+				vg = game;
+				flag = 0;
 
-			String requestUrl = "";
-			Map<String, String> params = new HashMap<String, String>();
+				SignedRequestsHelper helper = null;
+				try {
+					helper = SignedRequestsHelper.getInstance(ENDPOINT,
+							AWS_ACCESS_KEY_ID, AWS_SECRET_KEY);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
 
-			params.put("Service", "AWSECommerceService");
-			params.put("Operation", "ItemSearch");
-			params.put("AWSAccessKeyId", "AKIAJGUGYKZ7LKCQMJ5Q");
-			params.put("AssociateTag", "gamingguru06-21");
-			params.put("SearchIndex", "VideoGames");
-			params.put("Keywords", game.getNombre());
-			params.put("ResponseGroup", "Images,ItemAttributes,Offers");
-			params.put("Sort", "price");
-			params.put("Version", "2013-08-01");
+				String requestUrl = "";
+				Map<String, String> params = new HashMap<String, String>();
 
-			requestUrl = helper.sign(params);
+				params.put("Service", "AWSECommerceService");
+				params.put("Operation", "ItemSearch");
+				params.put("AWSAccessKeyId", "AKIAJGUGYKZ7LKCQMJ5Q");
+				params.put("AssociateTag", "gamingguru06-21");
+				params.put("SearchIndex", "VideoGames");
+				params.put("Keywords", game.getNombre() + " " + pl);
+				System.out.println(game.getNombre() + " " + pl);
+				params.put("ResponseGroup", "Images,ItemAttributes,Offers");
+				params.put("Sort", "price");
+				params.put("Version", "2013-08-01");
 
-			try {
+				requestUrl = helper.sign(params);
 
-				SAXParserFactory factory = SAXParserFactory.newInstance();
-				SAXParser saxParser = factory.newSAXParser();
+				try {
 
-				DefaultHandler handler = new DefaultHandler() {
-					int i = 0;
-					Double prize = null;
-					String a = "";
+					SAXParserFactory factory = SAXParserFactory.newInstance();
+					SAXParser saxParser = factory.newSAXParser();
 
-					boolean bfname = false;
-					boolean blname = false;
-					boolean bnname = false;
-					boolean mimage = false;
-					boolean burl = false;
+					DefaultHandler handler = new DefaultHandler() {
+						int i = 0;
+						Double prize = null;
+						String a = "";
 
-					public void startElement(String uri, String localName,
-							String qName, Attributes attributes)
-							throws SAXException {
+						boolean bfname = false;
+						boolean blname = false;
+						boolean bnname = false;
+						boolean mimage = false;
+						boolean burl = false;
 
-						// System.out.println("Start Element :" + qName);
+						public void startElement(String uri, String localName,
+								String qName, Attributes attributes)
+								throws SAXException {
 
-						if (qName.equalsIgnoreCase("Title")) {
-							bfname = true;
-						}
+							// System.out.println("Start Element :" + qName);
 
-						if (qName.equalsIgnoreCase("FormattedPrice")) {
-							blname = true;
-						}
+							if (qName.equalsIgnoreCase("Title")) {
+								bfname = true;
+							}
 
-						if (qName.equalsIgnoreCase("HardWarePlatform")) {
-							bnname = true;
-						}
+							if (qName.equalsIgnoreCase("FormattedPrice")) {
+								blname = true;
+							}
 
-						if (qName.equalsIgnoreCase("MediumImage") && i == 0) {
-							i++;
-							mimage = true;
-						}
+							if (qName.equalsIgnoreCase("HardWarePlatform")) {
+								bnname = true;
+							}
 
-						if (qName.equalsIgnoreCase("DetailPageURL")) {
-							burl = true;
-						}
+							if (qName.equalsIgnoreCase("MediumImage") && i == 0) {
+								i++;
+								mimage = true;
+							}
 
-					}
-
-					public void endElement(String uri, String localName,
-							String qName) throws SAXException {
-						if (qName.equalsIgnoreCase("Item")) {
-							i = 0;
-							prize = null;
-							a = t + "#" + formattedPrices + "#" + hardware
-									+ "#" + mediumImage + "#" + url;
-							if (flag == 0
-									&& (a.contains(vg.getNombre())
-											|| a.toLowerCase().contains(
-													vg.getNombre()
-															.toLowerCase()) || a
-											.toUpperCase().contains(
-													vg.getNombre()
-															.toUpperCase()))) {
-								System.out.println(a);
-								map.put(vg, a);
-								flag = 1;
+							if (qName.equalsIgnoreCase("DetailPageURL")) {
+								burl = true;
 							}
 
 						}
 
-						if (qName.equalsIgnoreCase("ItemSearchResponse")) {
-							formattedPrices = 0.0;
-							mediumImage = "";
-							t = "";
-							hardware = "";
-							url = "";
+						public void endElement(String uri, String localName,
+								String qName) throws SAXException {
+							if (qName.equalsIgnoreCase("Item")) {
+								i = 0;
+								prize = null;
+								a = t + "#" + formattedPrices + "#" + hardware
+										+ "#" + mediumImage + "#" + url;
+								if (flag == 0
+										&& (a.contains(vg.getNombre()) || a
+												.toLowerCase().contains(
+														vg.getNombre()
+																.toLowerCase()))) {
+									System.out.println(a + " " + hardware);
+									if (map.get(vg) == null) {
+										map.put(vg, new HashSet<String>());
+										map.get(vg).add(a + " " + hardware);
+										System.out.println(a);
+										flag = 1;
+									} else {
+										map.get(vg).add(a);
+										System.out.println(a + " " + hardware);
+										flag = 1;
+									}
 
-						}
+								}
 
-					}
-
-					public void characters(char ch[], int start, int length)
-							throws SAXException {
-
-						if (bfname) {
-							String nombre = new String(ch, start, length);
-							t = nombre;
-							bfname = false;
-						}
-
-						if (blname) {
-							String var = new String(ch, start, length);
-							var = var.replace("EUR", "");
-							var = var.replace(",", ".");
-							var = var.trim();
-							Double precio = new Double(var);
-							if (prize == null || precio.compareTo(prize) < 0) {
-								prize = precio;
 							}
-							formattedPrices = prize;
-							blname = false;
+
+							if (qName.equalsIgnoreCase("ItemSearchResponse")) {
+								formattedPrices = 0.0;
+								mediumImage = "";
+								t = "";
+								hardware = "";
+								url = "";
+
+							}
+
 						}
 
-						if (bnname) {
-							String var = new String(ch, start, length);
-							hardware = var;
-							bnname = false;
-						}
+						public void characters(char ch[], int start, int length)
+								throws SAXException {
 
-						if (mimage) {
-							String var = new String(ch, start, length);
-							mediumImage = var;
-							mimage = false;
-						}
+							if (bfname) {
+								String nombre = new String(ch, start, length);
+								t = nombre;
+								bfname = false;
+							}
 
-						if (burl) {
-							String var = new String(ch, start, length);
-							url = var;
-							burl = false;
-						}
-					}
-				};
-				saxParser.parse(requestUrl, handler);
+							if (blname) {
+								String var = new String(ch, start, length);
+								var = var.replace("EUR", "");
+								var = var.replace(",", ".");
+								var = var.trim();
+								Double precio = new Double(var);
+								if (prize == null
+										|| precio.compareTo(prize) < 0) {
+									prize = precio;
+								}
+								formattedPrices = prize;
+								blname = false;
+							}
 
-			} catch (Exception e) {
-				e.printStackTrace();
+							if (bnname) {
+								String var = new String(ch, start, length);
+								hardware = var;
+								bnname = false;
+							}
+
+							if (mimage) {
+								String var = new String(ch, start, length);
+								mediumImage = var;
+								mimage = false;
+							}
+
+							if (burl) {
+								String var = new String(ch, start, length);
+								url = var;
+								burl = false;
+							}
+						}
+					};
+					saxParser.parse(requestUrl, handler);
+
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
 			}
 		}
 		return map;

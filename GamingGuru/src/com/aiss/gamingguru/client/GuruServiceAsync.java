@@ -17,8 +17,8 @@ public interface GuruServiceAsync {
 
 	void getNameId(AsyncCallback<GameData> callback);
 
-	void getAmazon(Set<Videojuego> juegos,
-			AsyncCallback<Map<Videojuego, String>> asyncCallback);
+	void getAmazon(Set<String> platforms, Set<Videojuego> juegos,
+			AsyncCallback<Map<Videojuego, Set<String>>> asyncCallback);
 
 	void getScores(Set<Videojuego> vgs,
 			AsyncCallback<Map<Videojuego, List<String>>> callback);

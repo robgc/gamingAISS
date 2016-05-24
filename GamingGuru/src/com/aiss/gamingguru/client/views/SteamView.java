@@ -7,10 +7,6 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-
 import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
@@ -41,10 +37,11 @@ public class SteamView extends Composite {
 	private static Set<Videojuego> myGames = new HashSet<Videojuego>();
 	private static Set<Videojuego> recommendedGames = new HashSet<Videojuego>();
 	private static Double score = 0.0;
-	private static Map<Videojuego, String> amazon = new HashMap<Videojuego, String>();
+	private static Map<Videojuego, Set<String>> amazon = new HashMap<Videojuego, Set<String>>();
+	private static Set<String> platforms = new HashSet<String>();
 
-	public SteamView(String id, ArrayList<Boolean> params) {
-
+	public SteamView(String id, Set<String> plat) {
+		platforms.addAll(plat);
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
 
@@ -83,6 +80,7 @@ public class SteamView extends Composite {
 						@Override
 						public void onFailure(Throwable caught) {
 							Window.alert("!Error al realizar el rellenado de la tabla!");
+							GamingGuru.go("init", "", new HashSet<String>());
 						}
 
 						@Override
@@ -96,7 +94,7 @@ public class SteamView extends Composite {
 										@Override
 										public void onFailure(Throwable caught) {
 											Window.alert("!Error al encontrar tus juegos en el mapa!");
-
+											GamingGuru.go("init", "", new HashSet<String>());
 										}
 
 										@Override
@@ -123,6 +121,7 @@ public class SteamView extends Composite {
 														public void onFailure(
 																Throwable caught) {
 															Window.alert("¡No se encontraron recomendaciones");
+															GamingGuru.go("init", "", new HashSet<String>());
 														}
 
 														@Override
@@ -131,33 +130,37 @@ public class SteamView extends Composite {
 															recommendedGames
 																	.addAll(vgs);
 															gService.getAmazon(
+																	platforms,
 																	recommendedGames,
-																	new AsyncCallback<Map<Videojuego, String>>() {
+																	new AsyncCallback<Map<Videojuego, Set<String>>>() {
 
 																		@Override
 																		public void onFailure(
 																				Throwable caught) {
 																			Window.alert("¡No se encontraron enalces de compra");
-
+																			GamingGuru.go("init", "", new HashSet<String>());
 																		}
 
 																		@Override
 																		public void onSuccess(
-																				Map<Videojuego, String> tmp) {
+																				Map<Videojuego, Set<String>> tmp) {
 																			amazon.putAll(tmp);
 
 																			mainPanel
 																					.remove(loading);
 																			showName(
-																					amazon,
+																					recommendedGames,
+																					tmp,
 																					score);
 																			score = 0.0;
+																			recommendedGames
+																					.clear();
 																			amazon.clear();
-
+																			platforms
+																					.clear();
 																		}
 
 																	});
-
 														}
 													});
 										}
@@ -179,7 +182,7 @@ public class SteamView extends Composite {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("steaminfo").clear();
 				RootPanel.get("steamscore").clear();
-				GamingGuru.go("acerca", "", new ArrayList<Boolean>());
+				GamingGuru.go("acerca", "", new HashSet<String>());
 			}
 		});
 
@@ -187,7 +190,7 @@ public class SteamView extends Composite {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("steaminfo").clear();
 				RootPanel.get("steamscore").clear();
-				GamingGuru.go("init", "", new ArrayList<Boolean>());
+				GamingGuru.go("init", "", new HashSet<String>());
 			}
 		});
 
@@ -204,20 +207,21 @@ public class SteamView extends Composite {
 
 	}
 
-	private static void showName(Map<Videojuego, String> map, Double average) {
+	private static void showName(Set<Videojuego> rec,
+			Map<Videojuego, Set<String>> map, Double average) {
 
 		String output = "<fieldset style='background-color: #101e32;overflow: auto; width: 800px; height: 52px;'>";
 		output += "<span style='align: center;'><img src='files/steam-icon.png' style= 'padding-left:15px; padding-top:5px; width: 40px; height: 40px; float:left'></img>"
-				+ "<div style='padding-left:30px;padding-top:5px; font-size: 3em; font-weight:bold;float:left;'>JUEGOS</div>"
-				+ "<img src='files/score-icon.png' style= 'padding-left:300px; padding-top:5px; width: 150px; height: 40px;float:left;'></img>";
+				+ "<div style='padding-left:25px;padding-top:10px; font-size: 2.5em; font-weight:bold;float:left;'>JUEGOS</div>"
+				+ "<img src='files/score-icon.png' style= 'padding-left:300px; padding-top:10px; width: 150px; height: 35px;float:left;'></img>";
 		output += "</span>";
 		output += "</fieldset>";
 
 		output += "<fieldset style='background-color: #1c3659;overflow: auto; width: 800px; height: 450px;'>";
 		output += "<legend style='font-weight: bold'>TE RECOMENDAMOS</legend>";
-		for (Videojuego vg : map.keySet()) {
+		for (Videojuego vg : rec) {
 
-			output += "<fieldset>";
+			output += "<fieldset style='display:inline-block; vertical-align:middle;'>";
 
 			output += "<span style='align: center;'>" + vg.getNombre()
 					+ " </span><br/>";
@@ -228,18 +232,25 @@ public class SteamView extends Composite {
 					+ vg.getId()
 					+ "/'><img border='3' src='files/steam-compra.jpg' width='20%' height='20%'></a></span><br/>";
 
-			if (map.get(vg) != null) {
-				AmazonProduct b = new AmazonProductImpl(map.get(vg));
+			for (Set<String> set : map.values()) {
+				for (String a : set) {
+					if (a.contains(vg.getNombre())
+							|| a.toLowerCase().contains(
+									vg.getNombre().toLowerCase())) {
+						AmazonProduct b = new AmazonProductImpl(a);
 
-				output += "<hr/><span style='align: center; font-weight:bold; float:left;'><a href='"
-						+ b.getUrl()
-						+ "'><img border='3' src='files/amazon-compra.jpg' style='display:inline-block;' width='20%' height='20%'></a>"
-						+ "<div style='vertical-align:middle; display:inline-block; vertical-align:center; padding-left:350px; font-size: 3em; font-weight:bold;'>"
-						+ b.getPrecio().toString() + "€ </div></span><br/>";
+						output += "<hr/><span style='align: center; font-weight:bold; float:left;'><a href='"
+								+ b.getUrl()
+								+ "'><img border='3' src='files/amazon-compra.jpg' style='display:inline-block;' width='20%' height='20%'></a>"
+								+ "<div style='vertical-align:middle; display:inline-block; vertical-align:center; padding-left:370px; padding-top:0px; font-size: 3em; font-weight:bold;'>"
+								+ b.getPrecio().toString()
+								+ "€ </div></span><br/>";
+					}
+				}
 			}
 			output += "</fieldset>";
-		}
 
+		}
 		output += "</fieldset>";
 
 		HTML games = new HTML(output);
