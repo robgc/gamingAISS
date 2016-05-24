@@ -1,6 +1,5 @@
 package com.aiss.gamingguru.client.views;
 
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -26,9 +25,9 @@ public class LoginView extends Composite {
 	private ListBox cat2 = new ListBox();
 
 	public LoginView(Set<String> params) {
+
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
-
 		MenuBar menu = new MenuBar();
 		Image icon = new Image("files/mando.png");
 		Image fondo = new Image("files/negro.png");
@@ -84,6 +83,7 @@ public class LoginView extends Composite {
 
 		cat1.setStyleName("style-cat1");
 		cat2.setStyleName("style-cat2");
+
 		fondo.setStyleName("background");
 		menu.setStyleName("menu");
 		icon.setStyleName("menuIcon");
@@ -228,7 +228,8 @@ public class LoginView extends Composite {
 				mainPanel.add(statusLabel);
 				final String id = searchField.getText();
 				GamingGuru.go("steam", id, platforms,
-						cat1.getValue(cat1.getSelectedIndex()), cat2.getValue(cat2.getSelectedIndex()));
+						cat1.getValue(cat1.getSelectedIndex()),
+						cat2.getValue(cat2.getSelectedIndex()));
 			}
 		});
 

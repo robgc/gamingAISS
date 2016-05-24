@@ -44,10 +44,78 @@ public class GeneradoraDeArchivos {
 		// test4();
 
 		openConnection();
-		createTable();
-		test5();
-		printTable();
+		// createTable();
+		Integer juegoId = 70;
+		System.out.println("Precio de Half Life (ID = " + juegoId + "):");
+		printPrecios();
+		// test5();
+		// printTable();
 		closeConecction();
+
+	}
+
+	private static String getPrecio(Integer juegoId) {
+		Document doc;
+		String precio = "";
+		try {
+			doc = Jsoup.connect("http://store.steampowered.com/app/" + juegoId + "/")
+					.userAgent("Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4")
+					.timeout(5000).ignoreHttpErrors(true).get();
+			Elements price = doc.select(".game_purchase_price");
+			if (price != null) {
+				System.out.println("Precio: " + price.get(0).ownText());
+				precio = price.get(0).ownText();
+			} else {
+				System.out.println("No se ha encontrado el precio");
+			}
+		} catch (Exception e) {
+			System.out.println("No se encontro precio");
+			precio = "No hay precio";
+		}
+		return precio;
+	}
+
+	private static void printPrecios() {
+		try {
+			String ruta = "war/files/data.txt";
+			File fichero = new File(ruta);
+			String ruta2 = "war/files/data1.txt";
+			File fichero2 = new File(ruta2);
+			Integer Id;
+			String precioS;
+			System.out.println(fichero.getAbsolutePath());
+			BufferedReader br = new BufferedReader(new FileReader(ruta));
+			BufferedWriter bw = new BufferedWriter(new FileWriter(ruta2));
+			if (fichero.exists()) {
+
+				String line;
+				String[] lineas;
+				int i= 0;
+				while ((line = br.readLine()) != null) {
+					i++;
+					lineas = line.split("#");
+					Id = new Integer(lineas[0]);
+					precioS = getPrecio(Id);
+					// juegos.addAll(getNameId().getApplist().getApps());
+					bw.write(line + "#" + precioS);
+					bw.newLine();
+					if (i % 10 == 0) {
+						bw.flush();
+					}
+
+				}
+
+				bw.close();
+			}
+			br.close();
+
+		} catch (
+
+		Exception e)
+
+		{
+
+		}
 
 	}
 
@@ -67,32 +135,20 @@ public class GeneradoraDeArchivos {
 				juegos.addAll(getNameId().getApplist().getApps());
 				for (int i = 0; i < juegos.size(); i++) {
 					if (!(juegos.get(i).getName().toLowerCase().contains("dlc")
-							|| juegos.get(i).getName().toLowerCase()
-									.contains("server")
-							|| juegos.get(i).getName().toLowerCase()
-									.contains("beta")
-							|| juegos.get(i).getName().toLowerCase()
-									.contains("demo")
-							|| juegos.get(i).getName().toLowerCase()
-									.contains("sdk")
-							|| juegos.get(i).getName().toLowerCase()
-									.contains("trailer")
-							|| juegos.get(i).getName().toLowerCase()
-									.contains("test")
-							|| juegos.get(i).getName().toLowerCase()
-									.contains("client") || getMediaPuntuacion(juegos
-							.get(i).getName()) == 0.0)) {
+							|| juegos.get(i).getName().toLowerCase().contains("server")
+							|| juegos.get(i).getName().toLowerCase().contains("beta")
+							|| juegos.get(i).getName().toLowerCase().contains("demo")
+							|| juegos.get(i).getName().toLowerCase().contains("sdk")
+							|| juegos.get(i).getName().toLowerCase().contains("trailer")
+							|| juegos.get(i).getName().toLowerCase().contains("test")
+							|| juegos.get(i).getName().toLowerCase().contains("client")
+							|| getMediaPuntuacion(juegos.get(i).getName()) == 0.0)) {
 
-						System.out.println("Juego " + i + " de "
-								+ juegos.size() + " " + juegos.get(i).getName()
-								+ ":");
-						Double nota = getMediaPuntuacion(juegos.get(i)
-								.getName());
-						String etiquetas = getEtiquetas(juegos.get(i)
-								.getAppid());
-						bw.write(juegos.get(i).getAppid() + "#"
-								+ juegos.get(i).getName() + "#" + etiquetas
-								+ "#" + nota);
+						System.out.println("Juego " + i + " de " + juegos.size() + " " + juegos.get(i).getName() + ":");
+						Double nota = getMediaPuntuacion(juegos.get(i).getName());
+						String etiquetas = getEtiquetas(juegos.get(i).getAppid());
+						bw.write(juegos.get(i).getAppid() + "#" + juegos.get(i).getName() + "#" + etiquetas + "#"
+								+ nota);
 						bw.newLine();
 						if (i % 10 == 0) {
 							bw.flush();
@@ -153,13 +209,11 @@ public class GeneradoraDeArchivos {
 
 			stmt = c.createStatement();
 
-//			String sql = "DROP TABLE GAMES";
-//			stmt.executeUpdate(sql);
+			// String sql = "DROP TABLE GAMES";
+			// stmt.executeUpdate(sql);
 
-			String sql1 = "CREATE TABLE GAMES "
-					+ "(ID INTEGER PRIMARY KEY     NOT NULL,"
-					+ " NAME           TEXT     NOT NULL, "
-					+ " TAGS           TEXT     NOT NULL, "
+			String sql1 = "CREATE TABLE GAMES " + "(ID INTEGER PRIMARY KEY     NOT NULL,"
+					+ " NAME           TEXT     NOT NULL, " + " TAGS           TEXT     NOT NULL, "
 					+ " SCORE        NUMERIC(3,2))";
 
 			stmt.executeUpdate(sql1);
@@ -226,8 +280,7 @@ public class GeneradoraDeArchivos {
 	}
 
 	private static GameData getNameId() {
-		ClientResource cr = new ClientResource(
-				"http://api.steampowered.com/ISteamApps/GetAppList/v2");
+		ClientResource cr = new ClientResource("http://api.steampowered.com/ISteamApps/GetAppList/v2");
 		GameData cs = cr.get(GameData.class);
 		return cs;
 	}
@@ -236,12 +289,8 @@ public class GeneradoraDeArchivos {
 		Document doc;
 		String etiquetas = "";
 		try {
-			doc = Jsoup
-					.connect(
-							"http://store.steampowered.com/app/" + juegoId
-									+ "/")
-					.userAgent(
-							"Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4")
+			doc = Jsoup.connect("http://store.steampowered.com/app/" + juegoId + "/")
+					.userAgent("Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4")
 					.timeout(5000).ignoreHttpErrors(true).get();
 			Elements tags = doc.select(".app_tag");
 
@@ -250,8 +299,7 @@ public class GeneradoraDeArchivos {
 				System.out.println("tag2:" + tags.get(1).ownText());
 				System.out.println("tag3:" + tags.get(2).ownText());
 				System.out.println();
-				etiquetas = tags.get(0).ownText() + "&" + tags.get(1).ownText()
-						+ "&" + tags.get(2).ownText();
+				etiquetas = tags.get(0).ownText() + "&" + tags.get(1).ownText() + "&" + tags.get(2).ownText();
 			} else {
 				System.out.println("No hay tags");
 				etiquetas = "No hay tags";
@@ -288,20 +336,12 @@ public class GeneradoraDeArchivos {
 		Double notaMedia = 0.0;
 
 		try {
-			doc = Jsoup
-					.connect(
-							"https://web.archive.org/web/20160510130703/http://www.gamespot.com/"
-									+ juego + "/")
-					.userAgent(
-							"Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4")
+			doc = Jsoup.connect("https://web.archive.org/web/20160510130703/http://www.gamespot.com/" + juego + "/")
+					.userAgent("Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.8.1.6) Gecko/20070802 SeaMonkey/1.1.4")
 					.timeout(50000).ignoreHttpErrors(true).get();
 			Element nota1 = doc.select("[itemprop=ratingValue]").first();
-			Element nota2 = doc
-					.select("[data-event-tracking=Tracking|games_overview|Kubrick|Metascore]")
-					.first();
-			Element nota3 = doc
-					.select("[data-event-tracking=Tracking|games_overview|Kubrick|UserReviewScore]")
-					.first();
+			Element nota2 = doc.select("[data-event-tracking=Tracking|games_overview|Kubrick|Metascore]").first();
+			Element nota3 = doc.select("[data-event-tracking=Tracking|games_overview|Kubrick|UserReviewScore]").first();
 
 			if (nota1 != null) {
 				if (nota2 != null) {

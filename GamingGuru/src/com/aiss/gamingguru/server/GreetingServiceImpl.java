@@ -1,10 +1,13 @@
 package com.aiss.gamingguru.server;
 
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
 import com.aiss.gamingguru.client.GreetingService;
 import com.aiss.gamingguru.shared.Alumno;
+import com.google.cloud.sql.jdbc.ResultSet;
 import com.google.gwt.user.server.rpc.RemoteServiceServlet;
 
 /**
@@ -24,6 +27,19 @@ public class GreetingServiceImpl extends RemoteServiceServlet implements
 		lista.add(new Alumno("José Sosa Cifuentes",
 				"jose-antonio-1110@hotmail.com"));
 
+	}
+	
+	public java.sql.ResultSet getTuplaJuego(Integer id, PreparedStatement stmt) {
+		String sql = "SELECT * FROM GAMES WHERE ID = " + id + ";";
+		java.sql.ResultSet rs = null;
+		try {
+			rs = stmt.executeQuery(sql);
+		} catch (SQLException e) {
+			System.out.println("error al elegir la tupla en la que se encuentra el juego con el id" + id);
+			e.printStackTrace();
+		}
+		return rs;
+		//select * from x where id = "id" 
 	}
 
 	@Override

@@ -12,6 +12,7 @@ public class Videojuego implements Serializable {
 	private String nombre;
 	private Double notaMedia;
 	private String tags;
+
 	private String precio;
 
 	public Videojuego() {
@@ -29,6 +30,7 @@ public class Videojuego implements Serializable {
 
 	public Videojuego(String nombre, Double notaMedia, String tags,
 			String precio) {
+
 		this.nombre = nombre;
 		this.notaMedia = notaMedia;
 		this.tags = tags;
@@ -59,12 +61,20 @@ public class Videojuego implements Serializable {
 		this.tags = tags;
 	}
 
+	public String getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(String precio) {
+		this.precio = precio;
+	}
+
 	public Integer compareTo(Videojuego v) {
 		Integer res = 0;
 		res += this.nombre.compareTo(v.getNombre());
 		res += this.notaMedia.compareTo(v.getNotaMedia());
 		res += this.tags.compareTo(tags);
-
+		
 		return res;
 	}
 
@@ -73,6 +83,7 @@ public class Videojuego implements Serializable {
 		res += this.nombre.hashCode();
 		res += this.notaMedia.hashCode();
 		res += this.tags.hashCode();
+		res += this.precio.hashCode();
 		res = res * 31;
 		return res;
 	}
@@ -97,11 +108,5 @@ public class Videojuego implements Serializable {
 		this.id = id;
 	}
 
-	public String getPrecio() {
-		return precio;
-	}
 
-	public void setPrecio(String precio) {
-		this.precio = precio;
-	}
 }
