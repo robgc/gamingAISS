@@ -1,1675 +1,1424 @@
-10#Counter-Strike#Action&FPS&Multiplayer#8.55
-30#Day of Defeat#FPS&World War II&Multiplayer#8.15
-50#Half-Life: Opposing Force#FPS&Action&Sci-fi#8.7
-70#Half-Life#FPS&Classic&Action#9.3
-80#Counter-Strike: Condition Zero#Action&FPS&Shooter#6.95
-130#Half-Life: Blue Shift#FPS&Action&Sci-fi#7.449999999999999
-220#Half-Life 2#FPS&Action&Sci-fi#9.45
-240#Counter-Strike: Source#Action&FPS&Multiplayer#8.8
-380#Half-Life 2: Episode One#FPS&Action&Sci-fi#8.75
-400#Portal#Puzzle&First-Person&Singleplayer#9.0
-420#Half-Life 2: Episode Two#FPS&Action&Sci-fi#9.0
-440#Team Fortress 2#Free to Play&Multiplayer&FPS#9.05
-500#Left 4 Dead#Zombies&Co-op&FPS#8.75
-550#Left 4 Dead 2#Zombies&Co-op&FPS#8.7
-620#Portal 2#Puzzle&Co-op&First-Person#9.3
-730#Counter-Strike: Global Offensive#FPS&Multiplayer&Shooter#7.8
-992#Company of Heroes: Opposing Fronts#Sin etiquetas#8.649999999999999
-1250#Killing Floor#FPS&Zombies&Co-op#7.6
-1313#SiN#Action&FPS&Cyberpunk#7.6
-1620#Jagged Alliance 2#Strategy&Classic&Tactical#8.9
-1700#Arx Fatalis#RPG&First-Person&Classic#7.85
-1900#Earth 2160#Strategy&RTS&Sci-fi#7.6
-1920#Two Worlds#Sin etiquetas#6.4
-2210#Quake 4#Sin etiquetas#8.149999999999999
-2270#Wolfenstein 3D#FPS&Classic&Action#6.949999999999999
-2280#The Ultimate DOOM#Classic&FPS&Action#9.0
-2290#Final DOOM#Action&FPS&Classic#7.7
-2310#Quake#FPS&Classic&Action#9.05
-2320#Quake II#Action&FPS&Classic#8.6
-2500#Shadowgrounds#Action&Sci-fi&Top-Down Shooter#7.45
-2600#Vampire: The Masquerade - Bloodlines#RPG&Vampire&Cult Classic#8.3
-2610#GUN#Western&Action&Open World#7.85
-2620#Call of Duty#FPS&Action&World War II#9.0
-2630#Call of Duty 2#Action&FPS&World War II#9.0
-2690#Empires: Dawn of the Modern World#Sin etiquetas#8.2
-2710#Act of War: Direct Action#Action&Strategy&RTS#8.399999999999999
-2800#X2: The Threat#Strategy&Space&Simulation#7.6
-2810#X3: Reunion#Space&Strategy&Simulation#7.6
-2820#X3: Terran Conflict#Space&Simulation&Sci-fi#7.3
-2870#X Rebirth#Space&Simulation&Sci-fi#3.65
-2930#Birth Of America#Sin etiquetas#6.8
-2990#FlatOut 2#Racing&Destruction&Multiplayer#8.0
-3000#GTI Racing#Sin etiquetas#5.1
-3020#Call of Juarez#Western&Action&FPS#7.4
-3220#SpaceForce: Rogue Universe#Sin etiquetas#6.35
-3260#Safecracker: The Ultimate Puzzle Adventure#Puzzle&Adventure&Casual#7.2
-3300#Bejeweled 2 Deluxe#Match 3&Puzzle&Casual#7.7
-3330#Zuma Deluxe#Casual&Puzzle&Match 3#7.8
-3700#Sniper Elite#Action&Sniper&Stealth#7.8
-3710#Judge Dredd: Dredd vs Death#Action&FPS&First-Person#5.8
-3720#Evil Genius#Strategy&Base-Building&Villain Protagonist#7.9
-3800#Advent Rising#Action&Sci-fi&Story Rich#7.3
-3810#BloodRayne#Action&Vampire&Female Protagonist#7.0
-3820#BloodRayne 2#Action&Vampire&Female Protagonist#7.300000000000001
-3830#Psychonauts#Platformer&Comedy&Adventure#8.8
-3970#Prey#Sin etiquetas#8.100000000000001
-3980#CivCity: Rome#Strategy&City Builder&Simulation#7.0
-4230#Race: The WTCC Game#Racing&Simulation&+#8.0
-4520#Full Spectrum Warrior#Strategy&Action&Military#8.05
-4540#Titan Quest#RPG&Hack and Slash&Action RPG#8.0
-4560#Company of Heroes#Strategy&RTS&Simulation#9.25
-4700#Medieval II: Total War#Strategy&Medieval&Historical#8.9
-4720#Condemned: Criminal Origins#Horro&Action&Atmospheric#8.1
-4760#Rome: Total War#Strategy&Historical&Rome#9.2
-4920#Natural Selection 2#Strategy&Multiplayer&FPS#8.15
-6040#The Dig#Adventure&Point & Click&Sci-fi#8.3
-6080#Thrillville: Off the Rails#Strategy&Simulation&Management#7.2
-6090#Armed and Dangerous#Action&Third-Person Shooter&Funny#7.8
-6120#Shank#Action&Indie&Beat 'em up#7.25
-6220#FlatOut#Racing&Destruction&Driving#7.6
-6270#Ducati World Championship#Racing&Simulation&+#3.5
-6300#Dreamfall: The Longest Journey#Adventure&Female Protagonist&Story Rich#8.0
-6310#The Longest Journey#Adventure&Point & Click&Female Protagonist#9.1
-6400#Joint Task Force#Strategy&Action&RTS#7.199999999999999
-6420#Nexus: The Jupiter Incident#Strategy&Simulation&Space#8.15
-6510#Lost Planet: Extreme Condition#Action&Adventure&Third-Person Shooter#7.25
-6550#Devil May Cry 3: Special Edition#Action&Hack and Slash&Stylized#8.8
-6800#Commandos: Behind Enemy Lines#Strategy&Action&Stealth#8.5
-6830#Commandos 2: Men of Courage#Strategy&Tactical&Action#7.6
-6840#Commandos 3: Destination Berlin#Action&Strategy&Tactical#7.6
-6850#Hitman 2: Silent Assassin#Stealth&Action&Third Person#8.55
-6860#Hitman: Blood Money#Stealth&Action&Singleplayer#8.5
-6870#Battlestations: Midway#Action&World War II&Strategy#7.75
-6880#Just Cause#Action&Open World&Third Person#7.45
-6900#Hitman: Codename 47#Stealth&Action&Classic#7.449999999999999
-6920#Deus Ex: Invisible War#Cyberpunk&Action&FPS#7.9
-7000#Tomb Raider: Legend#Adventure&Action&Female Protagonist#8.25
-7010#Project: Snowblind#Action&Cyberpunk&FPS#7.9
-7520#Two Worlds II#RPG&Open World&Fantasy#7.5
-7610#Railroad Tycoon 3#Strategy&Management&Trains#8.2
-7660#X-COM: Apocalypse#Strategy&Sci-fi&Turn-Based#8.5
-7670#BioShock#FPS&Action&Atmospheric#9.3
-7730#X-COM: Interceptor#Strategy&Sci-fi&Space#7.3
-7760#X-COM: UFO Defense#Strategy&Classic&Turn-Based Strategy#9.4
-7860#NecroVisioN#Action&FPS&World War I#6.449999999999999
-7940#Call of Duty 4: Modern Warfare#FPS&Action&Multiplayer#9.149999999999999
-8000#Tomb Raider: Anniversary#Action&Adventure&Female Protagonist#8.1
-8100#Conflict: Denied Ops#Action&FPS&Singleplayer#5.449999999999999
-8140#Tomb Raider: Underworld#Adventure&Action&Female Protagonist#7.95
-8170#Battlestations: Pacific#Strategy&World War II&Action#7.6
-8190#Just Cause 2#Open World&Action&Sandbox#8.350000000000001
-8400#Geometry Wars: Retro Evolved#Arcade&Twin Stick Shooter&Casual#8.05
-8500#EVE Online#Space&Massively Multiplayer&Sci-fi#7.7
-8660#GTR Evolution#Racing&Simulation&Driving#8.3
-8850#BioShock 2#FPS&Action&Singleplayer#8.65
-8870#BioShock Infinite#FPS&Action&Story Rich#9.3
-8880#Freedom Force#RPG&Strategy&Superhero#8.75
-8980#Borderlands#Sin etiquetas#8.25
-9010#Return to Castle Wolfenstein#Action&FPS&Classic#8.6
-9050#DOOM 3#Horror&FPS&Action#8.6
-9340#Company of Heroes: Opposing Fronts#Strategy&Action&RTS#8.649999999999999
-9350#Supreme Commander#Strategy&RTS&Sci-fi#8.55
-9420#Supreme Commander: Forged Alliance#Strategy&RTS&Sci-fi#8.3
-9460#Frontlines: Fuel of War#Action&FPS&Shooter#7.35
-9480#Saints Row 2#Open World&Action&Third-Person Shooter#7.699999999999999
-9500#Gish#Indie&Platformer&Physics#7.9
-9850#Codename: Panzers - Cold War#Strategy&RTS&Multiplayer#6.65
-9870#Ghostbusters: The Video Game#Action&Comedy&Third Person#7.65
-9900#Star Trek Online#Free to Play&Massively Multiplayer&Sci-fi#6.65
-9970#Star Raiders #Action&Space&+#6.9
-9980#The UnderGarden#Casual&Puzzle&Relaxing#7.2
-9990#Ghostbusters: Sanctum of Slime#Action&Adventure&Local Co-Op#4.5
-10080#Quantum of Solace#Sin etiquetas#7.3
-10120#Aces of the Galaxy#Action&Casual&Space#7.45
-10130#TimeShift#Action&FPS&Time Manipulation#7.3
-10150#Prototype#Action&Open World&Adventure#8.15
-10180#Call of Duty: Modern Warfare 2#Action&FPS&Multiplayer#8.45
-10460#The Club#Action&Third-Person Shooter&+#6.7
-10500#Empire: Total War#Strategy&Historical&Military#8.6
-11020#TrackMania Nations Forever#Racing&Free to Play&Multiplayer#8.6
-11050#Dracula: Origin#Adventure&Point & Click&Vampire#6.95
-11250#Pacific Storm#Simulation&Strategy&World War II#6.7
-11440#DiRT#Sin etiquetas#8.3
-11450#Overlord#RPG&Villain Protagonist&Third Person#8.0
-11480#Soldiers: Heroes of World War II#Strategy&World War II&RTS#8.1
-11590#Hospital Tycoon#Simulation&Management&Singleplayer#5.3
-11900#Lumines#Casual&Puzzle&Music#8.8
-12100#Grand Theft Auto III#Open World&Action&Third Person#9.35
-12110#Grand Theft Auto: Vice City#Open World&Action&Third Person#9.25
-12120#Grand Theft Auto: San Andreas#Open World&Action&Multiplayer#9.3
-12130#Manhunt#Action&Stealth&Gore#7.85
-12140#Max Payne#Noir&Action&Classic#8.45
-12150#Max Payne 2: The Fall of Max Payne#SNoir&Action&Classic#8.7
-12160#Midnight Club II#Racing&Open World&Great Soundtrack#8.15
-12170#Grand Theft Auto#Action&Classic&Open World#7.3
-12180#Grand Theft Auto 2#Action&Classic&Singleplayer#7.25
-12200#Bully: Scholarship Edition#Open World&Action&Adventure#8.15
-12210#Grand Theft Auto IV#Open World&Action&Bowling#8.95
-12330#DarkStar One#Action&Space&Sci-fi#7.55
-12360#FlatOut: Ultimate Carnage#Racing&Destruction&Multiplayer#7.95
-12710#Overlord: Raising Hell#RPG&Action&Fantasy#7.9
-12750#GRID#Racing&Simulation&Driving#8.15
-12770#Rise of the Argonauts#RPG&Action&Adventure#6.550000000000001
-12790#Damnation#Action&Adventure&Steampunk#4.15
-12810#Overlord II#RPG&Fantasy&Villain Protagonist#7.95
-12830#Operation Flashpoint: Dragon Rising#Action&FPS&Tactical#7.449999999999999
-12840#DiRT 2#Sin etiquetas#8.7
-12900#Audiosurf#Music&Indie&Rhythm#8.4
-13200#Unreal II: The Awakening#Action&FPS&Shooter#7.4
-13230#Unreal Tournament 2004#FPS&Action&Arena Shooter#9.25
-13500#Prince of Persia: Warrior Within#Action&Adventure&Third Person#8.55
-13520#Far Cry#FPS&Action&Classic#8.850000000000001
-13530#Prince of Persia: The Two Thrones#Action&Adventure&Platformer#8.7
-13600#Prince of Persia: The Sands of Time#Action&Adventure&Platformer#9.05
-15150#Petz Catz 2#Simulation&Cute&Casual#6.0
-15190#Brothers in Arms: Road to Hill 30#Action&FPS&World War II#8.75
-15200#Silent Hunter: Wolves of the Pacific#Simulation&World War II&Military#8.0
-15210#Silent Hunter III#Simulation&World War II&Military#8.95
-15230#Blazing Angels 2: Secret Missions of WWII#Action&Simulation&World War II#7.25
-15560#AaaaaAAaaaAAAaaAAAAaAAAAA!!! for the Awesome#Indie&Action&VR#7.7
-16300#Everyday Shooter#Indie&Casual&Twin Stick Shooter#7.800000000000001
-16720#Velvet Assassin#Stealth&Action&Female Protagonist#6.4
-17080#Tribes: Ascend#Free to Play&FPS&Action#8.399999999999999
-17300#Crysis#FPS&Action&Sci-fi#8.95
-17390#Spore#Simulation&Sandbox&Space#7.6
-17430#Need for Speed: Undercover#Racing&Open World&Action#6.75
-17450#Dragon Age: Origins#RPG&Fantasy&Story Rich#8.85
-17460#Mass Effect#RPG&Sci-fi&Action#8.9
-17470#Dead Space#Horror&Action&Sci-fi#8.7
-17480#Command and Conquer: Red Alert 3#Strategy&RTS&Base-Building#7.949999999999999
-18040#DeathSpank#RPG&Action&Indie#7.949999999999999
-18050#DeathSpank: Thongs Of Virtue#Action&RPG&Indie#7.9
-18070#The Baconing#RPG&Action&Adventure#6.699999999999999
-18120#Unstoppable Gorg#Tower Defense&Strategy&Indie#7.05
-18500#Defense Grid: The Awakening#Tower Defense&Strategy&Indie#8.2
-19000#Silent Hill: Homecoming#Horro&Adventure&Survival Horror#7.1
-19680#Alice: Madness Returns#Adventure&Action&Female Protagonist#7.75
-20500#Red Faction Guerrilla#Open World&Action&Destruction#8.2
-20530#Red Faction#Action&FPS&Sci-fi#8.0
-20540#Company of Heroes: Tales of Valor#Strategy&RTS&World War II#7.2
-20550#Red Faction II#Action&FPS&Strategy#8.15
-20820#Shatter#Great Soundtrack&Indie&Arcade#8.15
-20900#The Witcher: Enhanced Edition#RPG&Fantasy&Mature#8.8
-21000#LEGO Batman: The Videogame#LEGO&Action&Adventure#7.95
-21010#Watchmen: The End Is Nigh#Action&Beat 'em up&Superhero#6.55
-21600#Age of Booty#Strategy&Casual&Pirates#6.95
-21660#Street Fighter IV#Fighting&Action&Arcade#8.75
-21680#Bionic Commando Rearmed#Action&Platformer&Remake#8.35
-21699#Resident Evil 5#Action&Zombies&Co-op#8.55
-21760#World in Conflict#Strategy&RTS&Cold War#8.75
-21780#Driver: Parallel Lines#Racing&Action&Open World#6.85
-21980#Call of Juarez: Bound in Blood#Western&Action&FPS#8.0
-22000#World of Goo#Puzzle&Indie&Physics#9.100000000000001
-22120#Penumbra: Black Plague#Horror&Adventure&First-Person#7.949999999999999
-22180#Penumbra: Overture#Horror&Adventure&First-Person#7.6
-22230#Rock of Ages#Comedy&Indie&Strategy#7.5
-22300#Fallout 3#Open World&Post-apocalyptic&RPG#9.0
-22310#Rogue Warrior#Action&Short&FPS#2.9
-22320#The Elder Scrolls III: Morrowind#RPG&Open World&Fantasy#8.850000000000001
-22330#The Elder Scrolls IV: Oblivion #RPG&Open World&Fantasy#9.350000000000001
-22340#Call of Cthulhu: Dark Corners of the Earth#Horror&Lovecraftian&First-Person#7.8999999999999995
-22350#BRINK#FPS&Action&Parkour#6.8
-22600#Worms Reloaded#Strategy&2D&Turn-Based#7.95
-22650#Alien Breed 2: Assault#Action&Shooter&Third Person#6.3
-22670#Alien Breed 3: Descent#Action&Shooter&Third Person#6.4
-23310#The Last Remnant#JRPG&RPG&Singleplayer#7.15
-23450#Grand Ages: Rome#Strategy&Simulation&City Builder#7.15
-23530#Earth Defense Force: Insect Armageddon#Action&Third-Person Shooter&Co-op#7.050000000000001
-24200#DC Universe Online#Free to Play&Superhero&Action#7.2
-24240#PAYDAY: The Heist#FPS&Action&Co-op#7.35
-24400#King Arthur - The Role-playing Wargame#Strategy&RPG&Fantasy#7.800000000000001
-24460#King Arthur - Fallen Champions#Strategy&RPG&+#5.6
-24480#King Arthur II - The Role-playing Wargame#Strategy&RPG&RTS#6.5
-24790#Command and Conquer 3: Tiberium Wars#Strategy&RTS&Sci-fi#8.6
-24840#Medal of Honor: Airborne#Action&World War II&FPS#7.699999999999999
-24860#Battlefield 2#Action&FPS&Multiplayer#9.05
-24870#Need for Speed: SHIFT#Racing&Simulation&Multiplayer#7.8500000000000005
-24960#Battlefield: Bad Company 2#FPS&Multiplayer&Action#8.75
-24980#Mass Effect 2#RPG&Sci-fi&Story Rich#9.2
-25500#Cricket Revolution#Sports&Simulation&Indie#7.4
-25800#Europa Universalis III#Strategy&Grand Strategy&Historical#8.3
-25830#Knights of Honor#Strategy&Medieval&Grand Strategy#8.2
-25890#Hearts of Iron III#Grand Strategy&Strategy&World War II#7.4
-26800#Braid#Puzzle&Platformer&Indie#8.55
-27000#The Path#Indie&Walking Simulator&Adventure#7.4
-238010#Deus Ex: Human Revolution#Cyberpunk&Stealth&RPG#8.8
-29560#Guild Wars: Factions#Massively Multiplayer&RPG&+#8.600000000000001
-29610#Guild Wars: Factions#Massively Multiplayer&RPG&+#8.600000000000001
-261430#Aion#Free to Play&MMORPG&MMO#7.5
-29900#Dark Sector#Action&Third-Person Shooter&Third Person#7.1
-31270#Puzzle Agent#Puzzle&Adventure&Point & Click#3.6
-31800#Nancy Drew: Danger By Design#Adventure&Point & Click&Female Protagonist#7.0
-31830#Nancy Drew: Curse of Blackmoor Manor #Point & Click&Mystery&Female Protagonist#8.1
-31930#Nancy Drew: The White Wolf of Icicle Creek#Adventure&Point & Click&Mystery#7.1
-32360#The Secret of Monkey Island: Special Edition#Adventure&Point & Click&Comedy#8.55
-32380#Star Wars Jedi Knight: Dark Forces II#Star Wars&Action&FPS#8.899999999999999
-32420#Star Wars The Clone Wars: Republic Heroes#Action&Star Wars&Sci-fi#4.8
-32660#Delta Force: Xtreme#Action&FPS#4.2
-32610#Delta Force: Xtreme 2#Action#4.2
-32620#Delta Force#Action&FPS&Classic#8.4
-32630#Delta Force 2#Action&FPS&+#7.9
-32650#Delta Force: Task Force Dagger#Action#5.65
-32680#Delta Force: Black Hawk Down - Team Sabre#Action&FPS&+#6.15
-32710#Armored Fist 3#Simulation&Tanks&+#6.9
-32750#Comanche 4#Action&Simulation&Classic#7.6
-32760#Tachyon: The Fringe#Simulation&Space Sim&Space#8.5
-32800#The Lord of the Rings: War in the North#RPG&Action&Co-op#7.05
-33210#Dawn of Discovery#Strategy&Simulation&City Builder#8.3
-33320#Prince of Persia: The Forgotten Sands#Action&Adventure&Platformer#7.6
-33420#Call of Juarez: The Cartel#Action&Adventure&FPS#5.3
-33440#Driver San Francisco#Racing&Open World&Action#7.9
-33460#From Dust#God Game&Simulation&Adventure#7.3
-33520#Tropico#Simulation&Strategy&City Builder#8.3
-33990#AlternativA#Adventure&Point & Click&Sci-fi#6.3
-34010#Alpha Protocol#RPG&Stealth&Action#7.15
-34030#Napoleon: Total War#Strategy&Historical&Grand Strategy#8.149999999999999
-34190#Sonic and SEGA All Stars Racing#Racing&Local Multiplayer&Split Screen#7.3
-34274#Ecco the Dolphin#Action&Classic&Adventure#7.4
-34276#Golden Axe#Action&Beat 'em up&Classic#7.8
-34278#Sonic 3D Blast#Platformer&Great Soundtrack&Singleplayer#6.9
-34281#Altered Beast#Action&Arcade&Beat 'em up#7.2
-34312#Ristar#Platformer&Classic&Great Soundtrack#8.5
-34316#Bio-Hazard Battle#Action&Shoot 'Em Up&+#7.7
-34330#Total War: SHOGUN 2#Strategy&Turn-Based Strategy&RTS#8.85
-34600#Order of War#Strategy&World War II&RTS#7.300000000000001
-34800#Chronicles of Mystery: The Scorpio Ritual#Adventure&Point & Click&Female Protagonist#6.2
-34820#Combat Wings: Battle of Britain#Simulation&Flight&Arcade#7.0
-34830#Sniper: Ghost Warrior#Action&Sniper&FPS#5.8
-34870#Sniper Ghost Warrior 2#Sniper&Action&FPS#5.9
-35000#Mini Ninjas#Adventure&Action&Ninja#7.85
-35010#Batman: Arkham Asylum#Action&Batman&Stealth#9.1
-35130#Lara Croft and the Guardian of Light#Action&Adventure&Co-op#8.149999999999999
-35300#Warfare#Strategy&RTS&+#7.0
-35460#The Ball#Puzzle&Action&Indie#6.6
-231140#Cities XL#Sin etiquetas#6.6
-35700#Trine#Platformer&Fantasy&Indie#8.05
-35720#Trine 2#Platformer&Adventure&Puzzle#8.350000000000001
-38120#Farm Frenzy#Casual&Agriculture&+#7.1
-38230#Hotel Giant 2#Sin etiquetas#6.0
-38400#Fallout#RPG&Post-apocayltic&Classic#9.0
-38410#Fallout 2#RPG&Post-apocayltic&Classic#8.95
-38440#Sacrifice#Strategy&RTS&Fantasy#8.8
-38700#Toki Tori#Puzzle&Casual&Indie#7.5
-39120#RIFT#Free to Play&MMORPG&Massively Multiplayer#8.25
-39140#FINAL FANTASY VII#JRPG&RPG&Classic#9.5
-39150#FINAL FANTASY VIII#JRPG&RPG&Classic#9.1
-39160#Dungeon Siege III#RPG&Action&Fantasy#6.75
-39190#Dungeon Siege#RPG&Fantasy&Action RPG#8.35
-39500#Gothic 3#RPG&Open World&Action#7.0
-39670#Chaser#Action&FPS&Sci-fi#7.199999999999999
-40100#Supreme Commander 2#Strategy&RTS&Sci-fi#7.25
-40300#Risen#RPG&Open World&Gothic#7.75
-40390#Risen 2 - Dark Waters#RPG&Pirates&Open World#6.95
-40700#Machinarium#Point & Click&Adventure&Puzzle#8.6
-40800#Super Meat Boy#Platformer&Indie&Difficult#8.45
-40960#Stronghold 2#Strategy&Medieval&Classic#6.9
-40980#Stronghold Legends#Strategy&Medieval&Classic#6.15
-41070#Serious Sam 3: BFE#FPS&Action&Co-op#7.5
-41500#Torchlight#RPG&Action RPG&Hack and Slash#8.3
-42120#Lead and Gold - Gangs of the Wild West#Sin etiquetas#7.1
-42160#War of the Roses#Sin etiquetas#7.25
-42170#Krater#RPG&Indie&Adventure#5.85
-42650#Transformers: War for Cybertron#Action&Third Person&Sci-fi#7.85
-42670#Singularity#Sin etiquetas#7.6
-42700#Call of Duty: Black Ops#Action&FPS&Zombies#8.05
-42910#Magicka#Comedy&Action&Co-op#7.5
-42960#Victoria II#Grand Strategy&Strategy&Historical#7.75
-43000#Front Mission Evolved#Mechs&Action&Shooter#6.449999999999999
-43100#World of Zoo#Simulation&Family Friendly&+#6.3
-43110#Metro 2033#FPS&Post-apocalyptic&Action#8.1
-287390#Metro: Last Light#Post-apocaplyptic&Atmospheric&Action#8.3
-44200#Galcon Fusion#Strategy&Indie&RTS#6.8
-321040#DiRT 3#Racing&Simulation&Sports#8.45
-44340#Operation Flashpoint: Red River#Action&Strategy&FPS#6.85
-44350#GRID 2#Racing&Sports&Multiplayer#7.6
-44360#F1 2011#Racing&Simulation&Sports#8.25
-44680#Race Injection#Racing&Simulation&+#7.2
-44690#GT Legends#Simulation&Racing&Sports#8.5
-45700#Devil May Cry 4#Action&Hack and Slash&Character Action Game#8.2
-45710#Dark Void#Action&Adventure&Third-Person Shooter#6.050000000000001
-45720#Lost Planet: Extreme Condition - Colonies Edition#Action&Adventure&Third-Person Shooter#7.5
-45730#Dark Void Zero#Action&Adventure&Platformer#7.95
-45740#Dead Rising 2#Zombies&Action&Adventure#7.85
-45750#Lost Planet 2#Action&Co-op&Third-Person Shooter#6.75
-46380#Reign: Conflict of Nations#Sin etiquetas#6.0
-46490#Still Life 2#Adventure&Point & Click&Female Protagonist#6.65
-46500#Syberia#Adventure&Point & Click&Steampunk#8.399999999999999
-46540#Trapped Dead#Zombies&Strategy&Action#5.0
-46550#Post Mortem#Adventure&Point & Click&Mystery#7.15
-46570#Grotesque Tactics 2 - Dungeons and Donuts#RPG&Strategy&Indie#5.199999999999999
-47400#Stronghold 3#Strategy&Medieval&Simulation#4.35
-47700#Command and Conquer 4: Tiberian Twilight#Strategy&RTS&Multiplayer#5.2
-47780#Dead Space 2#Horror&Action&Sci-fi#8.75
-47800#RISK Factions#Strategy&Board Game&Multiplayer#7.45
-47870#Need for Speed: Hot Pursuit#Racing&Multiplayer&Open World#8.3
-47810#Dragon Age I#RPG&Fantasy&Singleplayer#7.8
-47920#Shift 2 Unleashed#Racing&Simulation&Driving#7.65
-48000#LIMBO#Platformer&Indie&Puzzle#8.5
-48110#Silent Hunter 5: Battle of the Atlantic#Simulation&World War II&Naval#5.25
-901436#The Settlers 7: Paths to a Kingdom#Strategy&City Builder&+#4.25
-48240#Anno 2070#Strategy&City Builder&Futuristic#8.15
-48800#Ship Simulator Extremes#Simulation&Realistic&Multiplayer#4.9
-48950#Greed Corp#Strategy&Turn-Based&Multiplayer#7.55
-49300#Commander: Conquest of the Americas#Strategy&Naval&+#6.35
-49400#Magic: The Gathering - Duels of the Planeswalkers#Sin etiquetas#8.0
-49540#Aliens: Colonial Marines#Sin etiquetas#4.85
-50460#Mafia II#Action&Open World&Crime#7.949999999999999
-50510#Burn Zombie Burn#Action&Zombies&+#7.2
-50620#Darksiders#Action&Adventure&Hack and Slash#8.350000000000001
-388410#Darksiders II#Action&Adventure&RPG#8.149999999999999
-50820#Max and the Magic Marker#Indie&Family Friendly&Platformer#7.6
-51100#Tactical Intervention#Free to Play&Action&FPS#4.7
-55100#Homefront#Action&FPS&Shooter#6.85
-55110#Red Faction: Armageddon#Action&Destruction&Third Person#7.55
-55230#Saints Row: The Third#Open World&Action&Comedy#8.350000000000001
-57300#Amnesia: The Dark Descent#Horror&First-Person&Atmospheric#8.55
-57680#The First Templar#Action&Adventure&Medieval#5.95
-57690#Tropico 4#City Builder&Simulation&Strategy#7.75
-57740#Jagged Alliance - Back in Action#Strategy&RPG&Simulation#6.25
-57900#Duke Nukem Forever#FPS&Action&Shooter#5.550000000000001
-58200#Jolly Rover#Adventure&Indie&Point & Click#7.3
-58520#Blood Bowl: Legendary Edition#Strategy&Sports&Turn-Based#7.3
-58540#Divinity II - The Dragon Knight Saga#Sin etiquetas#8.2
-58610#Wargame: European Escalation#Strategy&RTS&Military#7.9
-61500#Age of Wonders#Strategy&RPG&Turn-Based Strategy#8.3
-61520#Age of Wonders: Shadow Magic#Strategy&RPG&Turn-Based Strategy#8.35
-62000#Flight Control HD#Casual&Action&Arcade#3.7
-62100#Chime#Casual&Puzzle&Music#3.9
-63200#Monday Night Combat#Action&Indie&Sports#8.1
-63380#Sniper Elite V2#Sniper&Action&Stealth#7.0
-63600#realMyst#Adventure&Point & Click&Puzzle#8.15
-63900#Fantasy Wars#Strategy&Turn-Based Strategy&Turn-Based#7.15
-63960#Theatre of War 3: Korea#Strategy&Cold War&+#4.9
-64000#Men of War: Assault Squad#Strategy&World War II&Tactical#7.85
-65300#Dustforce#Platformer&Great Soundtrack&Indie#7.7
-65540#Gothic#RPG&Atmospheric&Open World#8.399999999999999
-65800#Dungeon Defenders#Tower Defense&RPG&Co-op#8.05
-65930#The Bureau: XCOM Declassified#Action&Tactical&Sci-fi#6.55
-67370#The Darkness II#FPS&Action&Gore#7.7
-70300#VVVVVV#Platformer&Indie&Great Soundtrack#8.3
-70600#Worms Ultimate Mayhem#Strategy&Multiplayer&Funny#6.9
-70640#Worms#Strategy&Action&Classic#8.1
-71113#Sonic the Hedgehog#Platformer&Classic&2D#8.3
-71116#Alien Soldier#Action&Retro&Platformer#7.6
-71117#Gunstar Heroes#Action&Side Scroller&Classic#8.7
-71163#Sonic the Hedgehog 2#Platformer&Classic&Great Soundtrack#8.7
-71164#Streets of Rage#Action&Beat 'em up&Classic#8.3
-71165#Streets of Rage 2#Beat 'em up&Action&Classic#8.6
-71166#Toejam and Earl#Adventure&Great Soundtrack&Classic#8.5
-71230#Crazy Taxi#Racing&Action&Arcade#7.5
-71240#SEGA Bass Fishing#Sports&Simulation&Fishing#7.5
-71340#Sonic Generations#Platformer&Great Soundtrack&Action#8.1
-72000#Closure#Puzzle&Indie&Platformer#7.8
-72850#The Elder Scrolls V: Skyrim#Open World&RPG&Fantasy#9.2
-73010#Cities in Motion#Simulation&Management&Strategy#7.0
-78000#Bejeweled 3#Casual&Puzzle&Match 3#8.1
-80310#Gemini Rue#Point & Click&Adventure&Sci-fi#8.3
-80330#The Blackwell Legacy#Adventure&Point & Click&Indie#8.0
-80360#Blackwell Deception#Point & Click&Adventure&Indie#7.3
-35450#Red Orchestra 2 - Heroes of Stalingrad#Realistic&Worl War II&FPS#7.35
-81401#Aliens Colonial Marines#Action&FPS&Aliens#4.85
-209100#Resident Evil Operation Raccoon City#Action&Zombies&Co-op#5.3
-91100#SkyDrift#Racing&Indie&Controller#7.35
-91200#Anomaly Warzone Earth#Strategy&Indie&Tower Defense#7.85
-91310#Dead Island#Zombies&Action&Open World#7.85
-91900#Post Apocalyptic Mayhem#Racing&Action&Post-apocalyptic#4.800000000000001
-92000#Hydrophobia: Prophecy#Action&Adventure&Indie#6.45
-92600#Xotic#Action&Indie&FPS#5.95
-94400#Nidhogg#Indie&Local Multiplayer&Action#7.55
-95900#Air Conflicts - Secret Wars#Action&Simulation&Flight#6.5
-96400#Shoot Many Robots#Action&Indie&RPG#3.6
-96900#Slam Bolt Scrappers#Action&Indie&Strategy#3.45
-98200#Frozen Synapse#Strategy&Turn-Based&Tactical#8.0
-98300#Toy Soldiers#Tower Defense&Strategy&Action#7.75
-98400#Hard Reset#Cyberpunk&FPS&Action#7.25
-99300#Renegade Ops#Action&Twin Stick Shooter&Top-Down#7.65
-99810#Bulletstorm#FPS&Action&Comedy#8.149999999999999
-99830#Crysis 2#Action&FPS&Sci-fi#8.45
-99910#Puzzle Pirates#Free to Play&Massively Multiplayer&Puzzle#8.05
-102810#Gatling Gears#Action&Adventure&Indie#3.55
-102840#Shank 2#Action&Beat 'em up&Indie#7.35
-105600#Terraria#Sandbox&Adventure&2D#8.25
-105800#PixelJunk Eden#Casual&Indie&Platformer#7.8
-106000#The Cursed Crusade#Action&Adventure&medieval#5.45
-107100#Bastion#Great Soundtrack&Indie&Action#8.5
-107200#Space Pirates and Zombies#Space&Action&Indie#7.4
-107800#Rochard#Platformer&Indie&Action#7.85
-108200#Ticket to Ride#Board Game&Strategy&Casual#9.1
-108710#Alan Wake#Action&Horror&Adventure#8.350000000000001
-109600#Neverwinter#Free to Play&MMORPG&RPG#7.25
-111300#Smash Cars#Racing&Sports&Action#3.4
-111600#Serious Sam Double D XXL#Action&Indie&Platformer#6.8
-111900#Guardians of Middle-earth#MOBA&Strategy&Action#6.1
-112100#Avadon: The Black Fortress#RPG&Indie&Fantasy#7.1
-113200#The Binding of Isaac#Rogue-like&Indie&Replay Value#8.15
-113400#APB Reloaded#Free to Play&Action&Open World#5.6
-115100#Costume Quest#RPG&Adventure&Comedy#3.95
-115110#Stacking#Adventure&Puzzle&Indie#7.95
-115200#Cossacks II: Napoleonic Wars#Strategy&RTS&Historical#7.65
-115300#Call of Duty: Modern Warfare 3#Action&FPS&Multiplayer#7.5
-115320#PROTOTYPE 2#Action&Open World&Gore#7.65
-200010#Quantum Conundrum#Puzzle&First-Person&Comedy#7.6
-200110#Nosgoth#Free to Play&Action&Vampire#3.55
-200170#Worms Revolution#Strategy&Multiplayer&Turn-Based Strategy#7.3
-200230#Off-Road Drive#Simulation&Racing&Offroad#6.0
-200370#A Game of Dwarves#Strategy&Casual&Fantasy#6.0
-200510#XCOM: Enemy Unknown#Turn-Based Strategy&Tactical&Strategy#8.600000000000001
-200710#Torchlight II#RPG&Action RPG&Hack and Slash#8.600000000000001
-200910#Before the Echo#RPG&Rhythm&Indie#6.75
-200940#Sonic CD#Platformer&Classic&Great Soundtrack#8.8
-201230#EverQuest II#Free to Play&RPG&Massively Multiplayer#8.0
-201270#Total War: SHOGUN 2#Strategy&Turn-Based Strategy&RTS#8.85
-201271#Total War: SHOGUN 2 - Fall of the Samurai#Strategy&Historical&RTS#8.55
-201310#X3: Albion Prelude#Space&Simulation&Sandbox#7.5
-201700#DiRT Showdown#Racing&Action&Sports#7.300000000000001
-201810#Wolfenstein: The New Order#FPS&Action&Shooter#8.149999999999999
-201830#Jurassic Park: The Game#Adventure&Dinosaurs&Quick-Time Events#6.050000000000001
-202090#Magicka: Wizard Wars#Free to Play&Magic&Action#6.7
-202130#Impire#Strategy&Fantasy&Villain Protagonist#5.35
-202270#Leviathan: Warships#Strategy&Action&Turn-Based Strategy#6.55
-202970#Call of Duty: Black Ops II#Action&Multiplayer&FPS#7.4
-203140#Hitman: Absolution#Stealth&Action&Third Person#8.0
-203160#Tomb Raider#Adventure&Action&Female Protagonist#8.6
-203650#SONIC THE HEDGEHOG 4 Episode II#Adventure&Platformer&Co-op#6.300000000000001
-203680#F1 Race Stars#Racing&Arcade&Split Screen#6.1
-203750#Binary Domain#Action&Third-Person Shooter&Sci-fi#7.35
-203770#Crusader Kings II#Grand Strategy&Strategy&Medieval#8.2
-203810#Dear Esther#Walking Simulator&Indie&Exploration#7.3
-203830#The Dark Eye: Chains of Satinav#Adventure&Point & Click&Fantasy#7.35
-204080#The Showdown Effect#Action&Multiplayer&Platformer#6.7
-204100#Max Payne 3#Action&Third-Person Shooter&Bullet Time#8.6
-204240#The Bridge#Puzzle&Indie&Casual#7.300000000000001
-204300#Awesomenauts#MOBA&Multiplayer&Platformer#7.75
-204360#Castle Crashers#Action&Co-op&Adventure#4.35
-204450#Call of Juarez Gunslinger#Western&FPS&Action#7.95
-204530#Infested Planet#Strategy&Action&Indie#7.85
-204580#Rotastic#Casual&Action&+#5.0
-204840#Babel Rising#Strategy&Action&+#2.45
-204860#Men of War: Condemned Heroes#Strategy&Action&World War II#5.65
-204880#Sins of a Solar Empire: Rebellion#Strategy&Space&RTS#8.3
-205020#Lumino City#Adventure&Indie&Point & Click#7.0
-205100#Dishonored#Stealth&Steampunk&Action#8.75
-205190#Rocksmith#Music&Simulation&Education#8.2
-205730#Insanely Twisted Shadow Planet#Metroidvania&Indie&Adventure#7.8
-205810#Jagged Alliance: Crossfire#Strategy&RPG&Simulation#6.3
-205950#Jet Set Radio#Great Soundtrack&Classic&Action#9.100000000000001
-205990#Warlock 2: the Exiled#Strategy&Fantasy&Turn-Based#7.15
-228280#Baldurs Gate#RPG&Fantasy&Classic#9.0
-206190#Gunpoint#Stealth&Indie&Puzzle#7.95
-206370#Tales from Space: Mutant Blobs Attack#Indie&Action&Platformer#8.15
-206420#Saints Row IV#Open World&Action&Comedy#8.1
-206440#To the Moon#Indie&Story Rich&Great Soundtrack#8.35
-206760#Painkiller: Recurring Evil#Sin etiquetas#3.8
-321800#Icewind Dale#RPG&Adventure&Fantasy#8.45
-207000#Alien Spidy#Action&Indie&Adventure#5.5
-207040#Sine Mora#Sin etiquetasIndie&Action&Arcade#7.65
-207150#Stellar Impact#Strategy&Indie&Action#7.4
-207170#Legend of Grimrock#RPG&Dungeon Crawler&Indie#8.149999999999999
-207190#Fireburst#Racing&Action&Adventure#6.0
-207490#Rayman Origins#Platformer&Local Co-Op&Adventure#8.649999999999999
-207650#A Virus Named TOM#Indie&Puzzle&Strategy#6.5
-207690#Botanicula#Point & Click&Indie&Adventure#8.2
-207930#Sacred Citadel#Action&Beat 'em up&Local Co-Op#6.1
-208090#Loadout#Free to Play&Action&Gore#7.0
-208140#Endless Space#Strategy&4X&Space#7.550000000000001
-208200#DOOM 3: BFG Edition#FPS&Horror&Action#7.4
-208500#F1 2012#Racing&Simulation&Sports#7.95
-208520#Omerta - City of Gangsters#Strategy&Crime&Simulation#5.35
-208670#Blades of Time#Action&Adventure&Hack and Slash#6.699999999999999
-208730#Game of Thrones #RPG&Action&Fantasy#6.3
-208750#Apotheon#Action&Adventure&Platformer#7.5
-209120#Street Fighter X Tekken#Fighting&Action&Arcade#7.65
-209160#Call of Duty: Ghosts#FPS&Action&Multiplayer#6.25
-209330#A Valley Without Wind#Platformer&Action&Indie#5.5
-209540#Strike Suit Zero#Space&Action&Mechs#6.75
-209630#Magrunner: Dark Pulse#Adventure&Cyberpunk&Puzzle#7.05
-209790#Splice#Puzzle&Indie&Casual#7.0
-209870#Blacklight: Retribution#Free to Play&FPS&Multiplayer#7.55
-210550#Angry Birds Space#Casual&Physics&Puzzle#8.100000000000001
-210770#Sanctum 2#Tower Defense&FPS&Co-op#7.2
-210870#Cloudberry Kingdom#indie&Platformer&Rogue-like#7.05
-211160#Viking: Battle for Asgard#Action&Adventure&Hack and Slash#6.85
-211180#Unmechanical#Indie&Adventure&Casual#7.25
-211780#Conflict Desert Storm#Action&Tactical&Classic#6.25
-212050#Resonance#Adventure&Point & Click&Indie#7.65
-212580#The Amazing Spider-Man#Action&Adventure&Open World#3.8
-212680#FTL: Faster Than Light#Rogue-like&Space&Indie#8.2
-213120#Transformers: Fall of Cybertron#Action&Third Person&Robots#7.9
-213850#Magic 2014 #Card Game&Strategy&Trading Card Game#8.5
-214170#Divine Divinity#RPG&Fantasy&Isometric#8.2
-214250#I Am Alive#Survival&Action&Adventure#7.0
-214340#Deponia#Adventure&Point & Click&Comedy#7.5
-214490#Alien: Isolation#Horror&Survival Horror&Sci-fi#8.149999999999999
-214550#Eets Munchies#Indie&Casual&Puzzle#7.3
-214560#Mark of the Ninja#Stealth&Platformer&Ninja#8.75
-215080#WAKFU#Free to Play&Massively Multiplayer&RPG#7.6
-215160#The Book of Unwritten Tales#Adventure&Point & Click&Fantasy#8.2
-215280#The Secret World#MMORPG&Lovecraftian&MMO#7.6
-215470#Primal Carnage#Dinosaurs&Multiplayer&Action#6.85
-215510#Rocketbirds: Hardboiled Chicken#Indie&Platformer&Action#7.2
-215530#The Incredible Adventures of Van Helsing#RPG&Hack and Slash&Action#7.5
-215670#Home#Indie&Adventure&Horror#6.7
-216110#Tiny Troopers#Action&Strategy&Indie#6.45
-383180#Dead Island Riptide#Action&Zombies&RPG#6.449999999999999
-216910#Of Orcs And Men#RPG&Action&Fantasy#6.85
-217080#Doctor Who: The Eternity Clock#Adventure&Action&Sci-fi#3.0
-217140#Rise of the Triad#FPS&Action&Gore#6.45
-217690#Anna - Extended Edition#Horror&Adventure&Indie#7.5
-218090#Unity of Command#Strategy&World War II&Turn-Based Strategy#8.4
-218230#PlanetSide 2#Free to Play&Massively Multiplayer&FPS#8.05
-218620#PAYDAY 2#Co-op&Action&FPS#7.45
-218640#Lucius#Horror&Adventure&indie#6.2
-218680#Scribblenauts Unlimited#Puzzle&Casual&Adventure#7.4
-218740#Pid #Indie&Platformer&Adventure#6.6
-218820#Mercenary Kings#Action&Indie&2D#6.75
-219150#Hotline Miami#Action&Indie&Gore#8.2
-219600#NBA 2K13#Sports&Basketball&+#8.55
-219640#Chivalry: Medieval Warfare#Medieval&Multiplayer&Action#7.9
-219680#Proteus#Exploration&Indie&Walking Simulator#6.65
-219890#Antichamber#Puzzle&Indie&First-Person#8.1
-220200#Kerbal Space Program#Space&Simulation&Sandbox#8.65
-220260#Farming Simulator 2013#Simulation&Casual&Multiplayer#6.5
-220440#DmC Devil May Cry#Action&Hack and Slash&Gore#8.15
-220740#Chaos on Deponia#Adventure&Point & Click&Comedy#7.949999999999999
-220780#Thomas Was Alone#Platformer&Indie&Narration#7.5
-220820#Zombie Driver HD#Zombies&Racing&Action#3.05
-221260#Little Inferno#Indie&Casual&Puzzle#7.6
-221300#Monopoly#Board Game&Strategy&Casual#6.9
-221430#Pro Evolution Soccer 2013#Sin etiquetas#7.8999999999999995
-221540#Defense Grid 2#Tower Defense&Strategy&Indie#8.1
-221810#The Cave#Adventure&Platformer&Puzzle#7.199999999999999
-221910#The Stanley Parable#Comedy&Narration&Indie#8.25
-222180#Mushroom Men: Truffle Trouble #Indie&Action&Platformer#5.5
-222750#Wargame: AirLand Battle#Strategy&RTS&Military#7.8
-222880#Insurgency#FPS&Realistic&Tactical#7.1
-223220#Giana Sisters: Twisted Dreams#Platformer&Indie&Action#7.7
-223470#POSTAL 2#Violent&Action&FPS#6.2
-223510#Miasmata#Survival&Exploration&Indie#7.1
-223670#F1 2013#Racing&Simulation&Sports#7.800000000000001
-223830#Xenonauts#Strategy&Turn-Based Strategy&Sci-fi#7.550000000000001
-224040#LocoCycle#Action&Racing&Casual#2.75
-224060#Deadpool#Action&Singleplayer&Shooter#6.85
-224300#Legacy of Kain: Defiance#Action&Adventure&Vampire#7.9
-224460#Contrast#Noir&Indie&Female Protagonist#6.45
-224480#Octodad: Dadliest Catch#Comedy&Physics&Indie#7.05
-224600#Defiance#Free to Play&Action&RPG#6.85
-224760#FEZ#Platformer&Indie&Puzzle#8.45
-224860#Arma Tactics#Strategy&Indie&Turn-Based#6.0
-224920#Legacy of Kain: Soul Reaver#Action&Adventure&Vampire#8.8
-224980#Tomb Raider: The Last Revelation#Action&Adventure&Female Protagonist#7.7
-225000#Tomb Raider: Chronicles#Action&Adventure&Female Protagonist#6.85
-225080#Brothers - A Tale of Two Sons#Adventure&Atmospheric&Controller#8.7
-225300#Tomb Raider II#Action&Adventure&Female Protagonist#8.1
-225320#Tomb Raider III: Adventures of Lara Croft#Action&Adventure&Female Protagonist#7.8
-225360#DARK#Action&Stealth&RPG#4.25
-225420#Cities in Motion 2#Simulation&Strategy&Management#7.2
-225540#Just Cause 3#Action&Open World&Third Person#7.0
-226100#Nom Nom Galaxy#Indie&Casual&Action#7.0
-226560#Escape Dead Island#Zombies&Adventure&Survival#5.0
-226580#F1 2014#Racing&Sports&Simulation#6.35
-226720#Lost Planet 3#Action&Third-Person Shooter&Sci-fi#6.3
-226840#Age of Wonders III#Strategy&Turn-Based Strategy&Fantasy#7.65
-226860#Galactic Civilizations III#Strategy&Space&Turn-Based Strategy#7.55
-227000#Primordia#Point & Click&Adventure&Post-apocalyptic#7.2
-227020#Rise of Venice#Strategy&Simulation&Trading#6.6
-227060#Hegemony Rome: The Rise of Caesar#Strategy&Indie&Simulation#3.5
-227200#Waking Mars#Sci-fi&Adventure&Exploration#8.4
-211400#Deadlight#Platformer&Post apocaplyptic&Mature#7.1
-211420#Dark Souls: Prepare to Die Edition#RPG&Fantasy&Action#8.9
-225260#Brütal Legend#Action&Comedy&Adventure#8.7
-227220#Sang-Froid - Tales of Werewolves#Strategy&Tower Defense&Action#7.5
-368730#No Time to Explain#Indie&CasualAction#6.4
-227300#Euro Truck Simulator 2#Simulation&Driving&Open World#7.9
-227480#God Mode#Action&Co-op&Multiplayer#5.95
-27560#Scourge: Outbreak#Indie&Action&Third-Person Shooter#2.35
-227700#Firefall#Free to Play&Massively Multiplayer&Open World#6.15
-228300#Remember Me#Cyberpunk&Action&Female Protagonist#6.8
-228320#A Valley Without Wind 2#Action&Indie&Strategy#6.05
-228560#Teenage Mutant Ninja Turtles: Out of the Shadows#Action&Ninja&Third Person#3.0
-228960#Skulls of the Shogun#Strategy&Indie&Turn-Based Strategy#6.7
-229580#Dream#Indie&Adventure&Exploration#6.6
-229890#Joe Danger#Racing&Indie&Action#4.05
-230190#War for the Overworld#Strategy&Indie&God Game#6.3
-230410#Warframe#Free to Play&Action&Co-op#7.15
-230840#Daylight#Horror&Adventure&Indie#4.55
-230860#Cannon Brawl#Indie&Local Multiplayer&2D#7.050000000000001
-231040#Beatbuddy: Tale of the Guardians#Music&Indie&Adventure#7.1
-231160#The Swapper#Puzzle&Sci-fi&Atmospheric#8.3
-231330#Deadfall Adventures#Adventure&Action&FPS#5.3
-231430#Company of Heroes 2#Strategy&World War II&RTS#7.2
-231890#Dungeons & Dragons: Chronicles of Mystara Demo#Action&Arcade&RPG#7.1
-231990#Spider-Man: Shattered Dimensions#Action&Superhero&Comic Book#7.35
-232010#Euro Truck Simulator#Simulation&Racing&+#7.6
-232050#Eador. Masters of the Broken World#Strategy&Fantasy&Indie#5.9
-232090#Killing Floor 2#Shooter&FPS&Zombies#7.7
-232430#Gone Home#Walking Simulator&Short&Indie#7.449999999999999
-232750#Mars: War Logs#RPG&Action&Sci-fi#5.9
-221040#Resident Evil 6#Zombies&Action&Shooter#6.2
-220240#Far Cry 3#Open World&Action&FPS#8.8
-19900#Far Cry 2#Open World&Action&FPS#6.8
-359610#Assassin’s Creed Chronicles: India#Action&Adventure&Assassin#7.2
-359600#Assassin’s Creed Chronicles: Russia#Action&Adventure&Assassin#7.3
-260210#Assassin's Creed Liberation#Action&Open World&Assassin#6.6
-354380#Assassin's Creed Chronicles: China#Action&Stealth&Assassin#7.7
-48190#Assassin's Creed Brotherhood#Action&Open World&Assassin#9.0
-208480#Assassin's Creed III#Action&Open World&Assassin#7.9
-242050#Assassin's Creed IV Black Flag#Action&Open World&Assassin#8.8
-277590#Assassin's Creed Freedom Cry#Action&Open World&Assassin#8.2
-289650#Assassin's Creed Unity#Action&Open World&Assassin#5.2
-15100#Assassin's Creed#Action&Open World&Assassin#8.7
-33230#Assasin's Creed 2#Action&Open World&Assassin#8.1
-201870#Assassin's Creed Revelations#Action&Open World&Assassin#8.4
-368500#Assassin's Creed Syndicate#Action&Open World&Assassin#6.7
-232770#POSTAL#Action&Dark Humor&Indie#6.05
-232910#TrackMania Stadium#Racing&Arcade&Action#7.1
-232790#Broken Age#Point & Click&Adventure&Indie#7.75
-232890#Stronghold Crusader 2#Strategy&Medieval&RTS#6.5
-232970#Thunder Wolves#Action&Indie&Casual#6.75
-233130#Shadow Warrior#Action&FPS&Gore#7.5
-233150#LUFTRAUSERS#Indie&Action&Arcade#7.55
-233190#Final Exam#Action&Indie&Co-op#6.949999999999999
-233210#Air Conflicts: Vietnam#Simulation&Action&+#4.3
-233250#Planetary Annihilation#Strategy&RTS&Space#6.3
-233270#Far Cry 3 Blood Dragon#FPS&Open World&Action#8.1
-233290#MURDERED: SOUL SUSPECT#Gore&Detective&Horror#8.2
-244160#Homeworld Remastered Collection#Space&Strategy&RTS#8.1
-110800#L.A. Noire#Detective&Noir&Crime#8.6
-104900#ORION: Prelude#Dinosaurs&Action&FPS#7.9
-263980#Out There Somewhere#Platformer&Indie&Pixel Graphics#9.4
-233350#Sudeki#RPG&Action&Adventure#7.8
-233370#The Raven - Legacy of a Master Thief#Adventure&Point & Click&Mystery#6.45
-220160#Trials Evolution Gold Edition#Racing&Action&Multiplayer#7.7
-233450#Prison Architect#Simulation&Strategy&Building#9.2
-233470#Evoland#RPG&Adventure&Indie#7.9
-233530#Wake#Indie&Action&Platformer#2.9
-233550#Another World#Adventure&Classic&Action#8.7
-233590#Fallen Enchantress: Legendary Heroes#Strategy&Fantasy&Turn-Based Strategy#7.6
-233610#Distance#Racing&Indie&Action#9.2
-233630#Ascend: Hand of Kul#Free to Play&Action&RPG#4.3
-233700#Sword of the Stars: The Pit#Rogue-like&RPG&Sci-fi#7.5
-233720#Surgeon Simulator#Simulation&Comedy&Indie#8.0
-233860#Kenshi#Sandbox&RPG&Open World#8.4
-233980#Unepic#RPG&Indie&Platformer#8.9
-234080#Castlevania: Lords of Shadow#Action&Adventure&Hack and Slash#7.6
-234140#Mad Max#Action&Open World&Survival#8.8
-234160#Strike Suit Infinity#Action&Indie&Space#6.949999999999999
-234290#Zack Zero#Indie&Action&Adventure#5.9
-234390#Teleglitch: Die More Edition#Rogue-like&Indie&Top-Down Shooter#7.8
-234530#War of the Vikings#Action&Multiplayer&Medieval#6.2
-234630#Project CARS#Racing&Simulation&Driving#8.0
-234650#Shadowrun Returns#Cyberpunk&RPG&Turn-Based#7.5
-234670#NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst#Anime&Fighting&Action#8.7
-234710#Poker Night 2#Casual&Comedy&Card Game#7.05
-234920#Dyscourse#Adventure&Indie&Casual#6.35
-235210#Strider#Platformer&Metroidvania&Action#7.6
-235340#Prime World#Free to Play&MOBA&Strategy#8.25
-235360#Prime World: Defenders#Tower Defense&Strategy&Indie#5.8
-235460#METAL GEAR RISING: REVENGEANCE#Action&Hack and Slash&Great Soundtrack#8.8
-235540#Warhammer: End Times - Vermintide#Action&Online Co-Op&Co-op#8.0
-235611#Tom Clancy's Splinter Cell Blacklist#Stealth&Action&Co-op#7.6
-235620#Small World 2#Board Game&Strategy&Casual#7.7
-235700#Sniper Elite: Zombie Army#Board Game&Strategy&Casual#7.7
-235800#Audiosurf 2#Music&Indie&Rhythm#7.6
-236090#Dust: An Elysian Tail#Action&Platformer&Indie#8.4
-236130#Horizon#Strategy&Space&4X#2.9
-236150#Starpoint Gemini 2#Space&Simulation&RPG#7.0
-236390#War Thunder#Free to Play&Simulation&World War II#8.0
-236430#DARK SOULS II#RPG&Action&Fantasy#8.2
-236510#Takedown: Red Sabre#FPS&Action&Tactical#3.15
-236690#Blood Bowl 2#Sports&Strategy&Turn-Based#7.8
-236730#Anomaly 2#Strategy&Indie&Action#7.6
-236850#Europa Universalis IV#Grand Strategy&Strategy&Historical#8.399999999999999
-236930#Blackwell Epiphany#Adventure&Indie&Point & Click#8.3
-236830#Red Orchestra 2: Heroes of Stalingrad#FPS&Action&Shooter#7.1
-236850#Europa Universalis IV#Strategy&Historical&Simulation#8.4
-236870#HITMAN#Stealth&Action&Assassin#6.8
-237110#Mortal Kombat Komplete Edition#Fighting&Classic&Arcade#7.7
-237350#Frozen Cortex#Sports&Strategy&Tactical#6.7
-237430#Expeditions: Conquistador#RPG&Strategy&Turn-Based#7.7
-237470#Battle Worlds: Kronos#Strategy&Turn-Based Strategy&Turn-Based#7.1
-237630#DuckTales Remastered#Platformer&Remake&Adventure#7.1
-237760#Intake#Indie&Action&Great Soundtrack#3.35
-237850#Dreamfall Chapters#Adventure&Story Rich&Female Protagonist#8.4
-237930#Transistor#Great Soundtrack&Indie&Female Protagonist#8.25
-237970#Memento Mori 2#Adventure&Indie&Point & Click#6.5
-237990#The Banner Saga#RPG&Turn-Based&Strategy#7.95
-238010#Deus Ex: Human Revolution#RPG&Action&Shooter#7.1
-238070#Shadow Warrior Classic#FPS&Action&Sworplay#6.7
-238090#Sniper Elite 3#Sniper&Action&Historical#7.7
-238210#System Shock 2#RPG&Cyberpunk&Horror#9.149999999999999
-238280#Legend of Dungeon#Rogue-like&Indie&RPG#5.9
-238320#Outlast#Horror&Atmospheric&First-Person#8.0
-238370#Magicka 2#Magic&Adventure&Co-op#6.9
-238460#BattleBlock Theater#Comedy&Co-op&Platformer#8.3
-238870#Citadels#Strategy&Action&Medieval#2.0
-238910#Bionic Dues#Strategy&Rogue-like&RPG#7.8
-238960#Path of Exile#Free to Play&Action RPG&Hack and Slash#8.5
-239030#Papers, Please#Indie&Political&Simulation#9.5
-239070#Hammerwatch#Indie&RPG&Co-op#8.9
-239090#Samurai Gunn#Local Multiplayer&Action&Indie#6.55
-239120#FINAL FANTASY III#JRPG&RPG&Turn-Based#8.5
-239140#Dying Light#Zombies&Survival&Open World#7.85
-239160#Thief#Stealth&Action&Adventure#7.0
-239200#Amnesia: A Machine for Pigs#Horror&Indie&Adventure#7.2
-239220#The Mighty Quest For Epic Loot#Free to Play&RPG&Strategy#6.4
-239250#Castlevania: Lords of Shadow 2#Action&Adventure&Vampire#7.65
-239350#Spelunky#Rogue-like&Platformer&Indie#8.3
-239410#Catan#Board Game&Strategy&Turn-Based#7.8
-239820#Game Dev Tycoon#Simulation&Management&Indie#6.8
-239840#Dead State#Zombies&Survival&RPG#7.0
-240460#WWE 2K15#Simulation&Sports&Fighting#6.7
-240760#Wasteland 2#RPG&Turn-Based&Strategy#8.149999999999999
-241240#Contraption Maker#Puzzle&Indie&Casual#9.0
-241260#Sherlock Holmes: Crimes and Punishments#8.9
-240970#Half Minute Hero: The Second Coming#RPG&Indie&Action#7.7
-241410#CastleStorm#Strategy&Indie&Action#7.199999999999999
-241540#State of Decay#Zombies&Survival&Open World#7.85
-241560#The Crew#Racing&Open World&Multiplayer#6.699999999999999
-241600#Rogue Legacy#Rogue-like&Platformer&Indie#8.25
-241720#Guncraft#Action&Indie&FPS#6.6
-241910#Goodbye Deponia#Point and Click&Classic&Action#7.1
-241930#Middle-earth: Shadow of Mordor#Action&Open World&Adventure#8.3
-241990#Sorcerer King#Strategy&Turn-Based&Fantasy#7.6
-242130#Vector Thrust#Action&Simulation&Flight#5.6
-242550#Rayman Legends#Platformer&Great Soundtrack&Local Co-Op#9.0
-242570#Space Hulk#Warhammer 40K&Strategy&Turn-Based#6.05
-242640#Styx: Master of Shadows#Stealth&Fantasy&Adventure#7.0
-242680#Nuclear Throne#Indie&Arcade&Action#8.9
-242700#Injustice: Gods Among Us Ultimate Edition#Fighting&Super Heroes&Action#8.8
-242760#The Forest#Survial&Horror&Open World#9.2
-242860#Verdun#World War I&FPS&Multiplayer#7.300000000000001
-242880#Sir, You Are Being Hunted#Survial&Stealth&Indie#8.2
-242920#Banished#City Builder&Strategy&Simulation#7.199999999999999
-242940#Anachronox#RPG&Cyberpunk&Sci-fi#8.05
-242980#Daikatana#Action&FPS&Classic#4.2
-243040#Startopia#Simulation&Management&Space#8.6
-243060#Urban Chaos#Action&Female Protagonist&Classic#7.4
-243200#Memoria#Adventure&Point & Click&Fantasy#7.9
-243450#Urban Trial Freestyle#Racing&Action&Simulation#5.8
-243470#Watch_Dogs#Open World&Hacking&Action#6.3
-243560Adventure Time:  Explore the Dungeon Because I DON’T KNOW!#Action&Dungeon Crawler&Co-op#4.1
-243800#Gas Guzzlers Extreme#Racing&Action&Sports#7.3
-243930#Bound By Flame#RPG&Action&Fantasy#6.199999999999999
-243950#Divinity: Dragon Commander#Strategy&RPG&Dragons#7.199999999999999
-243970#Invisible, Inc.#Stealth&Cyberpunk&Indie#8.9
-244030#Take On Mars#Simulation&Space&Mars#5.2
-244070#Sid Meier's Ace Patrol#Strategy&Casual&Turn-Based#6.6
-244090#Sid Meier's Ace Patrol: Pacific Skies#Strategy&Casual&Turn-Based#6.2
-381020#Sky Rogue#Early Access&Action&Simulation#7.7
-244210#Assetto Corsa#Racing&Simulation&Driving#8.5
-244450#Men of War: Assault Squad 2#Strategy&World War II&Simulation#6.8
-244710#Shelter#Indie&Adventure&Survival#7.9
-244730#Divekick#Fighting&Indie&2D Fighter#7.199999999999999
-244850#Space Engineers#Simulation&Space&MMO#8.1
-244910#Homesick#Atmospheric&Puzzle&Indie#7.5
-245010#Deathtrap Dungeon#Action&Adventure&RPG#5.7
-245300#Disney Epic Mickey 2#Action&Adventure&Fanstasy#5.0
-245170#Skullgirls#Fighting&2D Fighter&Indie#8.1
-245370#Etherium#Sci-fi&Strategy&RTS#6.2
-245450#Wizardry 8#RPG&Classic&Adventure#8.5
-245490#Trials Fusion#Racing&Multiplayer&Singleplayer#7.75
-245620#Tropico 5#Strategy&Simulation&City Builder#7.55
-245730#Flashback#Adventure&Action&RPG#2.65
-245760#TRANSFORMERS: Rise of the Dark Spark#Action&Robots&Multiplayer#5.1
-246070#Hack 'n' Slash#Hacking&Indie&RPG#6.4
-246110#MASSIVE CHALICE#Strategy&Indie&Turn-Based#6.5
-246280#Happy Wars#Free to Play&Action&Multiplayer#7.5
-246300#Paranormal#Horror&Indie&Adventure#7.0
-246360#Perfection.#Casual&Indie&Puzzle#3.1
-246420#Kingdom Rush#Tower Defense&Strategy&Indie#8.9
-246580#The Typing of The Dead: Overkill#Sin etiquetas#7.1
-246620#Plague Inc: Evolved#Strategy&Simulation&Indie#9.0
-246700#Strike Vector#Action&Multiplayer&Indie#6.9
-246720#Wayward Manor#Adventure&Casual&Indie#4.4
-246760#Legends of Eisenwald#Strategy&RPG&Medieval#7.55
-246840#FATE#RPG&Action&Adventure#8.1
-235720#Cubetractor#Indie&Strategy&Action#7.8
-246920#Bombernauts#Action&Indie&Multiplayer#9.2
-246960#Giana Sisters: Twisted Dream#Platformer&Indie&Action#8.5
-247080#Crypt of the NecroDancer#Rogue-like&Rhythm&Great Soundtrack#7.8
-247240#Volgarr the Viking#Platformer&Difficult&Action#7.6
-247430#Hitman: Contracts#Stealth&Action&Asssassin#8.0
-247910#Sniper Elite: Nazi Zombie Army 2#Zombies&Action&Co-op#5.3
-247950#Sacred 3#Hack and Slash&Action&RPG#4.5
-248290#Reach for the Sun#Hack and Slash&Action&RPG#3.3
-248450#Salvation Prophecy#Action&RPG&Simulation#3.45
-248610#Door Kickers#Tactical&Strategy&Simulation#8.2
-248710#Iesabel#RPG&Action&Indie#5.85
-248820#Risk of Rain#Rogue-like&Indie&Platformer#7.85
-249050#Dungeon of the Endless#Rogue-like&Strategy&Indie#8.25
-249130#LEGO® MARVEL Super Heroes#Building&Superheroes&Action#7.8
-249190#Ancient Space#Strategy&Space&RTS#6.8
-249230#Risen 3 - Titan Lords#RPG&Open World&Gothic#6.65
-249380#Carmageddon: Reincarnation#Racing&Gore&Action#6.1
-249570#The Castle Doctrine#Indie&Massively Multiplayer&Strategy#2.9
-249590#Teslagrad#Platformer&Indie&Puzzle#7.7
-249650#Blackguards#RPG&Turn-Based&Strategy#6.9
-249990#FORCED#Co-op&RPG&Action#7.65
-250030#Lilly Looking Through#Adventure&Point & Click&Indie#7.1
-250050#Life Goes On#Indie&Casual&Puzzle#7.449999999999999
-250110#Assault Android Cactus#Twin Stick Shooter&Indie&Action#8.1
-250180#METAL SLUG 3#Arcade&Classic&Action#8.0
-250260#Jazzpunk#Comedy&Indie&Adventure#7.3
-250280#Super Comboman#Indie&Action&Platformer#4.45
-250320#The Wolf Among Us#Adventure&Detective&Point & CLick#8.2
-250380#Knock-knock#Horror&Indie&Atmospheric#6.0
-250400#How to Survive#Zombies&Survival&Action#6.5
-250560#Fight The Dragon#RPG&Indie&Hack and Slash#7.6
-250620#Among the Sleep#Horror&Indie&Adventure#6.9
-250760#Shovel Knight#Platformer&Great Soundtrack&Retro#8.5
-250900#The Binding of Isaac: Rebirth#Indie&Rogue-like&Difficult#8.5
-251060#Wargame: Red Dragon#Strategy&RTS&Military#7.8
-251130#Chroma Squad#RPG&Strategy&Indie#7.5
-251150#The Legend of Heroes: Trails in the Sky#JRPG&Anime&RPG#8.100000000000001
-251270#Corpse Party#Adventure&Horror&RPG#7.6499999999999995
-251430#The Inner World#Adventure&Point & Click&Indie#7.2
-251470#TowerFall Ascension#Local Multiplayer&Indie&Action#8.2
-251490#Gravity Ghost#Indie&Great Soundtrack&Physics#6.5
-251530#Anomaly Korea#Strategy&Action&Tower Defense#8.6
-251570#7 Days to Die#Zombies&Buiding&Survival#6.2
-251630#The Impossible Game#Indie&Great Soundtrack&Difficult#6.4
-251690#Speedball 2 HD#Sports&Action&Indie#6.65
-251770#Shadow Man#Action&Horror&Singleplayer#7.4
-252110#Lovers in a Dangerous Spacetime#Action&Indie&Local Co-Op#8.5
-252230#YAIBA: NINJA GAIDEN Z#Action&Hack and Slash&Adventure#5.050000000000001
-252290#Elegy For A Dead World#Indie&Adventure&Story Rich#6.9
-252310#Syder Arcade#Shoot 'Em Up&Indie&Action#7.6
-252330#Slender: The Arrival#Horror&First-Person&Indie#6.5
-252350#Double Dragon Neon#Beat 'em up&Great Soundtrack&Co-op#3.6
-252370#The Shivah#Adventure&Point & Click&Indie#7.2
-252410#SteamWorld Dig#Platformer&Mining&Indie#7.85
-252430#Dusty Revenge#Action&Platformer&Beat 'em up#6.4
-252450#StarDrive 2#Strategy&Indie&Sci-fi#7.25
-252630#Eldritch#Rogue-like&Indie&Lovecraftian#6.95
-252670#Nihilumbra#Indie&Adventure&Platformer#8.6
-252750#MouseCraft#Indie&Casual&Puzzle#6.95
-252950#Rocket League#Racing&Multiplayer&Soccer#8.55
-253030#Race The Sun#Racing&Indie&Singleplayer#7.1
-253110#The Cat Lady#Horror&Adventure&Indie#8.55
-253150#Halfway#RPG&Strategy&Indie#7.45
-253330#Neverending Nightmares#Horror&Psychological Horror&Indie#5.949999999999999
-253410#Ravensword: Shadowlands#RPG&Adventure&Action#7.6
-253490#CABAL Online#Free to Play&Massively Multiplayer&Action#6.8
-253690#Tiny Brains#Casual&Adventure&Indie#6.65
-253750#Ikaruga#Bullet Hell&Shoot 'Em Up&Arcade#8.6
-254080#World War III: Black Gold#Strategy&RTS&+#7.5
-254880#MoonBase Commander#Strategy&Turn-Based Strategy&Sci-fi#7.9
-253980#Enclave#Indie&Arcade&+#5.2
-205230#Hell Yeah!#Platformer&Action&2D#8.5
-254040#Pirates of Black Cove Gold#Strategy&Pirate&+#5.2
-255070#Abyss Odyssey#Action&Platformer&indie#6.9
-255220#GRID Autosport#Racing&Sports&Simulation#7.449999999999999
-255280#1954 Alcatraz#Adventure&Point & Click&Indie#5.8
-255300#Journey of a Roach#Adventure&Point & Click&Indie#6.55
-255340#Escape Goat 2#Indie&Platformer&Puzzle#7.8
-255390#Max: The Curse of Brotherhood#Adventure&Platformer&Puzzle#3.8
-255480#NBA 2K14#Sports&Simulation&+#8.4
-255710#Cities: Skylines#City Builder&Simulation&Building#8.45
-256010#Jagged Alliance Flashback#Strategy&RPG&Turn-Based#5.2
-256030#Shadows: Heretic Kingdoms#RPG&Indie&Hack and Slash#7.2
-256190#Enemy Front#Action&FPS&World War II#5.6
-256290#Child of Light#RPG&Fantasy&Female Protagonist#7.949999999999999
-256330#WRC 4 FIA WORLD RALLY CHAMPIONSHIP#Racing&Simulation&Offroad#6.7
-257400#Fuse#Animation & Modeling&Design & Illustration&Character Customization#6.5
-254700#resident evil 4#Zombies&Action&Shooter#6.7
-257080#Tiny Thief#Stealth&Indie&Arcade#6.4
-257510#The Talos Principle#Puzzle&First-Person&Sci-fi#8.25
-257830#Violett#Adventure&Indie&Point & Click#6.3
-257990#Oozi: Earth Adventure#Indie&Casual&Platformer#6.8
-258010#Ring Runner: Flight of the Sages#Action&Indie&RPG#7.5
-258180#Deus Ex: The Fall#Cyberpunk&RPG&Action#5.800000000000001
-258220#Blood Knights#Action&RPG&Vampire#6.1
-258520#The Vanishing of Ethan Carter#Detective&Mystery&Atmospheric#7.8999999999999995
-258910#Citizens of Earth#RPG&Comedy&Turn-Based#6.4
-259190#Alone in the Dark: The New Nightmare#Adventure&Action&Horror#7.35
-259280#Earth 2150: The Moon Project#Strategy&RTS&Sci-fi#7.95
-259300#Earth 2160: Lost Souls#Strategy&RTS&Sci-fi#7.3
-259900#Thief - The Bank Heist#Stelth&Action&FPS#7.2
-260160#The Last Tinker: City of Colors#Adventure&Indie&Action#7.949999999999999
-260250#Blood of the Werewolf#Platformer&Action&Indie#6.15
-260300#Company of Heroes 2 - The Western Front Armies#Strategy&World War II&RTS#8.0
-260330#Flockers#Lemmings&Indie&Strategy#6.6
-260530#So Many Me#Indie&Action&Strategy#7.8
-260550#Haunted#Adventure&Casual&Female Protagonist#7.6
-260570#Gray Matter#Adventure&Point & Click&Female Protagonist#7.550000000000001
-260730#Desperados - Wanted Dead or Alive#Strategy&Western&Action#8.05
-260790#1001 Spikes#Difficult&Platformer&Rogue-like#8.4
-261110#Killer is Dead#Action&Hack and Slash&Character Action Game#7.1
-261180#Lethal League#Fighting&Local Multiplayer&2D Fighter#8.2
-261470#Distant Worlds: Universe#Strategy&4X&Space#8.1
-261530#Lifeless Planet#Walking Simulator&Adventure&Atmospheric#5.9
-261640#Borderlands: The Pre-Sequel#Episodic#Action#History#7.3
-261760#Lichdom: Battlemage#RPG&Magic&Action#6.8
-262190#Zombeer#Action&Zombies&Dark Humor#3.2
-262280#Dungeons 2#Strategy&RPG&Management#7.0
-262390#Cloudbuilt#Platformer&Parkour&Indie#7.2
-262470#Rollers of the Realm#Pinball&RPG&Puzzle#7.5
-262550#Gunman Clive#Indie&Action&Western#8.1
-261980#Half-Life: Before#FPS&Shootes&Action#7.3
-262060#Darkest Dungeon#Strategy&RPG&Gore#7.4
-262790#Our Darker Purpose#Rogue-like&Indie&Action#7.4
-262830#Crimsonland#Action&Shooter&Indie#6.8
-263300#BlazBlue: Calamity Trigger#Fighting&Anime&2D Fighter#8.8
-263500#Dragons and Titans#Free to Play&Dragons&MOBA#2.6
-263860#SPACECOM#Strategy&Indie&Space#3.4
-263060#Blockstorm#Shooter&FPS&Arcade#6.6
-263760#Turbo Dismount#Casual&Arcade&Simulation#6.4
-264000#Son of Nor#PvP&Action&Magic#5.4
-264200#One Finger Death Punch#&Casual&Arcade&Action#7.1
-264280#99 Levels To Hell#Rogue-like&Indie&Platformer#6.6
-264320#Captain Morgane and the Golden Turtle#Adventure&Casual&Point & Click#5.4
-264520#Moebius: Empire Rising#Adventure&Point & Click&Indie#6.1
-264560#Quest for Infamy#Indie&Adventure&RPG#6.3
-264710#Subnautica#Indie&Action&+#7.2
-265120#Meridian: New World#Strategy&RTS&Indie#4.3
-265170#Acceleration of Suguri X-Edition#Anime&Indie&Action#6.75
-265300#Lords Of The Fallen#Sin etiquetas#7.199999999999999
-265550#Dead Rising 3#Zombies&Survival&Action#6.4
-265590#The Red Solstice#Action&RPG&Co-op#8.350000000000001
-265690#NaissanceE#Indie&Exploration&Adventure#6.199999999999999
-265750#Secret Ponchos#Western&Action&Indie#7.2
-265830#Monochroma#Indie&Adventure&Action#4.9
-265930#Goat Simulator#Simulation&Funny&Comedy#6.2
-265950#Ether One#Adventure&Indie&First-Person#8.2
-265970#Worlds of Magic#Strategy&RPG&Turn-Based#5.7
-266050#Into the Dark#Horror&Action&+#7.2
-266110#Tower of Guns#FPS&Rogue-like&Indie#6.05
-266330#Ethan: Meteor Hunter#Indie&Platformer&Puzzle#5.9
-266410#iRacing#Racing&Simulation&Sports#7.9
-266510#Hand of Fate#RPG&Card Game&Action#8.0
-266840#Age of Mythology: Extended Edition#Strategy&RTS&Mythology#6.6
-267490#Batman: Arkham Origins Blackgate#Action&2.5D&Superheroes#5.1
-267550#The LEGO® Movie - Videogame#Builder&Action&Building#6.8
-267550#The Amazing Spider-Man 2#Action&Open World&Adventure#5.85
-268050#The Evil Within#Horror&Shooter&Action#7.15
-268400#Panzer Corps#Strategy&World War II&Turn-Based Strategy#7.95
-268500#XCOM 2#Strategy&Aliens&Shooter#8.1
-268710#Zero Point#Stealth&Shooter&+#6.2
-268750#Magicite#RPG&Platformer&Indie#8.2
-268870#Satellite Reign#Cyberpunk&Strategy&Indie#7.55
-269050#Year Walk#Horror&Indie&Adventure#8.7
-269110#Super Motherload#Indie&Mining&Adventure#3.5
-269210#Hero Siege#Rogue-like&Gore&Arcade#7.7
-269690#RymdResa#Exploration&Sci-fi&Indie#6.3
-269730#The Golf Club#Sports&Golf&Simulation#7.35
-269790#DreadOut#Horror&Indie&Adventure#5.5
-269810#Spate#Indie&Platformer&Adventure#6.1
-270150#RUNNING WITH RIFLES#Action&Tactical&Top-Down#7.8
-270510#EPOCH#Action&Indie&Robots#7.7
-269890#AR-K#Adventure&Point and Click&Female Protagonist#5.1
-269670#BADLAND: Game of the Year Edition#Indie&Adventure&Action#8.4
-270850#Car Mechanic Simulator 2014#Simulation&Singleplayer&Education#6.1
-270880#American Truck Simulator#Simulation&Conduction&Casual#7.7
-271290#HAWKEN#Early Access&Mechs&Free to Play#7.3
-271590#Grand Theft Auto V#Open World&Action&Multiplayer#9.3
-271670#10 Second Ninja#Indie&Action&Platformer#7.2
-271730#Light#Indie&Action&Adventure#4.9
-300550#Shadowrun: Dragonfall#RPG&Cyberpunk&Strategy#8.8
-272330#Shadow Blade: Reload#Action&Indie&Ninja#8.8
-272040#KAMI#Puzzle&Casual&Indie#7.8
-272470#The Incredible Adventures of Van Helsing II#RPG&Action&Adventure#7.6
-272510#NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution#Anime&Fighting&Ninja#6.1
-272600#Detective Grimoire#Adventure&Indie&Point & Click#8.3
-273070#The Last Federation#Strategy&Space&Simulation#7.2
-273350#Evolve#Multiplayer&Action&Co-op#7.0
-273110#Counter-Strike Nexon: Zombies#Zombies&FPS&Shooter#
-273620#Freespace 2#Space&Sci-fi&Action#9.149999999999999
-274130#Rambo The Video Game#Action&Adventure&+#2.8
-274170#Hotline Miami 2: Wrong Number#Great Soundtrack&Gore&Pixel Graphics#7.65
-274190#Broforce#Indie&Action&2D#9.2
-274230#RONIN#Indie&Action&Stealth#6.2
-274250#OlliOlli#Indie&Sports&2D#7.2
-274270#NOT A HERO#Pixel Graphics&Comedy&Indie#7.25
-274290#Gods Will be Watching#Pixel Graphics&Point & click&Indie#7.15
-274310#Always Sometimes Monsters#RPGMaker&Indie&RPG#7.05
-274350#Dropsy#Point & Click&Adventure&Pixel Graphics#4.1
-274880#Jet Car Stunts#Racing&Sports&Indie#9.4
-274940#Depth#Action&Multiplayer&Gore#7.2
-275060#Alone in the Dark: Illumination#Action&Adventure&Horror#1.8
-275100#Shelter 2#Adventure&Survival&Open World#6.0
-275180#Costume Quest 2#RPG&Adventure&Casual#7.25
-277430#Halo: Spartan Assault#Strategy&Action&Sci-fi#7.4
-275530#Z#Strategy&Classic&Action#3.95
-275390#Guacamelee! Super Turbo Championship Edition#Action&2D&Platformer#9.2
-276770#Toy Soldiers: War Chest#Strategy&Action&Casual#6.0
-276890#FATE: Undiscovered Realms#RPG&Action&Adventure#7.1
-277110#Return to Mysterious Island#Adventure&Casual&Point & Click#7.9
-277460#Praetorians#Strategy&RTS&Rome#8.05
-277520#Albedo: Eyes from Outer Space#Action&Adventure&Indie#6.6
-277850#Sportsfriends#Indie&Sports&Local Multiplayer#5.8
-278360#A Story About My Uncle#Adventure&Platformer&Indie#7.3
-278460#Skyborn#RPG&Steampunk&JRPG#7.1
-278810#LA Cops#Action&Strategy&Indie#5.25
-279920#Infinity Runner#Action&Indie&Werewolves#4.0
-279940#The Book of Unwritten Tales 2#Adventure&Point & Click&Comedy#8.0
-280160#Aragami#Action&Adventure&Indie#8.3
-281200#A Boy and His Blob#Adventure&Puzzle-Platformer&Family Friendly#7.7
-281220#BloodRayne: Betrayal#Action&Hack and Slash&2D#3.15
-281610#Homeworld: Deserts of Kharak#Strategy&RTS&Sci-fi#7.7
-281640#The Banner Saga 2#RPG&Strategy&Indie#9.1
-281690#The Legend of Korra#Action&Adventure&Female Protagonist#8.1
-281750#Munin#Indie&Casual&Adventure#3.4
-281990#Stellaris#Space&Strategy&Sci-fi#8.1
-282010#Carmageddon Max Pack#Racing&Action&Indie#7.1
-282030#Carmageddon 2: Carpocalypse Now#Racing&Action&Indie#7.4
-282070#This War of Mine#Survival&War&Atmospheric#8.350000000000001
-282140#SOMA#Horror&Atmospheric&Psychological Horror#8.5
-282350#NBA 2K15#Sports&Simulation&Multiplayer#8.1
-282440#Quake Live#Shooter&Action&FPS#7.05
-282640#LOST ORBIT#Indie&Action&Space#7.1
-283230#Spoiler Alert#Indie&Casual&Comedy#6.2
-283290#Nosferatu: The Wrath of Malachi#Horror&Action&Vampire#7.2
-283370#Marine Sharpshooter II: Jungle Warfare#Action&FPS&Sniper#5.65
-283680#Astebreed#Anime&Shoot 'Em Up&Action#8.6
-283640#Salt and Sanctuary#Difficult&RPg&Action#7.1
-284050#Sanitarium#Adventure&Horror&Classic#8.7
-284140#Majestic Nights#Adventure&RPG&Indie#3.2
-285090#Robowars#Robots&Shootes&Multiplayer#6.6
-285160#LEGO The Hobbit#Building&Fantasy&Action#6.7
-285190#Warhammer 40,000: Dawn of War®III#Strategy&Fantasy&Action#7.2
-285310#RollerCoaster Tycoon: Deluxe#Simulation&Classic&Strategy#8.7
-285900#Gang Beasts#Co-op&Casual&Fighting#7.7
-286100#You Have to Win the Game#Platformer&Classic&Casual#6.5
-286690#Metro 2033 Redux#FPS&Shooter&Horror#8.3
-286040#Dead Effect#Zombies&Action&FPS#7.0
-286140#Eidolon#Exploration&Open World&Walking Simulator#6.4
-286280#Steel Armor: Blaze of War#Simulation&Strategy&Tanks#6.8
-286480#Black Mirror III#Adventure&Point & Click&Horror#7.65
-286570#F1 2015#Racing&Sports&Simulation#6.7
-286750#Zoo Empire#Strategy&Casual&Simulation#5.9
-286880#Disney Planes#Action&Adventure&Family Friendly#5.1
-287290#Resident Evil Revelations 2#Zombies&Shooter&Casual#6.6
-287120#Ionball 2#Casual&Action&Arcade#7.4
-287600#Sunset#Walking Simulator&Indie&Casual#4.449999999999999
-287700#METAL GEAR SOLID V: THE PHANTOM PAIN#Open World&Stealth&Action#8.95
-287720#Nostradamus: The Last Prophecy#Adventure&Casual&Point & Click#7.0
-287960#Yomi#Strategy&Indie&Card Game#8.3
-288040#Actual Sunlight#Indie&Adventure&RPGMaker#7.7
-288060#Whispering Willows#Adventure&Indie&Horror#7.55
-288340#TrackMania 2#Arcade&Racing&Simulation#7.1
-288470#Fable Anniversary#Fantasy&RPG&Action#6.8
-288930#The Charnel House Trilogy#Adventure&Indie&Horror#3.35
-289130#Endless Legend#Strategy&Turn-Based&4X#8.0
-289280#El Matador#Action&Third Person&Bullet Time#6.0
-289440#Perimeter#Strategy&RTS&Sci-fi#7.7
-289460#RC Cars#Racing&Casual&+#6.6
-289500#UFO: Aftershock#Strategy&Tactical&Sci-fi#6.95
-289690#Lara Croft and the Temple of Osiris#Co-op&Puzzle&Female Protagonist#6.9
-289800#Dracula: The Resurrection#Adventure&Casual&Point & Click#6.9
-290340#Armello#Board Game&Turn-Based Strategy&Strategy#7.4
-290410#Falling Skies: The Game#Strategy&RPG&Turn-Based#3.8499999999999996
-290490#The Flock#Indie&Action&Horror#3.3
-290710#Cloud Chamber#FMV&Massively Multiplayer&Indie#7.4
-290790#Grey Goo#Strategy&RTS&Sci-fi#7.7
-290970#1849#Strategy&Indie&Simulation#6.0
-291480#Warface#Free to Play&FPS&Multiplayer#6.65
-291550#Brawlhalla#Fighting&Casual&Brawl#8.7
-291650#Pillars of Eternity#RPG&Isometric&Fantasy#8.7
-292030#The Witcher 3: Wild Hunt#RPG&Open World&Story Rich#9.3
-292120#FINAL FANTASY XIII#RPG&Fantasy&Fantasy#7.35
-292140#FINAL FANTASY XIII-2#RPG&Fantasy&Fantasy#7.6
-292160#UFO: Aftermath#Strategy&Tactical&Sci-fi#6.95
-292400#Unrest#Adventure&Indie&RPG#3.25
-292410#Street Racing Syndicate#Racing&Open World&Singleplayer#7.2
-293260#Card Hunter#Free to Play&Card Game&Strategy#8.0
-293280#Wander#Massively Multiplayer&Adventure&Walking Simulator#1.5
-293740#Road Not Taken#Indie&Puzzle&Rogue-like#7.15
-293940#Kill The Bad Guy#Strategy&Indie&Action#5.75
-294370#Crowntakers#RPG&Strategy&Indie#7.0
-294460#Fenix Rage#Indie&Action&Adventure#6.0
-294590#Wars and Warriors: Joan of Arc#Strategy&Action&Historical#6.7
-294730#Marine Park Empire#Casual&Simulation&Strategy#5.8
-294750#Anomaly Defenders#Tower Defense&Strategy&Indie#6.75
-294860#Valkyria Chronicles#Strategy&Action&Anime#7.6
-295110#H1Z1: Just Survive#Zombies&Survival&Multiplayer#6.7
-295270#Football Manager 2015#Sports&Simulation&Casual#8.0
-296180#Iron Storm#Action&Adventure&Indie#7.0
-296280#TownCraft#Indie&Simulation&Strategy#7.3
-296570#Lords of Xulima#RPG&Turn-Based&Indie#7.1
-296470#Mount Your friends#Co-op&Turn-Based&Indie#7.4
-297020#The Culling Of The Cows#Indie&Casual&Action#5.2
-296830#Lucius II#Horror&Indie&Villain Protagonist#4.8
-296970#Renowned Explorers: International Society#Strategy&Adventure&RPG#7.8
-297120#Heavy Bullets#Indie&Action&FPS#7.2
-297130#Titan Souls#Pixel Graphics&Indie&Difficult#7.35
-297350#The Old City: Leviathan#Adventure&Walking Simulator&Indie#6.2
-297920#Space Colony#Strategy&Simulation&Space#7.5
-298030#Total Annihilation#Strategy&Classic&RTS#8.899999999999999
-298110#Far Cry 4#Open World&Action&FPS#7.9
-298260#Only If#Sin etiquetas#3.8499999999999996
-298600#Lovely Planet#Indie&Anime&Action#6.1
-298630#The Escapists#Pixel Graphics&Strategy&Crafting#6.9
-298930#Darkness Within: In Pursuit of Loath Nolder#Adventure&Point & Click&Indie#5.7
-299360#Block N Load#Action&Free to Play&Multiplayer#7.2
-300400#Unpossible#Racing&Fast-Paced&Arcade#7.9
-300610#Pure Pool#Simulation&Sports&Casual#6.8
-300820#Toy Story 3#Action&Family Friendly&Cartoony#7.449999999999999
-300840#JUJU#Casual&Action&Adventure#7.9
-301520#Robocraft#Adventure&Multiplayer&Robots#7.1
-301560#White Night#Adventure&Horror&Noir#7.4
-301640#Zombie Army Trilogy#Zombies&Action&Co-op#7.2
-301910#Saints Row: Gat out of Hell#Action&Open World&Comedy#6.6
-301970#Screencheat#Action&Indie&Local Multiplayer#7.1
-301980#Pirates of the Caribbean - At Worlds End#Sin etiquetas#6.15
-302080#Bus Driver#Simulation&Indie&Driving#6.1
-302170#The Cameron Files: The Secret at Loch Ness#Adventure&Casual&Point & Click#6.6
-302210#Curse: The Eye of Isis#Adventure&Survival Horror&Horror#6.4
-302380#Floating Point#Indie&Casual&Arcade#6.9
-302510#Ryse: Son of Rome#Action&Historical&+#6.5
-302710#BlazeRush#Racing&Indie&Action#7.1
-303340#Concursion#Indie&Action&Platformer#6.6
-303550#Adventures of Pip#Action&Indie&Adventure#7.2
-304050#Trove#Free to Play&Open World&Multiplayer#3.5
-304460#Qora#Indie&Adventure&Pixel Graphics#6.3
-304030#ArcheAge#MMORPG&Open World&Fantasy#5.1
-304650#Sunless Sea#Exploration&Survival&Lovecraftian#7.35
-304240#Resident Evil HD REMASTER#Survival Horror&Zombies&Horror#9.2
-304730#Train Fever#Simulation&Trains&Management#6.7
-305050#Outland#Action&Platformer&Adventure#8.2
-305380#Blue Estate#Action&On-Rails Shooter&Comedy#5.6
-306130#The Elder Scrolls Online#MMORPG&Fantasy&Open World#6.8
-306440#Oblitus#Indie&Adventure&Action#5.7
-306660#Ultimate General: Gettysburg#Strategy&Historical&Simulation#8.4
-307170#Borealis#Indie&Casual&Classic#6.4
-307340#Platypus#Action&Shoot 'Em Up&Local Co-Op#7.6
-307570#A Golden Wake#Adventure&Indie&Point & Click#6.8
-307580#Technobabylon#Adventure&Indie&Cyberpunk#7.75
-307590#Penarium#Action&Indie&Funny#7.8
-307780#Mortal Kombat X#Fighting&Gore&Action#7.8999999999999995
-307960#IL-2 Sturmovik: Battle of Stalingrad#Simulation&Flight&World War II#7.4
-308040#Back to Bed#Indie&Casual&Puzzle#5.7
-308420#Ziggurat#FPS&Rogue-lite&Action#7.3
-310080#Hatoful Boyfriend#Visual Novel&Anime&Dating Sim#6.199999999999999
-310470#Grand Ages: Medieval#Strategy&Simulation&Medieval#5.05
-310490#Crookz - The Big Heist#Strategy&Simulation&Heist#7.3
-310510#Deathtrap#Tower Defense&RPG&Action#7.35
-310560#DiRT Rally#Racing&Simulation&Multiplayer#7.7
-310740#NEON STRUCT#Indie&Stealth&First-Person#3.4
-310810#Shiftlings#Action&Adventure&Co-op#7.0
-310880#Basketball Pro Management 2015#Sports&Strategy&Simulation#6.9
-310950#Street Fighter V#Fighting&Arcade&Action#6.2
-311210#Call of Duty: Black Ops III#Multijugador&FPS&Zombies#6.6
-311340#METAL GEAR SOLID V: GROUND ZEROES#Stealth&Action&Open World#7.6
-311690#Enter the Gungeon#Rogue-like&Shooter&Indie#8.7
-311700#BloodRealm: Battlegrounds#Free to play&Strategy&RPG#4.3
-311730#Dead or Alive 5 Last Round#Fighting&Simulation&Arcade#6.8
-311770#LEGO Pirates of the Caribbean The Video Game#Building&Action&Builder#7.0
-311840#Wildlife Park#Simulation&Casual&Strategy#6.6
-312440#Legions of Steel#Strategy&Turn-Based&Sci-fi#6.5
-312510#Mega Coin Squad#Indie&Action&Local Multiplayer#5.6
-312610#METAL SLUG X#Action&Arcade&Co-op#8.5
-312660#Sniper Elite 4#Snipper&Action&World War II#7.0
-312750#FINAL FANTASY IV#RPG&JRPG&Remake#8.8
-312780#Way of the Samurai 4#Action&Swordplay&Multiple Endings#7.300000000000001
-313010#Cities XXL#Simulation&City Builder&Economy#4.7
-313080#The Masterplan#Acion&Indie&Heist#6.45
-313160#Farming Simulator 15#Simulation&Multiplayer&Open World#6.4
-313690#LEGO® Batman™ 3: Beyond Gotham#Building&Super Heroes&Action#7.2
- 314000#Pool Nation FX#Sports&Simulation&Casual#6.1
-314220#Bombing Bastards#Action&Indie&+#5.5
-314560#Kyn#RPG&Action&Adventure#5.8
-314660#Oddworld: New 'n' Tasty#Adventure&Platformer&Puzzle#8.1
-314830#Blackguards 2#Strategy&RPG&Turn-Based#7.300000000000001
-315260#Space Hack#Action&RPG&Indie#6.5
-315440#TRON: Evolution#Sci-fi&Action&Adventure#6.15
-315600#Ford Racing 3#Racing&Arcade&Simulation#5.9
-316030#Alice in Wonderland#Casual&Family Game&+#5.4
-316180#A City Sleeps#Indie&Action&Female Protagonist#5.55
-316260#Disney Universe#Family Friendly&Cartoony&Action#3.3
-316750#Tetris® Ultimate#Casual&Classic&Arcade#7.2
-316790#Grim Fandango Remastered#Point & click&Classic&Historical#8.2
-316890#Calvino Noir#Adventure&Indie&Stealth#5.5
-317100#Republique#Adventure&Stealth&Female Protagonist#7.7
-317330#Defenders of Time#Strategy&Tower Defense&Indie#6.25
-317820#Guild of Dungeoneering#RPG&Indie&Dungeon Crawler#7.0
-317840#Dokuro#Casual&Action&Platformer#5.9
-318020#Act of Aggression#Strategy&RTS&Multiplayer#7.25
-318230#Convoy#RPG&Strategy&Rogue-like#7.6
-319170#G-Force#Family Friendly&Action&Casual#6.65
-319450#Chariot#Indie&Adventure&Local Co-Op#7.6
-319510#Five Nights at Freddy's#Casual&Horror&Indie#6.0
-319630#Life Is Strange#Story telling&Episodic&Singleplayer#9.0
-319740#There Came an Echo#Strategy&Indie&Sci-fi#5.8
-321860#Disney Infinity 2.0#Action&Fantasy&Casual#7.1
-319910#Trine 3: The Artifacts of Power#Adventure&Action&Co-op#6.8
-320300#Car Mechanic Simulator 2015#Simulation&Singleplayer&Racing#6.8
-320320#Darkstone#RPG&Action&Hack and Slash#6.699999999999999
-320340#Cosmonautica#Simulation&Indie&Strategy#5.0
-320400#Magnifico#Strategy&Casual&Board Game#5.6
-320410#Near Impact#Strategy&Action&+#4.0
-320520#Oscura: Lost Light#Indie&Adventure&Platformer#6.6
-320590#Warside#Free To Play&Action&Platformer#6.5
-320630#Season Match#Casual&Adventure&Match 3#7.3
-320650#Season Match 2#Casual&Adventure&Match 3#7.3
-320670#Season Match 3 - Curse of the Witch Crow#Casual&Adventure&Match 3#7.3
-320690#The Treasures of Montezuma 3#Casual&Indie&Adventure#7.3
-320760#Tokyo School Life#Anime&Visual Novel&Adventure#9.4
-320790#Fabula Mortis#Indie&Action&FPS#4.8
-320820#Toren#Adventure&Indie&Female Protagonist#5.7
-320840#Wings! Remastered Edition#Simulation&Action&Flight#8.0
-321030#One Day For Ched#Indie&FPS&Action#5.4
-321040#DiRT 3 Complete Edition#Racing&Simulation&Cars#8.7
-321080#Pirate Hell#Action&Adventure&Pirates#6.6
-321110#Fist of Jesus#Casual&Religion&Action#6.5
-321150#Melissa K. and the Heart of Gold Collector's Edition#Casual&Adventure&Indie#4.7
-321190#Cho Dengeki Stryker#Visual Novel&Adventure&Anime#9.4
-321260#Wickland#Action&Indie&FPS#5.1
-321270#UNLOVED#Early Access&Action&FPS#8.5
-321290#Dandelion - Wishes brought to you -#Visual Novel&Dating Sim&Otome#7.6
-321310#Zen Fish SIM#Early Access&Indie&Simulator#2.5
-321330#ENYO ARCADE#Indie&Action&Casual#9.1
-321350#Fairspace#Indie&Action&Simulator#6.5
-321360#Primal Carnage: Extinction#Action&Multiplayer&Indie#8.2
-321370#Sign Motion#Indie&Adventure&Platforms#6.2
-321390#Zone 22#Early Access&Action&Adventure#4.4
-321400#Supraball#Early Access&Sports&First Person#7.9
-321410#Command: Modern Air / Naval Operations WOTY#Simulator&Naval&Wargame#8.6
-321450#Aquadelic GT#Naval&Racing&Simulator#6.6
-321480#Sigils of Elohim#Free To Play&Casual&Indie#8.1
-321490#MotoGP™14 Compact#Racing&Simulator&Sports#2.6
-321560#The Sun and Moon#Indie&Action&Platforms#8.8
-321600#The Flying Dutchman#Casual&Hidden Object&Visual Novel#1.7
-321610#Demonlisher#Casual&+&+#6.9
-321660#Mining Industry#Simulator&Mining&Work#2.2
-321710#Battle Of Europe#Action&Simulator&WWII#5.7
-321800#Icewind Dale: Enhanced Edition#Rol&Adventure&Fantasy#8.7
-321830#Cavern Kings#Early Access&Indie&Casual#8.7
-321840#Rising Angels: Reborn#Visual Novel&Free To Play&Anime#7.9
-321860#Disney Infinity 2.0#Super Hero&Adventure&Open World#5.6
-321870#Silence of the Sleep#Horror&Adventure&Indie#6.6
-321880#Aveyond 3-3: The Lost Orb#Rol&Indie&RPGMaker#8.0
-321890#Aveyond 3-4: The Darkthrop Prophecy#Rol&Indie&Casual#8.0
-321920#Schein#Indie&Action&Adventure#8.0
-321940#Moorhuhn - Tiger and Chicken#Rol&Action&Chicken#7.8
-321950#Yury#Indie&Action&Adventure#5.0
-321960#Might & Magic Heroes VII#Strategy&Turn-based Strategy&Fantasy#7.8
-321980#Hardland#Open World&RPG&Indie#7.6
-322030#Unlimited Escape#Indie&+&+#3.3
-322040#Cooking Academy Fire and Knives#Casual&Action&Simulator#8.0
-322080#Disorder#Indie&Action&Platforms#8.4
-322110#20XX#Early Access&Indie&Platforms#8.7
-322130#Disney's Princess Enchanted Journey#Adventure&Action&Disney#7.5
-322170#Geometry Dash#Hard&Music&2D#9.4
-322210#Guns, Gore & Cannoli#Action&Side Scroller&Zombies#9.2
-322290#Gurumin: A Monstrous Adventure#Action&RPG&Adventure#8.0
-322300#The Repopulation#Early Access&MMO&Sandbox#4.7
-322330#Don't Starve Together#Multiplayer&Cooperative&Indie#9.6
-322410#Bin Weevils Arty Arcade#Educational&+&+#6.3
-322430#Bubonic: OutBreak#Indie&Casual&Simulator#0.0
-322440#Red Goddess: Inner World#Adventure&Indie&Action#5.2
-322500#SUPERHOT#Action&Bullet Time&Time Manipulation#8.6
-322520#Dynasty Warriors 8 - Empires#Action&Character Customization&Strategy#6.5
-322540#Galactic Inheritors#Strategy&Space&Indie#5.3
-322550#Standpoint#Indie&Action&First Person#7.3
-322580#Dungeon Lurk II - Leona#Indie&Adventure&Casual#3.2
-322600#PURE#Racing&Offroad&Action#8.05
-322630#Mind Zero#RPG&JRPG&Dungeon Crawler#6.95
-322680#BLACKHOLE#Adventure&Action&Indie#9.4
-322750#Drifting Lands#Indie&Action&Shoot 'Em Up#N/A
-322770#Vanishing Realms#Early Access&Rol&VR#9.6
-322780#Worlds Adrift#Open World&Construction&Exploration#N/A
-322850#Pro Cycling Manager 2015#Sports&Simulator&Management#6.3
-322900#War, the Game#Strategy&Indie&RTS#7.2
-322910#Warhammer 40,000: Regicide#Strategy&Indie&Chess#6.6
-322920#theHunter: Primal#Dinosaurs&Survival&Open World#4.9
-322930#aerofly RC 7#Simulator&Indie&Flight#7.6
-322950#Pure Hold'em#Sports&Indie&Simulator#3.3
-322970#Subject 13#Adventures&Indie&Point And Click#6.5
-322980#Gods vs Humans#Strategy&Casual&Action#5.3
-322990#Black Viper: Sophia's Fate#Casual&Hidden Object&Point and Click#4.5
-323000#Roaming Fortress#Strategy&Action&Casual#5.4
-323020#Destructamundo#Indie&Casual&+#7.5
-323040#Laserlife#Indie&Rhythm&Music#7.8
-323060#Tharsis#Strategy&Indie&Space#8.6
-323220#Vagante#Early Access&Rogue-Like&Adventure#9.1
-323240#The World II (Hunting BOSS)#Rol&Action&+#5.6
-323250#Hexus#Casual&Strategy&Puzzle#9.3
-323260#Robin's Island Adventure#Casual&Hidden Object&Match 3#3.3
-323270#Jane Angel: Templar Mystery#Casual&Hidden Object&Point and Click#6.4
-323280#Sea Legends: Phantasmal Light Collector's Edition#Casual&Hidden Object&+#7.7
-323320#Grow Home#Adventure&Open World&Singleplayer#7.35
-323370#TERA#MMORPG&Free to Play&RPG#7.65
-323380#The Magic Circle#Adventure&Indie&Simulation#8.0
-323390#Crazy Machines 2: Pirates#Casual&Strategy&Puzzle#9.0
-323430#Crow#Action&Adventure&Indie#6.6
-323450#Alphadia Genesis#Rol&Adventure&JRPG#8.0
-323460#Raiden IV: OverKill#Action&Arcade&Shoot 'em Up#9.4
-323470#DRAGON BALL XENOVERSE#Anime&Fighting&Action#8.9
-323490#Oblivious Garden ~Carmina Burana#Visual Novel&Indie&Anime#9.3
-323580#Jotun#Adventure&Action&Indie#3.95
-323610#911: First Responders#Strategy&Simulator&Moddable#8.4
-323630#Ubinota#Indie&Puzzle&Physics#9.5
-323670#Super Indie Karts#Early Access&Racing&Indie#9.5
-323680#Caffeine#Adventure&Indie&Horror#2.9
-323700#Poltergeist: A Pixelated Horror#Indie&Casual&Puzzle#7.0
-323720#Decay - The Mare#Adventure&Horror&Point & Click#6.0
-323780#Fireworks Simulator#Simulation&+&+#5.8
-323850#Move or Die#Multiplayer&Action&Indie#8.3
-323900#MoW: Face Off M#Free to Play&Strategy&Card Game#7.8
-323910#SteamVR Performance Test#VR&Benchmark&Software#6.7
-324070#iO#Indie&Action&Racing#8.6
-324080#Rising World#Early Access&Survival&Open World#8.6
-324090#Football Club Simulator - FCS#Simulator&Sports&Strategy#5.5
-324110#Moto Racer Collection#Racing&Sports&Motorbikes#5.1
-324120#Verde Station#Indie&Adventure&Casual#7.5
-324140#Kalimba#Casual&Action&Puzzle-Platformer#7.949999999999999
-324160#CLANNAD#Visual Novel&Anime&Story Rich#9.8
-324170#Pyrite Heart#Otome&Visual Novel&Anime#6.8
-324190#CodeSpells#Early Access&Simulation&Programming#7.9
-324240#I Will Escape#Indie&Action&Adventure#5.4
-324250#Knights of Pen and Paper - Haunted Fall#RPG&Indie&+#7.9
-324260#VoidExpanse#Space&RPG&Action#7.2
-324270#Revenge: Rhobar's myth#Adventure&Indie&+#2.5
-324310#Bus Simulator 16#Simulation&OpenWorld&Driving#5.6
-324360#TOTM#Early Access&Strategy&Action#4.6
-324390#The Body Changer#Adventure&Indie&Action&Puzzle#8.2
-324400#Pocket God vs Desert Ashes#Strategy&Indie&+#3.7
-324420#Desert Ashes#Strategy&Indie&Turn-Based#5.3
-324450#Earth Under Siege#Early Access&Strategy&Action#8.7
-324470#SinaRun#Early Access&Indie&Racing#8.3
-324510#Boundless#Early Access&Massively Multiplayer&Sandbox#5.3
-324570#Halo: Spartan Strike#Action&Sci-fi&Top-Down Shooter#5.699999999999999
-324610#The Shopkeeper#Adventure&Indie&Point and Click#1.1
-324650#Gemini: Heroes Reborn#Action&Adventure&FPS#8.7
-324680#Impossible Creatures#Strategy&RTS&Cult Classic#9.7
-324710#To Be or Not To Be#Adventure&Casual&Indie#9.3
-324730#Caverns of the Snow Witch#RPG&Indie&Adventure#7.7
-324750#StuntMANIA Reloaded#Racing&Adventure&Casual#6.1
-324760#Monster Truck Destruction#Racing&Action&+#4.5
-324770#Experience 112#Adventure&Female Protagonist&Point and Click#5.0
-324790#LEGO Minifigures Online#Builder&Casual&Building#6.4
-324800#Shadow Warrior 2#Action&Adventure&Co-Op#N/A
-324810#TOXIKK#Early Access&Action&Arena Shooter#6.8
-325060#Parallax#Indie&Puzzle&First-Person#9.3
-325090#Deep Dungeons of Doom#RPG&Adventure&Casual#8.6
-325110#Save the Furries#Casual&Puzzle&Platformer#5.6
-325120#Notch - The Innocent LunA: Eclipsed SinnerS#Visual Novel&Anime&Adventure#9.2
-325150#Run or Die#Action&Indie&Anime#9.2
-325160#Bik - A Space Adventure#Adventure&Indie&Point and Click#9.4
-325210#Eternal Winter#Early Access&Survival&Adventure#7.8
-325300#BEARZERKERS#Early Access&Action&Local Multiplayer#8.8
-325320#Mythos: The Beginning#Adventure&RPG&Survival Horror#6.3
-325370#Nova-111#Indie&Action&Arcade#6.8
-325420#Homebrew - Vehicle Sandbox#Early Access&Sandbox&Simulation#7.0
-325430#Metaverse#Early Access&Experimental&Adventure#6.9
-325470#1953: NATO vs Warsaw Pact#Early Access&Strategy&Wargame#2.0
-325520#Fire#Adventure&Indie&Casual#9.1
-325600#Sword Coast Legends#RPG&Fantasy&Co-op#6.1
-325610#Total War: ATTILA#Strategy&Historical&War#7.85
-325630#Arms Dealer#Strategy&Simulation&+#5.4
-325730#The Hive#Early Access&Strategy&Indie#8.0
-325860#Fat Chicken#Strategy&Indie&Action#7.6
-325870#Clash of Puppets#Action&Indie&+#7.4
-325880#Crystal Catacombs#Indie&Metroidvania&Platformer#4.6
-325930#Viking Squad#Indie&Action&Adventure#N/A
-326060#Starlight Drifter#Early Access&Indie&Adventure#5.0
-326120#Horizon Shift#Action&Indie&Arcade#9.5
-326130#Monument Builders: Alcatraz#Casual&+&+#6.3
-326150#Death Skid Marks#Action&Indie&RPG#9.2
-326160#Shroud of the Avatar: Forsaken Virtues#Early Access&RPG&Massively Multiplayer#3.4
-326180#Sinister City#Casual&Adventure&Indie#3.3
-326190#Alchemy Mysteries: Prague Legends#Casul&Hidden Object&Adventure#7.7
-326230#Smugglers 5: Invasion#Indie&Strategy&Simulation#4.7
-326340#River City Super Sports Challenge ~All Stars Special~#Sports&Action&Retro#7.4
-326410#Windward#Pirates&Adventure&Indie#9.1
-326420#Sam Glyph: Private Eye!#Adventure&Indie&Casual#2.3
-326460#ShellShock Live#Early Access&Tanks&Multiplayer#8.7
-326470#Space Warp#Indie&Racing&Action#7.5
-326480#If My Heart Had Wings#Indie&Racing&Action#7.5
-326520#Chime Sharp#Early Access&Casual&Puzzle#9.0
-326630#Club Manager 2015#Sports&Simulation&Strategy#4.4
-326650#The Legend of Candlewind#RPG&Indie&Tactical#0.6
-326670#Warhammer Quest#RPG&Strategy&Games Workshop#7.9
-326720#Instant Dungeon!#Indie&Action&Arcade#8.4
-326730#Whisper of a Rose#RPG&Adventure&RPGMaker#5.0
-326840#Heart&Slash#Early Access&Action&Adventure#9.2
-326950#Sword of Asumi#Visual Novel&Anime&Indie#7.6
-326990#Deep Eclipse#Action&Indie&+#5.9
-327010#Motorama#Racing&Action&+#3.1
-327030#Worms W.M.D#Strategy&Action&Funny#N/A
-327060#Feist#Indie&Action&Platformer#8.0
-327090#Out of Reach#Early Access&Survival&Open World#7.6
-327140#Tilt Brush#Design and Illustration&VR&+#9.8
-327150#Deadstone#Action&RPG&Indie#8.4
-327210#Cheesecake Cool Conrad#Indie&Platformer&+#6.6
-327220#Anna's Quest#Adventure&Indie&Point and Click#8.0
-327260#Life of Pixel#Indie&Platformer&Retro#8.4
-327310#The Marvellous Miss Take#Stealth&Indie&Action#6.25
-327370#Brink of Consciousness: The Lonely Hearts Murders#Casual&Hidden Object&+#8.2
-327380#Pirates! Gold Plus (Classic)#Adventure&Simulation&Pirates#7.0
-327390#Sid Meier's Covert Action (Classic)#Simulation&Adventure&Classic#8.3
-327400#Sid Meier's Colonization (Classic)#Simulation&Adventure&Turn-Based Strategy#8.7
-327410#A Bird Story#Indie&Great Soundtrack&Short#6.6
-327440#Hail to the King: Deathbat#Adventure&Action&RPG#7.8
-327450#Ballads of Reemus: When the Bed Bites#Adventure&Indie&Casual#8.0
-327500#Zenzizenzic#Indie&Action&Bullet Hell#9.5
-327510#WASTED#Action&RPG&Indie#N/A
-327520#Traverser#Adventure&Indie&Action#6.05
-327560#Near Death#Action&Adventure&Indie#N/A
-327640#CaesarIA#Early Access&Free to Play&Strategy#7.3
-327650#May’s Mysteries: The Secret of Dragonville#Casual&Indie&Puzzle#4.6
-327670#Ironcast#Strategy&Indie&RPG#7.5
-327740#Tron 2.0#Action&Sci-fi&FPS#8.4
-327760#Bacon Man: An Adventure#Indie&Action&Adventure#N/A
-327860#Salt#Early Access&Open World&Survival#8.8
-327880#Sublevel Zero#Indie&Action&Rogue-lite#9.3
-327890#I am Bread#Simulation&Funny&Physics#5.1
-327910#7th Legion#Strategy&Action&Adventure#6.0
-327920#BloodNet#Adventure&Vampire&Cyberpunk#2.6
-327930#Darklands#RPG&Adventure&Classic#9.2
-327940#DragonSphere#Adventure&Point and Click&Classic#9.0
-327950#Sword of the Samurai#Adventure&Simulation&Classic#9.8
-327960#Journey of the King#Early Access&Indie&RPG#4.6
-328070#Reflex#Early Access&Action&Indie#8.4
-328080#Retro-Pixel Castles#Early Access&Strategy&Simulation#8.6
-328100#Gunspell: Steam Edition#Adventure&RPG&Indie#5.2
-328270#Leviathan: The Last Day of the Decade#Adventure&Visual Novel&Indie#9.3
-328310#Logistics Company#Simulation&+&+#4.0
-328430#Rex Nebular and the Cosmic Gender Bender#Adventure&1990's&Classic#6.1
-328440#Deadlock - Planetary Conquest#Strategy&Turn-Based&+#7.9
-328450#Deadlock II - Shrine Wars#Strategy&+&+#7.1
-328460#Redline#Action&Racing&FPS#7.1
-328470#Slave Zero#Cyberpunk&Action&Mechs#9.0
-328500#Potatoman Seeks the Troof#Indie&Platformer&Pixel Graphics#7.9
-328510#Monsters & Monocles#Early Access&Action&Indie#N/A
-328550#Thieves' Gambit: Curse of the Black Cat#Indie&RPG&Choose Your Own Adventure#8.0
-328600#Frozen Synapse Prime#Strategy&Turn-Based Strategy&Turn-Based#8.3
-328640#Rock Zombie#Action&Adventure&Indie#6.0
-328650#Knight of the Hamsters#Action&Indie&+#7.5
-328670#Deer Hunt Legends#Action&Sports&Hunting#2.7
-328680#Crab Cakes Rescue#Indie&Casual&+#6.9
-328710#One Last DayEarly Access&Indie&Action#7.5
-328730#Letter Quest: Grimm's Journey#Casual&Indie&Word Game#9.4
-328740#Bit Odyssey#Early Access&Indie&RPG#6.9
-328780#Vampires: Guide Them to Safety!#Indie&Vampire&Puzzle#9.1
-328830#Rugby Union Team Manager 2015#Sports&Simulation&Strategy#6.2
-328870#Draft Day Sports Pro Basketball 4#Simulation&Sports&Basketball#5.2
-328880#Space Legends: At the Edge of the Universe#Casual&Adventure&Sci-Fi#4.0
-328890#Fritz for Fun 13#Strategy&Casual&Chess#7.0
-328900#B-17 Flying Fortress: The Mighty 8th#Simulation&Flight&World War II#8.1
-328920#F-117A Nighthawk Stealth Fighter 2.0#Simulation&Flight&Stealth#8.4
-328930#Fleet Defender: The F-14 Tomcat Simulation#Simulation&Flight&Classic#8.0
-328940#The Deer God#Indie&Platformer&Pixel Graphics#5.9
-328990#Koya Rift#Indie&+&+#4.2
-329000#Data Hacker: Corruption#RPG&Indie&Adventure#4.1
-329020#Battlegrounds of Eldhelm#Free to Play&Indie&RPG#7.0
-329040#Dungeon Kingdom: Sign of the Moon#Early Access&RPG&Indie#9.2
-329050#Devil May Cry® 4 Special Edition#Action&Hack and Slash&Character Action Game#9.1
-329110#Gems of War#Free to Play#RPG&Strategy#8.7
-329130#Reassembly#Strategy&Space&Building#8.8
-329190#Volo Airsport#Early Access&Indie&Action#8.9
-329200#Astray#Adventure&Indie&Horror#7.3
-329240#The Weaponographist#RPG&Indie&Action#6.25
-329310#Tile Miner#Early Access&Indie&Adventure#5.8
-329320#QbQbQb#Action&Casual&Indie#9.1
-329380#Stealth Inc 2#Indie&Action&Adventure#8.2
-329440#Sonic Lost World#Adventure&Platformer&3D Platformer#6.35
-329460#JumpJet Rex#Indie&Action&Adventure#6.3
-329550#Alea Jacta Est Cantabrian Wars#Strategy&Simulation&+#8.0
-329610#R.B.I. Baseball 15#Sports&Simulation&Arcade#4.4
-329620#Across the Rhine#Strategy&WWII&+#5.6
-329630#Command HQ#Strategy&Classic&+#9.0
-329640#Eradicator#Action&FPS&Classic#9.0
-329650#NAM#Action&FPS&Classic#5.3
-329670#Silent Service 2#Simulation&Classic&+#4.4
-329690#BasketBelle#Sports&Indie&Adventure#8.6
-329770#4089: Ghost Within#Action&RPG&Indie#7.5
-329790#Krosmaster Arena#Free to Play&Strategy&RPG#6.2
-329830#The Moon Sliver#Adventure&Walking Simulator&Exploration#6.0
-329860#Catlateral Damage#Simulation&Casual&Indie#8.7
-330000#Kingdoms CCG#Free to Play&Stratey&Trading Card Game#5.5
-330180#Pix the Cat#Indie&Action&Arcade#7.7
-330820#Read Only Memories#Adventure&Cyberpunk&Point & Click#5.6
-330840#Game of Thrones - A Telltale Games Series#Sin etiquetas#6.95
-331450#Finding Nemo#Adventure&Action&Nudity#5.949999999999999
-331750#WALL E#Adventure&Multiplayer&+#6.199999999999999
-331970#Treasure Planet Battle at Procyon#Strategy&Pirates&RTS#7.5
-332200#Axiom Verge#Metroidvania&Indie&Platformer#7.75
-333430#Sinking Island#Adventure&Point & Click&Detective#6.8
-402430#Out of the Park Baseball 17#Strategy&Simulation&Sports#9.3
-333930#Dirty Bomb#Free to Play&FPS&Multiplayer#6.65
-334070#Hektor#Horror&Adventure&Indie#5.5
-334120#Armikrog#Adventure&Indie&Point & Click#6.0
-335000#Tormentum - Dark Sorrow#Adventure&Point & Click&Dark Fantasy#7.2
-336840#Color Guardians#Action&Indie&+#2.8
-337180#Velocity 2X#Action&Shoot 'Em Up&Female Protagonist#7.5
-337680#Star Hammer: The Vanguard Prophecy #Strategy&Simulation&Adventure#6.9
-338140#Venetica#RPG&Action&Adventure#6.65
-338890#Harold#Action&Indie&Racing#6.3
-339130#Morningstar: Descent to Deadrock#Adventure&Point & Click&Indie#6.2
-339200#Oceanhorn: Monster of Uncharted Seas#RPG&Adventure&Action#7.3
-339460#A Pixel Story#Indie&Action&Adventure#7.7
-339690#Paperbound#Indie&Action&+#6.15
-339840#The Moment of Silence#Adventure&Indie&Point & Click#7.35
-340990#Bolt#Action&Adventure&+#5.55
-341870#Tembo The Badass Elephant#Sin etiquetas#6.050000000000001
-341940#Hatred#Gore&Dark&Shooter#4.6
-342100#Sym#Indie&Puzzle-Platformer&Platformer#3.55
-342200#MechWarrior Online#Free to Play&Mechs&Action#6.4
-342990#15 Days#Adventure&Indie&Casual#6.3
-343100#Overture#Indie&Action&RPG#7.6
-343120#Motorbike#Racing&Sports&Action#7.4
-343710#KHOLAT#Horror&Atmospheric&Open World#6.4
-343840#Trash TV#Indie&Adventure&Platformer#1.75
-344410#Magnetic: Cage Closed#Puzzle&Puzzle-Platformer&Indie#6.1
-344480#Quell#Indie&Puzzle&Casual#8.4
-345180#Victor Vran#Adventure&RPG&Action#7.6
-345350#LIGHTNING RETURNS: FINAL FANTASY XIII#RPG&Fantasy&Turn-Based Strategy#6.6
-347440#Pneuma: Breath of Life#Adventure&Indie&Puzzle#6.3
-347830#Fairy Fencer F#Anime&JRPG&RPG#7.15
-348360#Doodle God#Casual&Simulation&God Game#7.5
-348400#BattleLore: Command#Strategy&Indie&Board Game#8.2
-348440#Quell Memento#Indie&Casual&Relaxing#8.3
-349550#Mighty Dungeons#RPG&Indie&Casual#6.5
-349690#ARMED SEVEN#Action&Indie&Shoot 'Em Up#6.6
-350080#Wolfenstein: The Old Blood #Action&FPS&Shooter#7.75
-350660#Alganon#Free to Play&Massively Multiplayer&RPG#6.5
-351080#The Corporate Machine#Simulation&Strategy&Management#7.8
-351970#Tales of Zestiria#JRPG&Anime&RPG#8.3
-352120#Fair Strike#Action&Simulation&+#5.699999999999999
-352520#The Silent Age#Adventure&Indie&Point & Click#8.4
-352960#Star Horizon#Indie&Action&Space#7.4
-353550#House of Caravan#Adventure&Indie&Casual#3.9
-354160#WRC 5#Racing&Simulation&Multiplayer#6.4
-355100#Dungeon Crawlers HD#Strategy&RPG&Indie#7.5
-355910#Piloteer#Indie&Simulation&+#8.7
-356050#Beyond Eyes#Indie&Adventure&Walking Simulator#6.1
-356420#Interloper#Strategy&Indie&RTS#2.5
-357720#Inside My Radio#Indie&Casual&Action#5.15
-358370#Terminal Velocity#Action&1990's&Shooter#7.8
-358390#Stargunner#Action&Shoot 'Em Up&+#7.2
-358960#Canabalt#Indie&Action&Platformer#7.7
-359060#Switch Galaxy Ultra#Racing&Action&Indie#5.0
-359280#Heroes of Loot#Action&Adventure&RPG#8.4
-359320#Elite Dangerous#Space Sim&Space&Open World#7.9
-359580#Uncanny Valley#Adventure&Indie&Pixel Graphics#6.1
-359630#Independence War 2: Edge of Chaos#Action&Simulation&Space#8.45
-359850#Duke Nukem 3D#FPS&Action&Classic#8.8
-359900#The Incredible Adventures of Van Helsing III#RPG&Action&Adventure#6.85
-360010#Remnants Of Isolation#RPG&Indie&Casual#0.5
-360530#WE ARE DOOMED#Twin Stick Shooter&Action&Indie#1.0
-360740#Downwell#Indie&Action&Platformer#8.4
-361130#Card Dungeon#RPG&Indie&Strategy#7.3
-361550#Cradle#Adventure&Sci-fi&Indie#6.4
-362890#Black Mesa#Early Access&FPS&Remake#8.6
-363440#Mega Man Legacy Collection#Action&Platformer&Classic#8.5
-364700#Dawn of the Plow#Action&Indie&+#7.4
-365450#Hacknet#Hacking&Simulation&Indie#8.3
-365480#Ravenmark: Scourge of Estellion#Strategy&RPG&Turn-Based#8.5
-365560#Battle of the Bulge#Strategy&World War II&Turn-Based Strategy#8.5
-365770#Volume#Indie&Action&Stealth#8.0
-365820#Company of Heroes 2 - The British Forces#Strategy&Worl War II&RTS#8.1
-366230#BASEBALL STARS 2#Sports&Arcade&+#7.6
-368050#Almightree: The Last Dreamer#Indie&Action&Strategy#8.3
-368370#Her Story#Indie&Detective&FMV#8.0
-368600#Terra Nova: Strike Force Centauri#Simulation&Action&FMV#8.9
-368650#Dark Echo#Indie&Adventure&Atmospheric#8.8
-369110#The Swindle#Indie&Action&RPG#7.0
-370220#Animal Gods#Action&Adventure&Indie#5.3
-370240#NBA 2K16#Sports&Basketball&Multiplayer#6.95
-370550#Sparkle 2#Casual&Match 3&Action#7.6
-371660#Far Cry Primal#Open World&Survival&Action#8.2
-372360#Tales of Symphonia#RPG&JRPG&Story Rich#8.899999999999999
-373460#Fury Of The Gods#Action&Casual&Tower Defense#6.3
-375910#Anno 2205#Strategy&City Builder&Simulation#6.7
-375950#Viridi#Free to Play&Relaxing&Simulation#4.6
-375960#Pro Evolution Soccer 2016#Sports&Soccer&Football#7.25
-376570#WildStar#Free to Play&Massively Multiplayer&RPG#8.2
-376870#Minecraft: Story Mode - A Telltale Games Series#Memes&Adventure&Singleplayer#6.4
-377160#Fallout 4#Open World&Action&RPG#8.4
-377840#FINAL FANTASY IX#Sin etiquetas#9.2
-378120#Football Manager 2016#Sports&Simulation&Management#8.2
-379380#ReLoaded#Action&Adventure&RPG#5.0
-380150#STASIS#Adventure&Horror&Isometric#7.9
-381780#80 Days#Adventure&Indie&Strategy#6.0
-382800#Daylight#Sin etiquetas#4.55
-382890#FINAL FANTASY V#Sin etiquetas#8.6
-382900#FINAL FANTASY VI#Sin etiquetas#9.2
-383100#Fragile Allegiance#Sin etiquetas#8.5
-384570#ZanZarah: The Hidden Portal#Adventure&Action&RPG#7.949999999999999
-385250#Paint it Back#Casual&Puzzle&Indie#8.4
-385730#WWE 2K16#Sin etiquetas#6.65
-386360#SMITE#Free to Play&MOBA&Action#8.8
-387340#Hyperdimension Neptunia U: Action Unleashed#Anime&Action&RPG#7.1
-388800#Azure Striker Gunvolt#Action&Indie&Platformer#8.35
-389300#TERA#Sin etiquetas#7.65
-389900#Hogs of War#Strategy&Action&+#7.35
-391030#Hard to Be a God#Sin etiquetas#5.5
-391220#Rise of the Tomb Raider#Sin etiquetas#8.75
-391540#Undertale#Great Soundtrack&Story Rich&Choices Matter#9.3
-393290#Motorhead#Sin etiquetas#7.9
-394290#Tennis in the Face#Casual&Indie&Sports#7.7
-394550#Gunman Clive 2#Action&Indie&Platformer#8.0
-394600#Mighty Gunvolt#Action&Indie&Platformer#7.2
-395310#Virtual Pool#Sin etiquetas#7.3
-395560#Lost Horizon 2#Sin etiquetas#6.0
-396820#Mass Destruction#Sin etiquetas#7.4
-398160#Shapes of Gray#Action&Indie&Great Soundtrack#4.6
-398640#Bowl Bound College Football#Sports&Strategy&Simulation#8.0
-399910#Ookibloks#Action&Indie&Casual#7.6
-400370#Normality#Adventure&Action&Retro#7.9
-402020#The Park#Horror&Psychological Horror&Walking Simulator#6.699999999999999
-407510#Devilian#Sin etiquetas#6.15
-407600#Raiden Legacy#Action&Shoot 'Em Up&Arcade#8.2
-408640#CODE OF PRINCESS#Action&Adventure&RPG#7.2
-410850#Dragon Quest Heroes#Sin etiquetas#7.1
-411330#Men of Valor#Action&FPS&+#7.35
-411960#TY the Tasmanian Tiger#Early Access&Adventure&Action#7.25
-412310#Labyrinth#Early Access&Strategy&RPG#4.5
-413420#Danganronpa 2: Goodbye Despair#Detective&Anime&Adventure#8.7
-415480#Hyperdevotion Noire: Goddess Black Heart#Strategy&RPG&Anime#6.8
-417600#Escape Plan#Sin etiquetas#7.199999999999999
-419320#FROM DUSK TILL DAWN#Sin etiquetas#5.9
-419360#Reservoir Dogs#Sin etiquetas#5.0
-421610#XBlaze Code: Embryo#Adventure&Visual Novel&Anime#4.3
-427510#Way of the Samurai 3#Action&Adventure&Character Customization#6.35
-431640#Doodle Kingdom#Simulation&Indie&Casual#7.0
-432940#Breakneck#Early Access&Racing&Action#7.199999999999999
-433580#Timelapse#Sin etiquetas#8.2
-434800#The Great Escape#Action&Indie&Casual#5.75
-441110#Kick-Ass#Sin etiquetas#4.15
-441160#Saw#Sin etiquetas#6.15
-446460#Highland Warriors#Strategy&RTS&+#6.15
-450120#Capitalism Plus#Strategy&Simulation&Capitalism#7.6
-465430#Vertigo#Action&Indie&VR#6.6
+10#Counter-Strike#Action&FPS&Multiplayer#8.55#9,99€
+30#Day of Defeat#FPS&World War II&Multiplayer#8.15#4,99€
+50#Half-Life: Opposing Force#FPS&Action&Sci-fi#8.7#4,99€
+70#Half-Life#FPS&Classic&Action#9.3#9,99€
+80#Counter-Strike: Condition Zero#Action&FPS&Shooter#6.95#9,99€
+130#Half-Life: Blue Shift#FPS&Action&Sci-fi#7.449999999999999#4,99€
+220#Half-Life 2#FPS&Action&Sci-fi#9.45#9,99€
+240#Counter-Strike: Source#Action&FPS&Multiplayer#8.8#19,99€
+380#Half-Life 2: Episode One#FPS&Action&Sci-fi#8.75#6,99€
+400#Portal#Puzzle&First-Person&Singleplayer#9.0#9,99€
+420#Half-Life 2: Episode Two#FPS&Action&Sci-fi#9.0#7,99€
+440#Team Fortress 2#Free to Play&Multiplayer&FPS#9.05#Free to Play
+500#Left 4 Dead#Zombies&Co-op&FPS#8.75#19,99€
+550#Left 4 Dead 2#Zombies&Co-op&FPS#8.7#19,99€
+620#Portal 2#Puzzle&Co-op&First-Person#9.3#19,99€
+730#Counter-Strike: Global Offensive#FPS&Multiplayer&Shooter#7.8#13,99€
+992#Company of Heroes: Opposing Fronts#Sin etiquetas#8.649999999999999#No hay precio
+1250#Killing Floor#FPS&Zombies&Co-op#7.6#17,99€
+1313#SiN#Action&FPS&Cyberpunk#7.6#9,99€
+1620#Jagged Alliance 2#Strategy&Classic&Tactical#8.9#19,99€
+1700#Arx Fatalis#RPG&First-Person&Classic#7.85#4,99€
+1900#Earth 2160#Strategy&RTS&Sci-fi#7.6#4,99€
+1920#Two Worlds#Sin etiquetas#6.4#No hay precio
+2210#Quake 4#Sin etiquetas#8.149999999999999#No hay precio
+2270#Wolfenstein 3D#FPS&Classic&Action#6.949999999999999#4,99€
+2280#The Ultimate DOOM#Classic&FPS&Action#9.0#9,99€
+2290#Final DOOM#Action&FPS&Classic#7.7#4,99€
+2310#Quake#FPS&Classic&Action#9.05#9,99€
+2320#Quake II#Action&FPS&Classic#8.6#9,99€
+2500#Shadowgrounds#Action&Sci-fi&Top-Down Shooter#7.45#4,99€
+2600#Vampire: The Masquerade - Bloodlines#RPG&Vampire&Cult Classic#8.3#19,99€
+2610#GUN#Western&Action&Open World#7.85#14,99€
+2620#Call of Duty#FPS&Action&World War II#9.0#19,99€
+2630#Call of Duty 2#Action&FPS&World War II#9.0#No hay precio
+2690#Empires: Dawn of the Modern World#Sin etiquetas#8.2#No hay precio
+2710#Act of War: Direct Action#Action&Strategy&RTS#8.399999999999999#2,99€
+2800#X2: The Threat#Strategy&Space&Simulation#7.6#4,99€
+2810#X3: Reunion#Space&Strategy&Simulation#7.6#9,99€
+2820#X3: Terran Conflict#Space&Simulation&Sci-fi#7.3#15,99€
+2870#X Rebirth#Space&Simulation&Sci-fi#3.65#29,99€
+2930#Birth Of America#Sin etiquetas#6.8#No hay precio
+2990#FlatOut 2#Racing&Destruction&Multiplayer#8.0#9,99€
+3000#GTI Racing#Sin etiquetas#5.1#4,99€
+3020#Call of Juarez#Western&Action&FPS#7.4#9,99€
+3220#SpaceForce: Rogue Universe#Sin etiquetas#6.35#No hay precio
+3260#Safecracker: The Ultimate Puzzle Adventure#Puzzle&Adventure&Casual#7.2#4,99€
+3300#Bejeweled 2 Deluxe#Match 3&Puzzle&Casual#7.7#4,99€
+3330#Zuma Deluxe#Casual&Puzzle&Match 3#7.8#4,99€
+3700#Sniper Elite#Action&Sniper&Stealth#7.8#9,99€
+3710#Judge Dredd: Dredd vs Death#Action&FPS&First-Person#5.8#7,99€
+3720#Evil Genius#Strategy&Base-Building&Villain Protagonist#7.9#9,99€
+3800#Advent Rising#Action&Sci-fi&Story Rich#7.3#9,99€
+3810#BloodRayne#Action&Vampire&Female Protagonist#7.0#9,99€
+3820#BloodRayne 2#Action&Vampire&Female Protagonist#7.300000000000001#9,99€
+3830#Psychonauts#Platformer&Comedy&Adventure#8.8#9,99€
+3970#Prey#Sin etiquetas#8.100000000000001#No hay precio
+3980#CivCity: Rome#Strategy&City Builder&Simulation#7.0#9,99€
+4230#Race: The WTCC Game#Racing&Simulation&+#8.0#29,95€
+4520#Full Spectrum Warrior#Strategy&Action&Military#8.05#6,99€
+4540#Titan Quest#RPG&Hack and Slash&Action RPG#8.0#6,99€
+4560#Company of Heroes#Strategy&RTS&Simulation#9.25#No hay precio
+4700#Medieval II: Total War#Strategy&Medieval&Historical#8.9#19,99€
+4720#Condemned: Criminal Origins#Horro&Action&Atmospheric#8.1#No hay precio
+4760#Rome: Total War#Strategy&Historical&Rome#9.2#7,99€
+4920#Natural Selection 2#Strategy&Multiplayer&FPS#8.15#9,99€
+6040#The Dig#Adventure&Point & Click&Sci-fi#8.3#5,99€
+6080#Thrillville: Off the Rails#Strategy&Simulation&Management#7.2#9,99€
+6090#Armed and Dangerous#Action&Third-Person Shooter&Funny#7.8#5,99€
+6120#Shank#Action&Indie&Beat 'em up#7.25#9,99€
+6220#FlatOut#Racing&Destruction&Driving#7.6#6,99€
+6270#Ducati World Championship#Racing&Simulation&+#3.5#4,99€
+6300#Dreamfall: The Longest Journey#Adventure&Female Protagonist&Story Rich#8.0#19,99€
+6310#The Longest Journey#Adventure&Point & Click&Female Protagonist#9.1#9,99€
+6400#Joint Task Force#Strategy&Action&RTS#7.199999999999999#9,99€
+6420#Nexus: The Jupiter Incident#Strategy&Simulation&Space#8.15#9,99€
+6510#Lost Planet: Extreme Condition#Action&Adventure&Third-Person Shooter#7.25#14,99€
+6550#Devil May Cry 3: Special Edition#Action&Hack and Slash&Stylized#8.8#19,99€
+6800#Commandos: Behind Enemy Lines#Strategy&Action&Stealth#8.5#3,99€
+6830#Commandos 2: Men of Courage#Strategy&Tactical&Action#7.6#3,99€
+6840#Commandos 3: Destination Berlin#Action&Strategy&Tactical#7.6#3,99€
+6850#Hitman 2: Silent Assassin#Stealth&Action&Third Person#8.55#6,99€
+6860#Hitman: Blood Money#Stealth&Action&Singleplayer#8.5#8,99€
+6870#Battlestations: Midway#Action&World War II&Strategy#7.75#6,99€
+6880#Just Cause#Action&Open World&Third Person#7.45#6,99€
+6900#Hitman: Codename 47#Stealth&Action&Classic#7.449999999999999#No hay precio
+6920#Deus Ex: Invisible War#Cyberpunk&Action&FPS#7.9#No hay precio
+7000#Tomb Raider: Legend#Adventure&Action&Female Protagonist#8.25#6,99€
+7010#Project: Snowblind#Action&Cyberpunk&FPS#7.9#5,99€
+7520#Two Worlds II#RPG&Open World&Fantasy#7.5#3,38€
+7610#Railroad Tycoon 3#Strategy&Management&Trains#8.2#9,99€
+7660#X-COM: Apocalypse#Strategy&Sci-fi&Turn-Based#8.5#4,99€
+7670#BioShock#FPS&Action&Atmospheric#9.3#19,99€
+7730#X-COM: Interceptor#Strategy&Sci-fi&Space#7.3#4,99€
+7760#X-COM: UFO Defense#Strategy&Classic&Turn-Based Strategy#9.4#4,99€
+7860#NecroVisioN#Action&FPS&World War I#6.449999999999999#4,99€
+7940#Call of Duty 4: Modern Warfare#FPS&Action&Multiplayer#9.149999999999999#19,99€
+8000#Tomb Raider: Anniversary#Action&Adventure&Female Protagonist#8.1#8,99€
+8100#Conflict: Denied Ops#Action&FPS&Singleplayer#5.449999999999999#5,99€
+8140#Tomb Raider: Underworld#Adventure&Action&Female Protagonist#7.95#8,99€
+8170#Battlestations: Pacific#Strategy&World War II&Action#7.6#8,99€
+8190#Just Cause 2#Open World&Action&Sandbox#8.350000000000001#14,99€
+8400#Geometry Wars: Retro Evolved#Arcade&Twin Stick Shooter&Casual#8.05#3,99€
+8500#EVE Online#Space&Massively Multiplayer&Sci-fi#7.7#19,99€
+8660#GTR Evolution#Racing&Simulation&Driving#8.3#5,99€
+8850#BioShock 2#FPS&Action&Singleplayer#8.65#No hay precio
+8880#Freedom Force#RPG&Strategy&Superhero#8.75#3,99€
+8980#Borderlands#Sin etiquetas#8.25#No hay precio
+9010#Return to Castle Wolfenstein#Action&FPS&Classic#8.6#9,99€
+9050#DOOM 3#Horror&FPS&Action#8.6#9,99€
+9340#Company of Heroes: Opposing Fronts#Strategy&Action&RTS#8.649999999999999#12,99€
+9350#Supreme Commander#Strategy&RTS&Sci-fi#8.55#9,99€
+9420#Supreme Commander: Forged Alliance#Strategy&RTS&Sci-fi#8.3#9,99€
+9460#Frontlines: Fuel of War#Action&FPS&Shooter#7.35#9,99€
+9480#Saints Row 2#Open World&Action&Third-Person Shooter#7.699999999999999#9,99€
+9500#Gish#Indie&Platformer&Physics#7.9#9,99€
+9850#Codename: Panzers - Cold War#Strategy&RTS&Multiplayer#6.65#14,99€
+9870#Ghostbusters: The Video Game#Action&Comedy&Third Person#7.65#9,99€
+9900#Star Trek Online#Free to Play&Massively Multiplayer&Sci-fi#6.65#Free to Play
+9970#Star Raiders #Action&Space&+#6.9#9,99€
+9980#The UnderGarden#Casual&Puzzle&Relaxing#7.2#6,99€
+9990#Ghostbusters: Sanctum of Slime#Action&Adventure&Local Co-Op#4.5#9,99€
+10080#Quantum of Solace#Sin etiquetas#7.3#No hay precio
+10120#Aces of the Galaxy#Action&Casual&Space#7.45#9,99€
+10130#TimeShift#Action&FPS&Time Manipulation#7.3#14,99€
+10150#Prototype#Action&Open World&Adventure#8.15#19,99€
+10180#Call of Duty: Modern Warfare 2#Action&FPS&Multiplayer#8.45#19,99€
+10460#The Club#Action&Third-Person Shooter&+#6.7#9,99€
+10500#Empire: Total War#Strategy&Historical&Military#8.6#19,99€
+11020#TrackMania Nations Forever#Racing&Free to Play&Multiplayer#8.6#No hay precio
+11050#Dracula: Origin#Adventure&Point & Click&Vampire#6.95#9,99€
+11250#Pacific Storm#Simulation&Strategy&World War II#6.7#7,99€
+11440#DiRT#Sin etiquetas#8.3#No hay precio
+11450#Overlord#RPG&Villain Protagonist&Third Person#8.0#4,99€
+11480#Soldiers: Heroes of World War II#Strategy&World War II&RTS#8.1#4,99€
+11590#Hospital Tycoon#Simulation&Management&Singleplayer#5.3#4,49€
+11900#Lumines#Casual&Puzzle&Music#8.8#9,99€
+12100#Grand Theft Auto III#Open World&Action&Third Person#9.35#No hay precio
+12110#Grand Theft Auto: Vice City#Open World&Action&Third Person#9.25#No hay precio
+12120#Grand Theft Auto: San Andreas#Open World&Action&Multiplayer#9.3#No hay precio
+12130#Manhunt#Action&Stealth&Gore#7.85#No hay precio
+12140#Max Payne#Noir&Action&Classic#8.45#No hay precio
+12150#Max Payne 2: The Fall of Max Payne#SNoir&Action&Classic#8.7#No hay precio
+12160#Midnight Club II#Racing&Open World&Great Soundtrack#8.15#9,99€
+12170#Grand Theft Auto#Action&Classic&Open World#7.3#No hay precio
+12180#Grand Theft Auto 2#Action&Classic&Singleplayer#7.25#No hay precio
+12200#Bully: Scholarship Edition#Open World&Action&Adventure#8.15#9,99€
+12210#Grand Theft Auto IV#Open World&Action&Bowling#8.95#19,99€
+12330#DarkStar One#Action&Space&Sci-fi#7.55#9,99€
+12360#FlatOut: Ultimate Carnage#Racing&Destruction&Multiplayer#7.95#18,99€
+12710#Overlord: Raising Hell#RPG&Action&Fantasy#7.9#8,99€
+12750#GRID#Racing&Simulation&Driving#8.15#12,99€
+12770#Rise of the Argonauts#RPG&Action&Adventure#6.550000000000001#8,99€
+12790#Damnation#Action&Adventure&Steampunk#4.15#9,99€
+12810#Overlord II#RPG&Fantasy&Villain Protagonist#7.95#8,99€
+12830#Operation Flashpoint: Dragon Rising#Action&FPS&Tactical#7.449999999999999#9,99€
+12840#DiRT 2#Sin etiquetas#8.7#No hay precio
+12900#Audiosurf#Music&Indie&Rhythm#8.4#9,99€
+13200#Unreal II: The Awakening#Action&FPS&Shooter#7.4#14,99€
+13230#Unreal Tournament 2004#FPS&Action&Arena Shooter#9.25#14,99€
+13500#Prince of Persia: Warrior Within#Action&Adventure&Third Person#8.55#9,99€
+13520#Far Cry#FPS&Action&Classic#8.850000000000001#9,99€
+13530#Prince of Persia: The Two Thrones#Action&Adventure&Platformer#8.7#9,99€
+13600#Prince of Persia: The Sands of Time#Action&Adventure&Platformer#9.05#9,99€
+15150#Petz Catz 2#Simulation&Cute&Casual#6.0#No hay precio
+15190#Brothers in Arms: Road to Hill 30#Action&FPS&World War II#8.75#4,99€
+15200#Silent Hunter: Wolves of the Pacific#Simulation&World War II&Military#8.0#9,99€
+15210#Silent Hunter III#Simulation&World War II&Military#8.95#4,99€
+15230#Blazing Angels 2: Secret Missions of WWII#Action&Simulation&World War II#7.25#4,99€
+16300#Everyday Shooter#Indie&Casual&Twin Stick Shooter#7.800000000000001#9,99€
+16720#Velvet Assassin#Stealth&Action&Female Protagonist#6.4#4,99€
+17080#Tribes: Ascend#Free to Play&FPS&Action#8.399999999999999#Free to Play
+17300#Crysis#FPS&Action&Sci-fi#8.95#14,99€
+17390#Spore#Simulation&Sandbox&Space#7.6#19,99€
+17430#Need for Speed: Undercover#Racing&Open World&Action#6.75#9,99€
+17450#Dragon Age: Origins#RPG&Fantasy&Story Rich#8.85#19,99€
+17460#Mass Effect#RPG&Sci-fi&Action#8.9#9,99€
+17470#Dead Space#Horror&Action&Sci-fi#8.7#9,99€
+17480#Command and Conquer: Red Alert 3#Strategy&RTS&Base-Building#7.949999999999999#9,99€
+18040#DeathSpank#RPG&Action&Indie#7.949999999999999#9,99€
+18050#DeathSpank: Thongs Of Virtue#Action&RPG&Indie#7.9#9,99€
+18070#The Baconing#RPG&Action&Adventure#6.699999999999999#12,99€
+18120#Unstoppable Gorg#Tower Defense&Strategy&Indie#7.05#9,99€
+18500#Defense Grid: The Awakening#Tower Defense&Strategy&Indie#8.2#9,99€
+19000#Silent Hill: Homecoming#Horro&Adventure&Survival Horror#7.1#19,99€
+19680#Alice: Madness Returns#Adventure&Action&Female Protagonist#7.75#No hay precio
+20500#Red Faction Guerrilla#Open World&Action&Destruction#8.2#19,99€
+20530#Red Faction#Action&FPS&Sci-fi#8.0#9,99€
+20540#Company of Heroes: Tales of Valor#Strategy&RTS&World War II#7.2#12,99€
+20550#Red Faction II#Action&FPS&Strategy#8.15#9,99€
+20820#Shatter#Great Soundtrack&Indie&Arcade#8.15#7,99€
+20900#The Witcher: Enhanced Edition#RPG&Fantasy&Mature#8.8#No hay precio
+21000#LEGO Batman: The Videogame#LEGO&Action&Adventure#7.95#19,99€
+21010#Watchmen: The End Is Nigh#Action&Beat 'em up&Superhero#6.55#4,99€
+21600#Age of Booty#Strategy&Casual&Pirates#6.95#No hay precio
+21660#Street Fighter IV#Fighting&Action&Arcade#8.75#19,99€
+21680#Bionic Commando Rearmed#Action&Platformer&Remake#8.35#No hay precio
+21699#Resident Evil 5#Action&Zombies&Co-op#8.55#No hay precio
+21760#World in Conflict#Strategy&RTS&Cold War#8.75#No hay precio
+21780#Driver: Parallel Lines#Racing&Action&Open World#6.85#4,99€
+21980#Call of Juarez: Bound in Blood#Western&Action&FPS#8.0#9,99€
+22000#World of Goo#Puzzle&Indie&Physics#9.100000000000001#9,99€
+22120#Penumbra: Black Plague#Horror&Adventure&First-Person#7.949999999999999#9,99€
+22180#Penumbra: Overture#Horror&Adventure&First-Person#7.6#9,99€
+22230#Rock of Ages#Comedy&Indie&Strategy#7.5#9,99€
+22300#Fallout 3#Open World&Post-apocalyptic&RPG#9.0#9,99€
+22310#Rogue Warrior#Action&Short&FPS#2.9#9,99€
+22320#The Elder Scrolls III: Morrowind#RPG&Open World&Fantasy#8.850000000000001#19,99€
+22330#The Elder Scrolls IV: Oblivion #RPG&Open World&Fantasy#9.350000000000001#19,99€
+22340#Call of Cthulhu: Dark Corners of the Earth#Horror&Lovecraftian&First-Person#7.8999999999999995#9,99€
+22350#BRINK#FPS&Action&Parkour#6.8#19,99€
+22600#Worms Reloaded#Strategy&2D&Turn-Based#7.95#10,95€
+22650#Alien Breed 2: Assault#Action&Shooter&Third Person#6.3#9,99€
+22670#Alien Breed 3: Descent#Action&Shooter&Third Person#6.4#9,99€
+23310#The Last Remnant#JRPG&RPG&Singleplayer#7.15#9,99€
+23450#Grand Ages: Rome#Strategy&Simulation&City Builder#7.15#9,99€
+23530#Earth Defense Force: Insect Armageddon#Action&Third-Person Shooter&Co-op#7.050000000000001#9,99€
+24200#DC Universe Online#Free to Play&Superhero&Action#7.2#Free to Play
+24240#PAYDAY: The Heist#FPS&Action&Co-op#7.35#No hay precio
+24400#King Arthur - The Role-playing Wargame#Strategy&RPG&Fantasy#7.800000000000001#9,99€
+24460#King Arthur - Fallen Champions#Strategy&RPG&+#5.6#4,99€
+24480#King Arthur II - The Role-playing Wargame#Strategy&RPG&RTS#6.5#9,99€
+24790#Command and Conquer 3: Tiberium Wars#Strategy&RTS&Sci-fi#8.6#9,99€
+24840#Medal of Honor: Airborne#Action&World War II&FPS#7.699999999999999#9,99€
+24860#Battlefield 2#Action&FPS&Multiplayer#9.05#No hay precio
+24870#Need for Speed: SHIFT#Racing&Simulation&Multiplayer#7.8500000000000005#14,99€
+24960#Battlefield: Bad Company 2#FPS&Multiplayer&Action#8.75#9,99€
+24980#Mass Effect 2#RPG&Sci-fi&Story Rich#9.2#19,99€
+25500#Cricket Revolution#Sports&Simulation&Indie#7.4#2,99€
+25800#Europa Universalis III#Strategy&Grand Strategy&Historical#8.3#14,99€
+25830#Knights of Honor#Strategy&Medieval&Grand Strategy#8.2#9,99€
+25890#Hearts of Iron III#Grand Strategy&Strategy&World War II#7.4#9,99€
+26800#Braid#Puzzle&Platformer&Indie#8.55#14,99€
+27000#The Path#Indie&Walking Simulator&Adventure#7.4#9,99€
+238010#Deus Ex: Human Revolution#Cyberpunk&Stealth&RPG#8.8#No hay precio
+29560#Guild Wars: Factions#Massively Multiplayer&RPG&+#8.600000000000001#14,99€
+29610#Guild Wars: Factions#Massively Multiplayer&RPG&+#8.600000000000001#14,99€
+261430#Aion#Free to Play&MMORPG&MMO#7.5#Free to Play
+29900#Dark Sector#Action&Third-Person Shooter&Third Person#7.1#9,99€
+31270#Puzzle Agent#Puzzle&Adventure&Point & Click#3.6#4,99€
+31800#Nancy Drew: Danger By Design#Adventure&Point & Click&Female Protagonist#7.0#6,99€
+31830#Nancy Drew: Curse of Blackmoor Manor #Point & Click&Mystery&Female Protagonist#8.1#6,99€
+31930#Nancy Drew: The White Wolf of Icicle Creek#Adventure&Point & Click&Mystery#7.1#6,99€
+32360#The Secret of Monkey Island: Special Edition#Adventure&Point & Click&Comedy#8.55#9,99€
+32380#Star Wars Jedi Knight: Dark Forces II#Star Wars&Action&FPS#8.899999999999999#5,99€
+32420#Star Wars The Clone Wars: Republic Heroes#Action&Star Wars&Sci-fi#4.8#19,99€
+32660#Delta Force: Xtreme#Action&FPS#4.2#19,99€
+32610#Delta Force: Xtreme 2#Action#4.2#19,99€
+32620#Delta Force#Action&FPS&Classic#8.4#4,99€
+32630#Delta Force 2#Action&FPS&+#7.9#4,99€
+32650#Delta Force: Task Force Dagger#Action#5.65#9,99€
+32680#Delta Force: Black Hawk Down - Team Sabre#Action&FPS&+#6.15#9,99€
+32710#Armored Fist 3#Simulation&Tanks&+#6.9#9,99€
+32750#Comanche 4#Action&Simulation&Classic#7.6#9,99€
+32760#Tachyon: The Fringe#Simulation&Space Sim&Space#8.5#9,99€
+32800#The Lord of the Rings: War in the North#RPG&Action&Co-op#7.05#19,99€
+33210#Dawn of Discovery#Strategy&Simulation&City Builder#8.3#9,99€
+33320#Prince of Persia: The Forgotten Sands#Action&Adventure&Platformer#7.6#9,99€
+33420#Call of Juarez: The Cartel#Action&Adventure&FPS#5.3#No hay precio
+33440#Driver San Francisco#Racing&Open World&Action#7.9#9,99€
+33460#From Dust#God Game&Simulation&Adventure#7.3#9,99€
+33520#Tropico#Simulation&Strategy&City Builder#8.3#6,99€
+33990#AlternativA#Adventure&Point & Click&Sci-fi#6.3#9,99€
+34010#Alpha Protocol#RPG&Stealth&Action#7.15#No hay precio
+34030#Napoleon: Total War#Strategy&Historical&Grand Strategy#8.149999999999999#19,99€
+34190#Sonic and SEGA All Stars Racing#Racing&Local Multiplayer&Split Screen#7.3#9,99€
+34274#Ecco the Dolphin#Action&Classic&Adventure#7.4#2,49€
+34276#Golden Axe#Action&Beat 'em up&Classic#7.8#2,49€
+34278#Sonic 3D Blast#Platformer&Great Soundtrack&Singleplayer#6.9#4,49€
+34281#Altered Beast#Action&Arcade&Beat 'em up#7.2#2,49€
+34312#Ristar#Platformer&Classic&Great Soundtrack#8.5#2,49€
+34316#Bio-Hazard Battle#Action&Shoot 'Em Up&+#7.7#2,49€
+34330#Total War: SHOGUN 2#Strategy&Turn-Based Strategy&RTS#8.85#29,99€
+34600#Order of War#Strategy&World War II&RTS#7.300000000000001#7,99€
+34800#Chronicles of Mystery: The Scorpio Ritual#Adventure&Point & Click&Female Protagonist#6.2#4,99€
+34820#Combat Wings: Battle of Britain#Simulation&Flight&Arcade#7.0#4,99€
+34830#Sniper: Ghost Warrior#Action&Sniper&FPS#5.8#7,99€
+34870#Sniper Ghost Warrior 2#Sniper&Action&FPS#5.9#No hay precio
+35000#Mini Ninjas#Adventure&Action&Ninja#7.85#9,99€
+35010#Batman: Arkham Asylum#Action&Batman&Stealth#9.1#19,99€
+35130#Lara Croft and the Guardian of Light#Action&Adventure&Co-op#8.149999999999999#9,99€
+35300#Warfare#Strategy&RTS&+#7.0#12,99€
+35460#The Ball#Puzzle&Action&Indie#6.6#9,99€
+231140#Cities XL#Sin etiquetas#6.6#19,99€
+35700#Trine#Platformer&Fantasy&Indie#8.05#12,99€
+35720#Trine 2#Platformer&Adventure&Puzzle#8.350000000000001#16,99€
+38120#Farm Frenzy#Casual&Agriculture&+#7.1#4,49€
+38230#Hotel Giant 2#Sin etiquetas#6.0#7,99€
+38400#Fallout#RPG&Post-apocayltic&Classic#9.0#No hay precio
+38410#Fallout 2#RPG&Post-apocayltic&Classic#8.95#No hay precio
+38440#Sacrifice#Strategy&RTS&Fantasy#8.8#9,99€
+38700#Toki Tori#Puzzle&Casual&Indie#7.5#4,49€
+39120#RIFT#Free to Play&MMORPG&Massively Multiplayer#8.25#Free to Play
+39140#FINAL FANTASY VII#JRPG&RPG&Classic#9.5#No hay precio
+39150#FINAL FANTASY VIII#JRPG&RPG&Classic#9.1#No hay precio
+39160#Dungeon Siege III#RPG&Action&Fantasy#6.75#14,99€
+39190#Dungeon Siege#RPG&Fantasy&Action RPG#8.35#6,99€
+39500#Gothic 3#RPG&Open World&Action#7.0#9,99€
+39670#Chaser#Action&FPS&Sci-fi#7.199999999999999#4,99€
+40100#Supreme Commander 2#Strategy&RTS&Sci-fi#7.25#12,99€
+40300#Risen#RPG&Open World&Gothic#7.75#9,99€
+40390#Risen 2 - Dark Waters#RPG&Pirates&Open World#6.95#9,99€
+40700#Machinarium#Point & Click&Adventure&Puzzle#8.6#9,99€
+40800#Super Meat Boy#Platformer&Indie&Difficult#8.45#13,99€
+40960#Stronghold 2#Strategy&Medieval&Classic#6.9#3,99€
+40980#Stronghold Legends#Strategy&Medieval&Classic#6.15#3,99€
+41070#Serious Sam 3: BFE#FPS&Action&Co-op#7.5#36,99€
+41500#Torchlight#RPG&Action RPG&Hack and Slash#8.3#14,99€
+42120#Lead and Gold - Gangs of the Wild West#Sin etiquetas#7.1#No hay precio
+42160#War of the Roses#Sin etiquetas#7.25#No hay precio
+42170#Krater#RPG&Indie&Adventure#5.85#14,99€
+42650#Transformers: War for Cybertron#Action&Third Person&Sci-fi#7.85#19,99€
+42670#Singularity#Sin etiquetas#7.6#No hay precio
+42700#Call of Duty: Black Ops#Action&FPS&Zombies#8.05#No hay precio
+42910#Magicka#Comedy&Action&Co-op#7.5#9,99€
+42960#Victoria II#Grand Strategy&Strategy&Historical#7.75#19,99€
+43000#Front Mission Evolved#Mechs&Action&Shooter#6.449999999999999#9,99€
+43100#World of Zoo#Simulation&Family Friendly&+#6.3#9,99€
+43110#Metro 2033#FPS&Post-apocalyptic&Action#8.1#9,99€
+287390#Metro: Last Light#Post-apocaplyptic&Atmospheric&Action#8.3#19,99€
+44200#Galcon Fusion#Strategy&Indie&RTS#6.8#9,99€
+321040#DiRT 3#Racing&Simulation&Sports#8.45#29,99€
+44340#Operation Flashpoint: Red River#Action&Strategy&FPS#6.85#No hay precio
+44350#GRID 2#Racing&Sports&Multiplayer#7.6#24,99€
+44360#F1 2011#Racing&Simulation&Sports#8.25#14,99€
+44680#Race Injection#Racing&Simulation&+#7.2#9,95€
+44690#GT Legends#Simulation&Racing&Sports#8.5#5,99€
+45700#Devil May Cry 4#Action&Hack and Slash&Character Action Game#8.2#19,99€
+45710#Dark Void#Action&Adventure&Third-Person Shooter#6.050000000000001#9,99€
+45720#Lost Planet: Extreme Condition - Colonies Edition#Action&Adventure&Third-Person Shooter#7.5#14,99€
+45730#Dark Void Zero#Action&Adventure&Platformer#7.95#3,99€
+45740#Dead Rising 2#Zombies&Action&Adventure#7.85#18,99€
+45750#Lost Planet 2#Action&Co-op&Third-Person Shooter#6.75#19,99€
+46380#Reign: Conflict of Nations#Sin etiquetas#6.0#3,99€
+46490#Still Life 2#Adventure&Point & Click&Female Protagonist#6.65#7,99€
+46500#Syberia#Adventure&Point & Click&Steampunk#8.399999999999999#12,99€
+46540#Trapped Dead#Zombies&Strategy&Action#5.0#4,99€
+46550#Post Mortem#Adventure&Point & Click&Mystery#7.15#7,99€
+46570#Grotesque Tactics 2 - Dungeons and Donuts#RPG&Strategy&Indie#5.199999999999999#9,99€
+47400#Stronghold 3#Strategy&Medieval&Simulation#4.35#27,99€
+47700#Command and Conquer 4: Tiberian Twilight#Strategy&RTS&Multiplayer#5.2#9,99€
+47780#Dead Space 2#Horror&Action&Sci-fi#8.75#9,99€
+47800#RISK Factions#Strategy&Board Game&Multiplayer#7.45#9,99€
+47870#Need for Speed: Hot Pursuit#Racing&Multiplayer&Open World#8.3#14,99€
+47810#Dragon Age I#RPG&Fantasy&Singleplayer#7.8#19,99€
+47920#Shift 2 Unleashed#Racing&Simulation&Driving#7.65#19,99€
+48000#LIMBO#Platformer&Indie&Puzzle#8.5#9,99€
+48110#Silent Hunter 5: Battle of the Atlantic#Simulation&World War II&Naval#5.25#34,99€
+901436#The Settlers 7: Paths to a Kingdom#Strategy&City Builder&+#4.25#19,99€
+48240#Anno 2070#Strategy&City Builder&Futuristic#8.15#19,99€
+48800#Ship Simulator Extremes#Simulation&Realistic&Multiplayer#4.9#6,94€
+48950#Greed Corp#Strategy&Turn-Based&Multiplayer#7.55#9,99€
+49300#Commander: Conquest of the Americas#Strategy&Naval&+#6.35#No hay precio
+49400#Magic: The Gathering - Duels of the Planeswalkers#Sin etiquetas#8.0#No hay precio
+49540#Aliens: Colonial Marines#Sin etiquetas#4.85#No hay precio
+50460#Mafia II#Action&Open World&Crime#7.949999999999999#No hay precio
+50510#Burn Zombie Burn#Action&Zombies&+#7.2#7,99€
+50620#Darksiders#Action&Adventure&Hack and Slash#8.350000000000001#19,99€
+50820#Max and the Magic Marker#Indie&Family Friendly&Platformer#7.6#No hay precio
+51100#Tactical Intervention#Free to Play&Action&FPS#4.7#Free To Play
+55100#Homefront#Action&FPS&Shooter#6.85#19,99€
+55110#Red Faction: Armageddon#Action&Destruction&Third Person#7.55#No hay precio
+55230#Saints Row: The Third#Open World&Action&Comedy#8.350000000000001#No hay precio
+57300#Amnesia: The Dark Descent#Horror&First-Person&Atmospheric#8.55#19,99€
+57680#The First Templar#Action&Adventure&Medieval#5.95#19,99€
+57690#Tropico 4#City Builder&Simulation&Strategy#7.75#14,99€
+57740#Jagged Alliance - Back in Action#Strategy&RPG&Simulation#6.25#29,99€
+57900#Duke Nukem Forever#FPS&Action&Shooter#5.550000000000001#No hay precio
+58200#Jolly Rover#Adventure&Indie&Point & Click#7.3#9,99€
+58520#Blood Bowl: Legendary Edition#Strategy&Sports&Turn-Based#7.3#19,99€
+58540#Divinity II - The Dragon Knight Saga#Sin etiquetas#8.2#No hay precio
+58610#Wargame: European Escalation#Strategy&RTS&Military#7.9#9,99€
+61500#Age of Wonders#Strategy&RPG&Turn-Based Strategy#8.3#5,99€
+61520#Age of Wonders: Shadow Magic#Strategy&RPG&Turn-Based Strategy#8.35#8,99€
+62000#Flight Control HD#Casual&Action&Arcade#3.7#3,99€
+62100#Chime#Casual&Puzzle&Music#3.9#3,99€
+63200#Monday Night Combat#Action&Indie&Sports#8.1#4,49€
+63380#Sniper Elite V2#Sniper&Action&Stealth#7.0#27,99€
+63600#realMyst#Adventure&Point & Click&Puzzle#8.15#5,99€
+63900#Fantasy Wars#Strategy&Turn-Based Strategy&Turn-Based#7.15#4,99€
+63960#Theatre of War 3: Korea#Strategy&Cold War&+#4.9#9,99€
+64000#Men of War: Assault Squad#Strategy&World War II&Tactical#7.85#9,99€
+65300#Dustforce#Platformer&Great Soundtrack&Indie#7.7#9,99€
+65540#Gothic#RPG&Atmospheric&Open World#8.399999999999999#19,99€
+65800#Dungeon Defenders#Tower Defense&RPG&Co-op#8.05#11,99€
+65930#The Bureau: XCOM Declassified#Action&Tactical&Sci-fi#6.55#No hay precio
+67370#The Darkness II#FPS&Action&Gore#7.7#No hay precio
+70300#VVVVVV#Platformer&Indie&Great Soundtrack#8.3#4,99€
+70600#Worms Ultimate Mayhem#Strategy&Multiplayer&Funny#6.9#38,97€
+70640#Worms#Strategy&Action&Classic#8.1#No hay precio
+71113#Sonic the Hedgehog#Platformer&Classic&2D#8.3#4,49€
+71116#Alien Soldier#Action&Retro&Platformer#7.6#2,49€
+71117#Gunstar Heroes#Action&Side Scroller&Classic#8.7#2,49€
+71163#Sonic the Hedgehog 2#Platformer&Classic&Great Soundtrack#8.7#4,49€
+71164#Streets of Rage#Action&Beat 'em up&Classic#8.3#2,49€
+71165#Streets of Rage 2#Beat 'em up&Action&Classic#8.6#2,49€
+71166#Toejam and Earl#Adventure&Great Soundtrack&Classic#8.5#4,49€
+71230#Crazy Taxi#Racing&Action&Arcade#7.5#7,99€
+71240#SEGA Bass Fishing#Sports&Simulation&Fishing#7.5#7,99€
+71340#Sonic Generations#Platformer&Great Soundtrack&Action#8.1#29,99€
+72000#Closure#Puzzle&Indie&Platformer#7.8#9,99€
+72850#The Elder Scrolls V: Skyrim#Open World&RPG&Fantasy#9.2#No hay precio
+73010#Cities in Motion#Simulation&Management&Strategy#7.0#19,99€
+78000#Bejeweled 3#Casual&Puzzle&Match 3#8.1#4,99€
+80310#Gemini Rue#Point & Click&Adventure&Sci-fi#8.3#7,99€
+80330#The Blackwell Legacy#Adventure&Point & Click&Indie#8.0#4,49€
+80360#Blackwell Deception#Point & Click&Adventure&Indie#7.3#8,99€
+35450#Red Orchestra 2 - Heroes of Stalingrad#Realistic&Worl War II&FPS#7.35#17,99€
+81401#Aliens Colonial Marines#Action&FPS&Aliens#4.85#No hay precio
+209100#Resident Evil Operation Raccoon City#Action&Zombies&Co-op#5.3#No hay precio
+91100#SkyDrift#Racing&Indie&Controller#7.35#9,99€
+91200#Anomaly Warzone Earth#Strategy&Indie&Tower Defense#7.85#9,99€
+91310#Dead Island#Zombies&Action&Open World#7.85#No hay precio
+91900#Post Apocalyptic Mayhem#Racing&Action&Post-apocalyptic#4.800000000000001#9,99€
+92000#Hydrophobia: Prophecy#Action&Adventure&Indie#6.45#No hay precio
+92600#Xotic#Action&Indie&FPS#5.95#9,99€
+94400#Nidhogg#Indie&Local Multiplayer&Action#7.55#14,99€
+95900#Air Conflicts - Secret Wars#Action&Simulation&Flight#6.5#7,99€
+96400#Shoot Many Robots#Action&Indie&RPG#3.6#9,99€
+96900#Slam Bolt Scrappers#Action&Indie&Strategy#3.45#9,99€
+98200#Frozen Synapse#Strategy&Turn-Based&Tactical#8.0#22,99€
+98300#Toy Soldiers#Tower Defense&Strategy&Action#7.75#8,99€
+98400#Hard Reset#Cyberpunk&FPS&Action#7.25#13,49€
+99300#Renegade Ops#Action&Twin Stick Shooter&Top-Down#7.65#12,99€
+99810#Bulletstorm#FPS&Action&Comedy#8.149999999999999#No hay precio
+99830#Crysis 2#Action&FPS&Sci-fi#8.45#19,99€
+99910#Puzzle Pirates#Free to Play&Massively Multiplayer&Puzzle#8.05#Free to Play
+102810#Gatling Gears#Action&Adventure&Indie#3.55#9,99€
+102840#Shank 2#Action&Beat 'em up&Indie#7.35#No hay precio
+105600#Terraria#Sandbox&Adventure&2D#8.25#9,99€
+105800#PixelJunk Eden#Casual&Indie&Platformer#7.8#No hay precio
+106000#The Cursed Crusade#Action&Adventure&medieval#5.45#No hay precio
+107100#Bastion#Great Soundtrack&Indie&Action#8.5#14,99€
+107200#Space Pirates and Zombies#Space&Action&Indie#7.4#9,99€
+107800#Rochard#Platformer&Indie&Action#7.85#8,99€
+108200#Ticket to Ride#Board Game&Strategy&Casual#9.1#9,99€
+108710#Alan Wake#Action&Horror&Adventure#8.350000000000001#27,99€
+109600#Neverwinter#Free to Play&MMORPG&RPG#7.25#Free to Play
+111300#Smash Cars#Racing&Sports&Action#3.4#7,99€
+111600#Serious Sam Double D XXL#Action&Indie&Platformer#6.8#9,99€
+111900#Guardians of Middle-earth#MOBA&Strategy&Action#6.1#18,99€
+112100#Avadon: The Black Fortress#RPG&Indie&Fantasy#7.1#9,99€
+113200#The Binding of Isaac#Rogue-like&Indie&Replay Value#8.15#4,99€
+113400#APB Reloaded#Free to Play&Action&Open World#5.6#No hay precio
+115100#Costume Quest#RPG&Adventure&Comedy#3.95#9,99€
+115110#Stacking#Adventure&Puzzle&Indie#7.95#9,99€
+115200#Cossacks II: Napoleonic Wars#Strategy&RTS&Historical#7.65#4,99€
+115300#Call of Duty: Modern Warfare 3#Action&FPS&Multiplayer#7.5#No hay precio
+115320#PROTOTYPE 2#Action&Open World&Gore#7.65#No hay precio
+200010#Quantum Conundrum#Puzzle&First-Person&Comedy#7.6#8,99€
+200110#Nosgoth#Free to Play&Action&Vampire#3.55#No hay precio
+200170#Worms Revolution#Strategy&Multiplayer&Turn-Based Strategy#7.3#41,99€
+200230#Off-Road Drive#Simulation&Racing&Offroad#6.0#6,99€
+200370#A Game of Dwarves#Strategy&Casual&Fantasy#6.0#9,99€
+200510#XCOM: Enemy Unknown#Turn-Based Strategy&Tactical&Strategy#8.600000000000001#No hay precio
+200710#Torchlight II#RPG&Action RPG&Hack and Slash#8.600000000000001#18,99€
+200910#Before the Echo#RPG&Rhythm&Indie#6.75#3,99€
+200940#Sonic CD#Platformer&Classic&Great Soundtrack#8.8#4,49€
+201230#EverQuest II#Free to Play&RPG&Massively Multiplayer#8.0#Free to Play
+201270#Total War: SHOGUN 2#Strategy&Turn-Based Strategy&RTS#8.85#29,99€
+201271#Total War: SHOGUN 2 - Fall of the Samurai#Strategy&Historical&RTS#8.55#29,99€
+201310#X3: Albion Prelude#Space&Simulation&Sandbox#7.5#9,99€
+201700#DiRT Showdown#Racing&Action&Sports#7.300000000000001#14,99€
+201810#Wolfenstein: The New Order#FPS&Action&Shooter#8.149999999999999#No hay precio
+201830#Jurassic Park: The Game#Adventure&Dinosaurs&Quick-Time Events#6.050000000000001#19,99€
+202090#Magicka: Wizard Wars#Free to Play&Magic&Action#6.7#Free to Play
+202130#Impire#Strategy&Fantasy&Villain Protagonist#5.35#19,99€
+202270#Leviathan: Warships#Strategy&Action&Turn-Based Strategy#6.55#9,99€
+202970#Call of Duty: Black Ops II#Action&Multiplayer&FPS#7.4#No hay precio
+203140#Hitman: Absolution#Stealth&Action&Third Person#8.0#No hay precio
+203160#Tomb Raider#Adventure&Action&Female Protagonist#8.6#No hay precio
+203650#SONIC THE HEDGEHOG 4 Episode II#Adventure&Platformer&Co-op#6.300000000000001#12,99€
+203680#F1 Race Stars#Racing&Arcade&Split Screen#6.1#14,99€
+203750#Binary Domain#Action&Third-Person Shooter&Sci-fi#7.35#14,99€
+203770#Crusader Kings II#Grand Strategy&Strategy&Medieval#8.2#39,99€
+203810#Dear Esther#Walking Simulator&Indie&Exploration#7.3#9,99€
+203830#The Dark Eye: Chains of Satinav#Adventure&Point & Click&Fantasy#7.35#19,99€
+204080#The Showdown Effect#Action&Multiplayer&Platformer#6.7#No hay precio
+204100#Max Payne 3#Action&Third-Person Shooter&Bullet Time#8.6#19,99€
+204240#The Bridge#Puzzle&Indie&Casual#7.300000000000001#9,99€
+204300#Awesomenauts#MOBA&Multiplayer&Platformer#7.75#9,99€
+204360#Castle Crashers#Action&Co-op&Adventure#4.35#11,99€
+204450#Call of Juarez Gunslinger#Western&FPS&Action#7.95#14,99€
+204530#Infested Planet#Strategy&Action&Indie#7.85#14,99€
+204580#Rotastic#Casual&Action&+#5.0#9,99€
+204840#Babel Rising#Strategy&Action&+#2.45#9,99€
+204860#Men of War: Condemned Heroes#Strategy&Action&World War II#5.65#7,99€
+204880#Sins of a Solar Empire: Rebellion#Strategy&Space&RTS#8.3#39,99€
+205020#Lumino City#Adventure&Indie&Point & Click#7.0#19,99€
+205100#Dishonored#Stealth&Steampunk&Action#8.75#14,99€
+205190#Rocksmith#Music&Simulation&Education#8.2#29,99€
+205730#Insanely Twisted Shadow Planet#Metroidvania&Indie&Adventure#7.8#13,99€
+205810#Jagged Alliance: Crossfire#Strategy&RPG&Simulation#6.3#18,99€
+205950#Jet Set Radio#Great Soundtrack&Classic&Action#9.100000000000001#3,99€
+205990#Warlock 2: the Exiled#Strategy&Fantasy&Turn-Based#7.15#19,99€
+228280#Baldurs Gate#RPG&Fantasy&Classic#9.0#19,99€
+206190#Gunpoint#Stealth&Indie&Puzzle#7.95#7,--€
+206370#Tales from Space: Mutant Blobs Attack#Indie&Action&Platformer#8.15#6,99€
+206420#Saints Row IV#Open World&Action&Comedy#8.1#No hay precio
+206440#To the Moon#Indie&Story Rich&Great Soundtrack#8.35#7,99€
+206760#Painkiller: Recurring Evil#Sin etiquetas#3.8#No hay precio
+321800#Icewind Dale#RPG&Adventure&Fantasy#8.45#19,99€
+207000#Alien Spidy#Action&Indie&Adventure#5.5#9,99€
+207040#Sine Mora#Sin etiquetasIndie&Action&Arcade#7.65#No hay precio
+207150#Stellar Impact#Strategy&Indie&Action#7.4#9,99€
+207170#Legend of Grimrock#RPG&Dungeon Crawler&Indie#8.149999999999999#14,99€
+207190#Fireburst#Racing&Action&Adventure#6.0#9,99€
+207490#Rayman Origins#Platformer&Local Co-Op&Adventure#8.649999999999999#9,99€
+207650#A Virus Named TOM#Indie&Puzzle&Strategy#6.5#9,99€
+207690#Botanicula#Point & Click&Indie&Adventure#8.2#9,99€
+207930#Sacred Citadel#Action&Beat 'em up&Local Co-Op#6.1#9,99€
+208090#Loadout#Free to Play&Action&Gore#7.0#No hay precio
+208140#Endless Space#Strategy&4X&Space#7.550000000000001#29,99€
+208200#DOOM 3: BFG Edition#FPS&Horror&Action#7.4#No hay precio
+208500#F1 2012#Racing&Simulation&Sports#7.95#19,99€
+208520#Omerta - City of Gangsters#Strategy&Crime&Simulation#5.35#19,99€
+208670#Blades of Time#Action&Adventure&Hack and Slash#6.699999999999999#No hay precio
+208730#Game of Thrones #RPG&Action&Fantasy#6.3#19,99€
+208750#Apotheon#Action&Adventure&Platformer#7.5#14,99€
+209120#Street Fighter X Tekken#Fighting&Action&Arcade#7.65#27,99€
+209160#Call of Duty: Ghosts#FPS&Action&Multiplayer#6.25#No hay precio
+209330#A Valley Without Wind#Platformer&Action&Indie#5.5#No hay precio
+209540#Strike Suit Zero#Space&Action&Mechs#6.75#18,99€
+209630#Magrunner: Dark Pulse#Adventure&Cyberpunk&Puzzle#7.05#9,99€
+209790#Splice#Puzzle&Indie&Casual#7.0#9,99€
+209870#Blacklight: Retribution#Free to Play&FPS&Multiplayer#7.55#Free to Play
+210550#Angry Birds Space#Casual&Physics&Puzzle#8.100000000000001#4,99€
+210770#Sanctum 2#Tower Defense&FPS&Co-op#7.2#14,99€
+210870#Cloudberry Kingdom#indie&Platformer&Rogue-like#7.05#No hay precio
+211160#Viking: Battle for Asgard#Action&Adventure&Hack and Slash#6.85#No hay precio
+211180#Unmechanical#Indie&Adventure&Casual#7.25#8,99€
+211780#Conflict Desert Storm#Action&Tactical&Classic#6.25#6,99€
+212050#Resonance#Adventure&Point & Click&Indie#7.65#9,99€
+212580#The Amazing Spider-Man#Action&Adventure&Open World#3.8#29,99€
+212680#FTL: Faster Than Light#Rogue-like&Space&Indie#8.2#9,99€
+213120#Transformers: Fall of Cybertron#Action&Third Person&Robots#7.9#49,99€
+213850#Magic 2014 #Card Game&Strategy&Trading Card Game#8.5#9,99€
+214170#Divine Divinity#RPG&Fantasy&Isometric#8.2#4,99€
+214250#I Am Alive#Survival&Action&Adventure#7.0#No hay precio
+214340#Deponia#Adventure&Point & Click&Comedy#7.5#19,99€
+214490#Alien: Isolation#Horror&Survival Horror&Sci-fi#8.149999999999999#No hay precio
+214550#Eets Munchies#Indie&Casual&Puzzle#7.3#6,99€
+214560#Mark of the Ninja#Stealth&Platformer&Ninja#8.75#No hay precio
+215080#WAKFU#Free to Play&Massively Multiplayer&RPG#7.6#Free to Play
+215160#The Book of Unwritten Tales#Adventure&Point & Click&Fantasy#8.2#89,99€
+215280#The Secret World#MMORPG&Lovecraftian&MMO#7.6#No hay precio
+215470#Primal Carnage#Dinosaurs&Multiplayer&Action#6.85#7,99€
+215510#Rocketbirds: Hardboiled Chicken#Indie&Platformer&Action#7.2#7,99€
+215530#The Incredible Adventures of Van Helsing#RPG&Hack and Slash&Action#7.5#14,99€
+215670#Home#Indie&Adventure&Horror#6.7#2,99€
+216110#Tiny Troopers#Action&Strategy&Indie#6.45#4,99€
+383180#Dead Island Riptide#Action&Zombies&RPG#6.449999999999999#No hay precio
+216910#Of Orcs And Men#RPG&Action&Fantasy#6.85#29,99€
+217080#Doctor Who: The Eternity Clock#Adventure&Action&Sci-fi#3.0#9,99€
+217140#Rise of the Triad#FPS&Action&Gore#6.45#No hay precio
+217690#Anna - Extended Edition#Horror&Adventure&Indie#7.5#9,99€
+218090#Unity of Command#Strategy&World War II&Turn-Based Strategy#8.4#19,99€
+218230#PlanetSide 2#Free to Play&Massively Multiplayer&FPS#8.05#Free to Play
+218620#PAYDAY 2#Co-op&Action&FPS#7.45#No hay precio
+218640#Lucius#Horror&Adventure&indie#6.2#No hay precio
+218680#Scribblenauts Unlimited#Puzzle&Casual&Adventure#7.4#19,99€
+218740#Pid #Indie&Platformer&Adventure#6.6#9,99€
+218820#Mercenary Kings#Action&Indie&2D#6.75#No hay precio
+219150#Hotline Miami#Action&Indie&Gore#8.2#No hay precio
+219600#NBA 2K13#Sports&Basketball&+#8.55#29,99€
+219640#Chivalry: Medieval Warfare#Medieval&Multiplayer&Action#7.9#22,99€
+219680#Proteus#Exploration&Indie&Walking Simulator#6.65#9,99€
+219890#Antichamber#Puzzle&Indie&First-Person#8.1#18,99€
+220200#Kerbal Space Program#Space&Simulation&Sandbox#8.65#39,99€
+220260#Farming Simulator 2013#Simulation&Casual&Multiplayer#6.5#19,99€
+220440#DmC Devil May Cry#Action&Hack and Slash&Gore#8.15#No hay precio
+220740#Chaos on Deponia#Adventure&Point & Click&Comedy#7.949999999999999#19,99€
+220780#Thomas Was Alone#Platformer&Indie&Narration#7.5#7,99€
+220820#Zombie Driver HD#Zombies&Racing&Action#3.05#9,99€
+221260#Little Inferno#Indie&Casual&Puzzle#7.6#9,99€
+221300#Monopoly#Board Game&Strategy&Casual#6.9#9,99€
+221430#Pro Evolution Soccer 2013#Sin etiquetas#7.8999999999999995#No hay precio
+221540#Defense Grid 2#Tower Defense&Strategy&Indie#8.1#14,99€
+221810#The Cave#Adventure&Platformer&Puzzle#7.199999999999999#12,99€
+221910#The Stanley Parable#Comedy&Narration&Indie#8.25#11,99€
+222180#Mushroom Men: Truffle Trouble #Indie&Action&Platformer#5.5#11,99€
+222750#Wargame: AirLand Battle#Strategy&RTS&Military#7.8#19,98€
+222880#Insurgency#FPS&Realistic&Tactical#7.1#14,99€
+223220#Giana Sisters: Twisted Dreams#Platformer&Indie&Action#7.7#14,99€
+223470#POSTAL 2#Violent&Action&FPS#6.2#No hay precio
+223510#Miasmata#Survival&Exploration&Indie#7.1#14,99€
+223670#F1 2013#Racing&Simulation&Sports#7.800000000000001#22,99€
+223830#Xenonauts#Strategy&Turn-Based Strategy&Sci-fi#7.550000000000001#22,99€
+224040#LocoCycle#Action&Racing&Casual#2.75#8,99€
+224060#Deadpool#Action&Singleplayer&Shooter#6.85#No hay precio
+224300#Legacy of Kain: Defiance#Action&Adventure&Vampire#7.9#No hay precio
+224460#Contrast#Noir&Indie&Female Protagonist#6.45#14,99€
+224480#Octodad: Dadliest Catch#Comedy&Physics&Indie#7.05#13,99€
+224600#Defiance#Free to Play&Action&RPG#6.85#No hay precio
+224760#FEZ#Platformer&Indie&Puzzle#8.45#9,99€
+224860#Arma Tactics#Strategy&Indie&Turn-Based#6.0#6,99€
+224920#Legacy of Kain: Soul Reaver#Action&Adventure&Vampire#8.8#No hay precio
+224980#Tomb Raider: The Last Revelation#Action&Adventure&Female Protagonist#7.7#No hay precio
+225000#Tomb Raider: Chronicles#Action&Adventure&Female Protagonist#6.85#No hay precio
+225080#Brothers - A Tale of Two Sons#Adventure&Atmospheric&Controller#8.7#14,99€
+225300#Tomb Raider II#Action&Adventure&Female Protagonist#8.1#No hay precio
+225320#Tomb Raider III: Adventures of Lara Croft#Action&Adventure&Female Protagonist#7.8#No hay precio
+225360#DARK#Action&Stealth&RPG#4.25#19,99€
+225420#Cities in Motion 2#Simulation&Strategy&Management#7.2#19,99€
+225540#Just Cause 3#Action&Open World&Third Person#7.0#No hay precio
+226100#Nom Nom Galaxy#Indie&Casual&Action#7.0#9,99€
+226560#Escape Dead Island#Zombies&Adventure&Survival#5.0#No hay precio
+226580#F1 2014#Racing&Sports&Simulation#6.35#24,99€
+226720#Lost Planet 3#Action&Third-Person Shooter&Sci-fi#6.3#24,99€
+226840#Age of Wonders III#Strategy&Turn-Based Strategy&Fantasy#7.65#29,99€
+226860#Galactic Civilizations III#Strategy&Space&Turn-Based Strategy#7.55#39,99€
+227000#Primordia#Point & Click&Adventure&Post-apocalyptic#7.2#9,99€
+227020#Rise of Venice#Strategy&Simulation&Trading#6.6#22,99€
+227060#Hegemony Rome: The Rise of Caesar#Strategy&Indie&Simulation#3.5#29,99€
+227200#Waking Mars#Sci-fi&Adventure&Exploration#8.4#9,99€
+211400#Deadlight#Platformer&Post apocaplyptic&Mature#7.1#No hay precio
+211420#Dark Souls: Prepare to Die Edition#RPG&Fantasy&Action#8.9#19,99€
+227220#Sang-Froid - Tales of Werewolves#Strategy&Tower Defense&Action#7.5#14,99€
+368730#No Time to Explain#Indie&CasualAction#6.4#14,99€
+227300#Euro Truck Simulator 2#Simulation&Driving&Open World#7.9#19,99€
+227480#God Mode#Action&Co-op&Multiplayer#5.95#No hay precio
+27560#Scourge: Outbreak#Indie&Action&Third-Person Shooter#2.35#No hay precio
+227700#Firefall#Free to Play&Massively Multiplayer&Open World#6.15#Free to Play
+228300#Remember Me#Cyberpunk&Action&Female Protagonist#6.8#No hay precio
+228320#A Valley Without Wind 2#Action&Indie&Strategy#6.05#No hay precio
+228560#Teenage Mutant Ninja Turtles: Out of the Shadows#Action&Ninja&Third Person#3.0#14,99€
+228960#Skulls of the Shogun#Strategy&Indie&Turn-Based Strategy#6.7#9,99€
+229580#Dream#Indie&Adventure&Exploration#6.6#15,99€
+229890#Joe Danger#Racing&Indie&Action#4.05#13,99€
+230190#War for the Overworld#Strategy&Indie&God Game#6.3#27,99€
+230410#Warframe#Free to Play&Action&Co-op#7.15#No hay precio
+230840#Daylight#Horror&Adventure&Indie#4.55#No hay precio
+230860#Cannon Brawl#Indie&Local Multiplayer&2D#7.050000000000001#14,99€
+231040#Beatbuddy: Tale of the Guardians#Music&Indie&Adventure#7.1#8,99€
+231160#The Swapper#Puzzle&Sci-fi&Atmospheric#8.3#13,99€
+231330#Deadfall Adventures#Adventure&Action&FPS#5.3#19,99€
+231430#Company of Heroes 2#Strategy&World War II&RTS#7.2#No hay precio
+231890#Dungeons & Dragons: Chronicles of Mystara Demo#Action&Arcade&RPG#7.1#13,99€
+231990#Spider-Man: Shattered Dimensions#Action&Superhero&Comic Book#7.35#29,99€
+232010#Euro Truck Simulator#Simulation&Racing&+#7.6#7,99€
+232050#Eador. Masters of the Broken World#Strategy&Fantasy&Indie#5.9#18,99€
+232090#Killing Floor 2#Shooter&FPS&Zombies#7.7#26,99€
+232430#Gone Home#Walking Simulator&Short&Indie#7.449999999999999#19,99€
+232750#Mars: War Logs#RPG&Action&Sci-fi#5.9#14,99€
+221040#Resident Evil 6#Zombies&Action&Shooter#6.2#No hay precio
+220240#Far Cry 3#Open World&Action&FPS#8.8#19,99€
+19900#Far Cry 2#Open World&Action&FPS#6.8#9,99€
+359610#Assassin’s Creed Chronicles: India#Action&Adventure&Assassin#7.2#No hay precio
+359600#Assassin’s Creed Chronicles: Russia#Action&Adventure&Assassin#7.3#No hay precio
+260210#Assassin's Creed Liberation#Action&Open World&Assassin#6.6#19,99€
+354380#Assassin's Creed Chronicles: China#Action&Stealth&Assassin#7.7#9,99€
+48190#Assassin's Creed Brotherhood#Action&Open World&Assassin#9.0#No hay precio
+208480#Assassin's Creed III#Action&Open World&Assassin#7.9#19,99€
+242050#Assassin's Creed IV Black Flag#Action&Open World&Assassin#8.8#19,99€
+277590#Assassin's Creed Freedom Cry#Action&Open World&Assassin#8.2#No hay precio
+289650#Assassin's Creed Unity#Action&Open World&Assassin#5.2#29,99€
+15100#Assassin's Creed#Action&Open World&Assassin#8.7#9,99€
+33230#Assasin's Creed 2#Action&Open World&Assassin#8.1#9,99€
+201870#Assassin's Creed Revelations#Action&Open World&Assassin#8.4#No hay precio
+368500#Assassin's Creed Syndicate#Action&Open World&Assassin#6.7#39,99€
+232770#POSTAL#Action&Dark Humor&Indie#6.05#No hay precio
+232910#TrackMania Stadium#Racing&Arcade&Action#7.1#9,99€
+232790#Broken Age#Point & Click&Adventure&Indie#7.75#22,99€
+232890#Stronghold Crusader 2#Strategy&Medieval&RTS#6.5#34,99€
+232970#Thunder Wolves#Action&Indie&Casual#6.75#9,99€
+233130#Shadow Warrior#Action&FPS&Gore#7.5#No hay precio
+233150#LUFTRAUSERS#Indie&Action&Arcade#7.55#8,99€
+233190#Final Exam#Action&Indie&Co-op#6.949999999999999#9,99€
+233210#Air Conflicts: Vietnam#Simulation&Action&+#4.3#17,99€
+233250#Planetary Annihilation#Strategy&RTS&Space#6.3#27,99€
+233270#Far Cry 3 Blood Dragon#FPS&Open World&Action#8.1#14,99€
+233290#MURDERED: SOUL SUSPECT#Gore&Detective&Horror#8.2#No hay precio
+233350#Sudeki#RPG&Action&Adventure#7.8#5,99€
+233370#The Raven - Legacy of a Master Thief#Adventure&Point & Click&Mystery#6.45#24,99€
+220160#Trials Evolution Gold Edition#Racing&Action&Multiplayer#7.7#19,99€
+233450#Prison Architect#Simulation&Strategy&Building#9.2#27,99€
+233470#Evoland#RPG&Adventure&Indie#7.9#9,99€
+233530#Wake#Indie&Action&Platformer#2.9#4,99€
+233550#Another World#Adventure&Classic&Action#8.7#No hay precio
+233590#Fallen Enchantress: Legendary Heroes#Strategy&Fantasy&Turn-Based Strategy#7.6#2,99€
+233610#Distance#Racing&Indie&Action#9.2#19,99€
+233630#Ascend: Hand of Kul#Free to Play&Action&RPG#4.3#No hay precio
+233700#Sword of the Stars: The Pit#Rogue-like&RPG&Sci-fi#7.5#9,99€
+233720#Surgeon Simulator#Simulation&Comedy&Indie#8.0#9,99€
+233860#Kenshi#Sandbox&RPG&Open World#8.4#14,99€
+233980#Unepic#RPG&Indie&Platformer#8.9#No hay precio
+234080#Castlevania: Lords of Shadow#Action&Adventure&Hack and Slash#7.6#No hay precio
+234140#Mad Max#Action&Open World&Survival#8.8#No hay precio
+234160#Strike Suit Infinity#Action&Indie&Space#6.949999999999999#5,99€
+234290#Zack Zero#Indie&Action&Adventure#5.9#8,99€
+234390#Teleglitch: Die More Edition#Rogue-like&Indie&Top-Down Shooter#7.8#12,99€
+234530#War of the Vikings#Action&Multiplayer&Medieval#6.2#23,99€
+234630#Project CARS#Racing&Simulation&Driving#8.0#29,99€
+234650#Shadowrun Returns#Cyberpunk&RPG&Turn-Based#7.5#14,99€
+234670#NARUTO SHIPPUDEN: Ultimate Ninja STORM 3 Full Burst#Anime&Fighting&Action#8.7#29,99€
+234710#Poker Night 2#Casual&Comedy&Card Game#7.05#4,99€
+234920#Dyscourse#Adventure&Indie&Casual#6.35#14,99€
+235210#Strider#Platformer&Metroidvania&Action#7.6#14,99€
+235340#Prime World#Free to Play&MOBA&Strategy#8.25#Free to Play
+235360#Prime World: Defenders#Tower Defense&Strategy&Indie#5.8#8,99€
+235460#METAL GEAR RISING: REVENGEANCE#Action&Hack and Slash&Great Soundtrack#8.8#No hay precio
+235540#Warhammer: End Times - Vermintide#Action&Online Co-Op&Co-op#8.0#27,99€
+235611#Tom Clancy's Splinter Cell Blacklist#Stealth&Action&Co-op#7.6#No hay precio
+235620#Small World 2#Board Game&Strategy&Casual#7.7#9,99€
+235700#Sniper Elite: Zombie Army#Board Game&Strategy&Casual#7.7#No hay precio
+235800#Audiosurf 2#Music&Indie&Rhythm#7.6#14,99€
+236090#Dust: An Elysian Tail#Action&Platformer&Indie#8.4#13,99€
+236130#Horizon#Strategy&Space&4X#2.9#27,99€
+236150#Starpoint Gemini 2#Space&Simulation&RPG#7.0#31,99€
+236390#War Thunder#Free to Play&Simulation&World War II#8.0#Free to Play
+236430#DARK SOULS II#RPG&Action&Fantasy#8.2#No hay precio
+236510#Takedown: Red Sabre#FPS&Action&Tactical#3.15#4,99€
+236690#Blood Bowl 2#Sports&Strategy&Turn-Based#7.8#44,99€
+236730#Anomaly 2#Strategy&Indie&Action#7.6#13,99€
+236930#Blackwell Epiphany#Adventure&Indie&Point & Click#8.3#9,99€
+236830#Red Orchestra 2: Heroes of Stalingrad#FPS&Action&Shooter#7.1#No hay precio
+236850#Europa Universalis IV#Strategy&Historical&Simulation#8.4#39,99€
+236870#HITMAN#Stealth&Action&Assassin#6.8#No hay precio
+237110#Mortal Kombat Komplete Edition#Fighting&Classic&Arcade#7.7#No hay precio
+237350#Frozen Cortex#Sports&Strategy&Tactical#6.7#22,99€
+237430#Expeditions: Conquistador#RPG&Strategy&Turn-Based#7.7#19,99€
+237470#Battle Worlds: Kronos#Strategy&Turn-Based Strategy&Turn-Based#7.1#19,99€
+237630#DuckTales Remastered#Platformer&Remake&Adventure#7.1#13,99€
+237760#Intake#Indie&Action&Great Soundtrack#3.35#9,99€
+237850#Dreamfall Chapters#Adventure&Story Rich&Female Protagonist#8.4#No hay precio
+237930#Transistor#Great Soundtrack&Indie&Female Protagonist#8.25#No hay precio
+237970#Memento Mori 2#Adventure&Indie&Point & Click#6.5#No hay precio
+237990#The Banner Saga#RPG&Turn-Based&Strategy#7.95#19,99€
+238070#Shadow Warrior Classic#FPS&Action&Sworplay#6.7#Free to Play
+238090#Sniper Elite 3#Sniper&Action&Historical#7.7#45,99€
+238210#System Shock 2#RPG&Cyberpunk&Horror#9.149999999999999#9,99€
+238280#Legend of Dungeon#Rogue-like&Indie&RPG#5.9#9,99€
+238320#Outlast#Horror&Atmospheric&First-Person#8.0#19,99€
+238370#Magicka 2#Magic&Adventure&Co-op#6.9#14,99€
+238460#BattleBlock Theater#Comedy&Co-op&Platformer#8.3#14,99€
+238870#Citadels#Strategy&Action&Medieval#2.0#14,99€
+238910#Bionic Dues#Strategy&Rogue-like&RPG#7.8#No hay precio
+238960#Path of Exile#Free to Play&Action RPG&Hack and Slash#8.5#Free to Play
+239030#Papers, Please#Indie&Political&Simulation#9.5#8,99€
+239070#Hammerwatch#Indie&RPG&Co-op#8.9#8,99€
+239090#Samurai Gunn#Local Multiplayer&Action&Indie#6.55#13,99€
+239120#FINAL FANTASY III#JRPG&RPG&Turn-Based#8.5#No hay precio
+239140#Dying Light#Zombies&Survival&Open World#7.85#49,99€
+239160#Thief#Stealth&Action&Adventure#7.0#No hay precio
+239200#Amnesia: A Machine for Pigs#Horror&Indie&Adventure#7.2#19,99€
+239220#The Mighty Quest For Epic Loot#Free to Play&RPG&Strategy#6.4#Free to Play
+239250#Castlevania: Lords of Shadow 2#Action&Adventure&Vampire#7.65#No hay precio
+239350#Spelunky#Rogue-like&Platformer&Indie#8.3#14,99€
+239410#Catan#Board Game&Strategy&Turn-Based#7.8#14,99€
+239820#Game Dev Tycoon#Simulation&Management&Indie#6.8#8,99€
+239840#Dead State#Zombies&Survival&RPG#7.0#19,99€
+240460#WWE 2K15#Simulation&Sports&Fighting#6.7#No hay precio
+240760#Wasteland 2#RPG&Turn-Based&Strategy#8.149999999999999#No hay precio
+241240#Contraption Maker#Puzzle&Indie&Casual#9.0#6,99€
+241260#Sherlock Holmes: Crimes and Punishments#Detective&Horror&Action#7.9#29,99€
+240970#Half Minute Hero: The Second Coming#RPG&Indie&Action#7.7#9,99€
+241410#CastleStorm#Strategy&Indie&Action#7.199999999999999#9,99€
+241540#State of Decay#Zombies&Survival&Open World#7.85#12,98€
+241560#The Crew#Racing&Open World&Multiplayer#6.699999999999999#29,99€
+241600#Rogue Legacy#Rogue-like&Platformer&Indie#8.25#14,99€
+241720#Guncraft#Action&Indie&FPS#6.6#14,99€
+241910#Goodbye Deponia#Point and Click&Classic&Action#7.1#19,99€
+241930#Middle-earth: Shadow of Mordor#Action&Open World&Adventure#8.3#49,99€
+241990#Sorcerer King#Strategy&Turn-Based&Fantasy#7.6#22,99€
+242130#Vector Thrust#Action&Simulation&Flight#5.6#22,99€
+242550#Rayman Legends#Platformer&Great Soundtrack&Local Co-Op#9.0#19,99€
+242570#Space Hulk#Warhammer 40K&Strategy&Turn-Based#6.05#22,99€
+242640#Styx: Master of Shadows#Stealth&Fantasy&Adventure#7.0#29,99€
+242680#Nuclear Throne#Indie&Arcade&Action#8.9#11,99€
+242700#Injustice: Gods Among Us Ultimate Edition#Fighting&Super Heroes&Action#8.8#No hay precio
+242760#The Forest#Survial&Horror&Open World#9.2#No hay precio
+242860#Verdun#World War I&FPS&Multiplayer#7.300000000000001#22,99€
+242880#Sir, You Are Being Hunted#Survial&Stealth&Indie#8.2#19,99€
+242920#Banished#City Builder&Strategy&Simulation#7.199999999999999#18,99€
+242940#Anachronox#RPG&Cyberpunk&Sci-fi#8.05#No hay precio
+242980#Daikatana#Action&FPS&Classic#4.2#No hay precio
+243040#Startopia#Simulation&Management&Space#8.6#No hay precio
+243060#Urban Chaos#Action&Female Protagonist&Classic#7.4#5,99€
+243200#Memoria#Adventure&Point & Click&Fantasy#7.9#49,99€
+243450#Urban Trial Freestyle#Racing&Action&Simulation#5.8#6,99€
+243470#Watch_Dogs#Open World&Hacking&Action#6.3#29,99€
+243560#Adventure Time:  Explore the Dungeon Because I DON’T KNOW!#Action&Dungeon Crawler&Co-op#4.1#36,99€
+243800#Gas Guzzlers Extreme#Racing&Action&Sports#7.3#22,99€
+243930#Bound By Flame#RPG&Action&Fantasy#6.199999999999999#29,99€
+243950#Divinity: Dragon Commander#Strategy&RPG&Dragons#7.199999999999999#39,99€
+243970#Invisible, Inc.#Stealth&Cyberpunk&Indie#8.9#19,99€
+244030#Take On Mars#Simulation&Space&Mars#5.2#19,99€
+244070#Sid Meier's Ace Patrol#Strategy&Casual&Turn-Based#6.6#4,99€
+244090#Sid Meier's Ace Patrol: Pacific Skies#Strategy&Casual&Turn-Based#6.2#4,99€
+244210#Assetto Corsa#Racing&Simulation&Driving#8.5#39,99€
+244450#Men of War: Assault Squad 2#Strategy&World War II&Simulation#6.8#24,99€
+244710#Shelter#Indie&Adventure&Survival#7.9#9,99€
+244730#Divekick#Fighting&Indie&2D Fighter#7.199999999999999#4,99€
+244850#Space Engineers#Simulation&Space&MMO#8.1#22,99€
+244910#Homesick#Atmospheric&Puzzle&Indie#7.5#14,99€
+245010#Deathtrap Dungeon#Action&Adventure&RPG#5.7#No hay precio
+245300#Disney Epic Mickey 2#Action&Adventure&Fanstasy#5.0#19,99€
+245170#Skullgirls#Fighting&2D Fighter&Indie#8.1#9,99€
+245370#Etherium#Sci-fi&Strategy&RTS#6.2#19,99€
+245450#Wizardry 8#RPG&Classic&Adventure#8.5#9,99€
+245490#Trials Fusion#Racing&Multiplayer&Singleplayer#7.75#19,99€
+245620#Tropico 5#Strategy&Simulation&City Builder#7.55#22,99€
+245730#Flashback#Adventure&Action&RPG#2.65#9,99€
+245760#TRANSFORMERS: Rise of the Dark Spark#Action&Robots&Multiplayer#5.1#29,99€
+246070#Hack 'n' Slash#Hacking&Indie&RPG#6.4#12,99€
+246110#MASSIVE CHALICE#Strategy&Indie&Turn-Based#6.5#19,99€
+246280#Happy Wars#Free to Play&Action&Multiplayer#7.5#Free to Play
+246300#Paranormal#Horror&Indie&Adventure#7.0#9,99€
+246360#Perfection.#Casual&Indie&Puzzle#3.1#2,99€
+246420#Kingdom Rush#Tower Defense&Strategy&Indie#8.9#9,99€
+246580#The Typing of The Dead: Overkill#Sin etiquetas#7.1#No hay precio
+246620#Plague Inc: Evolved#Strategy&Simulation&Indie#9.0#14,99€
+246700#Strike Vector#Action&Multiplayer&Indie#6.9#11,99€
+246720#Wayward Manor#Adventure&Casual&Indie#4.4#6,99€
+246760#Legends of Eisenwald#Strategy&RPG&Medieval#7.55#19,99€
+246840#FATE#RPG&Action&Adventure#8.1#7,99€
+246920#Bombernauts#Action&Indie&Multiplayer#9.2#9,99€
+246960#Giana Sisters: Twisted Dream#Platformer&Indie&Action#8.5#4,99€
+247080#Crypt of the NecroDancer#Rogue-like&Rhythm&Great Soundtrack#7.8#14,99€
+247240#Volgarr the Viking#Platformer&Difficult&Action#7.6#9,99€
+247430#Hitman: Contracts#Stealth&Action&Asssassin#8.0#No hay precio
+247910#Sniper Elite: Nazi Zombie Army 2#Zombies&Action&Co-op#5.3#14,99€
+247950#Sacred 3#Hack and Slash&Action&RPG#4.5#No hay precio
+248290#Reach for the Sun#Hack and Slash&Action&RPG#3.3#4,99€
+248450#Salvation Prophecy#Action&RPG&Simulation#3.45#18,99€
+248610#Door Kickers#Tactical&Strategy&Simulation#8.2#18,99€
+248710#Iesabel#RPG&Action&Indie#5.85#4,99€
+248820#Risk of Rain#Rogue-like&Indie&Platformer#7.85#9,99€
+249050#Dungeon of the Endless#Rogue-like&Strategy&Indie#8.25#11,99€
+249130#LEGO MARVEL Super Heroes#Building&Superheroes&Action#7.8#19,99€
+249190#Ancient Space#Strategy&Space&RTS#6.8#19,99€
+249230#Risen 3 - Titan Lords#RPG&Open World&Gothic#6.65#No hay precio
+249380#Carmageddon: Reincarnation#Racing&Gore&Action#6.1#No hay precio
+249570#The Castle Doctrine#Indie&Massively Multiplayer&Strategy#2.9#14,99€
+249590#Teslagrad#Platformer&Indie&Puzzle#7.7#9,99€
+249650#Blackguards#RPG&Turn-Based&Strategy#6.9#39,99€
+249990#FORCED#Co-op&RPG&Action#7.65#13,99€
+250030#Lilly Looking Through#Adventure&Point & Click&Indie#7.1#8,99€
+250050#Life Goes On#Indie&Casual&Puzzle#7.449999999999999#No hay precio
+250110#Assault Android Cactus#Twin Stick Shooter&Indie&Action#8.1#13,99€
+250180#METAL SLUG 3#Arcade&Classic&Action#8.0#6,99€
+250260#Jazzpunk#Comedy&Indie&Adventure#7.3#14,99€
+250280#Super Comboman#Indie&Action&Platformer#4.45#14,99€
+250320#The Wolf Among Us#Adventure&Detective&Point & CLick#8.2#No hay precio
+250380#Knock-knock#Horror&Indie&Atmospheric#6.0#9,99€
+250400#How to Survive#Zombies&Survival&Action#6.5#14,99€
+250560#Fight The Dragon#RPG&Indie&Hack and Slash#7.6#11,99€
+250620#Among the Sleep#Horror&Indie&Adventure#6.9#14,99€
+250760#Shovel Knight#Platformer&Great Soundtrack&Retro#8.5#14,99€
+250900#The Binding of Isaac: Rebirth#Indie&Rogue-like&Difficult#8.5#No hay precio
+251060#Wargame: Red Dragon#Strategy&RTS&Military#7.8#39,99€
+251130#Chroma Squad#RPG&Strategy&Indie#7.5#14,99€
+251150#The Legend of Heroes: Trails in the Sky#JRPG&Anime&RPG#8.100000000000001#15,99€
+251270#Corpse Party#Adventure&Horror&RPG#7.6499999999999995#No hay precio
+251430#The Inner World#Adventure&Point & Click&Indie#7.2#13,99€
+251470#TowerFall Ascension#Local Multiplayer&Indie&Action#8.2#14,99€
+251490#Gravity Ghost#Indie&Great Soundtrack&Physics#6.5#14,99€
+251530#Anomaly Korea#Strategy&Action&Tower Defense#8.6#4,99€
+251570#7 Days to Die#Zombies&Buiding&Survival#6.2#22,99€
+251630#The Impossible Game#Indie&Great Soundtrack&Difficult#6.4#4,99€
+251690#Speedball 2 HD#Sports&Action&Indie#6.65#7,99€
+251770#Shadow Man#Action&Horror&Singleplayer#7.4#No hay precio
+252110#Lovers in a Dangerous Spacetime#Action&Indie&Local Co-Op#8.5#14,99€
+252230#YAIBA: NINJA GAIDEN Z#Action&Hack and Slash&Adventure#5.050000000000001#29,99€
+252290#Elegy For A Dead World#Indie&Adventure&Story Rich#6.9#14,99€
+252310#Syder Arcade#Shoot 'Em Up&Indie&Action#7.6#9,99€
+252330#Slender: The Arrival#Horror&First-Person&Indie#6.5#9,99€
+252350#Double Dragon Neon#Beat 'em up&Great Soundtrack&Co-op#3.6#9,99€
+252370#The Shivah#Adventure&Point & Click&Indie#7.2#4,99€
+252410#SteamWorld Dig#Platformer&Mining&Indie#7.85#8,99€
+252430#Dusty Revenge#Action&Platformer&Beat 'em up#6.4#14,99€
+252450#StarDrive 2#Strategy&Indie&Sci-fi#7.25#27,99€
+252630#Eldritch#Rogue-like&Indie&Lovecraftian#6.95#11,99€
+252670#Nihilumbra#Indie&Adventure&Platformer#8.6#6,99€
+252750#MouseCraft#Indie&Casual&Puzzle#6.95#9,99€
+252950#Rocket League#Racing&Multiplayer&Soccer#8.55#19,99€
+253030#Race The Sun#Racing&Indie&Singleplayer#7.1#9,99€
+253110#The Cat Lady#Horror&Adventure&Indie#8.55#8,99€
+253150#Halfway#RPG&Strategy&Indie#7.45#9,99€
+253330#Neverending Nightmares#Horror&Psychological Horror&Indie#5.949999999999999#14,99€
+253410#Ravensword: Shadowlands#RPG&Adventure&Action#7.6#6,99€
+253490#CABAL Online#Free to Play&Massively Multiplayer&Action#6.8#Free to Play
+253690#Tiny Brains#Casual&Adventure&Indie#6.65#9,99€
+253750#Ikaruga#Bullet Hell&Shoot 'Em Up&Arcade#8.6#8,99€
+254080#World War III: Black Gold#Strategy&RTS&+#7.5#4,99€
+254880#MoonBase Commander#Strategy&Turn-Based Strategy&Sci-fi#7.9#5,99€
+253980#Enclave#Indie&Arcade&+#5.2#4,99€
+254040#Pirates of Black Cove Gold#Strategy&Pirate&+#5.2#No hay precio
+255070#Abyss Odyssey#Action&Platformer&indie#6.9#No hay precio
+255220#GRID Autosport#Racing&Sports&Simulation#7.449999999999999#39,99€
+255280#1954 Alcatraz#Adventure&Point & Click&Indie#5.8#159,99€
+255300#Journey of a Roach#Adventure&Point & Click&Indie#6.55#14,99€
+255340#Escape Goat 2#Indie&Platformer&Puzzle#7.8#9,99€
+255390#Max: The Curse of Brotherhood#Adventure&Platformer&Puzzle#3.8#14,99€
+255480#NBA 2K14#Sports&Simulation&+#8.4#No hay precio
+255710#Cities: Skylines#City Builder&Simulation&Building#8.45#27,99€
+256010#Jagged Alliance Flashback#Strategy&RPG&Turn-Based#5.2#19,99€
+256030#Shadows: Heretic Kingdoms#RPG&Indie&Hack and Slash#7.2#19,99€
+256190#Enemy Front#Action&FPS&World War II#5.6#29,99€
+256290#Child of Light#RPG&Fantasy&Female Protagonist#7.949999999999999#14,99€
+256330#WRC 4 FIA WORLD RALLY CHAMPIONSHIP#Racing&Simulation&Offroad#6.7#29,99€
+257400#Fuse#Animation & Modeling&Design & Illustration&Character Customization#6.5#Free
+254700#resident evil 4#Zombies&Action&Shooter#6.7#No hay precio
+257080#Tiny Thief#Stealth&Indie&Arcade#6.4#4,99€
+257510#The Talos Principle#Puzzle&First-Person&Sci-fi#8.25#39,99€
+257830#Violett#Adventure&Indie&Point & Click#6.3#9,99€
+257990#Oozi: Earth Adventure#Indie&Casual&Platformer#6.8#4,99€
+258010#Ring Runner: Flight of the Sages#Action&Indie&RPG#7.5#No hay precio
+258180#Deus Ex: The Fall#Cyberpunk&RPG&Action#5.800000000000001#No hay precio
+258220#Blood Knights#Action&RPG&Vampire#6.1#14,99€
+258520#The Vanishing of Ethan Carter#Detective&Mystery&Atmospheric#7.8999999999999995#18,99€
+258910#Citizens of Earth#RPG&Comedy&Turn-Based#6.4#11,99€
+259190#Alone in the Dark: The New Nightmare#Adventure&Action&Horror#7.35#6,99€
+259280#Earth 2150: The Moon Project#Strategy&RTS&Sci-fi#7.95#No hay precio
+259300#Earth 2160: Lost Souls#Strategy&RTS&Sci-fi#7.3#No hay precio
+259900#Thief - The Bank Heist#Stelth&Action&FPS#7.2#No hay precio
+260160#The Last Tinker: City of Colors#Adventure&Indie&Action#7.949999999999999#19,99€
+260250#Blood of the Werewolf#Platformer&Action&Indie#6.15#1,99€
+260300#Company of Heroes 2 - The Western Front Armies#Strategy&World War II&RTS#8.0#No hay precio
+260330#Flockers#Lemmings&Indie&Strategy#6.6#No hay precio
+260530#So Many Me#Indie&Action&Strategy#7.8#14,99€
+260550#Haunted#Adventure&Casual&Female Protagonist#7.6#14,99€
+260570#Gray Matter#Adventure&Point & Click&Female Protagonist#7.550000000000001#9,99€
+260730#Desperados - Wanted Dead or Alive#Strategy&Western&Action#8.05#4,99€
+260790#1001 Spikes#Difficult&Platformer&Rogue-like#8.4#9,99€
+261110#Killer is Dead#Action&Hack and Slash&Character Action Game#7.1#19,99€
+261180#Lethal League#Fighting&Local Multiplayer&2D Fighter#8.2#11,99€
+261470#Distant Worlds: Universe#Strategy&4X&Space#8.1#54,99€
+261530#Lifeless Planet#Walking Simulator&Adventure&Atmospheric#5.9#19,99€
+261640#Borderlands: The Pre-Sequel#Episodic&Action&Story telling#7.3#No hay precio
+261760#Lichdom: Battlemage#RPG&Magic&Action#6.8#36,99€
+262190#Zombeer#Action&Zombies&Dark Humor#3.2#9,99€
+262280#Dungeons 2#Strategy&RPG&Management#7.0#39,99€
+262390#Cloudbuilt#Platformer&Parkour&Indie#7.2#18,99€
+262470#Rollers of the Realm#Pinball&RPG&Puzzle#7.5#9,99€
+262550#Gunman Clive#Indie&Action&Western#8.1#1,99€
+261980#Half-Life: Before#FPS&Shootes&Action#7.3#Free
+262060#Darkest Dungeon#Strategy&RPG&Gore#7.4#22,99€
+262790#Our Darker Purpose#Rogue-like&Indie&Action#7.4#14,99€
+262830#Crimsonland#Action&Shooter&Indie#6.8#13,99€
+263300#BlazBlue: Calamity Trigger#Fighting&Anime&2D Fighter#8.8#8,99€
+263500#Dragons and Titans#Free to Play&Dragons&MOBA#2.6#Free to Play
+263860#SPACECOM#Strategy&Indie&Space#3.4#9,99€
+263060#Blockstorm#Shooter&FPS&Arcade#6.6#6,99€
+263760#Turbo Dismount#Casual&Arcade&Simulation#6.4#9,99€
+264000#Son of Nor#PvP&Action&Magic#5.4#19,99€
+264200#One Finger Death Punch#&Casual&Arcade&Action#7.1#4,99€
+264280#99 Levels To Hell#Rogue-like&Indie&Platformer#6.6#4,99€
+264320#Captain Morgane and the Golden Turtle#Adventure&Casual&Point & Click#5.4#4,99€
+264520#Moebius: Empire Rising#Adventure&Point & Click&Indie#6.1#14,99€
+264560#Quest for Infamy#Indie&Adventure&RPG#6.3#9,99€
+264710#Subnautica#Indie&Action&+#7.2#19,99€
+265120#Meridian: New World#Strategy&RTS&Indie#4.3#6,99€
+265170#Acceleration of Suguri X-Edition#Anime&Indie&Action#6.75#5,99€
+265300#Lords Of The Fallen#Sin etiquetas#7.199999999999999#No hay precio
+265550#Dead Rising 3#Zombies&Survival&Action#6.4#No hay precio
+265590#The Red Solstice#Action&RPG&Co-op#8.350000000000001#19,99€
+265690#NaissanceE#Indie&Exploration&Adventure#6.199999999999999#12,99€
+265750#Secret Ponchos#Western&Action&Indie#7.2#14,99€
+265830#Monochroma#Indie&Adventure&Action#4.9#19,99€
+265930#Goat Simulator#Simulation&Funny&Comedy#6.2#9,99€
+265950#Ether One#Adventure&Indie&First-Person#8.2#19,99€
+265970#Worlds of Magic#Strategy&RPG&Turn-Based#5.7#36,99€
+266050#Into the Dark#Horror&Action&+#7.2#No hay precio
+266110#Tower of Guns#FPS&Rogue-like&Indie#6.05#14,99€
+266330#Ethan: Meteor Hunter#Indie&Platformer&Puzzle#5.9#9,99€
+266410#iRacing#Racing&Simulation&Sports#7.9#No hay precio
+266510#Hand of Fate#RPG&Card Game&Action#8.0#22,99€
+266840#Age of Mythology: Extended Edition#Strategy&RTS&Mythology#6.6#27,99€
+267490#Batman: Arkham Origins Blackgate#Action&2.5D&Superheroes#5.1#19,99€
+267530#The LEGO Movie - Videogame#Builder&Action&Building#6.8#19,99€
+267550#The Amazing Spider-Man 2#Action&Open World&Adventure#5.85#29,99€
+268050#The Evil Within#Horror&Shooter&Action#7.15#No hay precio
+268400#Panzer Corps#Strategy&World War II&Turn-Based Strategy#7.95#19,99€
+268500#XCOM 2#Strategy&Aliens&Shooter#8.1#49,99€
+268710#Zero Point#Stealth&Shooter&+#6.2#No hay precio
+268750#Magicite#RPG&Platformer&Indie#8.2#9,99€
+268870#Satellite Reign#Cyberpunk&Strategy&Indie#7.55#27,99€
+269050#Year Walk#Horror&Indie&Adventure#8.7#5,99€
+269110#Super Motherload#Indie&Mining&Adventure#3.5#14,99€
+269210#Hero Siege#Rogue-like&Gore&Arcade#7.7#5,99€
+269690#RymdResa#Exploration&Sci-fi&Indie#6.3#11,99€
+269730#The Golf Club#Sports&Golf&Simulation#7.35#27,99€
+269790#DreadOut#Horror&Indie&Adventure#5.5#14,99€
+269810#Spate#Indie&Platformer&Adventure#6.1#4,99€
+270150#RUNNING WITH RIFLES#Action&Tactical&Top-Down#7.8#14,99€
+270510#EPOCH#Action&Indie&Robots#7.7#9,99€
+269890#AR-K#Adventure&Point and Click&Female Protagonist#5.1#7,99€
+269670#BADLAND: Game of the Year Edition#Indie&Adventure&Action#8.4#9,99€
+270850#Car Mechanic Simulator 2014#Simulation&Singleplayer&Education#6.1#5,99€
+270880#American Truck Simulator#Simulation&Conduction&Casual#7.7#19,99€
+271290#HAWKEN#Early Access&Mechs&Free to Play#7.3#Free to Play
+271590#Grand Theft Auto V#Open World&Action&Multiplayer#9.3#No hay precio
+271670#10 Second Ninja#Indie&Action&Platformer#7.2#7,99€
+271730#Light#Indie&Action&Adventure#4.9#11,99€
+300550#Shadowrun: Dragonfall#RPG&Cyberpunk&Strategy#8.8#14,99€
+272330#Shadow Blade: Reload#Action&Indie&Ninja#8.8#14,99€
+272040#KAMI#Puzzle&Casual&Indie#7.8#3,99€
+272470#The Incredible Adventures of Van Helsing II#RPG&Action&Adventure#7.6#14,99€
+272510#NARUTO SHIPPUDEN: Ultimate Ninja STORM Revolution#Anime&Fighting&Ninja#6.1#29,99€
+272600#Detective Grimoire#Adventure&Indie&Point & Click#8.3#0,74€
+273070#The Last Federation#Strategy&Space&Simulation#7.2#5,51€
+273350#Evolve#Multiplayer&Action&Co-op#7.0#No hay precio
+273110#Counter-Strike Nexon: Zombies#Zombies&FPS&Shooter#5.9#Free to Play
+273620#Freespace 2#Space&Sci-fi&Action#9.149999999999999#9,99€
+274130#Rambo The Video Game#Action&Adventure&+#2.8#No hay precio
+274170#Hotline Miami 2: Wrong Number#Great Soundtrack&Gore&Pixel Graphics#7.65#14,99€
+274190#Broforce#Indie&Action&2D#9.2#13,99€
+274230#RONIN#Indie&Action&Stealth#6.2#12,99€
+274250#OlliOlli#Indie&Sports&2D#7.2#10,99€
+274270#NOT A HERO#Pixel Graphics&Comedy&Indie#7.25#12,99€
+274290#Gods Will be Watching#Pixel Graphics&Point & click&Indie#7.15#No hay precio
+274310#Always Sometimes Monsters#RPGMaker&Indie&RPG#7.05#9,99€
+274350#Dropsy#Point & Click&Adventure&Pixel Graphics#4.1#9,99€
+274880#Jet Car Stunts#Racing&Sports&Indie#9.4#4,99€
+274940#Depth#Action&Multiplayer&Gore#7.2#22,99€
+275060#Alone in the Dark: Illumination#Action&Adventure&Horror#1.8#19,99€
+275100#Shelter 2#Adventure&Survival&Open World#6.0#14,99€
+275180#Costume Quest 2#RPG&Adventure&Casual#7.25#14,99€
+277430#Halo: Spartan Assault#Strategy&Action&Sci-fi#7.4#4,99€
+275530#Z#Strategy&Classic&Action#3.95#6,99€
+275390#Guacamelee! Super Turbo Championship Edition#Action&2D&Platformer#9.2#13,99€
+276770#Toy Soldiers: War Chest#Strategy&Action&Casual#6.0#14,99€
+276890#FATE: Undiscovered Realms#RPG&Action&Adventure#7.1#7,99€
+277110#Return to Mysterious Island#Adventure&Casual&Point & Click#7.9#7,99€
+277460#Praetorians#Strategy&RTS&Rome#8.05#4,99€
+277520#Albedo: Eyes from Outer Space#Action&Adventure&Indie#6.6#14,99€
+277850#Sportsfriends#Indie&Sports&Local Multiplayer#5.8#14,99€
+278360#A Story About My Uncle#Adventure&Platformer&Indie#7.3#12,99€
+278460#Skyborn#RPG&Steampunk&JRPG#7.1#14,99€
+278810#LA Cops#Action&Strategy&Indie#5.25#13,99€
+279920#Infinity Runner#Action&Indie&Werewolves#4.0#6,99€
+279940#The Book of Unwritten Tales 2#Adventure&Point & Click&Comedy#8.0#2,50€
+280160#Aragami#Action&Adventure&Indie#8.3#No hay precio
+281200#A Boy and His Blob#Adventure&Puzzle-Platformer&Family Friendly#7.7#9,99€
+281220#BloodRayne: Betrayal#Action&Hack and Slash&2D#3.15#9,99€
+281610#Homeworld: Deserts of Kharak#Strategy&RTS&Sci-fi#7.7#45,99€
+281640#The Banner Saga 2#RPG&Strategy&Indie#9.1#19,99€
+281690#The Legend of Korra#Action&Adventure&Female Protagonist#8.1#14,99€
+281750#Munin#Indie&Casual&Adventure#3.4#9,99€
+281990#Stellaris#Space&Strategy&Sci-fi#8.1#39,99€
+282010#Carmageddon Max Pack#Racing&Action&Indie#7.1#7,99€
+282030#Carmageddon 2: Carpocalypse Now#Racing&Action&Indie#7.4#7,99€
+282070#This War of Mine#Survival&War&Atmospheric#8.350000000000001#18,99€
+282140#SOMA#Horror&Atmospheric&Psychological Horror#8.5#27,99€
+282350#NBA 2K15#Sports&Simulation&Multiplayer#8.1#49,99€
+282440#Quake Live#Shooter&Action&FPS#7.05#9,99€
+282640#LOST ORBIT#Indie&Action&Space#7.1#11,99€
+283230#Spoiler Alert#Indie&Casual&Comedy#6.2#2,99€
+283290#Nosferatu: The Wrath of Malachi#Horror&Action&Vampire#7.2#8,99€
+283370#Marine Sharpshooter II: Jungle Warfare#Action&FPS&Sniper#5.65#8,99€
+283680#Astebreed#Anime&Shoot 'Em Up&Action#8.6#14,99€
+283640#Salt and Sanctuary#Difficult&RPg&Action#7.1#No hay precio
+284050#Sanitarium#Adventure&Horror&Classic#8.7#No hay precio
+284140#Majestic Nights#Adventure&RPG&Indie#3.2#4,99€
+285090#Robowars#Robots&Shootes&Multiplayer#6.6#12,99€
+285160#LEGO The Hobbit#Building&Fantasy&Action#6.7#19,99€
+285190#Warhammer 40,000: Dawn of War®III#Strategy&Fantasy&Action#7.2#No hay precio
+285310#RollerCoaster Tycoon: Deluxe#Simulation&Classic&Strategy#8.7#5,99€
+285900#Gang Beasts#Co-op&Casual&Fighting#7.7#19,99€
+286100#You Have to Win the Game#Platformer&Classic&Casual#6.5#Free
+286690#Metro 2033 Redux#FPS&Shooter&Horror#8.3#19,99€
+286040#Dead Effect#Zombies&Action&FPS#7.0#4,99€
+286140#Eidolon#Exploration&Open World&Walking Simulator#6.4#15,--€
+286280#Steel Armor: Blaze of War#Simulation&Strategy&Tanks#6.8#27,99€
+286480#Black Mirror III#Adventure&Point & Click&Horror#7.65#9,99€
+286570#F1 2015#Racing&Sports&Simulation#6.7#49,99€
+286750#Zoo Empire#Strategy&Casual&Simulation#5.9#6,99€
+286880#Disney Planes#Action&Adventure&Family Friendly#5.1#19,99€
+287290#Resident Evil Revelations 2#Zombies&Shooter&Casual#6.6#No hay precio
+287120#Ionball 2#Casual&Action&Arcade#7.4#3,99€
+287600#Sunset#Walking Simulator&Indie&Casual#4.449999999999999#19,99€
+287700#METAL GEAR SOLID V: THE PHANTOM PAIN#Open World&Stealth&Action#8.95#No hay precio
+287720#Nostradamus: The Last Prophecy#Adventure&Casual&Point & Click#7.0#4,99€
+287960#Yomi#Strategy&Indie&Card Game#8.3#13,99€
+288040#Actual Sunlight#Indie&Adventure&RPGMaker#7.7#4,99€
+288060#Whispering Willows#Adventure&Indie&Horror#7.55#9,99€
+288340#TrackMania 2#Arcade&Racing&Simulation#7.1#No hay precio
+288470#Fable Anniversary#Fantasy&RPG&Action#6.8#31,99€
+288930#The Charnel House Trilogy#Adventure&Indie&Horror#3.35#5,49€
+289130#Endless Legend#Strategy&Turn-Based&4X#8.0#29,99€
+289280#El Matador#Action&Third Person&Bullet Time#6.0#4,99€
+289440#Perimeter#Strategy&RTS&Sci-fi#7.7#3,99€
+289460#RC Cars#Racing&Casual&+#6.6#2,99€
+289500#UFO: Aftershock#Strategy&Tactical&Sci-fi#6.95#3,99€
+289690#Lara Croft and the Temple of Osiris#Co-op&Puzzle&Female Protagonist#6.9#No hay precio
+289800#Dracula: The Resurrection#Adventure&Casual&Point & Click#6.9#4,99€
+290340#Armello#Board Game&Turn-Based Strategy&Strategy#7.4#19,99€
+290410#Falling Skies: The Game#Strategy&RPG&Turn-Based#3.8499999999999996#4,99€
+290490#The Flock#Indie&Action&Horror#3.3#16,99€
+290710#Cloud Chamber#FMV&Massively Multiplayer&Indie#7.4#14,99€
+290790#Grey Goo#Strategy&RTS&Sci-fi#7.7#27,99€
+290970#1849#Strategy&Indie&Simulation#6.0#14,99€
+291480#Warface#Free to Play&FPS&Multiplayer#6.65#Free to Play
+291550#Brawlhalla#Fighting&Casual&Brawl#8.7#Free to Play
+291650#Pillars of Eternity#RPG&Isometric&Fantasy#8.7#41,99€
+292030#The Witcher 3: Wild Hunt#RPG&Open World&Story Rich#9.3#51,97€
+292120#FINAL FANTASY XIII#RPG&Fantasy&Fantasy#7.35#No hay precio
+292140#FINAL FANTASY XIII-2#RPG&Fantasy&Fantasy#7.6#No hay precio
+292160#UFO: Aftermath#Strategy&Tactical&Sci-fi#6.95#3,99€
+292400#Unrest#Adventure&Indie&RPG#3.25#11,99€
+292410#Street Racing Syndicate#Racing&Open World&Singleplayer#7.2#9,99€
+293260#Card Hunter#Free to Play&Card Game&Strategy#8.0#Free
+293280#Wander#Massively Multiplayer&Adventure&Walking Simulator#1.5#22,99€
+293740#Road Not Taken#Indie&Puzzle&Rogue-like#7.15#14,99€
+293940#Kill The Bad Guy#Strategy&Indie&Action#5.75#9,99€
+294370#Crowntakers#RPG&Strategy&Indie#7.0#14,99€
+294460#Fenix Rage#Indie&Action&Adventure#6.0#11,99€
+294590#Wars and Warriors: Joan of Arc#Strategy&Action&Historical#6.7#6,99€
+294730#Marine Park Empire#Casual&Simulation&Strategy#5.8#6,99€
+294750#Anomaly Defenders#Tower Defense&Strategy&Indie#6.75#9,99€
+294860#Valkyria Chronicles#Strategy&Action&Anime#7.6#19,99€
+295110#H1Z1: Just Survive#Zombies&Survival&Multiplayer#6.7#19,99€
+295270#Football Manager 2015#Sports&Simulation&Casual#8.0#No hay precio
+296180#Iron Storm#Action&Adventure&Indie#7.0#2,99€
+296280#TownCraft#Indie&Simulation&Strategy#7.3#9,99€
+296570#Lords of Xulima#RPG&Turn-Based&Indie#7.1#19,99€
+296470#Mount Your friends#Co-op&Turn-Based&Indie#7.4#No hay precio
+297020#The Culling Of The Cows#Indie&Casual&Action#5.2#10,99€
+296830#Lucius II#Horror&Indie&Villain Protagonist#4.8#19,99€
+296970#Renowned Explorers: International Society#Strategy&Adventure&RPG#7.8#19,99€
+297120#Heavy Bullets#Indie&Action&FPS#7.2#7,49€
+297130#Titan Souls#Pixel Graphics&Indie&Difficult#7.35#14,99€
+297350#The Old City: Leviathan#Adventure&Walking Simulator&Indie#6.2#9,99€
+297920#Space Colony#Strategy&Simulation&Space#7.5#14,99€
+298030#Total Annihilation#Strategy&Classic&RTS#8.899999999999999#4,99€
+298110#Far Cry 4#Open World&Action&FPS#7.9#29,99€
+298260#Only If#Sin etiquetas#3.8499999999999996#No hay precio
+298600#Lovely Planet#Indie&Anime&Action#6.1#5,99€
+298630#The Escapists#Pixel Graphics&Strategy&Crafting#6.9#14,99€
+298930#Darkness Within: In Pursuit of Loath Nolder#Adventure&Point & Click&Indie#5.7#1,49€
+299360#Block N Load#Action&Free to Play&Multiplayer#7.2#Free to Play
+300400#Unpossible#Racing&Fast-Paced&Arcade#7.9#2,99€
+300610#Pure Pool#Simulation&Sports&Casual#6.8#9,99€
+300820#Toy Story 3#Action&Family Friendly&Cartoony#7.449999999999999#19,99€
+300840#JUJU#Casual&Action&Adventure#7.9#19,99€
+301520#Robocraft#Adventure&Multiplayer&Robots#7.1#Free to Play
+301560#White Night#Adventure&Horror&Noir#7.4#14,99€
+301640#Zombie Army Trilogy#Zombies&Action&Co-op#7.2#41,99€
+301910#Saints Row: Gat out of Hell#Action&Open World&Comedy#6.6#14,99€
+301970#Screencheat#Action&Indie&Local Multiplayer#7.1#6,69€
+301980#Pirates of the Caribbean - At Worlds End#Sin etiquetas#6.15#No hay precio
+302080#Bus Driver#Simulation&Indie&Driving#6.1#7,99€
+302170#The Cameron Files: The Secret at Loch Ness#Adventure&Casual&Point & Click#6.6#2,99€
+302210#Curse: The Eye of Isis#Adventure&Survival Horror&Horror#6.4#No hay precio
+302380#Floating Point#Indie&Casual&Arcade#6.9#No hay precio
+302510#Ryse: Son of Rome#Action&Historical&+#6.5#No hay precio
+302710#BlazeRush#Racing&Indie&Action#7.1#9,99€
+303340#Concursion#Indie&Action&Platformer#6.6#4,49€
+303550#Adventures of Pip#Action&Indie&Adventure#7.2#14,99€
+304050#Trove#Free to Play&Open World&Multiplayer#3.5#Free to Play
+304460#Qora#Indie&Adventure&Pixel Graphics#6.3#9,99€
+304030#ArcheAge#MMORPG&Open World&Fantasy#5.1#No hay precio
+304650#Sunless Sea#Exploration&Survival&Lovecraftian#7.35#18,99€
+304240#Resident Evil HD REMASTER#Survival Horror&Zombies&Horror#9.2#19,99€
+304730#Train Fever#Simulation&Trains&Management#6.7#24,99€
+305050#Outland#Action&Platformer&Adventure#8.2#9,99€
+305380#Blue Estate#Action&On-Rails Shooter&Comedy#5.6#12,99€
+306130#The Elder Scrolls Online#MMORPG&Fantasy&Open World#6.8#No hay precio
+306440#Oblitus#Indie&Adventure&Action#5.7#14,99€
+306660#Ultimate General: Gettysburg#Strategy&Historical&Simulation#8.4#14,99€
+307170#Borealis#Indie&Casual&Classic#6.4#4,99€
+307340#Platypus#Action&Shoot 'Em Up&Local Co-Op#7.6#5,99€
+307570#A Golden Wake#Adventure&Indie&Point & Click#6.8#9,99€
+307580#Technobabylon#Adventure&Indie&Cyberpunk#7.75#14,99€
+307590#Penarium#Action&Indie&Funny#7.8#8,99€
+307780#Mortal Kombat X#Fighting&Gore&Action#7.8999999999999995#No hay precio
+307960#IL-2 Sturmovik: Battle of Stalingrad#Simulation&Flight&World War II#7.4#45,99€
+308040#Back to Bed#Indie&Casual&Puzzle#5.7#5,49€
+308420#Ziggurat#FPS&Rogue-lite&Action#7.3#14,99€
+310080#Hatoful Boyfriend#Visual Novel&Anime&Dating Sim#6.199999999999999#7,99€
+310470#Grand Ages: Medieval#Strategy&Simulation&Medieval#5.05#39,99€
+310490#Crookz - The Big Heist#Strategy&Simulation&Heist#7.3#24,99€
+310510#Deathtrap#Tower Defense&RPG&Action#7.35#19,99€
+310560#DiRT Rally#Racing&Simulation&Multiplayer#7.7#49,99€
+310740#NEON STRUCT#Indie&Stealth&First-Person#3.4#15,99€
+310810#Shiftlings#Action&Adventure&Co-op#7.0#14,99€
+310880#Basketball Pro Management 2015#Sports&Strategy&Simulation#6.9#19,99€
+310950#Street Fighter V#Fighting&Arcade&Action#6.2#59,99€
+311210#Call of Duty: Black Ops III#Multijugador&FPS&Zombies#6.6#No hay precio
+311340#METAL GEAR SOLID V: GROUND ZEROES#Stealth&Action&Open World#7.6#No hay precio
+311690#Enter the Gungeon#Rogue-like&Shooter&Indie#8.7#14,99€
+311700#BloodRealm: Battlegrounds#Free to play&Strategy&RPG#4.3#No hay precio
+311730#Dead or Alive 5 Last Round#Fighting&Simulation&Arcade#6.8#No hay precio
+311770#LEGO Pirates of the Caribbean The Video Game#Building&Action&Builder#7.0#19,99€
+311840#Wildlife Park#Simulation&Casual&Strategy#6.6#6,99€
+312440#Legions of Steel#Strategy&Turn-Based&Sci-fi#6.5#19,99€
+312510#Mega Coin Squad#Indie&Action&Local Multiplayer#5.6#14,99€
+312610#METAL SLUG X#Action&Arcade&Co-op#8.5#7,99€
+312660#Sniper Elite 4#Snipper&Action&World War II#7.0#No hay precio
+312750#FINAL FANTASY IV#RPG&JRPG&Remake#8.8#14,49€
+312780#Way of the Samurai 4#Action&Swordplay&Multiple Endings#7.300000000000001#22,99€
+313010#Cities XXL#Simulation&City Builder&Economy#4.7#29,99€
+313080#The Masterplan#Acion&Indie&Heist#6.45#No hay precio
+313160#Farming Simulator 15#Simulation&Multiplayer&Open World#6.4#24,99€
+313690#LEGO Batman™ 3: Beyond Gotham#Building&Super Heroes&Action#7.2#29,99€
+314000#Pool Nation FX#Sports&Simulation&Casual#6.1#Free to Play
+314220#Bombing Bastards#Action&Indie&+#5.5#9,99€
+314560#Kyn#RPG&Action&Adventure#5.8#19,99€
+314660#Oddworld: New 'n' Tasty#Adventure&Platformer&Puzzle#8.1#19,99€
+314830#Blackguards 2#Strategy&RPG&Turn-Based#7.300000000000001#29,99€
+315260#Space Hack#Action&RPG&Indie#6.5#4,99€
+315440#TRON: Evolution#Sci-fi&Action&Adventure#6.15#19,99€
+315600#Ford Racing 3#Racing&Arcade&Simulation#5.9#4,99€
+316030#Alice in Wonderland#Casual&Family Game&+#5.4#19,99€
+316180#A City Sleeps#Indie&Action&Female Protagonist#5.55#9,99€
+316260#Disney Universe#Family Friendly&Cartoony&Action#3.3#19,99€
+316750#Tetris® Ultimate#Casual&Classic&Arcade#7.2#9,99€
+316790#Grim Fandango Remastered#Point & click&Classic&Historical#8.2#14,99€
+316890#Calvino Noir#Adventure&Indie&Stealth#5.5#14,99€
+317100#Republique#Adventure&Stealth&Female Protagonist#7.7#22,99€
+317330#Defenders of Time#Strategy&Tower Defense&Indie#6.25#No hay precio
+317820#Guild of Dungeoneering#RPG&Indie&Dungeon Crawler#7.0#14,99€
+317840#Dokuro#Casual&Action&Platformer#5.9#9,99€
+318020#Act of Aggression#Strategy&RTS&Multiplayer#7.25#44,99€
+318230#Convoy#RPG&Strategy&Rogue-like#7.6#12,99€
+319170#G-Force#Family Friendly&Action&Casual#6.65#19,99€
+319450#Chariot#Indie&Adventure&Local Co-Op#7.6#14,99€
+319510#Five Nights at Freddy's#Casual&Horror&Indie#6.0#4,99€
+319630#Life Is Strange#Story telling&Episodic&Singleplayer#9.0#No hay precio
+319740#There Came an Echo#Strategy&Indie&Sci-fi#5.8#14,99€
+321860#Disney Infinity 2.0#Action&Fantasy&Casual#7.1#45,99€
+319910#Trine 3: The Artifacts of Power#Adventure&Action&Co-op#6.8#21,99€
+321960#Might & Magic Heroes VII#Strategy&Turn-based Strategy&Fantasy#7.8#29,99€
+321980#Hardland#Open World&RPG&Indie#7.6#14,99€
+320300#Car Mechanic Simulator 2015#Simulation&Singleplayer&Racing#6.8#19,99€
+320320#Darkstone#RPG&Action&Hack and Slash#6.699999999999999#4,99€
+320520#Oscura: Lost Light#Indie&Adventure&Platformer#6.6#6,99€
+320820#Toren#Adventure&Indie&Female Protagonist#5.7#9,99€
+321870#Silence of the Sleep#Horror&Adventure&Indie#6.6#14,99€
+322290#Gurumin: A Monstrous Adventure#Action&RPG&Adventure#8.0#9,99€
+322440#Red Goddess: Inner World#Adventure&Indie&Action#5.2#9,99€
+322600#PURE#Racing&Offroad&Action#8.05#19,99€
+322630#Mind Zero#RPG&JRPG&Dungeon Crawler#6.95#19,99€
+322920#theHunter: Primal#Dinosaurs&Survival&Open World#4.9#9,99€
+323320#Grow Home#Adventure&Open World&Singleplayer#7.35#7,99€
+323370#TERA#MMORPG&Free to Play&RPG#7.65#No hay precio
+323380#The Magic Circle#Adventure&Indie&Simulation#8.0#19,99€
+323580#Jotun#Adventure&Action&Indie#3.95#14,99€
+323700#Poltergeist: A Pixelated Horror#Indie&Casual&Puzzle#7.0#7,99€
+323720#Decay - The Mare#Adventure&Horror&Point & Click#6.0#9,99€
+324140#Kalimba#Casual&Action&Puzzle-Platformer#7.949999999999999#9,99€
+324260#VoidExpanse#Space&RPG&Action#7.2#14,99€
+324570#Halo: Spartan Strike#Action&Sci-fi&Top-Down Shooter#5.699999999999999#5,99€
+324790#LEGO Minifigures Online#Builder&Casual&Building#6.4#No hay precio
+325370#Nova-111#Indie&Action&Arcade#6.8#14,99€
+325600#Sword Coast Legends#RPG&Fantasy&Co-op#6.1#No hay precio
+325610#Total War: ATTILA#Strategy&Historical&War#7.85#39,99€
+326410#Windward#Pirates&Adventure&Indie#9.1#9,99€
+326670#Warhammer Quest#RPG&Strategy&Games Workshop#7.9#14,99€
+327310#The Marvellous Miss Take#Stealth&Indie&Action#6.25#17,99€
+327410#A Bird Story#Indie&Great Soundtrack&Short#6.6#4,29€
+327520#Traverser#Adventure&Indie&Action#6.05#14,99€
+327670#Ironcast#Strategy&Indie&RPG#7.5#12,99€
+327890#I am Bread#Simulation&Funny&Physics#5.1#12,99€
+328440#Deadlock - Planetary Conquest#Strategy&Turn-Based&+#7.9#6,99€
+328600#Frozen Synapse Prime#Strategy&Turn-Based Strategy&Turn-Based#8.3#22,99€
+328900#B-17 Flying Fortress: The Mighty 8th#Simulation&Flight&World War II#8.1#6,99€
+328940#The Deer God#Indie&Platformer&Pixel Graphics#5.9#14,99€
+329240#The Weaponographist#RPG&Indie&Action#6.25#7,99€
+329380#Stealth Inc 2#Indie&Action&Adventure#8.2#14,99€
+329440#Sonic Lost World#Adventure&Platformer&3D Platformer#6.35#29,99€
+329460#JumpJet Rex#Indie&Action&Adventure#6.3#9,99€
+329650#NAM#Action&FPS&Classic#5.3#6,99€
+330180#Pix the Cat#Indie&Action&Arcade#7.7#9,99€
+330820#Read Only Memories#Adventure&Cyberpunk&Point & Click#5.6#19,99€
+330840#Game of Thrones - A Telltale Games Series#Sin etiquetas#6.95#No hay precio
+331450#Finding Nemo#Adventure&Action&Nudity#5.949999999999999#9,99€
+331750#WALL E#Adventure&Multiplayer&+#6.199999999999999#19,99€
+331970#Treasure Planet Battle at Procyon#Strategy&Pirates&RTS#7.5#9,99€
+332200#Axiom Verge#Metroidvania&Indie&Platformer#7.75#17,99€
+333430#Sinking Island#Adventure&Point & Click&Detective#6.8#7,99€
+402430#Out of the Park Baseball 17#Strategy&Simulation&Sports#9.3#36,99€
+333930#Dirty Bomb#Free to Play&FPS&Multiplayer#6.65#Free to Play
+334070#Hektor#Horror&Adventure&Indie#5.5#9,99€
+334120#Armikrog#Adventure&Indie&Point & Click#6.0#24,99€
+335000#Tormentum - Dark Sorrow#Adventure&Point & Click&Dark Fantasy#7.2#No hay precio
+336840#Color Guardians#Action&Indie&+#2.8#14,99€
+337180#Velocity 2X#Action&Shoot 'Em Up&Female Protagonist#7.5#19,99€
+337680#Star Hammer: The Vanguard Prophecy #Strategy&Simulation&Adventure#6.9#19,99€
+338140#Venetica#RPG&Action&Adventure#6.65#9,99€
+338890#Harold#Action&Indie&Racing#6.3#9,99€
+339130#Morningstar: Descent to Deadrock#Adventure&Point & Click&Indie#6.2#9,99€
+339200#Oceanhorn: Monster of Uncharted Seas#RPG&Adventure&Action#7.3#14,99€
+339460#A Pixel Story#Indie&Action&Adventure#7.7#11,99€
+339690#Paperbound#Indie&Action&+#6.15#9,99€
+339840#The Moment of Silence#Adventure&Indie&Point & Click#7.35#14,99€
+340990#Bolt#Action&Adventure&+#5.55#19,99€
+341870#Tembo The Badass Elephant#Sin etiquetas#6.050000000000001#No hay precio
+341940#Hatred#Gore&Dark&Shooter#4.6#No hay precio
+342100#Sym#Indie&Puzzle-Platformer&Platformer#3.55#6,99€
+342200#MechWarrior Online#Free to Play&Mechs&Action#6.4#Free to Play
+342990#15 Days#Adventure&Indie&Casual#6.3#9,99€
+343100#Overture#Indie&Action&RPG#7.6#4,99€
+343120#Motorbike#Racing&Sports&Action#7.4#4,99€
+343710#KHOLAT#Horror&Atmospheric&Open World#6.4#17,99€
+343840#Trash TV#Indie&Adventure&Platformer#1.75#6,99€
+344410#Magnetic: Cage Closed#Puzzle&Puzzle-Platformer&Indie#6.1#14,99€
+344480#Quell#Indie&Puzzle&Casual#8.4#3,99€
+345180#Victor Vran#Adventure&RPG&Action#7.6#19,99€
+345350#LIGHTNING RETURNS: FINAL FANTASY XIII#RPG&Fantasy&Turn-Based Strategy#6.6#No hay precio
+347440#Pneuma: Breath of Life#Adventure&Indie&Puzzle#6.3#19,99€
+347830#Fairy Fencer F#Anime&JRPG&RPG#7.15#27,99€
+348360#Doodle God#Casual&Simulation&God Game#7.5#5,99€
+348400#BattleLore: Command#Strategy&Indie&Board Game#8.2#9,99€
+348440#Quell Memento#Indie&Casual&Relaxing#8.3#3,99€
+349550#Mighty Dungeons#RPG&Indie&Casual#6.5#2,99€
+349690#ARMED SEVEN#Action&Indie&Shoot 'Em Up#6.6#4,99€
+350080#Wolfenstein: The Old Blood #Action&FPS&Shooter#7.75#No hay precio
+350660#Alganon#Free to Play&Massively Multiplayer&RPG#6.5#Free to Play
+351080#The Corporate Machine#Simulation&Strategy&Management#7.8#9,99€
+351970#Tales of Zestiria#JRPG&Anime&RPG#8.3#49,99€
+352120#Fair Strike#Action&Simulation&+#5.699999999999999#No hay precio
+352520#The Silent Age#Adventure&Indie&Point & Click#8.4#9,99€
+352960#Star Horizon#Indie&Action&Space#7.4#7,99€
+353550#House of Caravan#Adventure&Indie&Casual#3.9#4,99€
+354160#WRC 5#Racing&Simulation&Multiplayer#6.4#39,99€
+355100#Dungeon Crawlers HD#Strategy&RPG&Indie#7.5#4,99€
+355910#Piloteer#Indie&Simulation&+#8.7#2,99€
+356050#Beyond Eyes#Indie&Adventure&Walking Simulator#6.1#12,99€
+356420#Interloper#Strategy&Indie&RTS#2.5#No hay precio
+357720#Inside My Radio#Indie&Casual&Action#5.15#4,99€
+358370#Terminal Velocity#Action&1990's&Shooter#7.8#6,99€
+358390#Stargunner#Action&Shoot 'Em Up&+#7.2#No hay precio
+358960#Canabalt#Indie&Action&Platformer#7.7#2,99€
+359060#Switch Galaxy Ultra#Racing&Action&Indie#5.0#9,99€
+359280#Heroes of Loot#Action&Adventure&RPG#8.4#4,99€
+359320#Elite Dangerous#Space Sim&Space&Open World#7.9#24,99€
+359580#Uncanny Valley#Adventure&Indie&Pixel Graphics#6.1#9,99€
+359630#Independence War 2: Edge of Chaos#Action&Simulation&Space#8.45#5,99€
+359850#Duke Nukem 3D#FPS&Action&Classic#8.8#No hay precio
+359900#The Incredible Adventures of Van Helsing III#RPG&Action&Adventure#6.85#14,99€
+360010#Remnants Of Isolation#RPG&Indie&Casual#0.5#9,99€
+360530#WE ARE DOOMED#Twin Stick Shooter&Action&Indie#1.0#9,99€
+360740#Downwell#Indie&Action&Platformer#8.4#2,99€
+361130#Card Dungeon#RPG&Indie&Strategy#7.3#5,99€
+361550#Cradle#Adventure&Sci-fi&Indie#6.4#12,99€
+362890#Black Mesa#Early Access&FPS&Remake#8.6#19,99€
+363440#Mega Man Legacy Collection#Action&Platformer&Classic#8.5#14,99€
+364700#Dawn of the Plow#Action&Indie&+#7.4#3,99€
+365450#Hacknet#Hacking&Simulation&Indie#8.3#9,99€
+365480#Ravenmark: Scourge of Estellion#Strategy&RPG&Turn-Based#8.5#14,99€
+365560#Battle of the Bulge#Strategy&World War II&Turn-Based Strategy#8.5#9,99€
+365770#Volume#Indie&Action&Stealth#8.0#17,99€
+365820#Company of Heroes 2 - The British Forces#Strategy&Worl War II&RTS#8.1#No hay precio
+366230#BASEBALL STARS 2#Sports&Arcade&+#7.6#7,99€
+368050#Almightree: The Last Dreamer#Indie&Action&Strategy#8.3#No hay precio
+368370#Her Story#Indie&Detective&FMV#8.0#5,99€
+368600#Terra Nova: Strike Force Centauri#Simulation&Action&FMV#8.9#5,99€
+368650#Dark Echo#Indie&Adventure&Atmospheric#8.8#2,99€
+369110#The Swindle#Indie&Action&RPG#7.0#14,99€
+370220#Animal Gods#Action&Adventure&Indie#5.3#9,99€
+370240#NBA 2K16#Sports&Basketball&Multiplayer#6.95#49,99€
+370550#Sparkle 2#Casual&Match 3&Action#7.6#7,99€
+371660#Far Cry Primal#Open World&Survival&Action#8.2#No hay precio
+372360#Tales of Symphonia#RPG&JRPG&Story Rich#8.899999999999999#19,99€
+373460#Fury Of The Gods#Action&Casual&Tower Defense#6.3#3,99€
+375910#Anno 2205#Strategy&City Builder&Simulation#6.7#39,99€
+375950#Viridi#Free to Play&Relaxing&Simulation#4.6#Free
+375960#Pro Evolution Soccer 2016#Sports&Soccer&Football#7.25#19,99€
+376570#WildStar#Free to Play&Massively Multiplayer&RPG#8.2#No hay precio
+376870#Minecraft: Story Mode - A Telltale Games Series#Memes&Adventure&Singleplayer#6.4#22,99€
+377160#Fallout 4#Open World&Action&RPG#8.4#No hay precio
+377840#FINAL FANTASY IX#Sin etiquetas#9.2#No hay precio
+378120#Football Manager 2016#Sports&Simulation&Management#8.2#54,99€
+379380#ReLoaded#Action&Adventure&RPG#5.0#4,99€
+380150#STASIS#Adventure&Horror&Isometric#7.9#24,99€
+381780#80 Days#Adventure&Indie&Strategy#6.0#9,99€
+382890#FINAL FANTASY V#RPG&JRPG&Classic#8.6#No hay precio
+382900#FINAL FANTASY VI#RPG&JRPG&Classic#9.2#No hay precio
+383150#Dead Island Definitive Edition#RPG&FPS&Action#6.8#No hay precio
+383100#Fragile Allegiance#Strategy#8.5#4,99€
+383870#Firewatch#Open World&Indie&Casual#8.7#19,99€
+384570#ZanZarah: The Hidden Portal#Adventure&Action&RPG#7.949999999999999#6,99€
+384360#Fingered#Indie&Casual&Flash#7.2#1,99€
+385250#Paint it Back#Casual&Puzzle&Indie#8.4#No hay precio
+385720#King's Quest#Episodic&Story telling&Classic#7.8#No hay precio
+386360#SMITE#Free to Play&MOBA&Action#8.8#Free To Play
+385730#WWE 2K16#Fighting&Simulatio&Action#6.1#No hay precio
+387290#Ori and the Blind Forest: Definitive Edition#Platformer&Atmospheric&2D#9.1#19,99€
+387340#Hyperdimension Neptunia U: Action Unleashed#Anime&Action&RPG#7.1#27,99€
+388800#Azure Striker Gunvolt#Action&Indie&Platformer#8.35#14,99€
+388410#Darksiders II: Deathinitive Edition#&Action&Hack and Slash&Fantasy#8.5#29,99€
+388880#Oxenfree#Indie&Casual&Story telling#8.2#19,99€
+389900#Hogs of War#Strategy&Action&+#7.35#No hay precio
+390340#Umbrella Corps#Shooter&Multiplayer&Zombies#6.8#No hay precio
+391030#Hard to Be a God#RPG&Fantasy&JRPG#5.5#9,99€
+391220#Rise of the Tomb Raider#Action#8.75#No hay precio
+391540#Undertale#Great Soundtrack&Story Rich&Choices Matter#9.3#9,99€
+391720#Layers of Fear#Horror&Indie&FPS#7.7#19,99€
+391730#Crashlands#Indie&Survival&RPG#6.9#14,99€
+394290#Tennis in the Face#Casual&Indie&Sports#7.7#4,99€
+394550#Gunman Clive 2#Action&Indie&Platformer#8.0#2,99€
+394600#Mighty Gunvolt#Action&Indie&Platformer#7.2#4,99€
+394510#HELLDIVERS#Co-op&Action&Shooter#8.0#No hay precio
+398160#Shapes of Gray#Action&Indie&Great Soundtrack#4.6#No hay precio
+398640#Bowl Bound College Football#Sports&Strategy&Simulation#8.0#19,99€
+399910#Ookibloks#Action&Indie&Casual#7.6#4,99€
+400370#Normality#Adventure&Action&Retro#7.9#5,99€
+402020#The Park#Horror&Psychological Horror&Walking Simulator#6.699999999999999#12,99€
+407510#Devilian#Sin etiquetas#6.15#No hay precio
+407600#Raiden Legacy#Action&Shoot 'Em Up&Arcade#8.2#9,99€
+408640#CODE OF PRINCESS#Action&Adventure&RPG#7.2#14,99€
+409170#Contract#Indie&Casual&Pixel#5.4#2,99€
+410850#Dragon Quest Heroes#Open World&RPG&Fantasy#7.1#No hay precio
+411330#Men of Valor#Action&FPS&+#7.35#9,99€
+411960#TY the Tasmanian Tiger#Early Access&Adventure&Action#7.25#11,99€
+412310#Labyrinth#Early Access&Strategy&RPG#4.5#9,99€
+413420#Danganronpa 2: Goodbye Despair#Detective&Anime&Adventure#8.7#27,99€
+415480#Hyperdevotion Noire: Goddess Black Heart#Strategy&RPG&Anime#6.8#27,99€
+417600#Escape Plan#Sin etiquetas#7.199999999999999#No hay precio
+419320#FROM DUSK TILL DAWN#Sin etiquetas#5.9#No hay precio
+419360#Reservoir Dogs#Sin etiquetas#5.0#No hay precio
+421610#XBlaze Code: Embryo#Adventure&Visual Novel&Anime#4.3#19,99€
+427510#Way of the Samurai 3#Action&Adventure&Character Customization#6.35#19,99€
+431640#Doodle Kingdom#Simulation&Indie&Casual#7.0#No hay precio
+432940#Breakneck#Early Access&Racing&Action#7.199999999999999#4,99€
+433580#Timelapse#Sin etiquetas#8.2#5,99€
+434800#The Great Escape#Action&Indie&Casual#5.75#No hay precio
+441110#Kick-Ass#Sin etiquetas#4.15#No hay precio
+441160#Saw#Sin etiquetas#6.15#No hay precio
+446460#Highland Warriors#Strategy&RTS&+#6.15#7,99€
+450120#Capitalism Plus#Strategy&Simulation&Capitalism#7.6#5,99€
+452750#The Punisher#Sin etiquetas#7.449999999999999#No hay precio
+465430#Vertigo#Action&Indie&VR#6.6#No hay precio

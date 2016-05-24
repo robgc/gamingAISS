@@ -1,9 +1,7 @@
 package com.aiss.gamingguru.client.views;
 
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -39,8 +37,12 @@ public class SteamView extends Composite {
 	private static Double score = 0.0;
 	private static Map<Videojuego, Set<String>> amazon = new HashMap<Videojuego, Set<String>>();
 	private static Set<String> platforms = new HashSet<String>();
+	private static String categoria1 = "";
+	private static String categoria2 = "";
 
-	public SteamView(String id, Set<String> plat) {
+	public SteamView(String id, Set<String> plat, String cat1, String cat2) {
+		categoria1 = cat1;
+		categoria2 = cat2;
 		platforms.addAll(plat);
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
@@ -80,7 +82,8 @@ public class SteamView extends Composite {
 						@Override
 						public void onFailure(Throwable caught) {
 							Window.alert("!Error al realizar el rellenado de la tabla!");
-							GamingGuru.go("init", "", new HashSet<String>());
+							GamingGuru.go("init", "", new HashSet<String>(),
+									"", "");
 						}
 
 						@Override
@@ -94,7 +97,9 @@ public class SteamView extends Composite {
 										@Override
 										public void onFailure(Throwable caught) {
 											Window.alert("!Error al encontrar tus juegos en el mapa!");
-											GamingGuru.go("init", "", new HashSet<String>());
+											GamingGuru.go("init", "",
+													new HashSet<String>(), "",
+													"");
 										}
 
 										@Override
@@ -112,8 +117,8 @@ public class SteamView extends Composite {
 
 											gService.recommendedGames(
 													score,
-													"",
-													"",
+													categoria1,
+													categoria2,
 													allTmp,
 													new AsyncCallback<Set<Videojuego>>() {
 
@@ -121,7 +126,12 @@ public class SteamView extends Composite {
 														public void onFailure(
 																Throwable caught) {
 															Window.alert("¡No se encontraron recomendaciones");
-															GamingGuru.go("init", "", new HashSet<String>());
+															GamingGuru
+																	.go("init",
+																			"",
+																			new HashSet<String>(),
+																			"",
+																			"");
 														}
 
 														@Override
@@ -138,7 +148,12 @@ public class SteamView extends Composite {
 																		public void onFailure(
 																				Throwable caught) {
 																			Window.alert("¡No se encontraron enalces de compra");
-																			GamingGuru.go("init", "", new HashSet<String>());
+																			GamingGuru
+																					.go("init",
+																							"",
+																							new HashSet<String>(),
+																							"",
+																							"");
 																		}
 
 																		@Override
@@ -182,7 +197,7 @@ public class SteamView extends Composite {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("steaminfo").clear();
 				RootPanel.get("steamscore").clear();
-				GamingGuru.go("acerca", "", new HashSet<String>());
+				GamingGuru.go("acerca", "", new HashSet<String>(), "", "");
 			}
 		});
 
@@ -190,7 +205,7 @@ public class SteamView extends Composite {
 			public void onClick(ClickEvent event) {
 				RootPanel.get("steaminfo").clear();
 				RootPanel.get("steamscore").clear();
-				GamingGuru.go("init", "", new HashSet<String>());
+				GamingGuru.go("init", "", new HashSet<String>(), "", "");
 			}
 		});
 

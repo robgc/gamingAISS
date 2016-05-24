@@ -3,7 +3,6 @@ package com.aiss.gamingguru.server;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -122,18 +121,59 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 			String cat2, Set<Videojuego> vgs) {
 		Double cotaSup = score + 1.0;
 		Double cotaInf = score - 0.5;
+		System.out.println(cat1);
+
+		String categ1 = cat1;
+		String categ2 = cat2;
+
 		Set<Videojuego> res = new HashSet<Videojuego>();
-		List<Videojuego> tmp = new ArrayList<Videojuego>();
+		List<Videojuego> coin2 = new ArrayList<Videojuego>();
+		List<Videojuego> coin1 = new ArrayList<Videojuego>();
+		List<Videojuego> coin0 = new ArrayList<Videojuego>();
+
 		for (Videojuego game : vgs) {
 			if (game.getNotaMedia() >= cotaInf
 					&& game.getNotaMedia() <= cotaSup) {
-				tmp.add(game);
+
+				if (game.getTags().contains(categ1)
+						&& game.getTags().contains(categ2)) {
+					coin2.add(game);
+				} else if ((game.getTags().contains(categ1) && !game.getTags()
+						.contains(categ2))
+						|| (!game.getTags().contains(categ1) && game.getTags()
+								.contains(categ2))) {
+					coin1.add(game);
+				} else {
+					coin0.add(game);
+				}
 			}
 		}
-		for (int i = 0; i < 5; i++) {
-			int random = (int) (Math.random() * tmp.size());
-			res.add(tmp.get(random));
-			System.out.println(tmp.get(random).getNombre());
+
+		if (!coin2.isEmpty()) {
+
+			while (res.size() < 5) {
+				int random = (int) (Math.random() * coin2.size());
+				res.add(coin2.get(random));
+				System.out.println(coin2.get(random).getNombre());
+			}
+		}
+
+		if (!coin1.isEmpty()) {
+
+			while (res.size() < 5) {
+				int random = (int) (Math.random() * coin1.size());
+				res.add(coin1.get(random));
+				System.out.println(coin1.get(random).getNombre());
+			}
+		}
+
+		if (!coin0.isEmpty()) {
+
+			while (res.size() < 5) {
+				int random = (int) (Math.random() * coin0.size());
+				res.add(coin0.get(random));
+				System.out.println(coin0.get(random).getNombre());
+			}
 		}
 
 		return res;
@@ -190,8 +230,6 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 						public void startElement(String uri, String localName,
 								String qName, Attributes attributes)
 								throws SAXException {
-
-							// System.out.println("Start Element :" + qName);
 
 							if (qName.equalsIgnoreCase("Title")) {
 								bfname = true;
@@ -320,7 +358,7 @@ public class GuruServiceImpl extends RemoteServiceServlet implements
 				while ((line = br.readLine()) != null) {
 					String[] sp = line.split("#");
 					Videojuego a = new Videojuego(sp[0] + "#" + sp[1] + "#"
-							+ sp[2] + "#" + sp[3]);
+							+ sp[2] + "#" + sp[3] + "#" + sp[4]);
 					map.put(new Integer(sp[0]), a);
 				}
 				br.close();

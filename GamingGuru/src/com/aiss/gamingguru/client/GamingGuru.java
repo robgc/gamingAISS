@@ -23,10 +23,11 @@ public class GamingGuru extends Composite implements EntryPoint {
 
 	public void onModuleLoad() {
 		RootPanel.get().clear();
-		go("init", "", new HashSet<String>());
+		go("init", "", new HashSet<String>(), "", "");
 	}
 
-	public static void go(String token, String id, Set<String> params) {
+	public static void go(String token, String id, Set<String> params,
+			String cat1, String cat2) {
 		Panel p = RootPanel.get();
 		if (token == "init") {
 			p.clear();
@@ -36,7 +37,7 @@ public class GamingGuru extends Composite implements EntryPoint {
 			p.add(new AcercaView(params));
 		} else if (token == "steam") {
 			p.clear();
-			p.add(new SteamView(id, params));
+			p.add(new SteamView(id, params, cat1, cat2));
 		}
 	}
 }

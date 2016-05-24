@@ -12,6 +12,7 @@ import com.google.gwt.user.client.ui.CheckBox;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.ListBox;
 import com.google.gwt.user.client.ui.MenuBar;
 import com.google.gwt.user.client.ui.TextBox;
 
@@ -21,6 +22,8 @@ public class LoginView extends Composite {
 	private TextBox searchField = new TextBox();
 	private Label statusLabel = new Label();
 	private Set<String> platforms = new HashSet<String>();
+	private ListBox cat1 = new ListBox();
+	private ListBox cat2 = new ListBox();
 
 	public LoginView(Set<String> params) {
 		mainPanel = new AbsolutePanel();
@@ -47,6 +50,40 @@ public class LoginView extends Composite {
 		CheckBox cbwii = new CheckBox();
 		CheckBox cbwiiu = new CheckBox();
 
+		cat1.addItem("Seleccione una categoría");
+		cat1.addItem("Action");
+		cat1.addItem("Arcade");
+		cat1.addItem("Platformer");
+		cat1.addItem("Indie");
+		cat1.addItem("Adventure");
+		cat1.addItem("Sports");
+		cat1.addItem("Open World");
+		cat1.addItem("FPS");
+		cat1.addItem("Zombies");
+		cat1.addItem("Retro");
+		cat1.addItem("RTS");
+		cat1.addItem("Racing");
+		cat1.addItem("Simulation");
+		cat1.addItem("MMO");
+
+		cat2.addItem("Seleccione una categoría");
+		cat2.addItem("Action");
+		cat2.addItem("Arcade");
+		cat2.addItem("Platformer");
+		cat2.addItem("Indie");
+		cat2.addItem("Adventure");
+		cat2.addItem("Sports");
+		cat2.addItem("Open World");
+		cat2.addItem("FPS");
+		cat2.addItem("Zombies");
+		cat2.addItem("Retro");
+		cat2.addItem("RTS");
+		cat2.addItem("Racing");
+		cat2.addItem("Simulation");
+		cat2.addItem("MMO");
+
+		cat1.setStyleName("style-cat1");
+		cat2.setStyleName("style-cat2");
 		fondo.setStyleName("background");
 		menu.setStyleName("menu");
 		icon.setStyleName("menuIcon");
@@ -83,6 +120,9 @@ public class LoginView extends Composite {
 		mainPanel.add(xOne);
 		mainPanel.add(wii);
 		mainPanel.add(wiiu);
+
+		mainPanel.add(cat1);
+		mainPanel.add(cat2);
 
 		mainPanel.add(statusLabel);
 		mainPanel.add(searchField);
@@ -170,15 +210,14 @@ public class LoginView extends Composite {
 
 		/*-------------------------------------------------------------------------------------------*/
 
-
 		acercaDe.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				GamingGuru.go("acerca", "", new HashSet<String>());
+				GamingGuru.go("acerca", "", new HashSet<String>(), "", "");
 			}
 		});
 		icon.addClickHandler(new ClickHandler() {
 			public void onClick(ClickEvent event) {
-				GamingGuru.go("init", "", new HashSet<String>());
+				GamingGuru.go("init", "", new HashSet<String>(), "", "");
 			}
 		});
 
@@ -188,7 +227,8 @@ public class LoginView extends Composite {
 				statusLabel.setText("Searching...");
 				mainPanel.add(statusLabel);
 				final String id = searchField.getText();
-				GamingGuru.go("steam", id, platforms);
+				GamingGuru.go("steam", id, platforms,
+						cat1.getValue(cat1.getSelectedIndex()), cat2.getValue(cat2.getSelectedIndex()));
 			}
 		});
 

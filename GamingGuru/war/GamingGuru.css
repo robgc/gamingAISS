@@ -178,6 +178,22 @@ h1 {
 	transform: translate(-50%, -50%);
 }
 
+.style-cat1 {
+	position: fixed;
+	bottom: 420px;
+	right: 330px;
+	height: 35px;
+	width: 150px;
+}
+
+.style-cat2 {
+	position: fixed;
+	bottom: 420px;
+	right: 100px;
+	height: 35px;
+	width: 150px;
+}
+
 .cover-img {
 	position: fixed;
 	color: white;

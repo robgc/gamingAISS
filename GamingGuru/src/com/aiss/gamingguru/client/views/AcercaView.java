@@ -30,7 +30,7 @@ public class AcercaView extends Composite {
 
 	private final AbsolutePanel mainPanel;
 
-	public AcercaView( Set<String> params) {
+	public AcercaView(Set<String> params) {
 		mainPanel = new AbsolutePanel();
 		initWidget(mainPanel);
 
@@ -78,7 +78,7 @@ public class AcercaView extends Composite {
 				RootPanel.get().clear();
 				RootPanel.get("description").clear();
 				RootPanel.get("table").clear();
-				GamingGuru.go("init", "", new HashSet<String>());
+				GamingGuru.go("init", "", new HashSet<String>(), "", "");
 			}
 		});
 	}
