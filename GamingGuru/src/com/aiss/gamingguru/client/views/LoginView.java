@@ -10,6 +10,7 @@ import com.google.gwt.user.client.ui.CheckBox;
 import com.google.gwt.user.client.ui.Composite;
 import com.google.gwt.user.client.ui.Image;
 import com.google.gwt.user.client.ui.Label;
+import com.google.gwt.user.client.ui.ListBox;
 import com.google.gwt.user.client.ui.MenuBar;
 import com.google.gwt.user.client.ui.TextBox;
 
@@ -19,12 +20,12 @@ public class LoginView extends Composite {
 	private TextBox searchField = new TextBox();
 	private Label statusLabel = new Label();
 	private List<Boolean> platforms;
-
+	
+		
 	public LoginView(ArrayList<Boolean> params) {
 		mainPanel = new AbsolutePanel();
 		platforms = new ArrayList<Boolean>();
 		initWidget(mainPanel);
-
 		MenuBar menu = new MenuBar();
 		Image icon = new Image("files/mando.png");
 		Image fondo = new Image("files/negro.png");
@@ -45,6 +46,42 @@ public class LoginView extends Composite {
 		CheckBox cbOne = new CheckBox();
 		CheckBox cbwii = new CheckBox();
 		CheckBox cbwiiu = new CheckBox();
+
+		ListBox selTag = new ListBox();
+
+		selTag.addItem("Seleccione una categoría(si quiere)");
+		selTag.addItem("Action");
+		selTag.addItem("Arcade");
+		selTag.addItem("Platformer");
+		selTag.addItem("Indie");
+		selTag.addItem("Adventure");
+		selTag.addItem("Sports");
+		selTag.addItem("Open World");
+		selTag.addItem("FPS");
+		selTag.addItem("Zombies");
+		selTag.addItem("Retro");
+		selTag.addItem("RTS");
+		selTag.addItem("Racing");
+		selTag.addItem("Simulation");
+		selTag.addItem("MMO");
+
+		ListBox selTag2 = new ListBox();
+
+		selTag2.addItem("Seleccione una categoría(si quiere)");
+		selTag2.addItem("Action");
+		selTag2.addItem("Arcade");
+		selTag2.addItem("Platformer");
+		selTag2.addItem("Indie");
+		selTag2.addItem("Adventure");
+		selTag2.addItem("Sports");
+		selTag2.addItem("Open World");
+		selTag2.addItem("FPS");
+		selTag2.addItem("Zombies");
+		selTag2.addItem("Retro");
+		selTag2.addItem("RTS");
+		selTag2.addItem("Racing");
+		selTag2.addItem("Simulation");
+		selTag2.addItem("MMO");
 
 		fondo.setStyleName("background");
 		menu.setStyleName("menu");
@@ -83,10 +120,21 @@ public class LoginView extends Composite {
 		mainPanel.add(wii);
 		mainPanel.add(wiiu);
 
+		mainPanel.add(selTag);
+		mainPanel.add(selTag2);
+		
 		mainPanel.add(statusLabel);
 		mainPanel.add(searchField);
 
 		/*-----------------------------------------------------------------------------------*/
+
+		selTag.addClickHandler(new ClickHandler() {
+
+			@Override
+			public void onClick(ClickEvent event) {
+				// TODO Auto-generated method stub
+			}
+		});
 
 		cbps3.setValue(false);
 		cbps3.addClickHandler(new ClickHandler() {
