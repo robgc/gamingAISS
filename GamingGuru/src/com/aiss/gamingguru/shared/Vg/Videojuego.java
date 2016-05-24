@@ -12,6 +12,7 @@ public class Videojuego implements Serializable {
 	private String nombre;
 	private Double notaMedia;
 	private String[] tags;
+	private String precio;
 
 	public Videojuego() {
 	}
@@ -23,13 +24,15 @@ public class Videojuego implements Serializable {
 		String[] tags = parts[2].split("&");
 		this.tags = tags;
 		this.notaMedia = new Double(parts[3]);
+		this.precio = parts[4].trim();
 
 	}
 
-	public Videojuego(String nombre, Double notaMedia, String[] tags) {
+	public Videojuego(String nombre, Double notaMedia, String[] tags, String precio) {
 		this.nombre = nombre;
 		this.notaMedia = notaMedia;
 		this.tags = tags;
+		this.precio = precio;
 	}
 
 	public String getNombre() {
@@ -56,10 +59,19 @@ public class Videojuego implements Serializable {
 		this.tags = tags;
 	}
 
+	public String getPrecio() {
+		return precio;
+	}
+
+	public void setPrecio(String precio) {
+		this.precio = precio;
+	}
+
 	public Integer compareTo(Videojuego v) {
 		Integer res = 0;
 		res += this.nombre.compareTo(v.getNombre());
 		res += this.notaMedia.compareTo(v.getNotaMedia());
+		res += this.precio.compareTo(v.getPrecio());
 		String[] tags = v.getTags();
 		for (int i = 0; i < tags.length; i++) {
 			res += this.tags[i].compareTo(tags[i]);
@@ -72,6 +84,7 @@ public class Videojuego implements Serializable {
 		res += this.nombre.hashCode();
 		res += this.notaMedia.hashCode();
 		res += this.tags.hashCode();
+		res += this.precio.hashCode();
 		res = res * 31;
 		return res;
 	}
