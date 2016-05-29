@@ -242,13 +242,13 @@ public class SteamView extends Composite {
 			output += "<span style='align: center; font-weight:bold;'><img src='http://cdn.akamai.steamstatic.com/steam/apps/"
 					+ vg.getId()
 					+ "/header.jpg' style= 'width: 20%; height: 20%; float:left'></img>";
-			output += "<div style='vertical-align:middle; display:inline-block; vertical-align:center; padding-left:380px; padding-top:20px; font-size: 3em; font-weight:bold;'>"
+			output += "<div style='vertical-align:middle; display:inline-block; vertical-align:center; padding-left:380px; padding-top:20px; font-size: 3em; font-weight:bold;'> NOTA: "
 					+ vg.getNotaMedia() + " </div></span><br/>";
 
 			output += "<br/><br/><hr/></br><span style='align: center; font-weight:bold;'><a href='http://store.steampowered.com/app/"
 					+ vg.getId()
 					+ "/'><img border='3' style='display:inline-block;' src='files/steam-compra.jpg' width='20%' height='20%'></a></span><br/>"
-					+ "<div style='vertical-align:middle; display:inline-block; vertical-align:center; padding-left:450px; padding-top:0px; font-size: 3em; font-weight:bold;'>"
+					+ "<div style='vertical-align:middle; display:inline-block; vertical-align:center; padding-left:450px; padding-top:0px; font-size: 3em; font-weight:bold;'> PRECIO: "
 					+ vg.getPrecio() + " </div></span><br/>";
 
 			for (Set<String> set : map.values()) {
@@ -261,7 +261,7 @@ public class SteamView extends Composite {
 						output += "<hr/><span style='align: center; font-weight:bold;'><a href='"
 								+ b.getUrl()
 								+ "'><img border='3' src='files/amazon-compra.jpg' style='float:left;width:20%;height:20%;'></a>"
-								+ "<div style='vertical-align:middle; display:inline-block; vertical-align:center; padding-left:450px; padding-top:0px; font-size: 3em; font-weight:bold;'>"
+								+ "<div style='vertical-align:middle; display:inline-block; vertical-align:center; padding-left:450px; padding-top:0px; font-size: 3em; font-weight:bold;'> PRECIO: "
 								+ b.getPrecio().toString()
 								+ "€ </div></span><br/>";
 					}

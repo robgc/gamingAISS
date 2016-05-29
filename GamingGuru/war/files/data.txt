@@ -638,7 +638,7 @@
 231430#Company of Heroes 2#Strategy&World War II&RTS#7.2#No hay precio
 231890#Dungeons & Dragons: Chronicles of Mystara Demo#Action&Arcade&RPG#7.1#13,99€
 231990#Spider-Man: Shattered Dimensions#Action&Superhero&Comic Book#7.35#29,99€
-232010#Euro Truck Simulator#Simulation&Racing&+#7.6		},#7,99€
+232010#Euro Truck Simulator#Simulation&Racing&+#7.6#7,99€
 232050#Eador. Masters of the Broken World#Strategy&Fantasy&Indie#5.9#18,99€
 232090#Killing Floor 2#Shooter&FPS&Zombies#7.7#26,99€
 232430#Gone Home#Walking Simulator&Short&Indie#7.45#19,99€
