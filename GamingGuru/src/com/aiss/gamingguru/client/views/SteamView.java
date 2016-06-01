@@ -8,7 +8,7 @@ import java.util.Set;
 import com.aiss.gamingguru.client.GamingGuru;
 import com.aiss.gamingguru.client.GuruService;
 import com.aiss.gamingguru.client.GuruServiceAsync;
-import com.aiss.gamingguru.shared.Vg.Videojuego;
+import com.aiss.gamingguru.shared.vg.Videojuego;
 import com.aiss.gamingguru.shared.amazon.AmazonProduct;
 import com.aiss.gamingguru.shared.amazon.AmazonProductImpl;
 import com.aiss.gamingguru.shared.steam.Game;

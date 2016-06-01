@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.aiss.gamingguru.shared.Vg.Videojuego;
+import com.aiss.gamingguru.shared.vg.Videojuego;
 import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;
 import com.google.gwt.user.client.rpc.RemoteService;

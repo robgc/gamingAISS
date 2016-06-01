@@ -21,7 +21,7 @@ import org.xml.sax.*;
 import org.xml.sax.helpers.DefaultHandler;
 
 import com.aiss.gamingguru.client.GuruService;
-import com.aiss.gamingguru.shared.Vg.Videojuego;
+import com.aiss.gamingguru.shared.vg.Videojuego;
 import com.aiss.gamingguru.shared.amazon.SignedRequestsHelper;
 import com.aiss.gamingguru.shared.steam.GameData;
 import com.aiss.gamingguru.shared.steam.GameSearch;

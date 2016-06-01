@@ -1,4 +1,4 @@
-package com.aiss.gamingguru.shared.Vg;
+package com.aiss.gamingguru.shared.vg;
 
 import java.io.Serializable;
 
